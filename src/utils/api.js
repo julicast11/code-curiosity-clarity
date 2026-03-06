@@ -42,5 +42,6 @@ export async function fetchTabData(prompt, apiKey) {
   const textBlocks = data.content.filter((b) => b.type === 'text');
   const raw = textBlocks.map((b) => b.text).join('');
   const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-  return JSON.parse(cleaned);
+  const jsonStr = cleaned.substring(cleaned.indexOf('{'));
+  return JSON.parse(jsonStr);
 }
