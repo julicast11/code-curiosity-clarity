@@ -14,7 +14,7 @@ import SouthFLSection from './sections/SouthFLSection';
 function App() {
   const [showSplash, setShowSplash] = useState(true);
   const [activeSection, setActiveSection] = useState('ai');
-  const [apiKey, setApiKey] = useState(() => localStorage.getItem('ccc-api-key') || '');
+  const [apiKey, setApiKey] = useState(() => import.meta.env.VITE_ANTHROPIC_KEY || localStorage.getItem('ccc-api-key') || '');
   const [showKeyInput, setShowKeyInput] = useState(false);
 
   const handleSplashDone = useCallback(() => setShowSplash(false), []);
