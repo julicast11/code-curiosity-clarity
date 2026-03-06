@@ -1,6 +1,18 @@
 import { useState, useRef, useCallback } from 'react';
 import { fetchTabData } from '../utils/api';
 
+// Check if static data looks like raw RSS (no AI summarization applied)
+function isRawRss(data) {
+  const items = data.stories || data.picks || [];
+  if (items.length === 0) return true;
+  // Raw RSS data has empty takeaways and summaries that match titles
+  const emptyTakeaways = items.every(s => !s.takeaway && !s.tagline);
+  const rawSummaries = items.some(s =>
+    s.summary === s.title || (s.summary && s.summary.length > 200)
+  );
+  return emptyTakeaways && rawSummaries;
+}
+
 export function useTabData() {
   const cache = useRef({});
   const [loading, setLoading] = useState({});
@@ -18,6 +30,8 @@ export function useTabData() {
       const res = await fetch(`/data/${tabId}.json`);
       if (!res.ok) return false;
       const result = await res.json();
+      // Skip static data if it's raw RSS without AI enhancement
+      if (isRawRss(result)) return false;
       cache.current[tabId] = result;
       setData((prev) => ({ ...prev, [tabId]: result }));
       return true;
