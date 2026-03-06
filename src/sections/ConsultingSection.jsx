@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import TabbedSection from '../components/TabbedSection';
-import { StoryCard, ToolCard, WatchNext, HeadlineCallout, CalloutBox, DarkBox, MantraBox } from '../components/Cards';
+import { StoryCard, WatchNext, HeadlineCallout } from '../components/Cards';
 import { CONSULTING_TABS } from '../utils/prompts';
 import { useTabData } from '../hooks/useTabData';
 
@@ -57,41 +57,10 @@ export default function ConsultingSection({ apiKey }) {
           <HeadlineCallout text={d.headline} color={currentTab.color} />
 
           <div className="cards-grid">
-            {(d.stories || d.tools || []).map((item, i) =>
-              d.tools ? (
-                <ToolCard key={i} tool={item} color={currentTab.color} index={i} />
-              ) : (
-                <StoryCard key={i} story={item} color={currentTab.color} index={i} />
-              )
-            )}
+            {(d.stories || []).map((item, i) => (
+              <StoryCard key={i} story={item} color={currentTab.color} index={i} />
+            ))}
           </div>
-
-          {activeTab === 'ai-consulting' && d.proTip && (
-            <CalloutBox
-              icon="💡"
-              label="Pro Tip"
-              color={currentTab.color}
-              title={d.proTip.title}
-              body={d.proTip.tip}
-              footer={d.proTip.tool ? `Tool: ${d.proTip.tool}` : ''}
-            />
-          )}
-          {activeTab === 'tech-skills' && d.weeklyChallenge && (
-            <CalloutBox
-              icon="🏋️"
-              label="Weekly Challenge"
-              color={currentTab.color}
-              title={d.weeklyChallenge.title}
-              body={d.weeklyChallenge.challenge}
-              footer={`Tool: ${d.weeklyChallenge.tool || ''} · Time: ${d.weeklyChallenge.timeEstimate || ''}`}
-            />
-          )}
-          {activeTab === 'tools-stax' && d.insight && (
-            <DarkBox text={d.insight} label="The Consultant's Stack" color={currentTab.color} />
-          )}
-          {activeTab === 'excel-stax' && d.mantra && (
-            <MantraBox quote={d.mantra.quote} context={d.mantra.context} />
-          )}
 
           <WatchNext items={d.watchNext} color={currentTab.color} />
         </>

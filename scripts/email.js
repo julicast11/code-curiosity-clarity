@@ -39,10 +39,10 @@ const SECTIONS = [
     color: '#C8974A',
     emoji: '⚡',
     tabs: [
-      { id: 'vibe-coding', label: 'Vibe Coding', emoji: '🎨' },
+      { id: 'tools-to-try', label: 'Tools to Try', emoji: '🛠' },
       { id: 'ai-business', label: 'AI in Business', emoji: '💼' },
       { id: 'models-releases', label: 'Models & Releases', emoji: '🧠' },
-      { id: 'tools-to-try', label: 'Tools to Try', emoji: '🛠' },
+      { id: 'vibe-coding', label: 'Vibe Coding', emoji: '🎨' },
     ],
   },
   {
@@ -50,10 +50,9 @@ const SECTIONS = [
     color: '#9E7AC0',
     emoji: '🏛',
     tabs: [
+      { id: 'skills-tools', label: 'Skills & Tools', emoji: '🧰' },
       { id: 'ai-consulting', label: 'AI in Consulting', emoji: '🤖' },
-      { id: 'tech-skills', label: 'Tech Skills', emoji: '💻' },
-      { id: 'tools-stax', label: 'Tools at Stax', emoji: '🧰' },
-      { id: 'excel-stax', label: 'Excel at Stax', emoji: '🌟' },
+      { id: 'life-at-stax', label: 'Life at Stax', emoji: '🏢' },
     ],
   },
   {
@@ -62,7 +61,6 @@ const SECTIONS = [
     emoji: '♟',
     tabs: [
       { id: 'tech-strategy', label: 'Tech Strategy Shifts', emoji: '🔄' },
-      { id: 'strategy-news', label: 'Strategy in the News', emoji: '📰' },
       { id: 'value-creation', label: 'Value Creation', emoji: '📈' },
     ],
   },
@@ -166,14 +164,6 @@ function buildWatchNextHtml(items, color) {
     </div>`;
 }
 
-function buildCalloutHtml(label, icon, content, color) {
-  return `
-    <div style="background:${color}10;border-radius:10px;padding:16px;margin:16px 0;border:1px solid ${color}30;">
-      <div style="font-size:12px;font-weight:700;color:${color};text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">${icon} ${escapeHtml(label)}</div>
-      <div style="font-size:13px;color:#F0EBE0;line-height:1.5;">${escapeHtml(content)}</div>
-    </div>`;
-}
-
 function buildTabContentHtml(tabId, data, color) {
   if (!data) return '<div style="color:#6A6560;font-size:13px;padding:12px;">No data available for this tab.</div>';
 
@@ -197,38 +187,6 @@ function buildTabContentHtml(tabId, data, color) {
   // Tool items (tools-stax)
   if (data.tools) {
     html += data.tools.map(t => buildToolItemHtml(t, color)).join('');
-  }
-
-  // Tab-specific callouts
-  if (data.tryThis) {
-    html += buildCalloutHtml('Try This Week', '🧪', `${data.tryThis.tool}: ${data.tryThis.action} — ${data.tryThis.why}`, color);
-  }
-  if (data.bigPicture) {
-    html += buildCalloutHtml('Big Picture', '🌐', data.bigPicture, color);
-  }
-  if (data.tldr) {
-    html += buildCalloutHtml('TL;DR', '⚡', data.tldr, color);
-  }
-  if (data.proTip) {
-    html += buildCalloutHtml('Pro Tip', '💡', `${data.proTip.title}: ${data.proTip.tip}${data.proTip.tool ? ` (Tool: ${data.proTip.tool})` : ''}`, color);
-  }
-  if (data.weeklyChallenge) {
-    html += buildCalloutHtml('Weekly Challenge', '🏋️', `${data.weeklyChallenge.title}: ${data.weeklyChallenge.challenge} (${data.weeklyChallenge.tool}, ~${data.weeklyChallenge.timeEstimate})`, color);
-  }
-  if (data.insight) {
-    html += buildCalloutHtml('Insight', '💎', data.insight, color);
-  }
-  if (data.mantra) {
-    html += buildCalloutHtml('Weekly Mantra', '🧘', `"${data.mantra.quote}" — ${data.mantra.context}`, color);
-  }
-  if (data.bigSignal) {
-    html += buildCalloutHtml('Big Signal', '📡', data.bigSignal, color);
-  }
-  if (data.weeklyFramework) {
-    html += buildCalloutHtml('Framework of the Week', '🗂️', `${data.weeklyFramework.title}: ${data.weeklyFramework.framework}`, color);
-  }
-  if (data.playbook) {
-    html += buildCalloutHtml('Playbook', '📋', `${data.playbook.title}: ${data.playbook.insight} — How to use: ${data.playbook.howToUse}`, color);
   }
 
   // Watch Next
@@ -278,20 +236,23 @@ function buildEmailHtml(weekRange) {
 <body style="margin:0;padding:0;background:#0D0C0A;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
   <div style="max-width:640px;margin:0 auto;padding:24px 16px;">
 
-    <!-- Header -->
-    <div style="text-align:center;padding:32px 0 24px;">
-      <div style="font-family:'Georgia',serif;font-size:28px;font-weight:700;color:#C8974A;margin-bottom:4px;">
-        Code, Curiosity & Clarity
+    <!-- Header / Logo -->
+    <div style="text-align:center;padding:40px 24px 32px;background:#141310;border-radius:16px;border:1px solid #2A2825;">
+      <div style="font-size:11px;font-weight:700;color:#C8974A;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px;">Weekly Intelligence Digest</div>
+      <div style="height:1px;width:60px;background:#C8974A;margin:0 auto 16px;"></div>
+      <div style="font-family:'Georgia',serif;font-size:32px;font-weight:700;color:#F0EBE0;line-height:1.2;margin-bottom:4px;">
+        Code, Curiosity <span style="color:#C8974A;">&amp;</span> Clarity
       </div>
-      <div style="font-size:13px;color:#6A6560;letter-spacing:2px;text-transform:uppercase;">
-        by Julicast
+      <div style="font-size:12px;color:#6A6560;letter-spacing:3px;text-transform:uppercase;margin-top:8px;">
+        by Juliana Castro
       </div>
-      <div style="font-size:14px;color:#A09888;margin-top:12px;">
-        Weekly Intelligence Digest — ${escapeHtml(weekRange)}
+      <div style="height:1px;width:60px;background:#C8974A;margin:16px auto 0;"></div>
+      <div style="font-size:13px;color:#A09888;margin-top:14px;">
+        ${escapeHtml(weekRange)}
       </div>
     </div>
 
-    <div style="height:1px;background:linear-gradient(to right,transparent,#C8974A,transparent);margin:0 0 32px;"></div>
+    <div style="height:24px;"></div>
 
     <!-- Content -->
     ${sectionsHtml}

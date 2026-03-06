@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import TabbedSection from '../components/TabbedSection';
-import { StoryCard, WatchNext, HeadlineCallout, DarkBox } from '../components/Cards';
+import { StoryCard, WatchNext, HeadlineCallout } from '../components/Cards';
 import { INDUSTRIAL_TABS } from '../utils/prompts';
 import { useTabData } from '../hooks/useTabData';
 
@@ -60,10 +60,6 @@ export default function IndustrialSection({ apiKey }) {
               <StoryCard key={i} story={item} color={currentTab.color} index={i} />
             ))}
           </div>
-
-          {d.bigPicture && (
-            <DarkBox text={d.bigPicture} label="Big Picture" color={currentTab.color} />
-          )}
 
           <WatchNext items={d.watchNext} color={currentTab.color} />
         </>

@@ -1,0 +1,43 @@
+{
+  "headline": "Top Skills & Tools stories this week",
+  "stories": [
+    {
+      "title": "Quiz: Python Stacks, Queues, and Priority Queues in Practice",
+      "summary": "In this quiz, you’ll test your understanding of Python stacks, queues, and priority queues. You’ll review LIFO and FIFO behavior, enqueue and dequeue operations, and how deques work. You’ll implement a queue with collections.deque and learn how priority queues order elements. You’ll also see how que",
+      "takeaway": "",
+      "source": "realpython.com",
+      "url": "https://realpython.com/quizzes/queue-in-python/",
+      "tag": "Consulting"
+    },
+    {
+      "title": "Meteora Launches its Dynamic Terminal for Enhanced Experience for Liquidity Providers - Tekedia",
+      "summary": "Meteora Launches its Dynamic Terminal for Enhanced Experience for Liquidity Providers Tekedia",
+      "takeaway": "",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNmhKdkw1a0xmT2RQSFc2N3JDUzhDdXg3ZFpaN09URUlMeDktOXBuOTBKYWFlVlFsRnpEQzl5VE1zNGNiRk9rOElKVGhxMWRZQUJpVVdnZ1J3bXZWRUh3ZVZmVnNCTWRiQmU0b2hYUjR5bnRHbUlxazJHeENYR1duY2pyaEoybEFZX21KRElnbVdKZlI4ZFpWZUlRMDNudUllbUZZbUlVSW1hYS02RHRv?oc=5",
+      "tag": "Consulting"
+    },
+    {
+      "title": "Crypto Futures Open Interest: LBank Labs Soars to 4th Place with $8 Billion Milestone - CryptoRank",
+      "summary": "Crypto Futures Open Interest: LBank Labs Soars to 4th Place with $8 Billion Milestone CryptoRank",
+      "takeaway": "",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVUl0blpsaVBVekdYamkxTWpLazZIdHdqd3hxUVlKS3ozLVM2aTBoZ2x5dGlnT2JaM0RiUVNrTmhiSGlzeU5HZlpueEF6YmdObVdoZm9jU3c5UEdsWjNWUHJnOFo0dFFKY3E3c2g2N3FwRUo1Ry1ZOE9LQ094T2dwektNZw?oc=5",
+      "tag": "Consulting"
+    }
+  ],
+  "watchNext": [
+    {
+      "title": "Retro-Inspired AI Dashboards - Trend Hunter",
+      "why": "Retro-Inspired AI Dashboards Trend Hunter",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fR3hCU200WHNYV0dZTzlWb0FKLWFsZXZGdndZT19jamdZQ0Joc2lCM3JXV1lOcUstOE5tRV9yQ0RvT190TnZMLXdHblB2cGZtUHUtYlNNNHN6UTNyNThsVGFzUUMzYS1ON2tB0gFrQVVfeXFMT19HeEJTbTRYc1hXR1lPOVZvQUotYWxldkZ2d1lPX2NqZ1lDQmhzaUIzcldXWU5xSy04Tm1FX3JDRG9PX3ROdkwtd0duUHZwZm1QdS1iU000c3pRM3I1OGxUYXNRQzNhLU43a0E?oc=5",
+      "tag": "Consulting"
+    },
+    {
+      "title": "OpenAI Targets AI Skill Gap in Education - StartupHub.ai",
+      "why": "OpenAI Targets AI Skill Gap in Education StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB2ZEloVXFXRzdILTljYzktYnd6MGxfcjZ0RGZWSlBsSzZTbm1TSTIyTjROZVpzVzQ4R2JXdmN1TVVQeXM1U3ZEX2RZbGFrS1BEQkczSUthQ2U1bEVPZ2pRM01yN3ZvY2draG9PVVBNUkZZa1hKbzI0UFpXNA?oc=5",
+      "tag": "Consulting"
+    }
+  ]
+}

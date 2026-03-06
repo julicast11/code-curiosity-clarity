@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import TabbedSection from '../components/TabbedSection';
-import { StoryCard, WatchNext, HeadlineCallout, CalloutBox, DarkBox, PlaybookBox } from '../components/Cards';
+import { StoryCard, WatchNext, HeadlineCallout } from '../components/Cards';
 import { STRATEGY_TABS } from '../utils/prompts';
 import { useTabData } from '../hooks/useTabData';
 
@@ -61,28 +61,6 @@ export default function StrategySection({ apiKey }) {
               <StoryCard key={i} story={item} color={currentTab.color} index={i} />
             ))}
           </div>
-
-          {/* Tab-specific callouts */}
-          {activeTab === 'tech-strategy' && d.bigSignal && (
-            <DarkBox text={d.bigSignal} label="Big Signal" color={currentTab.color} />
-          )}
-          {activeTab === 'strategy-news' && d.weeklyFramework && (
-            <CalloutBox
-              icon="🔭"
-              label="Framework of the Week"
-              color={currentTab.color}
-              title={d.weeklyFramework.title}
-              body={d.weeklyFramework.framework}
-            />
-          )}
-          {activeTab === 'value-creation' && d.playbook && (
-            <PlaybookBox
-              title={d.playbook.title}
-              insight={d.playbook.insight}
-              howToUse={d.playbook.howToUse}
-              color={currentTab.color}
-            />
-          )}
 
           <WatchNext items={d.watchNext} color={currentTab.color} />
         </>

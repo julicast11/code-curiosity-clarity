@@ -4,7 +4,6 @@ export const SECTIONS = [
   { id: 'strategy', emoji: '♟', label: 'Strategy', color: '#6EB0A0' },
   { id: 'industrial', emoji: '⚙️', label: 'Industrial & Ops', color: '#B86858' },
   { id: 'southfl', emoji: '🌴', label: 'South Florida', color: '#48A068' },
-  { id: 'actions', emoji: '✅', label: 'Actions', color: '#C86880' },
 ];
 
 export const SOURCES = [

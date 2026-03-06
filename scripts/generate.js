@@ -39,6 +39,30 @@ if (ANTHROPIC_KEY) {
   console.log('Mode: RSS only (no API key)');
 }
 
+// ── Known podcasts ───────────────────────────────────────────────
+
+const KNOWN_PODCASTS = [
+  'my first million', 'acquired', 'all-in', 'all-in podcast', 'lex fridman',
+  'lex fridman podcast', 'the ai podcast', 'latent space', 'gradient dissent',
+  'practical ai', 'hard fork', 'pivot', 'the vergecast', 'decoder',
+  'stratechery', 'exponent', 'invest like the best', 'the knowledge project',
+  'freakonomics', 'how i built this', 'masters of scale', 'the prof g pod',
+  'the tim ferriss show', 'a16z podcast', 'eye on ai', 'the logan bartlett show',
+  'no priors', 'cognitive revolution', 'last week in ai', 'dwarkesh podcast',
+  'bankless', 'upstream', 'the pitch', '20vc', 'this week in startups',
+];
+
+function isPodcast(source) {
+  if (!source) return false;
+  const lower = source.toLowerCase().trim();
+  return KNOWN_PODCASTS.some(p => lower.includes(p) || p.includes(lower));
+}
+
+function formatSource(source) {
+  if (isPodcast(source)) return `🎙️ ${source}`;
+  return source;
+}
+
 // ── Date helpers ──────────────────────────────────────────────────
 
 function getLastWeekRange() {
@@ -58,19 +82,22 @@ function getLastWeekRange() {
 
 const week = getLastWeekRange();
 
+// ── Tone instructions ────────────────────────────────────────────
+
+const TONE_INSTRUCTIONS = `TONE IS EVERYTHING. Write like a smart Gen Z girl texting her bestie about cool stuff she found this week. Think: "Ok so basically...", "This is actually wild —", "You NEED to know about this", "Not gonna lie, this one's a game changer". Summaries MUST be 1-2 sentences MAX. No paragraph blocks. No corporate buzzwords like "leverage", "synergize", "optimize", "streamline", "ecosystem". Write like you're explaining it over brunch. If I can't read a whole tab in 15 seconds, it's too much. If a story comes from a podcast (not a website), format the source as "🎙️ Podcast Name".`;
+
 // ── Tab definitions with RSS queries ──────────────────────────────
 
 const TABS = [
   // AI section
   {
-    id: 'vibe-coding',
-    label: 'Vibe Coding',
+    id: 'tools-to-try',
+    label: 'Tools to Try',
     section: 'AI',
-    query: '"vibe coding" OR "AI coding assistant" OR "Cursor AI" OR "GitHub Copilot" OR "Claude Code" OR "Replit Agent"',
-    feeds: ['https://simonwillison.net/atom/everything/', 'https://github.blog/feed/'],
-    schema: 'stories',
-    callout: 'tryThis',
-    promptHint: 'Focus on Cursor, Copilot, Claude Code, Replit Agent, v0, Bolt, and similar AI dev tools.',
+    query: '"new AI tool" OR "AI app launch" OR "AI productivity tool" OR "best AI tools"',
+    feeds: [],
+    schema: 'picks',
+    promptHint: 'Focus on new AI tools worth trying this week. Include pricing info (free/freemium/paid).',
   },
   {
     id: 'ai-business',
@@ -79,7 +106,6 @@ const TABS = [
     query: '"AI in business" OR "enterprise AI adoption" OR "artificial intelligence enterprise" OR "AI ROI"',
     feeds: ['https://www.technologyreview.com/feed/'],
     schema: 'stories',
-    callout: 'bigPicture',
     promptHint: 'Focus on enterprise AI adoption, ROI cases, and industry transformation.',
   },
   {
@@ -89,20 +115,38 @@ const TABS = [
     query: '"AI model release" OR "LLM launch" OR "GPT-" OR "Claude" OR "Gemini AI model" OR "Llama model"',
     feeds: ['https://the-decoder.com/feed/', 'https://huggingface.co/blog/feed.xml'],
     schema: 'stories',
-    callout: 'tldr',
     promptHint: 'Cover OpenAI, Anthropic, Google, Meta, Mistral model releases and benchmarks.',
   },
   {
-    id: 'tools-to-try',
-    label: 'Tools to Try',
+    id: 'vibe-coding',
+    label: 'Vibe Coding',
     section: 'AI',
-    query: '"new AI tool" OR "AI app launch" OR "AI productivity tool" OR "best AI tools"',
-    feeds: [],
-    schema: 'picks',
-    callout: null,
-    promptHint: 'Focus on new AI tools worth trying this week. Include pricing info (free/freemium/paid).',
+    query: '"vibe coding" OR "AI coding assistant" OR "Cursor AI" OR "GitHub Copilot" OR "Claude Code" OR "Replit Agent"',
+    feeds: ['https://simonwillison.net/atom/everything/', 'https://github.blog/feed/'],
+    schema: 'stories',
+    promptHint: 'Focus on Cursor, Copilot, Claude Code, Replit Agent, v0, Bolt, and similar AI dev tools.',
   },
-  // Consulting section
+  // Consulting section (3 tabs)
+  {
+    id: 'skills-tools',
+    label: 'Skills & Tools',
+    section: 'Consulting',
+    query: '"Python for consultants" OR "Excel tips" OR "SQL analytics" OR "data visualization" OR "financial modeling Excel"',
+    feeds: ['https://realpython.com/atom.xml'],
+    schema: 'stories',
+    storyCount: 3,
+    promptHint: 'Pick EXACTLY 3 stories: one skill to learn (Python, SQL, Tableau), one Excel/data tip, one useful tool or shortcut. US-focused only.',
+  },
+  {
+    id: 'life-at-stax',
+    label: 'Life at Stax',
+    section: 'Consulting',
+    query: '"private equity consulting" OR "PE consultant career" OR "management consulting advice" OR "Stax consulting" OR "boutique consulting"',
+    feeds: [],
+    schema: 'stories',
+    storyCount: 3,
+    promptHint: 'Pick EXACTLY 3 stories: one PE/consulting industry news, one about sectors Stax covers (consumer, healthcare, industrials, tech), one career tip. US-focused only.',
+  },
   {
     id: 'ai-consulting',
     label: 'AI in Consulting',
@@ -110,59 +154,18 @@ const TABS = [
     query: '"AI consulting" OR "McKinsey AI" OR "BCG AI" OR "Deloitte AI" OR "consulting firm artificial intelligence"',
     feeds: [],
     schema: 'stories',
-    callout: 'proTip',
-    promptHint: 'Focus on how McKinsey, BCG, Bain, Deloitte, Accenture, and boutique firms are using AI.',
-  },
-  {
-    id: 'tech-skills',
-    label: 'Tech Skills for Consultants',
-    section: 'Consulting',
-    query: '"Python for consultants" OR "SQL analytics" OR "data visualization skills" OR "technical skills consulting"',
-    feeds: ['https://realpython.com/atom.xml'],
-    schema: 'stories',
-    callout: 'weeklyChallenge',
-    promptHint: 'Focus on Python, SQL, Tableau, Excel automation, AI tools for analysts.',
-  },
-  {
-    id: 'tools-stax',
-    label: 'Tools at Stax',
-    section: 'Consulting',
-    query: '"PitchBook" OR "Capital IQ" OR "private equity tools" OR "PE analyst" OR "FactSet"',
-    feeds: [],
-    schema: 'tools',
-    callout: 'insight',
-    promptHint: 'Focus on PitchBook, Capital IQ, FactSet, Tableau, and AI assistants for PE consultants.',
-  },
-  {
-    id: 'excel-stax',
-    label: 'Excel at Stax',
-    section: 'Consulting',
-    query: 'management consulting career advice OR consulting professional development OR "consulting skills" OR "excel at work" consulting',
-    feeds: [],
-    schema: 'stories',
-    callout: 'mantra',
-    promptHint: 'Focus on habits, mindsets, communication, and stakeholder management for junior consultants at PE boutiques.',
+    storyCount: 3,
+    promptHint: 'Pick EXACTLY 3 stories about how AI is changing consulting. Focus on McKinsey, BCG, Bain, Deloitte, Accenture, boutique firms. US-focused only.',
   },
   // Strategy section
   {
     id: 'tech-strategy',
-    label: 'Tech Strategy Shifts',
+    label: 'Tech-Driven Strategy Shifts',
     section: 'Strategy',
     query: '"AI strategy" OR "digital transformation strategy" OR "technology strategy shift" OR "tech disruption"',
     feeds: [],
     schema: 'stories',
-    callout: 'bigSignal',
     promptHint: 'Focus on companies making strategic shifts due to AI and technology.',
-  },
-  {
-    id: 'strategy-news',
-    label: 'Strategy in the News',
-    section: 'Strategy',
-    query: '"business strategy" OR "corporate strategy" OR "strategic pivot" OR "market strategy"',
-    feeds: [],
-    schema: 'stories',
-    callout: 'weeklyFramework',
-    promptHint: 'Analyze major business news through a consulting/strategy lens.',
   },
   {
     id: 'value-creation',
@@ -171,8 +174,7 @@ const TABS = [
     query: 'private equity value creation OR "PE portfolio" OR "private equity growth" OR buyout strategy OR "PE-backed"',
     feeds: [],
     schema: 'stories',
-    callout: 'playbook',
-    promptHint: 'Focus on how PE-backed companies create and capture value.',
+    promptHint: 'Return exactly 4 stories, one from each sector: Consumer, Industrials, Healthcare, Tech. Each story must have its sector badge. Do not saturate any single sector.',
   },
   // Industrial & Ops section
   {
@@ -182,8 +184,8 @@ const TABS = [
     query: '"industrial engineering" OR "operations management" OR "process improvement business" OR "lean six sigma"',
     feeds: [],
     schema: 'stories',
-    callout: 'bigPicture',
-    promptHint: 'Focus on how IE skills translate to consulting and strategy roles.',
+    storyCount: 3,
+    promptHint: 'Be highly selective — only 2-3 stories that connect to AI adoption, PE value creation, or consulting strategy themes. Less is more.',
   },
   {
     id: 'ops-innovation',
@@ -192,8 +194,8 @@ const TABS = [
     query: '"smart manufacturing" OR "Industry 4.0" OR "manufacturing innovation" OR "factory automation" OR "digital twin"',
     feeds: [],
     schema: 'stories',
-    callout: 'bigPicture',
-    promptHint: 'Focus on smart manufacturing, automation, robotics, and operational excellence.',
+    storyCount: 3,
+    promptHint: 'Be highly selective — only 2-3 stories that connect to AI in operations, PE portfolio company optimization, or digital transformation. Less is more.',
   },
   {
     id: 'supply-chain',
@@ -202,8 +204,8 @@ const TABS = [
     query: '"supply chain" OR "logistics technology" OR "supply chain disruption" OR "nearshoring"',
     feeds: ['https://www.supplychaindive.com/feeds/news/', 'https://www.freightwaves.com/feed'],
     schema: 'stories',
-    callout: 'bigPicture',
-    promptHint: 'Focus on global supply chain disruptions, logistics tech, nearshoring, AI in supply chain.',
+    storyCount: 3,
+    promptHint: 'Be highly selective — only 2-3 stories that connect to AI-driven logistics, PE portfolio company supply chains, or nearshoring/reshoring in the US. Less is more.',
   },
   // South Florida section
   {
@@ -213,7 +215,6 @@ const TABS = [
     query: '"Miami tech" OR "South Florida startup" OR "Miami startup" OR "Fort Lauderdale tech" OR "Miami venture capital"',
     feeds: [],
     schema: 'stories',
-    callout: 'bigPicture',
     promptHint: 'Focus on Miami/South Florida tech ecosystem, startups, VC activity.',
   },
   {
@@ -223,7 +224,6 @@ const TABS = [
     query: 'Miami tech jobs OR Florida AI jobs OR "South Florida hiring" OR Miami careers technology OR Florida tech employment',
     feeds: [],
     schema: 'stories',
-    callout: 'bigPicture',
     promptHint: 'Focus on AI jobs, consulting hiring, tech job openings in South Florida.',
   },
   {
@@ -233,7 +233,6 @@ const TABS = [
     query: '"South Florida business" OR "Miami economy" OR "South Florida real estate" OR "Miami finance"',
     feeds: [],
     schema: 'stories',
-    callout: 'bigPicture',
     promptHint: 'Focus on Miami/South Florida business news, real estate, finance, PE/VC activity.',
   },
 ];
@@ -270,15 +269,17 @@ function cleanHtml(html) {
 }
 
 function extractSource(item) {
-  if (item.source) return item.source;
-  if (item.creator) return item.creator;
-  if (item.link) {
+  let src;
+  if (item.source) src = item.source;
+  else if (item.creator) src = item.creator;
+  else if (item.link) {
     try {
-      const hostname = new URL(item.link).hostname.replace('www.', '');
-      return hostname;
-    } catch { return 'Unknown'; }
+      src = new URL(item.link).hostname.replace('www.', '');
+    } catch { src = 'Unknown'; }
+  } else {
+    src = 'Unknown';
   }
-  return 'Unknown';
+  return formatSource(src);
 }
 
 async function fetchTabArticles(tab) {
@@ -316,7 +317,8 @@ async function fetchTabArticles(tab) {
 // ── RSS-only JSON builders ────────────────────────────────────────
 
 function buildStoriesJson(tab, articles) {
-  const stories = articles.slice(0, 4).map(a => ({
+  const count = tab.storyCount || 4;
+  const stories = articles.slice(0, count).map(a => ({
     title: cleanHtml(a.title) || 'Untitled',
     summary: cleanHtml(a.contentSnippet || a.content || a.description || '').slice(0, 300),
     takeaway: '',
@@ -326,31 +328,18 @@ function buildStoriesJson(tab, articles) {
     ...(tab.id.includes('strategy') ? { strategyTake: '' } : {}),
   }));
 
-  const watchNext = articles.slice(4, 6).map(a => ({
+  const watchNext = articles.slice(count, count + 2).map(a => ({
     title: cleanHtml(a.title) || 'Untitled',
     why: cleanHtml(a.contentSnippet || a.description || '').slice(0, 120),
     url: a.link || '',
     tag: tab.section,
   }));
 
-  const result = {
+  return {
     headline: `Top ${tab.label} stories this week`,
     stories,
     watchNext,
   };
-
-  // Add empty callouts based on tab type
-  if (tab.callout === 'tryThis') result.tryThis = { tool: '', action: '', why: '' };
-  if (tab.callout === 'bigPicture') result.bigPicture = '';
-  if (tab.callout === 'tldr') result.tldr = '';
-  if (tab.callout === 'proTip') result.proTip = { title: '', tip: '', tool: '' };
-  if (tab.callout === 'weeklyChallenge') result.weeklyChallenge = { title: '', challenge: '', tool: '', timeEstimate: '' };
-  if (tab.callout === 'bigSignal') result.bigSignal = '';
-  if (tab.callout === 'weeklyFramework') result.weeklyFramework = { title: '', framework: '' };
-  if (tab.callout === 'playbook') result.playbook = { title: '', insight: '', howToUse: '' };
-  if (tab.callout === 'mantra') result.mantra = { quote: '', context: '' };
-
-  return result;
 }
 
 function buildPicksJson(tab, articles) {
@@ -377,33 +366,8 @@ function buildPicksJson(tab, articles) {
   };
 }
 
-function buildToolsJson(tab, articles) {
-  const tools = articles.slice(0, 4).map(a => ({
-    name: cleanHtml(a.title) || 'Untitled',
-    category: '',
-    summary: cleanHtml(a.contentSnippet || a.description || '').slice(0, 300),
-    whyStax: '',
-    url: a.link || '',
-    priority: 'good-to-know',
-    free: false,
-  }));
-
-  return {
-    headline: `Top ${tab.label} this week`,
-    tools,
-    insight: '',
-    watchNext: articles.slice(4, 6).map(a => ({
-      title: cleanHtml(a.title) || 'Untitled',
-      why: cleanHtml(a.contentSnippet || '').slice(0, 120),
-      url: a.link || '',
-      tag: tab.section,
-    })),
-  };
-}
-
 function buildRssJson(tab, articles) {
   if (tab.schema === 'picks') return buildPicksJson(tab, articles);
-  if (tab.schema === 'tools') return buildToolsJson(tab, articles);
   return buildStoriesJson(tab, articles);
 }
 
@@ -413,27 +377,16 @@ async function enhanceWithGemini(tab, articles) {
   if (!geminiModel) return null;
 
   const articleList = articles.slice(0, 8).map((a, i) =>
-    `${i + 1}. "${cleanHtml(a.title)}" — ${cleanHtml(a.contentSnippet || a.description || '').slice(0, 200)} (Source: ${extractSource(a)})`
+    `${i + 1}. "${cleanHtml(a.title)}" — ${cleanHtml(a.contentSnippet || a.description || '').slice(0, 200)} (Source: ${extractSource(a)}, URL: ${a.link || ''})`
   ).join('\n');
+
+  const storyCount = tab.storyCount || 4;
 
   let schemaDesc;
   if (tab.schema === 'picks') {
     schemaDesc = `{"headline":"string","picks":[{"name":"string","tagline":"string","summary":"string","tryIt":"string","url":"string","tag":"string","vibe":"free|freemium|paid","bestFor":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 picks and 2 watchNext.`;
-  } else if (tab.schema === 'tools') {
-    schemaDesc = `{"headline":"string","tools":[{"name":"string","category":"string","summary":"string","whyStax":"string","priority":"must-know|good-to-know","free":true}],"insight":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 tools and 2 watchNext.`;
   } else {
-    let calloutSchema = '';
-    if (tab.callout === 'tryThis') calloutSchema = ',"tryThis":{"tool":"string","action":"string","why":"string"}';
-    if (tab.callout === 'bigPicture') calloutSchema = ',"bigPicture":"string"';
-    if (tab.callout === 'tldr') calloutSchema = ',"tldr":"string"';
-    if (tab.callout === 'proTip') calloutSchema = ',"proTip":{"title":"string","tip":"string","tool":"string"}';
-    if (tab.callout === 'weeklyChallenge') calloutSchema = ',"weeklyChallenge":{"title":"string","challenge":"string","tool":"string","timeEstimate":"string"}';
-    if (tab.callout === 'bigSignal') calloutSchema = ',"bigSignal":"string"';
-    if (tab.callout === 'weeklyFramework') calloutSchema = ',"weeklyFramework":{"title":"string","framework":"string"}';
-    if (tab.callout === 'playbook') calloutSchema = ',"playbook":{"title":"string","insight":"string","howToUse":"string"}';
-    if (tab.callout === 'mantra') calloutSchema = ',"mantra":{"quote":"string","context":"string"}';
-
-    schemaDesc = `{"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string"}]${calloutSchema},"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext.`;
+    schemaDesc = `{"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include ${storyCount} stories and 2 watchNext.`;
   }
 
   const prompt = `You are the editor for a weekly intelligence dashboard called "Code, Curiosity & Clarity."
@@ -444,10 +397,12 @@ ${articleList}
 
 Based on these articles, generate a JSON digest for this week. ${tab.promptHint}
 
+${TONE_INSTRUCTIONS}
+
 Return ONLY valid JSON matching this schema:
 ${schemaDesc}
 
-Write engaging summaries and insightful takeaways. Make the headline punchy and informative. No markdown, no backticks, no extra text — just the JSON object.`;
+Make the headline punchy and fun. No markdown, no backticks, no extra text — just the JSON object.`;
 
   try {
     const result = await geminiModel.generateContent(prompt);
@@ -474,7 +429,7 @@ async function callClaude(prompt) {
       model: 'claude-sonnet-4-20250514',
       max_tokens: 2000,
       tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-      system: 'You are the editor for Code, Curiosity & Clarity by Julicast. Return ONLY valid JSON. No markdown, no backticks, no extra text.',
+      system: `You are the editor for Code, Curiosity & Clarity by Julicast. Return ONLY valid JSON. No markdown, no backticks, no extra text. ${TONE_INSTRUCTIONS}`,
       messages: [{ role: 'user', content: prompt }],
     }),
   });
@@ -493,24 +448,24 @@ async function callClaude(prompt) {
 
 // Claude prompts (only used in Claude mode)
 function getClaudePrompt(tab) {
+  const t = TONE_INSTRUCTIONS;
+
   const prompts = {
-    'vibe-coding': `Search the web for the latest vibe coding and AI-assisted development news from the week of ${week}. Prioritize content from: Simon Willison's Weblog, Latent Space newsletter, The Pragmatic Engineer, Cursor Blog, GitHub Blog (Copilot), Anthropic News (Claude Code), and developer communities on Dev.to and Hashnode. Return JSON with this exact schema: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","type":"string"}],"tryThis":{"tool":"string","action":"string","why":"string"},"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext items. Focus on Cursor, Copilot, Claude Code, Replit Agent, v0, Bolt, and similar tools.`,
-    'ai-business': `Search the web for the latest AI in business news from the week of ${week}. Prioritize content from: One Useful Thing (Ethan Mollick), Benedict Evans, MIT Technology Review, Harvard Business Review, McKinsey QuantumBlack, a16z AI content, CB Insights, and The Information. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","industry":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories with industry badges and 2 watchNext.`,
-    'models-releases': `Search the web for the latest AI model releases and updates from the week of ${week}. Prioritize PRIMARY sources: OpenAI Blog, Anthropic News, Google DeepMind Blog, Meta AI Blog, Hugging Face Blog. Also check The Decoder, Ars Technica AI section, and Papers With Code for benchmarks. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","company":"string"}],"tldr":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories with company badges and 2 watchNext.`,
-    'tools-to-try': `Search the web for the best new AI tools released or trending during the week of ${week}. Prioritize content from: There's An AI For That, Product Hunt AI category, Ben's Bites, The Neuron, Future Tools (Matt Wolfe), TLDR AI newsletter. Return JSON: {"headline":"string","picks":[{"name":"string","tagline":"string","summary":"string","tryIt":"string","url":"string","tag":"string","vibe":"free|freemium|paid","bestFor":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 tool picks and 2 watchNext.`,
-    'ai-consulting': `Search the web for news about AI in management consulting from the week of ${week}. Prioritize content from: McKinsey QuantumBlack, BCG X, Deloitte AI Institute, Accenture Technology Vision, Bain AI insights, Consulting Magazine, MIT Sloan Management Review. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","tool":"string"}],"proTip":{"title":"string","tip":"string","tool":"string"},"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext.`,
-    'tech-skills': `Search the web for the latest on technical skills for management consultants from the week of ${week}. Prioritize content from: Management Consulted, Towards Data Science, DataCamp Blog, Analyst Academy, Real Python, Chandoo.org, Tableau Blog. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","skill":"string"}],"weeklyChallenge":{"title":"string","challenge":"string","tool":"string","timeEstimate":"string"},"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories with skill badges and 2 watchNext.`,
-    'tools-stax': `Search the web for tools used by private equity consultants and strategy analysts in ${week}. Prioritize content from: PitchBook Blog, Private Equity International, Mergers & Inquisitions, FactSet Insight, PE Hub, Bain Global PE Report. Return JSON: {"headline":"string","tools":[{"name":"string","category":"string","summary":"string","whyStax":"string","priority":"must-know|good-to-know","free":true}],"insight":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 tools and 2 watchNext.`,
-    'excel-stax': `Search the web for advice on excelling as a junior consultant at PE boutique firms like Stax from ${week}. Prioritize content from: Management Consulted, Consulting Magazine, Harvard Business Review (Managing Yourself), Wall Street Oasis, Crafting Cases, Consulting Success. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string"}],"mantra":{"quote":"string","context":"string"},"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext.`,
-    'tech-strategy': `Search the web for companies making strategic shifts due to AI and technology in ${week}. Prioritize content from: McKinsey Digital, BCG Henderson Institute, Stratechery, MIT Sloan Management Review, Harvard Business Review, The Information, Financial Times. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","company":"string","shift":"long-term|short-term","strategyTake":"string"}],"bigSignal":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext.`,
-    'strategy-news': `Search the web for major business and economic news from ${week} analyzed through a consulting/strategy lens. Prioritize content from: McKinsey Quarterly, Bain Insights, Harvard Business Review (Strategy), Wall Street Journal, Financial Times, Bloomberg Businessweek, The Economist, Strategy+Business (PwC). Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","strategyTake":"string","source":"string","tag":"string","sector":"string"}],"weeklyFramework":{"title":"string","framework":"string"},"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories with sector badges and strategy takes, plus 2 watchNext.`,
-    'value-creation': `Search the web for private equity value creation case studies and strategies from ${week}. Prioritize content from: Bain Global PE Report, McKinsey Private Equity insights, PitchBook News, PE Hub, Private Equity International, Buyouts Insider, BCG Private Equity insights, Mergermarket. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","lever":"Revenue growth|Margin expansion|Digital transformation"}],"playbook":{"title":"string","insight":"string","howToUse":"string"},"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories with lever badges and 2 watchNext.`,
-    'ie-business': `Search the web for industrial engineering news relevant to business strategy and operations consulting from the week of ${week}. Prioritize content from: IISE (ISE Magazine), MIT Sloan Management Review, McKinsey Operations Practice, Harvard Business Review (Operations), ASQ, Bain Operations Insights, IndustryWeek. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext.`,
-    'ops-innovation': `Search the web for the latest operations and manufacturing innovation news from the week of ${week}. Prioritize content from: IndustryWeek, Manufacturing.net, Automation World, MIT Technology Review (Manufacturing), Deloitte Insights, World Economic Forum, SME, Gartner Manufacturing. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","industry":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories with industry badges and 2 watchNext.`,
-    'supply-chain': `Search the web for supply chain and logistics news from the week of ${week}. Prioritize content from: Supply Chain Dive, Supply Chain Management Review, FreightWaves, Gartner Supply Chain, McKinsey Supply Chain insights, Journal of Commerce, Logistics Management, CSCMP. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext.`,
-    'sfl-tech': `Search the web for South Florida technology and startup news from the week of ${week}. Prioritize content from: Refresh Miami, South Florida Business Journal (Technology), TechCrunch (Miami/Florida tags), Miami Herald, Axios Miami, Miami Tech Life. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext.`,
-    'sfl-ai-jobs': `Search the web for AI and job market news in South Florida from the week of ${week}. Prioritize content from: Built In Miami, South Florida Business Journal (Employment), LinkedIn Jobs (South Florida), Miami-Dade Beacon Council, Greater Fort Lauderdale Alliance, Wellfound (Miami), Florida Trend, Axios Miami. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext.`,
-    'sfl-business': `Search the web for South Florida business and economic news from the week of ${week}. Prioritize content from: South Florida Business Journal, The Real Deal South Florida, Miami Herald (Business), Sun Sentinel, Axios Miami, Florida Trend, PitchBook (Florida PE/VC). Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext.`,
+    'tools-to-try': `Search the web for the best new AI tools released or trending during the week of ${week}. Prioritize content from: There's An AI For That, Product Hunt AI category, Ben's Bites, The Neuron, Future Tools (Matt Wolfe), TLDR AI newsletter. Return JSON: {"headline":"string","picks":[{"name":"string","tagline":"string","summary":"string","tryIt":"string","url":"string","tag":"string","vibe":"free|freemium|paid","bestFor":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 tool picks and 2 watchNext. ${t}`,
+    'ai-business': `Search the web for the latest AI in business news from the week of ${week}. Prioritize content from: One Useful Thing (Ethan Mollick), Benedict Evans, MIT Technology Review, Harvard Business Review, McKinsey QuantumBlack, a16z AI content, CB Insights, and The Information. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","industry":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories with industry badges and 2 watchNext. ${t}`,
+    'models-releases': `Search the web for the latest AI model releases and updates from the week of ${week}. Prioritize PRIMARY sources: OpenAI Blog, Anthropic News, Google DeepMind Blog, Meta AI Blog, Hugging Face Blog. Also check The Decoder, Ars Technica AI section, and Papers With Code for benchmarks. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","company":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories with company badges and 2 watchNext. ${t}`,
+    'vibe-coding': `Search the web for the latest vibe coding and AI-assisted development news from the week of ${week}. Prioritize content from: Simon Willison's Weblog, Latent Space newsletter, The Pragmatic Engineer, Cursor Blog, GitHub Blog (Copilot), Anthropic News (Claude Code). Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","type":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. Focus on Cursor, Copilot, Claude Code, Replit Agent, v0, Bolt. ${t}`,
+    'skills-tools': `Search the web for the best skill to learn, Excel/data tip, and useful tool for management consultants from the week of ${week}. Focus on US-based sources. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","skill":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include EXACTLY 3 stories: one skill to learn, one Excel/data tip, one useful tool. Include 2 watchNext. US-focused only. ${t}`,
+    'life-at-stax': `Search the web for news relevant to someone working at Stax (a PE-focused management consulting firm) from the week of ${week}. Focus on US-based sources. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include EXACTLY 3 stories: one PE/consulting industry news, one about sectors Stax covers (consumer, healthcare, industrials, tech), one career tip. Include 2 watchNext. US-focused only. ${t}`,
+    'ai-consulting': `Search the web for news about AI in management consulting from the week of ${week}. Focus on US-based sources. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","tool":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include EXACTLY 3 stories and 2 watchNext. Focus on McKinsey, BCG, Bain, Deloitte, Accenture. US-focused only. ${t}`,
+    'tech-strategy': `Search the web for companies making strategic shifts due to AI and technology in ${week}. Prioritize content from: McKinsey Digital, BCG Henderson Institute, Stratechery, MIT Sloan Management Review, Harvard Business Review, The Information, Financial Times. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","company":"string","shift":"long-term|short-term","strategyTake":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
+    'value-creation': `Search the web for private equity value creation case studies and strategies from ${week}. Prioritize content from: Bain Global PE Report, McKinsey Private Equity insights, PitchBook News, PE Hub, Private Equity International, Buyouts Insider, BCG Private Equity insights, Mergermarket. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string","lever":"Revenue growth|Margin expansion|Digital transformation"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Return exactly 4 stories, one from each sector: Consumer, Industrials, Healthcare, Tech. Include 2 watchNext. ${t}`,
+    'ie-business': `Search the web for industrial engineering news relevant to business strategy from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include only 2-3 stories and 2 watchNext. Only stories connecting to AI, PE value creation, or consulting. ${t}`,
+    'ops-innovation': `Search the web for operations and manufacturing innovation news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","industry":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include only 2-3 stories and 2 watchNext. Only stories connecting to AI in operations, PE optimization, or digital transformation. ${t}`,
+    'supply-chain': `Search the web for supply chain and logistics news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include only 2-3 stories and 2 watchNext. Only stories connecting to AI logistics, PE supply chains, or US nearshoring. ${t}`,
+    'sfl-tech': `Search the web for South Florida technology and startup news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
+    'sfl-ai-jobs': `Search the web for AI and job market news in South Florida from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
+    'sfl-business': `Search the web for South Florida business and economic news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
   };
   return prompts[tab.id];
 }

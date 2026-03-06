@@ -2,6 +2,14 @@
   "headline": "Top Supply Chain & Logistics stories this week",
   "stories": [
     {
+      "title": "Anthropic Risks Pariah Status After Pentagon Calls It a Supply-Chain Risk - Bloomberg.com",
+      "summary": "Anthropic Risks Pariah Status After Pentagon Calls It a Supply-Chain Risk Bloomberg.com",
+      "takeaway": "",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQalk5ZVlYVXZmUm9wUmM1cHUwb3ptM1Vma1FGNno4NXZkM05VWWgyXzk0ZXRjdk04MHNBeU93RnpOV1RXQjJZcG03bEJ6TG9iUkU5Yi1HRkhWbFpHTkJ2Z2t6WF9tNkM3TjlFOHN6c3FQZDhvZU1zV1k0VW5oTEZ3T3NITTR5SlVIQ1JKYVlBWm9xam5Wc0ZqT0FjT1ZOdlc5bFp5SXhwNXZLQXBKVUgtMzhKeFhaVTVQdDctNmxBbnRLdw?oc=5",
+      "tag": "Industrial"
+    },
+    {
       "title": "Air cargo shippers scramble to mitigate Iran war impacts",
       "summary": "Air transport scarcity due to the Iran war is driving up shipping rates and other emergency fees for shippers, who are working to divert urgent freight around the conflict zone. The post Air cargo shippers scramble to mitigate Iran war impacts appeared first on FreightWaves.",
       "takeaway": "",
@@ -16,37 +24,20 @@
       "source": "Phil Neuffer",
       "url": "https://www.supplychaindive.com/news/trump-tariff-refunds-cbp-says-it-cant-comply-cit/814078/",
       "tag": "Industrial"
-    },
+    }
+  ],
+  "watchNext": [
     {
       "title": "Anthropic supply chain risk designation could chill innovation, experts say - Tech Xplore",
-      "summary": "Anthropic supply chain risk designation could chill innovation, experts say Tech Xplore",
-      "takeaway": "",
-      "source": "news.google.com",
+      "why": "Anthropic supply chain risk designation could chill innovation, experts say Tech Xplore",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBWaDBvREdYejZrNHQ0N09pZng3Yk0ydkg2NzZfcklIQWh6WXdQaXRGN0RPNDBTcVBCeXlXLW1FWkpWamg4WEN4NWg1aGVNTHZwRk1vdEZIZjNTa01DWTlzREo0d2tBZHpEMGpBNWp4M284Z3dQeXVFUFdn?oc=5",
       "tag": "Industrial"
     },
     {
       "title": "Anthropic Formally Designated as Supply-Chain Risk, CEO Pledges Court Challenge - PCMag",
-      "summary": "Anthropic Formally Designated as Supply-Chain Risk, CEO Pledges Court Challenge PCMag",
-      "takeaway": "",
-      "source": "news.google.com",
+      "why": "Anthropic Formally Designated as Supply-Chain Risk, CEO Pledges Court Challenge PCMag",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeS0xQlRHMHJxcXNjWUJ2amlOWU1NODc4dHhJWWRlT1N2T01GTHVpTGJOOTJuZ0lTY181bzV1aml6czZDZ1RCemp3RTZaaFRMdFZ6X1lOckxYTHVCV1kwZmtrc3R6Nk94YjBrZW9jRERSazZ1TERZRmlMSExzVGdFZ0NGSlRLRGFIRDlfYTNfZTBwTm9nNk5wbGtSVTRUVWNuQWVyRXY1NA?oc=5",
       "tag": "Industrial"
     }
-  ],
-  "watchNext": [
-    {
-      "title": "White Paper: 7 Reasons Security Guards Aren’t Enough Protection",
-      "why": "Cargo theft doesn’t start on the highway. It starts in your yard. Cargo theft doesn’t start on the highway. It starts in",
-      "url": "https://www.freightwaves.com/news/white-paper-7-reasons-security-guards-arent-enough-protection",
-      "tag": "Industrial"
-    },
-    {
-      "title": "Trucking jobs post slight decline in unexpected total payroll drop",
-      "why": "Truck transportation jobs took a slight dip in February. The post Trucking jobs post slight decline in unexpected total ",
-      "url": "https://www.freightwaves.com/news/trucking-jobs-post-slight-decline-in-unexpected-total-payroll-drop",
-      "tag": "Industrial"
-    }
-  ],
-  "bigPicture": ""
+  ]
 }

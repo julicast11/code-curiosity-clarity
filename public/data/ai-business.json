@@ -2,6 +2,14 @@
   "headline": "Top AI in Business stories this week",
   "stories": [
     {
+      "title": "Is the Pentagon allowed to surveil Americans with AI?",
+      "summary": "The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question: Does the law actually allow the US government to conduct mass surveillance on Americans? Surprisingly, the answer is not straightforward. More than a decade after E",
+      "takeaway": "",
+      "source": "Michelle Kim",
+      "url": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/",
+      "tag": "AI"
+    },
+    {
       "title": "Axtria Highlights Frameworks for Measuring AI ROI in Life Sciences - TipRanks",
       "summary": "Axtria Highlights Frameworks for Measuring AI ROI in Life Sciences TipRanks",
       "takeaway": "",
@@ -24,29 +32,20 @@
       "source": "Thomas Macaulay",
       "url": "https://www.technologyreview.com/2026/03/06/1133989/the-download-10-things-that-matter-in-ai-anthropics-plan-sue-pentagon/",
       "tag": "AI"
-    },
-    {
-      "title": "Lead the future of AI in business at the University of Toronto - Study International",
-      "summary": "Lead the future of AI in business at the University of Toronto Study International",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWWlWRnRueHJUZ1ZaTGFUSThjMHU4QXUteXFKRzZrekVhSzV5aDBGWVg5Q0V1d1Z4R0g2T2t2QVpFbVNua09lQ0hvdWxsbExOVFVsUzVDN01kYTJIR1pQZ0I3Y2kyNGo0cHdsbDdnTUZaQ0twNmJzV1VyVDBHRmZqOVdVUmgzd2dDb3BYaFdaOTF2eUU4M1lV?oc=5",
-      "tag": "AI"
     }
   ],
   "watchNext": [
+    {
+      "title": "Lead the future of AI in business at the University of Toronto - Study International",
+      "why": "Lead the future of AI in business at the University of Toronto Study International",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWWlWRnRueHJUZ1ZaTGFUSThjMHU4QXUteXFKRzZrekVhSzV5aDBGWVg5Q0V1d1Z4R0g2T2t2QVpFbVNua09lQ0hvdWxsbExOVFVsUzVDN01kYTJIR1pQZ0I3Y2kyNGo0cHdsbDdnTUZaQ0twNmJzV1VyVDBHRmZqOVdVUmgzd2dDb3BYaFdaOTF2eUU4M1lV?oc=5",
+      "tag": "AI"
+    },
     {
       "title": "Meta simplifies Ad measurement framework to align social-first advertising with clearer attribution - MediaNews4U",
       "why": "Meta simplifies Ad measurement framework to align social-first advertising with clearer attribution MediaNews4U",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa0daYVNDZ3RzSjFHRGZmdGhvVmFUMEVlbmZLZmlPcHFRQUE0SXhHWk12c1FDMnZxam1JcllFNmpxZ1hFMnVFa3hZRHJQRFRmN0wzb0c4akhObGdyZFpVNHdqWXNubjJEUkJYUUxRNXpWcnN0VjlId0l6QzNGbEdjNTdOWTktOWlXUEVVX0E3dlh2eWk1dzNOLVlxeVZXcTgxTDc0cWVrS29wVnZsM3hWdHlQR2k5M2JQY0NobU9kR3RLY2FuMFJn?oc=5",
       "tag": "AI"
-    },
-    {
-      "title": "Lenovo CIO Playbook Highlights Rising Enterprise AI Adoption - Passionate In Marketing",
-      "why": "Lenovo CIO Playbook Highlights Rising Enterprise AI Adoption Passionate In Marketing",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSnBraU9KRXZnbmJKRkVWVVdQNzhnQzRHOVpaTjZzbVBqQ2ZMRXplVUlVTjg5cTFpWjZBZUpHMTd0MElYSHNpYy1aUkRrX3dESGUzbXNQczdOVjRfYVl3QU9JcXRTeVZ1b2Y0MHZVbXdBM3hxcE8xMTZwSTdHV1l2NjBPLWpQTi1TRUNTVVJuY054VGp0YV9HM1FUdU82dTBrR09taXZldldEQnc3ZWQ1TXk1OEpQdEtpZE1nMXVRb3lfNmNHV1lCWWFqbF9mM3IxYmZZcWxWRGRZejh2UlFzcHY0bHZzbVRpWW5xdmFadXVqUmNsYkE?oc=5",
-      "tag": "AI"
     }
-  ],
-  "bigPicture": ""
+  ]
 }

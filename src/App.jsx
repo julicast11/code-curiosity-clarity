@@ -9,7 +9,7 @@ import ConsultingSection from './sections/ConsultingSection';
 import StrategySection from './sections/StrategySection';
 import IndustrialSection from './sections/IndustrialSection';
 import SouthFLSection from './sections/SouthFLSection';
-import PlaceholderSection from './sections/PlaceholderSection';
+
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -36,14 +36,6 @@ function App() {
   const current = SECTIONS.find((s) => s.id === activeSection);
 
   const renderSection = () => {
-    // Placeholder sections don't need API key
-    switch (activeSection) {
-      case 'actions':
-        return <PlaceholderSection emoji="✅" name="Actions" />;
-      default:
-        break;
-    }
-
     // Data sections load from static JSON automatically;
     // API key is optional (only needed for manual refresh)
     switch (activeSection) {

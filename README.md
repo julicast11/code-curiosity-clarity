@@ -1,16 +1,48 @@
-# React + Vite
+# Code, Curiosity & Clarity — by Juliana Castro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What is this?
+A personalized weekly intelligence dashboard that automatically fetches news every week across AI, Consulting, Strategy, Industrial & Ops, and South Florida — and emails me a digest. Built with React + Vite.
 
-Currently, two official plugins are available:
+## How everything connects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### GitHub Repository
+`julicast11/code-curiosity-clarity` — this is where the dashboard code lives online. Think of it as a cloud backup of your project that also runs automations.
 
-## React Compiler
+### Personal Access Token (Classic)
+This is like a password specifically for your terminal to talk to GitHub. Instead of typing your GitHub password every time you push code, the token handles authentication. It has two permissions:
+- **repo** — lets you push/pull code
+- **workflow** — lets you push GitHub Actions workflow files (the automation that runs weekly)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### GitHub Actions Secrets
+4 private values stored in the repo that the weekly automation uses:
+- **GEMINI_API_KEY** — so the script can use Google's AI to enhance content (free)
+- **GMAIL_USER** — your email address for sending
+- **GMAIL_APP_PASSWORD** — the 16-character password Google gave you (lets the script send emails through Gmail without your real password)
+- **RECIPIENT_EMAIL** — where the weekly email gets sent
 
-## Expanding the ESLint configuration
+### How it all works together
+Every Monday at 6AM, GitHub Actions automatically:
+1. Runs `generate.js` → fetches fresh news via RSS + Gemini AI
+2. Runs `email.js` → sends a digest email to juli.castro11@gmail.com
+3. Commits the new JSON files back to the repo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+That's it! A free, automated, personal news service. ✨
+
+## Tech stack
+- React + Vite (frontend)
+- rss-parser (news fetching)
+- Google Gemini 2.0 Flash (AI summaries, free tier)
+- Nodemailer (email delivery)
+- GitHub Actions (weekly automation)
+
+## Local development
+1. Clone the repo
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open http://localhost:5173
+
+## Making changes
+1. Open a terminal tab and run `npm run dev` (starts the live preview)
+2. Open a second terminal tab and run `claude` (to chat and make edits)
+3. See changes live in your browser
+4. When done, stop the dev server with Ctrl+C and push:

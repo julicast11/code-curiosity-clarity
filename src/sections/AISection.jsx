@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import TabbedSection from '../components/TabbedSection';
-import { StoryCard, ToolCard, WatchNext, HeadlineCallout, CalloutBox, DarkBox } from '../components/Cards';
+import { StoryCard, ToolCard, WatchNext, HeadlineCallout } from '../components/Cards';
 import { AI_TABS } from '../utils/prompts';
 import { useTabData } from '../hooks/useTabData';
 
@@ -68,26 +68,6 @@ export default function AISection({ apiKey }) {
             )}
           </div>
 
-          {/* Tab-specific callouts */}
-          {activeTab === 'vibe-coding' && d.tryThis && (
-            <CalloutBox
-              icon="🧪"
-              label="Try This Week"
-              color={currentTab.color}
-              title={d.tryThis.tool}
-              body={d.tryThis.action}
-              footer={d.tryThis.why}
-            />
-          )}
-          {activeTab === 'ai-business' && d.bigPicture && (
-            <DarkBox text={d.bigPicture} label="Big Picture" color={currentTab.color} />
-          )}
-          {activeTab === 'models-releases' && d.tldr && (
-            <div className="callout-box" style={{ background: `${currentTab.color}10` }}>
-              <div className="callout-label" style={{ color: currentTab.color }}>TL;DR</div>
-              <div className="callout-body" style={{ marginTop: 8 }}>{d.tldr}</div>
-            </div>
-          )}
           <WatchNext items={d.watchNext} color={currentTab.color} />
         </>
       )}
