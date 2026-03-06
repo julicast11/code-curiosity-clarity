@@ -1,0 +1,51 @@
+{
+  "headline": "Top Models & Releases stories this week",
+  "stories": [
+    {
+      "title": "OpenAI launches Codex Security, an AI agent designed to detect vulnerabilities in software projects",
+      "summary": "OpenAI's new Codex Security agent automatically hunts for vulnerabilities in code and has already found gaps in OpenSSH and Chromium. The article OpenAI launches Codex Security, an AI agent designed to detect vulnerabilities in software projects appeared first on The Decoder.",
+      "takeaway": "",
+      "source": "Matthias Bastian",
+      "url": "https://the-decoder.com/openai-launches-codex-security-an-ai-agent-designed-to-detect-vulnerabilities-in-software-projects/",
+      "tag": "AI"
+    },
+    {
+      "title": "Conversational LLM Evaluations in Minutes with NVIDIA NeMo Evaluator Agent Skills",
+      "summary": "",
+      "takeaway": "",
+      "source": "huggingface.co",
+      "url": "https://huggingface.co/blog/nvidia/model-evaluation-skill",
+      "tag": "AI"
+    },
+    {
+      "title": "Anthropic officially deemed supply chain risk, CEO Amodei announces legal challenge",
+      "summary": "The Pentagon formally notified Anthropic on March 4 that the company and its products have been designated as a supply chain risk to US national security. The article Anthropic officially deemed supply chain risk, CEO Amodei announces legal challenge appeared first on The Decoder.",
+      "takeaway": "",
+      "source": "Maximilian Schreiner",
+      "url": "https://the-decoder.com/anthropic-officially-deemed-supply-chain-risk-ceo-amodei-announces-legal-challenge/",
+      "tag": "AI"
+    },
+    {
+      "title": "Softbank seeks record $40 billion loan to fund OpenAI stake",
+      "summary": "A $40 billion loan for a single bet on OpenAI. Softbank is taking what the AI industry has been doing for a while to its logical extreme: financing the boom on credit. The article Softbank seeks record $40 billion loan to fund OpenAI stake appeared first on The Decoder.",
+      "takeaway": "",
+      "source": "Matthias Bastian",
+      "url": "https://the-decoder.com/softbank-seeks-record-40-billion-loan-to-fund-openai-stake/",
+      "tag": "AI"
+    }
+  ],
+  "watchNext": [
+    {
+      "title": "The Take: How is the US using Anthropic’s Claude AI in Iran? - Al Jazeera",
+      "why": "The Take: How is the US using Anthropic’s Claude AI in Iran? Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPekRNZkp2ZUZKQlc4alVPTTNXVkYtdGpucUVLSkF1WExmcnRKRHlhOVFodWNFOVl5MEtob0FRSU9LUTM2dURVOHYxcWxhTks2cm5GV1ZnWUtwS01xVGowV0gwa2NVVTZQUkhNb0h4RUxEWkFwTUs5Smd2TUIxZEZjeVU2a0NKeWc0ZzZCUjJtX1RUcmMyRk1iNHQtcnZiblIwc19r?oc=5",
+      "tag": "AI"
+    },
+    {
+      "title": "Anthropic's Claude overtakes ChatGPT in App Store - Mashable",
+      "why": "Anthropic's Claude overtakes ChatGPT in App Store Mashable",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oVTRfc0ZXdUs4WVdUSmhadXFMLUlSSWlyWjBWbmVnZlFldUJvdVZ6NElndkhVRjJ3STl5RDczbFJUX1M2aUpyb3RsS2xnN2NtYUJBZnduOUdHTnYzdi1BY0pEWXRIM0hlRzVmVVZRWllJT1gyYUNiRlVJejU?oc=5",
+      "tag": "AI"
+    }
+  ]
+}

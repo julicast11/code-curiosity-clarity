@@ -1,0 +1,51 @@
+{
+  "headline": "Top Vibe Coding stories this week",
+  "stories": [
+    {
+      "title": "Fake Claude Code Guides Lure Vibe Coders With Malware - findarticles.com",
+      "summary": "Fake Claude Code Guides Lure Vibe Coders With Malware findarticles.com",
+      "takeaway": "",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSWJpVGJUSElFLUpHY0ZyTkhGUDRXM2pmanVMLVpKVmtKSkJ1enRZZU9KOEtqMzhXa25rZEpoSHc2NkVUbkI4Ulp6OGF3QUtJUmprREpKMnhUN2ZKYzVraXIyR3R5R3RidEhqV3JCQ3BPYmdGd3F1QWg4dFRwX01acnNrNW5Vc0MyT25F0gGTAUFVX3lxTFBST0JNczdaaFZ0UGNlWEZDVHliOXJPNjhWOERKWVJVSkU3Uk1qbVluc1NBcGdFcXB3Nm9vaGlzN2NKalktVWpaWmlTTTkwVlRtdmJxZUR5QnhwajBkMmdNdWNxR1lvckdMZ3RhY0p4b2VqWG5oMENsX1RDdkxMN3MtWkdQUzFmM2diWGo0WEVJaUlRcw?oc=5",
+      "tag": "AI"
+    },
+    {
+      "title": "GitHub Copilot in Visual Studio Code v1.110 – February release - The GitHub Blog",
+      "summary": "GitHub Copilot in Visual Studio Code v1.110 – February release The GitHub Blog",
+      "takeaway": "",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeHZvV3JpR1pvUjlJaDI0RXNEMGdWV1RvVDlReFU2UVhnTEtmZUVybVlUZVhyU0VES0xVVTRQSGJzdkVlM2k3ZzY1TzJIczBVQURUcUVfU2oyQlZzUFVZRlE5M0ZnS21xTHBhS08zWkplWC1WcU03SXV5dExrYXNOYWRobXAzNXYzbjBEcW1hQVFJOHJmclZfZ2Y4UTdpLVF1Z05z?oc=5",
+      "tag": "AI"
+    },
+    {
+      "title": "After the Panic, the Reality of Claude Code Security - GovInfoSecurity",
+      "summary": "After the Panic, the Reality of Claude Code Security GovInfoSecurity",
+      "takeaway": "",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMnlvMWowdWY2MXh3WFlEQktjR1FFeHFBQ2JoWjUyQjNreHFhcTRmNW9QNzZEa0pqNG1BUm1IMTM4amMwanZHdFpsNExmSWtqWTFmMm9nbl9JRTJNZUk5VkdjV2t5RDJWR1JqNzZXd1VqWVhQX0h4RmxhaU4wc3JCc0tiaWxieE0?oc=5",
+      "tag": "AI"
+    },
+    {
+      "title": "Phony Claude Code Install Guides Trick Vibe Coders Into Installing Malware - PCMag",
+      "summary": "Phony Claude Code Install Guides Trick Vibe Coders Into Installing Malware PCMag",
+      "takeaway": "",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeTBpZXVCenlYcTZidndMQ2JBSzJSRXNqRGhYUlN4Q2FZbFlwWHdOZnRTNGFqZ001akg1dVlvV254SFJPNjlKc2JwVWNjdk1xSnhPRGFRTmIxWWZ3NEI4UU1iZ3BiOFE5bkoya2pVQXdUUmNHaVZQdW91RVRDdFd5LWo2NXpzRl9kRDNqMUFlSGNfUkNILWQwWElaYjJ1SC0xMVYw?oc=5",
+      "tag": "AI"
+    }
+  ],
+  "watchNext": [
+    {
+      "title": "PEGA Stock Surges on Launch of Vibe Coding Assistant in Pega Blueprint - Zacks Investment Research",
+      "why": "PEGA Stock Surges on Launch of Vibe Coding Assistant in Pega Blueprint Zacks Investment Research",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRVg3UHJKelpRQjJjMDhlUHJFcjJrWW94d1BEd1ZzTTNDVHlNWXVCSEY5eGxVOXRva2hETkswUS1ybmt3cmFNVEotMC1DcDctLVk0TW0yYndNSGNKR0tEMDRnUkJpbW1OSXdMMEJoMW80b2hjQURILTF4Mm8tMl96UEZqMEdTYWt5aVhPcUtBNm5ZdFplWHBLU0FocW1KMXRvQnU1OXNQN3AxWDlPNTlvTw?oc=5",
+      "tag": "AI"
+    },
+    {
+      "title": "Anthropic and the Pentagon",
+      "why": "",
+      "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
+      "tag": "AI"
+    }
+  ]
+}

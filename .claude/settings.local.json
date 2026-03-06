@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"/Users/julianacastro/Library/CloudStorage/OneDrive-Personal/Code, Curiosity & Clarity — by Juliana Castro\")",
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(npm create vite@latest . -- --template react)",
+      "Bash(npx --yes create-vite@latest ccc-app --template react)",
+      "Bash(npm install)",
+      "Bash(npx vite build)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(npm install nodemailer)",
+      "Bash(node --check scripts/email.js)",
+      "Bash(node --check scripts/generate.js)",
+      "Bash(ls \"/Users/julianacastro/Library/CloudStorage/OneDrive-Personal/Code, Curiosity & Clarity — by Juliana Castro/.claude/launch.json\")",
+      "Bash(npm install rss-parser @google/generative-ai)",
+      "Bash(node scripts/generate.js)",
+      "Bash(node -e \"const d = require\\(''fs''\\).readFileSync\\(''public/data/vibe-coding.json'',''utf8''\\); const j = JSON.parse\\(d\\); console.log\\(j.stories[0].title\\); console.log\\(j.stories[0].url\\);\")",
+      "Bash(gh auth status)",
+      "Bash(git add .gitignore .github/ index.html package.json package-lock.json vite.config.js eslint.config.js README.md src/ scripts/ public/data/ .claude/launch.json)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
