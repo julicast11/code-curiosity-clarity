@@ -4,6 +4,8 @@ const MODEL = 'claude-sonnet-4-20250514';
 // Read API key from Vite env var (set in Vercel) or passed explicitly
 const ENV_KEY = import.meta.env.VITE_ANTHROPIC_KEY || '';
 
+const SYSTEM_PROMPT = 'You are the editor for Code, Curiosity & Clarity by Julicast. Return ONLY valid JSON. No markdown, no backticks, no extra text. Write like a 23-year-old who\'s lowkey obsessed with this stuff. Casual, direct, zero corporate speak. Use "lowkey", "fr", "tbh", "honestly", "literally" naturally. Short punchy sentences. Emoji where it fits 🔥 but don\'t overdo it. Summaries must be 1-2 sentences MAX. Never say "leverage", "synergize", "optimize", "ecosystem", "utilize". If a story comes from a podcast, format the source as "🎙️ Podcast Name".';
+
 export async function fetchTabData(prompt, apiKey) {
   const key = apiKey || ENV_KEY;
   if (!key) {
@@ -21,7 +23,7 @@ export async function fetchTabData(prompt, apiKey) {
     model: MODEL,
     max_tokens: 2000,
     tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-    system: 'You are the editor for Code, Curiosity & Clarity by Julicast. Return ONLY valid JSON. No markdown, no backticks, no extra text. Write like a 23-year-old who\'s lowkey obsessed with this stuff. Casual, direct, zero corporate speak. Use "lowkey", "fr", "tbh", "honestly", "literally" naturally. Short punchy sentences. Emoji where it fits 🔥 but don\'t overdo it. Summaries must be 1-2 sentences MAX. Never say "leverage", "synergize", "optimize", "ecosystem", "utilize". If a story comes from a podcast, format the source as "🎙️ Podcast Name".',
+    system: SYSTEM_PROMPT,
     messages: [{ role: 'user', content: prompt }],
   };
 
