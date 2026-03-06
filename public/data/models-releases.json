@@ -2,6 +2,14 @@
   "headline": "Top Models & Releases stories this week",
   "stories": [
     {
+      "title": "OpenAI launches Codex Security, an AI agent designed to detect vulnerabilities in software projects",
+      "summary": "OpenAI's new Codex Security agent automatically hunts for vulnerabilities in code and has already found gaps in OpenSSH and Chromium. The article OpenAI launches Codex Security, an AI agent designed to detect vulnerabilities in software projects appeared first on The Decoder.",
+      "takeaway": "",
+      "source": "Matthias Bastian",
+      "url": "https://the-decoder.com/openai-launches-codex-security-an-ai-agent-designed-to-detect-vulnerabilities-in-software-projects/",
+      "tag": "AI"
+    },
+    {
       "title": "Conversational LLM Evaluations in Minutes with NVIDIA NeMo Evaluator Agent Skills",
       "summary": "",
       "takeaway": "",
@@ -24,27 +32,19 @@
       "source": "Matthias Bastian",
       "url": "https://the-decoder.com/softbank-seeks-record-40-billion-loan-to-fund-openai-stake/",
       "tag": "AI"
-    },
-    {
-      "title": "The Take: How is the US using Anthropic’s Claude AI in Iran? - Al Jazeera",
-      "summary": "The Take: How is the US using Anthropic’s Claude AI in Iran? Al Jazeera",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPekRNZkp2ZUZKQlc4alVPTTNXVkYtdGpucUVLSkF1WExmcnRKRHlhOVFodWNFOVl5MEtob0FRSU9LUTM2dURVOHYxcWxhTks2cm5GV1ZnWUtwS01xVGowV0gwa2NVVTZQUkhNb0h4RUxEWkFwTUs5Smd2TUIxZEZjeVU2a0NKeWc0ZzZCUjJtX1RUcmMyRk1iNHQtcnZiblIwc19r?oc=5",
-      "tag": "AI"
     }
   ],
   "watchNext": [
     {
-      "title": "Anthropic's Claude overtakes ChatGPT in App Store - Mashable",
-      "why": "Anthropic's Claude overtakes ChatGPT in App Store Mashable",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oVTRfc0ZXdUs4WVdUSmhadXFMLUlSSWlyWjBWbmVnZlFldUJvdVZ6NElndkhVRjJ3STl5RDczbFJUX1M2aUpyb3RsS2xnN2NtYUJBZnduOUdHTnYzdi1BY0pEWXRIM0hlRzVmVVZRWllJT1gyYUNiRlVJejU?oc=5",
+      "title": "The Take: How is the US using Anthropic’s Claude AI in Iran? - Al Jazeera",
+      "why": "The Take: How is the US using Anthropic’s Claude AI in Iran? Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPekRNZkp2ZUZKQlc4alVPTTNXVkYtdGpucUVLSkF1WExmcnRKRHlhOVFodWNFOVl5MEtob0FRSU9LUTM2dURVOHYxcWxhTks2cm5GV1ZnWUtwS01xVGowV0gwa2NVVTZQUkhNb0h4RUxEWkFwTUs5Smd2TUIxZEZjeVU2a0NKeWc0ZzZCUjJtX1RUcmMyRk1iNHQtcnZiblIwc19r?oc=5",
       "tag": "AI"
     },
     {
-      "title": "OpenAI's new GPT-5.4 model powers ChatGPT for Excel with finance-optimized reasoning",
-      "why": "OpenAI is launching \"ChatGPT for Excel,\" a beta add-in that lets users create, edit, and analyze spreadsheets through na",
-      "url": "https://the-decoder.com/openais-new-gpt-5-4-model-powers-chatgpt-for-excel-with-finance-optimized-reasoning/",
+      "title": "Anthropic's Claude overtakes ChatGPT in App Store - Mashable",
+      "why": "Anthropic's Claude overtakes ChatGPT in App Store Mashable",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oVTRfc0ZXdUs4WVdUSmhadXFMLUlSSWlyWjBWbmVnZlFldUJvdVZ6NElndkhVRjJ3STl5RDczbFJUX1M2aUpyb3RsS2xnN2NtYUJBZnduOUdHTnYzdi1BY0pEWXRIM0hlRzVmVVZRWllJT1gyYUNiRlVJejU?oc=5",
       "tag": "AI"
     }
   ],

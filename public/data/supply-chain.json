@@ -2,6 +2,22 @@
   "headline": "Top Supply Chain & Logistics stories this week",
   "stories": [
     {
+      "title": "Air cargo shippers scramble to mitigate Iran war impacts",
+      "summary": "Air transport scarcity due to the Iran war is driving up shipping rates and other emergency fees for shippers, who are working to divert urgent freight around the conflict zone. The post Air cargo shippers scramble to mitigate Iran war impacts appeared first on FreightWaves.",
+      "takeaway": "",
+      "source": "Eric Kulisch",
+      "url": "https://www.freightwaves.com/news/air-cargo-shippers-scramble-to-mitigate-iran-war-impacts",
+      "tag": "Industrial"
+    },
+    {
+      "title": "CBP says it can’t comply with court order for tariff refunds yet",
+      "summary": "The agency is confident it can implement a process that streamlines returns for now-defunct Trump administration levies in 45 days, according to a court filing.",
+      "takeaway": "",
+      "source": "Phil Neuffer",
+      "url": "https://www.supplychaindive.com/news/trump-tariff-refunds-cbp-says-it-cant-comply-cit/814078/",
+      "tag": "Industrial"
+    },
+    {
       "title": "Anthropic supply chain risk designation could chill innovation, experts say - Tech Xplore",
       "summary": "Anthropic supply chain risk designation could chill innovation, experts say Tech Xplore",
       "takeaway": "",
@@ -16,35 +32,19 @@
       "source": "news.google.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeS0xQlRHMHJxcXNjWUJ2amlOWU1NODc4dHhJWWRlT1N2T01GTHVpTGJOOTJuZ0lTY181bzV1aml6czZDZ1RCemp3RTZaaFRMdFZ6X1lOckxYTHVCV1kwZmtrc3R6Nk94YjBrZW9jRERSazZ1TERZRmlMSExzVGdFZ0NGSlRLRGFIRDlfYTNfZTBwTm9nNk5wbGtSVTRUVWNuQWVyRXY1NA?oc=5",
       "tag": "Industrial"
-    },
+    }
+  ],
+  "watchNext": [
     {
       "title": "White Paper: 7 Reasons Security Guards Aren’t Enough Protection",
-      "summary": "Cargo theft doesn’t start on the highway. It starts in your yard. Cargo theft doesn’t start on the highway. It starts in your yard. Parked trailers, dark terminals, and guard blind spots are the moments criminals waitfor. This practical guide shows trucking companies, 3PLs, and shippers where guard-",
-      "takeaway": "",
-      "source": "Sponsor",
+      "why": "Cargo theft doesn’t start on the highway. It starts in your yard. Cargo theft doesn’t start on the highway. It starts in",
       "url": "https://www.freightwaves.com/news/white-paper-7-reasons-security-guards-arent-enough-protection",
       "tag": "Industrial"
     },
     {
       "title": "Trucking jobs post slight decline in unexpected total payroll drop",
-      "summary": "Truck transportation jobs took a slight dip in February. The post Trucking jobs post slight decline in unexpected total payroll drop appeared first on FreightWaves.",
-      "takeaway": "",
-      "source": "John Kingston",
+      "why": "Truck transportation jobs took a slight dip in February. The post Trucking jobs post slight decline in unexpected total ",
       "url": "https://www.freightwaves.com/news/trucking-jobs-post-slight-decline-in-unexpected-total-payroll-drop",
-      "tag": "Industrial"
-    }
-  ],
-  "watchNext": [
-    {
-      "title": "White Paper: State of the Industry – March 2026",
-      "why": "The March 2026 “State of the Industry Report” — presented in affiliation with Ryder — sharesan in-depth overview across ",
-      "url": "https://www.freightwaves.com/news/white-paper-state-of-the-industry-march-2026",
-      "tag": "Industrial"
-    },
-    {
-      "title": "Can reshoring and onshoring deliver manufacturing sustainability benefits?",
-      "why": "Manufacturers may be weighing tariff costs, but they’re also assessing whether domestic production investments can help ",
-      "url": "https://www.supplychaindive.com/news/can-reshoring-deliver-manufacturing-sustainability-benefits/811685/",
       "tag": "Industrial"
     }
   ],
