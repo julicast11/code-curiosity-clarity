@@ -84,7 +84,7 @@ const week = getLastWeekRange();
 
 // ── Tone instructions ────────────────────────────────────────────
 
-const TONE_INSTRUCTIONS = `TONE IS EVERYTHING. Write like a smart Gen Z girl texting her bestie about cool stuff she found this week. Think: "Ok so basically...", "This is actually wild —", "You NEED to know about this", "Not gonna lie, this one's a game changer". Summaries MUST be 1-2 sentences MAX. No paragraph blocks. No corporate buzzwords like "leverage", "synergize", "optimize", "streamline", "ecosystem". Write like you're explaining it over brunch. If I can't read a whole tab in 15 seconds, it's too much. If a story comes from a podcast (not a website), format the source as "🎙️ Podcast Name".`;
+const TONE_INSTRUCTIONS = `TONE IS EVERYTHING. Write like a 23-year-old who's lowkey obsessed with this stuff. Casual, direct, zero corporate speak. Use words like "lowkey", "fr", "tbh", "honestly", "literally" naturally — don't force them into every sentence. Short punchy sentences. Emoji where it fits 🔥 but don't overdo it. Think: "Ok tbh this one's actually insane", "Lowkey the most useful thing I've seen all week", "Honestly you need this fr", "This is literally changing the game rn". Summaries MUST be 1-2 sentences MAX. No paragraph blocks. NEVER use words like "leverage", "synergize", "optimize", "streamline", "ecosystem", "utilize", "innovative", "cutting-edge". If I can't skim a whole tab in 15 seconds, it's too long. If a story comes from a podcast (not a website), format the source as "🎙️ Podcast Name".`;
 
 // ── Tab definitions with RSS queries ──────────────────────────────
 
