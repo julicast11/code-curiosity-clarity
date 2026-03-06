@@ -17,10 +17,6 @@ export function useTabData() {
     setErrors((prev) => ({ ...prev, [tabId]: null }));
 
     try {
-      if (!apiKey) {
-        throw new Error('No API key configured. Set VITE_ANTHROPIC_KEY in Vercel or add your key via the settings gear.');
-      }
-
       const result = await fetchTabData(prompt, apiKey);
       cache.current[tabId] = result;
       setData((prev) => ({ ...prev, [tabId]: result }));
