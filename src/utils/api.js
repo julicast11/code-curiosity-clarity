@@ -1,5 +1,5 @@
 const API_URL = 'https://api.anthropic.com/v1/messages';
-const MODEL = 'claude-sonnet-4-20250514';
+const MODEL = 'claude-haiku-4-5-20251001';
 
 // Read API key from Vite env var (set in Vercel) or passed explicitly
 const ENV_KEY = import.meta.env.VITE_ANTHROPIC_KEY || '';
