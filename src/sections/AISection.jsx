@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import TabbedSection from '../components/TabbedSection';
-import { StoryCard, ToolCard, WatchNext, HeadlineCallout } from '../components/Cards';
+import { StoryCard, WatchNext, HeadlineCallout } from '../components/Cards';
 import { AI_TABS } from '../utils/prompts';
 import { useTabData } from '../hooks/useTabData';
 
@@ -59,13 +59,16 @@ export default function AISection({ apiKey }) {
 
           {/* Stories / Picks grid */}
           <div className="cards-grid">
-            {(d.stories || d.picks || []).map((item, i) =>
-              d.picks ? (
-                <ToolCard key={i} tool={item} color={currentTab.color} index={i} />
-              ) : (
-                <StoryCard key={i} story={item} color={currentTab.color} index={i} />
-              )
-            )}
+            {(d.stories || (d.picks || []).map((p) => ({
+              title: p.name,
+              summary: p.summary,
+              takeaway: p.tryIt,
+              tag: p.vibe || p.bestFor,
+              source: p.tagline,
+              url: p.url,
+            })) || []).map((item, i) => (
+              <StoryCard key={i} story={item} color={currentTab.color} index={i} />
+            ))}
           </div>
 
           <WatchNext items={d.watchNext} color={currentTab.color} />
