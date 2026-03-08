@@ -41,7 +41,10 @@ export async function fetchTabData(prompt, apiKey) {
   const data = await res.json();
   const textBlocks = data.content.filter((b) => b.type === 'text');
   const raw = textBlocks.map((b) => b.text).join('');
-  const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-  const jsonStr = cleaned.substring(cleaned.indexOf('{'));
-  return JSON.parse(jsonStr);
+  const noCites = raw.replace(/<cite[^>]*>[\s\S]*?<\/cite>/g, '');
+  const cleaned = noCites.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+  const first = cleaned.indexOf('{');
+  const last = cleaned.lastIndexOf('}');
+  if (first === -1 || last === -1) throw new Error('No JSON object found in response');
+  return JSON.parse(cleaned.slice(first, last + 1));
 }

@@ -7,7 +7,7 @@ import { getLastWeekRange } from './utils/dates';
 import AISection from './sections/AISection';
 import ConsultingSection from './sections/ConsultingSection';
 import StrategySection from './sections/StrategySection';
-import IndustrialSection from './sections/IndustrialSection';
+
 import SouthFLSection from './sections/SouthFLSection';
 
 
@@ -45,8 +45,6 @@ function App() {
         return <ConsultingSection apiKey={apiKey} />;
       case 'strategy':
         return <StrategySection apiKey={apiKey} />;
-      case 'industrial':
-        return <IndustrialSection apiKey={apiKey} />;
       case 'southfl':
         return <SouthFLSection apiKey={apiKey} />;
       default:

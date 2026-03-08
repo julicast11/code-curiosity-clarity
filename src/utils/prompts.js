@@ -87,32 +87,6 @@ export const STRATEGY_TABS = [
   },
 ];
 
-export const INDUSTRIAL_TABS = [
-  {
-    id: 'ie-business',
-    label: 'IE Meets Business',
-    color: '#B86858',
-    emoji: '📊',
-    desc: 'Industrial engineering trends shaping business strategy',
-    prompt: () => `Industrial engineering news relevant to consulting/PE from ${week()}. Only 2-3 best stories. ${TONE} ${SCHEMA_STORIES(3)}`,
-  },
-  {
-    id: 'ops-innovation',
-    label: 'Operations & Innovation',
-    color: '#D08068',
-    emoji: '🏭',
-    desc: 'Smart manufacturing, automation, and ops tech',
-    prompt: () => `Operations and manufacturing innovation news from ${week()}. AI in ops, smart manufacturing. Only 2-3 best. ${TONE} ${SCHEMA_STORIES(3)}`,
-  },
-  {
-    id: 'supply-chain',
-    label: 'Supply Chain & Logistics',
-    color: '#E89878',
-    emoji: '🚚',
-    desc: 'Global supply chain shifts and logistics tech',
-    prompt: () => `Supply chain and logistics news from ${week()}. AI logistics, nearshoring, US-focused. Only 2-3 best. ${TONE} ${SCHEMA_STORIES(3)}`,
-  },
-];
 
 export const SOUTHFL_TABS = [
   {
