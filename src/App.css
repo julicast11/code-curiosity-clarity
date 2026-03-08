@@ -387,6 +387,19 @@
   animation: fadeUp 0.4s ease both;
 }
 
+a.story-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+a.story-card-link:hover {
+  border-color: var(--accent, var(--card-border));
+  box-shadow: 0 2px 12px rgba(255, 255, 255, 0.04);
+}
+
 .story-card::before {
   content: '';
   position: absolute;

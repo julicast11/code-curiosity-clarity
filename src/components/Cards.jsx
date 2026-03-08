@@ -1,13 +1,7 @@
 export function StoryCard({ story, color, index = 0 }) {
   const delay = index * 55;
-  return (
-    <div
-      className="story-card"
-      style={{
-        animationDelay: `${delay}ms`,
-        '--accent': color,
-      }}
-    >
+  const content = (
+    <>
       <div
         style={{
           position: 'absolute', left: 0, top: 0, bottom: 0, width: 3,
@@ -38,13 +32,7 @@ export function StoryCard({ story, color, index = 0 }) {
         )}
         {story.source && <span className="story-source">{story.source}</span>}
       </div>
-      {story.url ? (
-        <a href={story.url} target="_blank" rel="noopener noreferrer" className="story-title story-link">
-          {story.title}
-        </a>
-      ) : (
-        <div className="story-title">{story.title}</div>
-      )}
+      <div className="story-title">{story.title}</div>
       <div className="story-summary">{story.summary}</div>
       {story.strategyTake && (
         <div className="strategy-take-box">
@@ -57,6 +45,29 @@ export function StoryCard({ story, color, index = 0 }) {
           {story.takeaway}
         </div>
       )}
+    </>
+  );
+
+  if (story.url) {
+    return (
+      <a
+        href={story.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="story-card story-card-link"
+        style={{ animationDelay: `${delay}ms`, '--accent': color }}
+      >
+        {content}
+      </a>
+    );
+  }
+
+  return (
+    <div
+      className="story-card"
+      style={{ animationDelay: `${delay}ms`, '--accent': color }}
+    >
+      {content}
     </div>
   );
 }
