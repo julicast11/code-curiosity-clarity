@@ -521,8 +521,14 @@ a.watch-link:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 12px;
   margin-bottom: 8px;
   margin-top: 4px;
+}
+
+.tool-card-header > div:first-child {
+  flex: 1;
+  min-width: 0;
 }
 
 .tool-name {
@@ -530,6 +536,7 @@ a.watch-link:hover {
   font-size: 18px;
   font-weight: 700;
   color: var(--text-primary);
+  word-wrap: break-word;
 }
 
 .tool-tagline {
@@ -544,6 +551,7 @@ a.watch-link:hover {
   gap: 4px;
   flex-direction: column;
   align-items: flex-end;
+  flex-shrink: 0;
 }
 
 .vibe-badge {

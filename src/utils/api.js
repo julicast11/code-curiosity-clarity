@@ -41,7 +41,7 @@ export async function fetchTabData(prompt, apiKey) {
   const data = await res.json();
   const textBlocks = data.content.filter((b) => b.type === 'text');
   const raw = textBlocks.map((b) => b.text).join('');
-  const noCites = raw.replace(/<cite[^>]*>[\s\S]*?<\/cite>/g, '');
+  const noCites = raw.replace(/<\/?cite[^>]*>/g, '');
   const cleaned = noCites.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
   const first = cleaned.indexOf('{');
   const last = cleaned.lastIndexOf('}');
