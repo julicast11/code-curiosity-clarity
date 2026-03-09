@@ -2,49 +2,49 @@
   "headline": "Top Models & Releases stories this week",
   "stories": [
     {
-      "title": "OpenAI launches Codex Security, an AI agent designed to detect vulnerabilities in software projects",
-      "summary": "OpenAI's new Codex Security agent automatically hunts for vulnerabilities in code and has already found gaps in OpenSSH and Chromium. The article OpenAI launches Codex Security, an AI agent designed to detect vulnerabilities in software projects appeared first on The Decoder.",
+      "title": "Luma AI's new Uni-1 image model tops Nano Banana 2 and GPT Image 1.5 on logic-based benchmarks",
+      "summary": "Luma AI takes on OpenAI and Google with Uni-1, a model that combines image understanding and generation in a single architecture and reasons through prompts as it creates. The article Luma AI's new Uni-1 image model tops Nano Banana 2 and GPT Image 1.5 on logic-based benchmarks appeared first on The",
       "takeaway": "",
       "source": "Matthias Bastian",
-      "url": "https://the-decoder.com/openai-launches-codex-security-an-ai-agent-designed-to-detect-vulnerabilities-in-software-projects/",
+      "url": "https://the-decoder.com/luma-ais-new-uni-1-image-model-tops-nano-banana-2-and-gpt-image-1-5-on-logic-based-benchmarks/",
       "tag": "AI"
     },
     {
-      "title": "Conversational LLM Evaluations in Minutes with NVIDIA NeMo Evaluator Agent Skills",
-      "summary": "",
+      "title": "LLM text data is drying up, but Meta points to unlabeled video as the next massive training frontier",
+      "summary": "A research team from Meta FAIR and New York University trained a multimodal AI model from scratch and found that several common assumptions about how these models should be built don't hold up. The article LLM text data is drying up, but Meta points to unlabeled video as the next massive training fr",
       "takeaway": "",
-      "source": "huggingface.co",
-      "url": "https://huggingface.co/blog/nvidia/model-evaluation-skill",
+      "source": "Jonathan Kemper",
+      "url": "https://the-decoder.com/llm-text-data-is-drying-up-but-meta-points-to-unlabeled-video-as-the-next-massive-training-frontier/",
       "tag": "AI"
     },
     {
-      "title": "Anthropic officially deemed supply chain risk, CEO Amodei announces legal challenge",
-      "summary": "The Pentagon formally notified Anthropic on March 4 that the company and its products have been designated as a supply chain risk to US national security. The article Anthropic officially deemed supply chain risk, CEO Amodei announces legal challenge appeared first on The Decoder.",
+      "title": "Hallucinated references are passing peer review at top AI conferences and a new open tool wants to fix that",
+      "summary": "Fake citations are slipping past peer review at top AI conferences, and commercial LLMs can't spot the fakes they generate. A new open-source tool called CiteAudit allegedly catches what GPT, Gemini, and Claude miss. The article Hallucinated references are passing peer review at top AI conferences a",
       "takeaway": "",
-      "source": "Maximilian Schreiner",
-      "url": "https://the-decoder.com/anthropic-officially-deemed-supply-chain-risk-ceo-amodei-announces-legal-challenge/",
+      "source": "Jonathan Kemper",
+      "url": "https://the-decoder.com/hallucinated-references-are-passing-peer-review-at-top-ai-conferences-and-a-new-open-tool-wants-to-fix-that/",
       "tag": "AI"
     },
     {
-      "title": "Softbank seeks record $40 billion loan to fund OpenAI stake",
-      "summary": "A $40 billion loan for a single bet on OpenAI. Softbank is taking what the AI industry has been doing for a while to its logical extreme: financing the boom on credit. The article Softbank seeks record $40 billion loan to fund OpenAI stake appeared first on The Decoder.",
+      "title": "OpenAI's hardware and robotics chief quits over military deal she says lacked enough deliberation",
+      "summary": "OpenAI's head of robotics, Caitlin Kalinowski, is leaving the company over its Pentagon deal, citing concerns about mass surveillance and lethal autonomy. The article OpenAI's hardware and robotics chief quits over military deal she says lacked enough deliberation appeared first on The Decoder.",
       "takeaway": "",
       "source": "Matthias Bastian",
-      "url": "https://the-decoder.com/softbank-seeks-record-40-billion-loan-to-fund-openai-stake/",
+      "url": "https://the-decoder.com/openais-hardware-and-robotics-chief-quits-over-military-deal-she-says-lacked-enough-deliberation/",
       "tag": "AI"
     }
   ],
   "watchNext": [
     {
-      "title": "The Take: How is the US using Anthropic’s Claude AI in Iran? - Al Jazeera",
-      "why": "The Take: How is the US using Anthropic’s Claude AI in Iran? Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPekRNZkp2ZUZKQlc4alVPTTNXVkYtdGpucUVLSkF1WExmcnRKRHlhOVFodWNFOVl5MEtob0FRSU9LUTM2dURVOHYxcWxhTks2cm5GV1ZnWUtwS01xVGowV0gwa2NVVTZQUkhNb0h4RUxEWkFwTUs5Smd2TUIxZEZjeVU2a0NKeWc0ZzZCUjJtX1RUcmMyRk1iNHQtcnZiblIwc19r?oc=5",
+      "title": "AI agent benchmarks obsess over coding while ignoring 92% of the US labor market, study finds",
+      "why": "A large-scale study shows that AI agent development focuses almost entirely on programming tasks, ignoring the vast majo",
+      "url": "https://the-decoder.com/ai-agent-benchmarks-obsess-over-coding-while-ignoring-92-of-the-us-labor-market-study-finds/",
       "tag": "AI"
     },
     {
-      "title": "Anthropic's Claude overtakes ChatGPT in App Store - Mashable",
-      "why": "Anthropic's Claude overtakes ChatGPT in App Store Mashable",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oVTRfc0ZXdUs4WVdUSmhadXFMLUlSSWlyWjBWbmVnZlFldUJvdVZ6NElndkhVRjJ3STl5RDczbFJUX1M2aUpyb3RsS2xnN2NtYUJBZnduOUdHTnYzdi1BY0pEWXRIM0hlRzVmVVZRWllJT1gyYUNiRlVJejU?oc=5",
+      "title": "Trump administration drafts AI contract rules requiring companies to license systems for \"all lawful use\"",
+      "why": "New US guidelines for AI contracts would force companies to grant the government an irrevocable license for \"all lawful ",
+      "url": "https://the-decoder.com/trump-administration-drafts-ai-contract-rules-requiring-companies-to-license-systems-for-all-lawful-use/",
       "tag": "AI"
     }
   ]
