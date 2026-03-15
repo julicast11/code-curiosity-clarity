@@ -60,18 +60,8 @@ const SECTIONS = [
     color: '#6EB0A0',
     emoji: '♟',
     tabs: [
-      { id: 'tech-strategy', label: 'Tech Strategy Shifts', emoji: '🔄' },
+      { id: 'tech-strategy', label: 'Tech-Driven Strategy Shifts', emoji: '🔄' },
       { id: 'value-creation', label: 'Value Creation', emoji: '📈' },
-    ],
-  },
-  {
-    title: 'Industrial & Ops',
-    color: '#B86858',
-    emoji: '⚙️',
-    tabs: [
-      { id: 'ie-business', label: 'IE Meets Business', emoji: '📊' },
-      { id: 'ops-innovation', label: 'Operations & Innovation', emoji: '🏭' },
-      { id: 'supply-chain', label: 'Supply Chain', emoji: '🚚' },
     ],
   },
   {

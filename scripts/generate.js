@@ -84,7 +84,7 @@ const week = getLastWeekRange();
 
 // ── Tone instructions ────────────────────────────────────────────
 
-const TONE_INSTRUCTIONS = `TONE IS EVERYTHING. Write like a 23-year-old who's lowkey obsessed with this stuff. Casual, direct, zero corporate speak. Use words like "lowkey", "fr", "tbh", "honestly", "literally" naturally — don't force them into every sentence. Short punchy sentences. Emoji where it fits 🔥 but don't overdo it. Think: "Ok tbh this one's actually insane", "Lowkey the most useful thing I've seen all week", "Honestly you need this fr", "This is literally changing the game rn". Summaries MUST be 1-2 sentences MAX. No paragraph blocks. NEVER use words like "leverage", "synergize", "optimize", "streamline", "ecosystem", "utilize", "innovative", "cutting-edge". If I can't skim a whole tab in 15 seconds, it's too long. If a story comes from a podcast (not a website), format the source as "🎙️ Podcast Name".`;
+const TONE_INSTRUCTIONS = `Write casually like a 23yo texting — use "lowkey", "fr", "tbh", "literally" naturally. 1-2 sentence summaries MAX. No corporate speak. Emoji sparingly. If a story comes from a podcast, format the source as "🎙️ Podcast Name".`;
 
 // ── Tab definitions with RSS queries ──────────────────────────────
 
@@ -162,7 +162,7 @@ const TABS = [
     id: 'tech-strategy',
     label: 'Tech-Driven Strategy Shifts',
     section: 'Strategy',
-    query: '"AI strategy" OR "digital transformation strategy" OR "technology strategy shift" OR "tech disruption"',
+    query: '"AI strategy" OR "digital transformation strategy" OR "technology strategy shift" OR "tech disruption" OR "AI business strategy"',
     feeds: [],
     schema: 'stories',
     promptHint: 'Focus on companies making strategic shifts due to AI and technology.',
@@ -175,37 +175,6 @@ const TABS = [
     feeds: [],
     schema: 'stories',
     promptHint: 'Return exactly 4 stories, one from each sector: Consumer, Industrials, Healthcare, Tech. Each story must have its sector badge. Do not saturate any single sector.',
-  },
-  // Industrial & Ops section
-  {
-    id: 'ie-business',
-    label: 'IE Meets Business',
-    section: 'Industrial',
-    query: '"industrial engineering" OR "operations management" OR "process improvement business" OR "lean six sigma"',
-    feeds: [],
-    schema: 'stories',
-    storyCount: 3,
-    promptHint: 'Be highly selective — only 2-3 stories that connect to AI adoption, PE value creation, or consulting strategy themes. Less is more.',
-  },
-  {
-    id: 'ops-innovation',
-    label: 'Operations & Innovation',
-    section: 'Industrial',
-    query: '"smart manufacturing" OR "Industry 4.0" OR "manufacturing innovation" OR "factory automation" OR "digital twin"',
-    feeds: [],
-    schema: 'stories',
-    storyCount: 3,
-    promptHint: 'Be highly selective — only 2-3 stories that connect to AI in operations, PE portfolio company optimization, or digital transformation. Less is more.',
-  },
-  {
-    id: 'supply-chain',
-    label: 'Supply Chain & Logistics',
-    section: 'Industrial',
-    query: '"supply chain" OR "logistics technology" OR "supply chain disruption" OR "nearshoring"',
-    feeds: ['https://www.supplychaindive.com/feeds/news/', 'https://www.freightwaves.com/feed'],
-    schema: 'stories',
-    storyCount: 3,
-    promptHint: 'Be highly selective — only 2-3 stories that connect to AI-driven logistics, PE portfolio company supply chains, or nearshoring/reshoring in the US. Less is more.',
   },
   // South Florida section
   {
@@ -460,9 +429,6 @@ function getClaudePrompt(tab) {
     'ai-consulting': `Search the web for news about AI in management consulting from the week of ${week}. Focus on US-based sources. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","tool":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include EXACTLY 3 stories and 2 watchNext. Focus on McKinsey, BCG, Bain, Deloitte, Accenture. US-focused only. ${t}`,
     'tech-strategy': `Search the web for companies making strategic shifts due to AI and technology in ${week}. Prioritize content from: McKinsey Digital, BCG Henderson Institute, Stratechery, MIT Sloan Management Review, Harvard Business Review, The Information, Financial Times. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","company":"string","shift":"long-term|short-term","strategyTake":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
     'value-creation': `Search the web for private equity value creation case studies and strategies from ${week}. Prioritize content from: Bain Global PE Report, McKinsey Private Equity insights, PitchBook News, PE Hub, Private Equity International, Buyouts Insider, BCG Private Equity insights, Mergermarket. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string","lever":"Revenue growth|Margin expansion|Digital transformation"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Return exactly 4 stories, one from each sector: Consumer, Industrials, Healthcare, Tech. Include 2 watchNext. ${t}`,
-    'ie-business': `Search the web for industrial engineering news relevant to business strategy from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include only 2-3 stories and 2 watchNext. Only stories connecting to AI, PE value creation, or consulting. ${t}`,
-    'ops-innovation': `Search the web for operations and manufacturing innovation news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","industry":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include only 2-3 stories and 2 watchNext. Only stories connecting to AI in operations, PE optimization, or digital transformation. ${t}`,
-    'supply-chain': `Search the web for supply chain and logistics news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include only 2-3 stories and 2 watchNext. Only stories connecting to AI logistics, PE supply chains, or US nearshoring. ${t}`,
     'sfl-tech': `Search the web for South Florida technology and startup news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
     'sfl-ai-jobs': `Search the web for AI and job market news in South Florida from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
     'sfl-business': `Search the web for South Florida business and economic news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
