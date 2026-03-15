@@ -26,6 +26,8 @@ jobs:
         run: npm ci
 
       - name: Generate weekly content
+        id: generate
+        continue-on-error: true
         env:
           # RSS + Gemini (free) — primary mode
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

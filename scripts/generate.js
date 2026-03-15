@@ -12,13 +12,14 @@
  *   ANTHROPIC_API_KEY=... node scripts/generate.js    # Claude API mode
  */
 
-import { writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, readFileSync, mkdirSync, existsSync, copyFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import Parser from 'rss-parser';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '..', 'public', 'data');
+const CACHE_DIR = join(DATA_DIR, '_cache');
 const parser = new Parser({ timeout: 10000 });
 
 // ── Mode detection ────────────────────────────────────────────────
@@ -61,6 +62,32 @@ function isPodcast(source) {
 function formatSource(source) {
   if (isPodcast(source)) return `🎙️ ${source}`;
   return source;
+}
+
+// ── Paywall detection ────────────────────────────────────────────
+
+const PAYWALLED_DOMAINS = [
+  'wsj.com', 'ft.com', 'theinformation.com', 'bloomberg.com',
+  'nytimes.com', 'economist.com', 'barrons.com', 'hbr.org',
+  'theathletic.com', 'businessinsider.com', 'insider.com',
+];
+
+function isPaywalled(url) {
+  if (!url) return false;
+  try {
+    const hostname = new URL(url).hostname.replace('www.', '');
+    return PAYWALLED_DOMAINS.some(d => hostname.endsWith(d));
+  } catch {
+    return false;
+  }
+}
+
+// ── Read time estimation ─────────────────────────────────────────
+
+function estimateReadTime(text) {
+  if (!text) return 1;
+  const words = text.split(/\s+/).length;
+  return Math.max(1, Math.round(words / 200));
 }
 
 // ── Date helpers ──────────────────────────────────────────────────
@@ -206,6 +233,18 @@ const TABS = [
   },
 ];
 
+// ── Cross-tab deduplication ──────────────────────────────────────
+
+const globalSeenTitles = new Set();
+
+function isDuplicateAcrossTabs(title) {
+  if (!title) return false;
+  const key = title.toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 60);
+  if (globalSeenTitles.has(key)) return true;
+  globalSeenTitles.add(key);
+  return false;
+}
+
 // ── RSS fetching ──────────────────────────────────────────────────
 
 function googleNewsUrl(query) {
@@ -290,7 +329,7 @@ async function fetchTabArticles(tab) {
     return dateB - dateA;
   });
 
-  const top = unique.slice(0, 10);
+  const top = unique.slice(0, 15); // Fetch extra to account for dedup/paywall filtering
 
   // Resolve Google News redirect URLs to actual article URLs
   await Promise.all(top.map(async (item) => {
@@ -299,22 +338,32 @@ async function fetchTabArticles(tab) {
     }
   }));
 
-  return top;
+  // Filter out cross-tab duplicates, keep paywalled but flag them
+  return top.filter(item => {
+    const title = cleanHtml(item.title);
+    return !isDuplicateAcrossTabs(title);
+  }).slice(0, 10);
 }
 
 // ── RSS-only JSON builders ────────────────────────────────────────
 
 function buildStoriesJson(tab, articles) {
   const count = tab.storyCount || 4;
-  const stories = articles.slice(0, count).map(a => ({
-    title: cleanHtml(a.title) || 'Untitled',
-    summary: cleanHtml(a.contentSnippet || a.content || a.description || '').slice(0, 300),
-    takeaway: '',
-    source: extractSource(a),
-    url: a.link || '',
-    tag: tab.section,
-    ...(tab.id.includes('strategy') ? { strategyTake: '' } : {}),
-  }));
+  const stories = articles.slice(0, count).map(a => {
+    const summary = cleanHtml(a.contentSnippet || a.content || a.description || '').slice(0, 300);
+    const url = a.link || '';
+    return {
+      title: cleanHtml(a.title) || 'Untitled',
+      summary,
+      takeaway: '',
+      source: extractSource(a),
+      url,
+      tag: tab.section,
+      readTime: estimateReadTime(summary),
+      paywalled: isPaywalled(url),
+      ...(tab.id.includes('strategy') ? { strategyTake: '' } : {}),
+    };
+  });
 
   const watchNext = articles.slice(count, count + 2).map(a => ({
     title: cleanHtml(a.title) || 'Untitled',
@@ -331,16 +380,20 @@ function buildStoriesJson(tab, articles) {
 }
 
 function buildPicksJson(tab, articles) {
-  const picks = articles.slice(0, 4).map(a => ({
-    name: cleanHtml(a.title) || 'Untitled',
-    tagline: '',
-    summary: cleanHtml(a.contentSnippet || a.description || '').slice(0, 300),
-    tryIt: '',
-    url: a.link || '',
-    tag: 'AI Tool',
-    vibe: 'freemium',
-    bestFor: '',
-  }));
+  const picks = articles.slice(0, 4).map(a => {
+    const summary = cleanHtml(a.contentSnippet || a.description || '').slice(0, 300);
+    return {
+      name: cleanHtml(a.title) || 'Untitled',
+      tagline: '',
+      summary,
+      tryIt: '',
+      url: a.link || '',
+      tag: 'AI Tool',
+      vibe: 'freemium',
+      bestFor: '',
+      readTime: estimateReadTime(summary),
+    };
+  });
 
   return {
     headline: `Top ${tab.label} this week`,
@@ -372,9 +425,9 @@ async function enhanceWithGemini(tab, articles) {
 
   let schemaDesc;
   if (tab.schema === 'picks') {
-    schemaDesc = `{"headline":"string","picks":[{"name":"string","tagline":"string","summary":"string","tryIt":"string","url":"string","tag":"string","vibe":"free|freemium|paid","bestFor":"string"}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include 4 picks and 2 watchNext.`;
+    schemaDesc = `{"headline":"string","picks":[{"name":"string","tagline":"string","summary":"string","tryIt":"string","url":"string","tag":"string","vibe":"free|freemium|paid","bestFor":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include 4 picks and 2 watchNext.`;
   } else {
-    schemaDesc = `{"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string"}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include ${storyCount} stories and 2 watchNext.`;
+    schemaDesc = `{"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include ${storyCount} stories and 2 watchNext.`;
   }
 
   const prompt = `You are the editor for a weekly intelligence dashboard called "Code, Curiosity & Clarity."
@@ -385,7 +438,7 @@ ${articleList}
 
 Based on these articles, generate a JSON digest for this week. ${tab.promptHint}
 
-IMPORTANT: You MUST use the original URL from each article in the "url" field. Do NOT make up URLs. Only include stories from reputable, well-known sources (major news outlets, industry publications, established tech blogs). Skip low-quality or unknown sources.
+IMPORTANT: You MUST use the original URL from each article in the "url" field. Do NOT make up URLs. Only include stories from reputable, well-known sources (major news outlets, industry publications, established tech blogs). Skip low-quality or unknown sources. Set "readTime" to estimated minutes to read the full article (1-8).
 
 ${TONE_INSTRUCTIONS}
 
@@ -398,7 +451,17 @@ Make the headline punchy and fun. No markdown, no backticks, no extra text — j
     const result = await geminiModel.generateContent(prompt);
     const text = result.response.text();
     const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-    return JSON.parse(cleaned);
+    const parsed = JSON.parse(cleaned);
+
+    // Add paywall flags to stories
+    if (parsed.stories) {
+      parsed.stories.forEach(s => { s.paywalled = isPaywalled(s.url); });
+    }
+    if (parsed.picks) {
+      parsed.picks.forEach(p => { p.paywalled = isPaywalled(p.url); });
+    }
+
+    return parsed;
   } catch (err) {
     console.warn(`    Gemini enhancement failed: ${err.message}`);
     return null;
@@ -441,20 +504,91 @@ function getClaudePrompt(tab) {
   const t = TONE_INSTRUCTIONS;
 
   const prompts = {
-    'tools-to-try': `Search the web for the best new AI tools released or trending during the week of ${week}. Prioritize content from: There's An AI For That, Product Hunt AI category, Ben's Bites, The Neuron, Future Tools (Matt Wolfe), TLDR AI newsletter. Return JSON: {"headline":"string","picks":[{"name":"string","tagline":"string","summary":"string","tryIt":"string","url":"string","tag":"string","vibe":"free|freemium|paid","bestFor":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 tool picks and 2 watchNext. ${t}`,
-    'ai-business': `Search the web for the latest AI in business news from the week of ${week}. Prioritize content from: One Useful Thing (Ethan Mollick), Benedict Evans, MIT Technology Review, Harvard Business Review, McKinsey QuantumBlack, a16z AI content, CB Insights, and The Information. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","industry":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories with industry badges and 2 watchNext. ${t}`,
-    'models-releases': `Search the web for the latest AI model releases and updates from the week of ${week}. Prioritize PRIMARY sources: OpenAI Blog, Anthropic News, Google DeepMind Blog, Meta AI Blog, Hugging Face Blog. Also check The Decoder, Ars Technica AI section, and Papers With Code for benchmarks. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","company":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories with company badges and 2 watchNext. ${t}`,
-    'vibe-coding': `Search the web for the latest vibe coding and AI-assisted development news from the week of ${week}. Prioritize content from: Simon Willison's Weblog, Latent Space newsletter, The Pragmatic Engineer, Cursor Blog, GitHub Blog (Copilot), Anthropic News (Claude Code). Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","type":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. Focus on Cursor, Copilot, Claude Code, Replit Agent, v0, Bolt. ${t}`,
-    'skills-tools': `Search the web for the best skill to learn, Excel/data tip, and useful tool for management consultants from the week of ${week}. Focus on US-based sources. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","skill":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include EXACTLY 3 stories: one skill to learn, one Excel/data tip, one useful tool. Include 2 watchNext. US-focused only. ${t}`,
-    'life-at-stax': `Search the web for news relevant to someone working at Stax (a PE-focused management consulting firm) from the week of ${week}. Focus on US-based sources. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include EXACTLY 3 stories: one PE/consulting industry news, one about sectors Stax covers (consumer, healthcare, industrials, tech), one career tip. Include 2 watchNext. US-focused only. ${t}`,
-    'ai-consulting': `Search the web for news about AI in management consulting from the week of ${week}. Focus on US-based sources. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","tool":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include EXACTLY 3 stories and 2 watchNext. Focus on McKinsey, BCG, Bain, Deloitte, Accenture. US-focused only. ${t}`,
-    'tech-strategy': `Search the web for companies making strategic shifts due to AI and technology in ${week}. Prioritize content from: McKinsey Digital, BCG Henderson Institute, Stratechery, MIT Sloan Management Review, Harvard Business Review, The Information, Financial Times. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","company":"string","shift":"long-term|short-term","strategyTake":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
-    'value-creation': `Search the web for private equity value creation case studies and strategies from ${week}. Prioritize content from: Bain Global PE Report, McKinsey Private Equity insights, PitchBook News, PE Hub, Private Equity International, Buyouts Insider, BCG Private Equity insights, Mergermarket. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string","lever":"Revenue growth|Margin expansion|Digital transformation"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Return exactly 4 stories, one from each sector: Consumer, Industrials, Healthcare, Tech. Include 2 watchNext. ${t}`,
-    'sfl-tech': `Search the web for South Florida technology and startup news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
-    'sfl-ai-jobs': `Search the web for AI and job market news in South Florida from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
-    'sfl-business': `Search the web for South Florida business and economic news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string","sector":"string"}],"bigPicture":"string","watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. ${t}`,
+    'tools-to-try': `Search the web for the best new AI tools released or trending during the week of ${week}. Prioritize content from: There's An AI For That, Product Hunt AI category, Ben's Bites, The Neuron, Future Tools (Matt Wolfe), TLDR AI newsletter. Return JSON: {"headline":"string","picks":[{"name":"string","tagline":"string","summary":"string","tryIt":"string","url":"string","tag":"string","vibe":"free|freemium|paid","bestFor":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include 4 tool picks and 2 watchNext. Set readTime to estimated minutes. ${t}`,
+    'ai-business': `Search the web for the latest AI in business news from the week of ${week}. Prioritize content from: One Useful Thing (Ethan Mollick), Benedict Evans, MIT Technology Review, Harvard Business Review, McKinsey QuantumBlack, a16z AI content, CB Insights, and The Information. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","industry":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include 4 stories with industry badges and 2 watchNext. Set readTime to estimated minutes. ${t}`,
+    'models-releases': `Search the web for the latest AI model releases and updates from the week of ${week}. Prioritize PRIMARY sources: OpenAI Blog, Anthropic News, Google DeepMind Blog, Meta AI Blog, Hugging Face Blog. Also check The Decoder, Ars Technica AI section, and Papers With Code for benchmarks. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","company":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include 4 stories with company badges and 2 watchNext. Set readTime to estimated minutes. ${t}`,
+    'vibe-coding': `Search the web for the latest vibe coding and AI-assisted development news from the week of ${week}. Prioritize content from: Simon Willison's Weblog, Latent Space newsletter, The Pragmatic Engineer, Cursor Blog, GitHub Blog (Copilot), Anthropic News (Claude Code). Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","type":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. Focus on Cursor, Copilot, Claude Code, Replit Agent, v0, Bolt. Set readTime to estimated minutes. ${t}`,
+    'skills-tools': `Search the web for the best skill to learn, Excel/data tip, and useful tool for management consultants from the week of ${week}. Focus on US-based sources. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","skill":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include EXACTLY 3 stories: one skill to learn, one Excel/data tip, one useful tool. Include 2 watchNext. US-focused only. Set readTime to estimated minutes. ${t}`,
+    'life-at-stax': `Search the web for news relevant to someone working at Stax (a PE-focused management consulting firm) from the week of ${week}. Focus on US-based sources. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include EXACTLY 3 stories: one PE/consulting industry news, one about sectors Stax covers (consumer, healthcare, industrials, tech), one career tip. Include 2 watchNext. US-focused only. Set readTime to estimated minutes. ${t}`,
+    'ai-consulting': `Search the web for news about AI in management consulting from the week of ${week}. Focus on US-based sources. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","tool":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include EXACTLY 3 stories and 2 watchNext. Focus on McKinsey, BCG, Bain, Deloitte, Accenture. US-focused only. Set readTime to estimated minutes. ${t}`,
+    'tech-strategy': `Search the web for companies making strategic shifts due to AI and technology in ${week}. Prioritize content from: McKinsey Digital, BCG Henderson Institute, Stratechery, MIT Sloan Management Review, Harvard Business Review, The Information, Financial Times. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","company":"string","shift":"long-term|short-term","strategyTake":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. Set readTime to estimated minutes. ${t}`,
+    'value-creation': `Search the web for private equity value creation case studies and strategies from ${week}. Prioritize content from: Bain Global PE Report, McKinsey Private Equity insights, PitchBook News, PE Hub, Private Equity International, Buyouts Insider, BCG Private Equity insights, Mergermarket. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","sector":"string","lever":"Revenue growth|Margin expansion|Digital transformation","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Return exactly 4 stories, one from each sector: Consumer, Industrials, Healthcare, Tech. Include 2 watchNext. Set readTime to estimated minutes. ${t}`,
+    'sfl-tech': `Search the web for South Florida technology and startup news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","sector":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. Set readTime to estimated minutes. ${t}`,
+    'sfl-ai-jobs': `Search the web for AI and job market news in South Florida from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","sector":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. Set readTime to estimated minutes. ${t}`,
+    'sfl-business': `Search the web for South Florida business and economic news from the week of ${week}. Return JSON: {"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string","sector":"string","readTime":number}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include 4 stories and 2 watchNext. Set readTime to estimated minutes. ${t}`,
   };
   return prompts[tab.id];
+}
+
+// ── Cache helpers ─────────────────────────────────────────────────
+
+function cacheCurrentData() {
+  mkdirSync(CACHE_DIR, { recursive: true });
+  for (const tab of TABS) {
+    const src = join(DATA_DIR, `${tab.id}.json`);
+    const dst = join(CACHE_DIR, `${tab.id}.json`);
+    if (existsSync(src)) {
+      copyFileSync(src, dst);
+    }
+  }
+  console.log('  Cached previous week data as fallback.\n');
+}
+
+function loadCachedData(tabId) {
+  const cached = join(CACHE_DIR, `${tabId}.json`);
+  if (!existsSync(cached)) return null;
+  try {
+    const data = JSON.parse(readFileSync(cached, 'utf-8'));
+    data._fromCache = true;
+    return data;
+  } catch {
+    return null;
+  }
+}
+
+// ── Highlights builder ────────────────────────────────────────────
+
+function buildHighlights(allResults) {
+  const candidates = [];
+  for (const [tabId, data] of Object.entries(allResults)) {
+    if (data._fromCache) continue;
+    const stories = data.stories || [];
+    const picks = (data.picks || []).map(p => ({
+      title: p.name,
+      summary: p.summary,
+      takeaway: p.tagline || p.bestFor || '',
+      source: 'AI Tool',
+      url: p.url,
+      tag: p.tag,
+      readTime: p.readTime,
+    }));
+    for (const s of [...stories, ...picks]) {
+      if (s.title && s.summary) {
+        candidates.push({ ...s, _tab: tabId });
+      }
+    }
+  }
+
+  // Pick top 3: prioritize stories with takeaways and from different sections
+  const seenSections = new Set();
+  const highlights = [];
+  // First pass: one from each section
+  for (const c of candidates) {
+    if (highlights.length >= 3) break;
+    if (!seenSections.has(c.tag)) {
+      seenSections.add(c.tag);
+      highlights.push(c);
+    }
+  }
+  // Fill remaining from any section
+  for (const c of candidates) {
+    if (highlights.length >= 3) break;
+    if (!highlights.includes(c)) {
+      highlights.push(c);
+    }
+  }
+
+  return highlights;
 }
 
 // ── Main ──────────────────────────────────────────────────────────
@@ -465,11 +599,17 @@ async function main() {
   console.log(`\nGenerating content for week of ${week}`);
   console.log(`Output: ${DATA_DIR}\n`);
 
+  // Cache previous week's data before overwriting
+  cacheCurrentData();
+
   const meta = {
     generatedAt: new Date().toISOString(),
     weekRange: week,
   };
   writeFileSync(join(DATA_DIR, '_meta.json'), JSON.stringify(meta, null, 2));
+
+  const allResults = {};
+  let failedTabs = [];
 
   for (const tab of TABS) {
     const label = tab.id.padEnd(18);
@@ -481,12 +621,26 @@ async function main() {
       if (ANTHROPIC_KEY) {
         // Claude API mode (paid)
         result = await callClaude(getClaudePrompt(tab));
+        // Add paywall flags for Claude results
+        if (result.stories) {
+          result.stories.forEach(s => { s.paywalled = isPaywalled(s.url); });
+        }
       } else {
         // RSS mode (free)
         const articles = await fetchTabArticles(tab);
 
         if (articles.length === 0) {
-          console.log('no articles found');
+          // Try cached data as fallback
+          const cached = loadCachedData(tab.id);
+          if (cached) {
+            console.log('no articles — using cached data');
+            const outPath = join(DATA_DIR, `${tab.id}.json`);
+            writeFileSync(outPath, JSON.stringify(cached, null, 2));
+            allResults[tab.id] = cached;
+          } else {
+            console.log('no articles found');
+            failedTabs.push(tab.id);
+          }
           continue;
         }
 
@@ -497,13 +651,42 @@ async function main() {
 
       const outPath = join(DATA_DIR, `${tab.id}.json`);
       writeFileSync(outPath, JSON.stringify(result, null, 2));
+      allResults[tab.id] = result;
       console.log(`done (${ANTHROPIC_KEY ? 'claude' : geminiModel ? 'gemini' : 'rss'})`);
     } catch (err) {
       console.log(`FAILED: ${err.message}`);
+      failedTabs.push(tab.id);
+
+      // Try cached data as fallback
+      const cached = loadCachedData(tab.id);
+      if (cached) {
+        const outPath = join(DATA_DIR, `${tab.id}.json`);
+        writeFileSync(outPath, JSON.stringify(cached, null, 2));
+        allResults[tab.id] = cached;
+        console.log(`    → Using cached data for ${tab.id}`);
+      }
     }
 
     // Small delay between calls
     await new Promise((r) => setTimeout(r, 1000));
+  }
+
+  // Generate highlights (top 3 stories across all sections)
+  const highlights = buildHighlights(allResults);
+  writeFileSync(join(DATA_DIR, '_highlights.json'), JSON.stringify(highlights, null, 2));
+  console.log(`\n  Highlights: ${highlights.length} top stories selected.`);
+
+  // Write generation status for email error notification
+  const status = {
+    success: failedTabs.length === 0,
+    failedTabs,
+    totalTabs: TABS.length,
+    generatedAt: new Date().toISOString(),
+  };
+  writeFileSync(join(DATA_DIR, '_status.json'), JSON.stringify(status, null, 2));
+
+  if (failedTabs.length > 0) {
+    console.log(`\n  ⚠️  ${failedTabs.length} tab(s) failed: ${failedTabs.join(', ')}`);
   }
 
   console.log('\nGeneration complete.');
@@ -511,5 +694,13 @@ async function main() {
 
 main().catch((err) => {
   console.error('Fatal error:', err);
+  // Write error status so email.js can send a notification
+  mkdirSync(DATA_DIR, { recursive: true });
+  writeFileSync(join(DATA_DIR, '_status.json'), JSON.stringify({
+    success: false,
+    fatal: true,
+    error: err.message,
+    generatedAt: new Date().toISOString(),
+  }, null, 2));
   process.exit(1);
 });
