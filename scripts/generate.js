@@ -468,9 +468,9 @@ Make the headline punchy and fun. No markdown, no backticks, no extra text — j
   }
 }
 
-// ── Claude API (paid fallback) ────────────────────────────────────
+// ── Claude API ────────────────────────────────────────────────────
 
-async function callClaude(prompt) {
+async function callClaudeOnce(prompt) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -479,24 +479,45 @@ async function callClaude(prompt) {
       'anthropic-version': '2023-06-01',
     },
     body: JSON.stringify({
-      model: 'claude-sonnet-4-20250514',
+      model: 'claude-haiku-4-5-20251001',
       max_tokens: 2000,
       tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-      system: `You are the editor for Code, Curiosity & Clarity by Julicast. Return ONLY valid JSON. No markdown, no backticks, no extra text. ${TONE_INSTRUCTIONS}`,
+      system: `You are the editor for Code, Curiosity & Clarity by Julicast. You MUST return ONLY valid JSON. No prose, no markdown, no backticks, no explanation — just a single JSON object. ${TONE_INSTRUCTIONS}`,
       messages: [{ role: 'user', content: prompt }],
     }),
   });
 
   if (!res.ok) {
     const err = await res.text();
-    throw new Error(`API ${res.status}: ${err}`);
+    const status = res.status;
+    throw Object.assign(new Error(`API ${status}: ${err}`), { status });
   }
 
   const data = await res.json();
   const textBlocks = data.content.filter((b) => b.type === 'text');
   const raw = textBlocks.map((b) => b.text).join('');
-  const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-  return JSON.parse(cleaned);
+  // Extract JSON from response — find first { to last }
+  const start = raw.indexOf('{');
+  const end = raw.lastIndexOf('}');
+  if (start === -1 || end === -1) throw new Error('No JSON found in response');
+  const jsonStr = raw.slice(start, end + 1);
+  return JSON.parse(jsonStr);
+}
+
+async function callClaude(prompt, retries = 3) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      return await callClaudeOnce(prompt);
+    } catch (err) {
+      if (err.status === 429 && attempt < retries) {
+        const wait = attempt * 30; // 30s, 60s, 90s
+        console.log(`rate limited — waiting ${wait}s (attempt ${attempt}/${retries})`);
+        await new Promise(r => setTimeout(r, wait * 1000));
+      } else {
+        throw err;
+      }
+    }
+  }
 }
 
 // Claude prompts (only used in Claude mode)
@@ -667,8 +688,9 @@ async function main() {
       }
     }
 
-    // Small delay between calls
-    await new Promise((r) => setTimeout(r, 1000));
+    // Delay between calls to respect rate limits (15s for Claude API, 1s for RSS)
+    const delay = ANTHROPIC_KEY ? 15000 : 1000;
+    await new Promise((r) => setTimeout(r, delay));
   }
 
   // Generate highlights (top 3 stories across all sections)
