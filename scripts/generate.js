@@ -182,7 +182,7 @@ const TABS = [
     label: 'South FL Tech',
     section: 'South Florida',
     query: '"Miami tech" OR "South Florida startup" OR "Miami startup" OR "Fort Lauderdale tech" OR "Miami venture capital"',
-    feeds: [],
+    feeds: ['https://www.miamiherald.com/news/business/technology/rss', 'https://refreshmiami.com/feed/'],
     schema: 'stories',
     promptHint: 'Focus on Miami/South Florida tech ecosystem, startups, VC activity.',
   },
@@ -191,7 +191,7 @@ const TABS = [
     label: 'South FL AI & Jobs',
     section: 'South Florida',
     query: 'Miami tech jobs OR Florida AI jobs OR "South Florida hiring" OR Miami careers technology OR Florida tech employment',
-    feeds: [],
+    feeds: ['https://www.miamiherald.com/news/business/rss'],
     schema: 'stories',
     promptHint: 'Focus on AI jobs, consulting hiring, tech job openings in South Florida.',
   },
@@ -200,7 +200,7 @@ const TABS = [
     label: 'South FL Business',
     section: 'South Florida',
     query: '"South Florida business" OR "Miami economy" OR "South Florida real estate" OR "Miami finance"',
-    feeds: [],
+    feeds: ['https://www.bizjournals.com/southflorida/feed/headlines/rss', 'https://www.miamiherald.com/news/business/rss'],
     schema: 'stories',
     promptHint: 'Focus on Miami/South Florida business news, real estate, finance, PE/VC activity.',
   },
@@ -211,6 +211,16 @@ const TABS = [
 function googleNewsUrl(query) {
   const q = encodeURIComponent(query + ' when:7d');
   return `https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`;
+}
+
+async function resolveGoogleNewsUrl(url) {
+  if (!url || !url.includes('news.google.com')) return url;
+  try {
+    const res = await fetch(url, { method: 'HEAD', redirect: 'follow', signal: AbortSignal.timeout(5000) });
+    return res.url || url;
+  } catch {
+    return url;
+  }
 }
 
 async function fetchFeed(url) {
@@ -280,7 +290,16 @@ async function fetchTabArticles(tab) {
     return dateB - dateA;
   });
 
-  return unique.slice(0, 10); // Top 10 most recent
+  const top = unique.slice(0, 10);
+
+  // Resolve Google News redirect URLs to actual article URLs
+  await Promise.all(top.map(async (item) => {
+    if (item.link && item.link.includes('news.google.com')) {
+      item.link = await resolveGoogleNewsUrl(item.link);
+    }
+  }));
+
+  return top;
 }
 
 // ── RSS-only JSON builders ────────────────────────────────────────
@@ -353,9 +372,9 @@ async function enhanceWithGemini(tab, articles) {
 
   let schemaDesc;
   if (tab.schema === 'picks') {
-    schemaDesc = `{"headline":"string","picks":[{"name":"string","tagline":"string","summary":"string","tryIt":"string","url":"string","tag":"string","vibe":"free|freemium|paid","bestFor":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include 4 picks and 2 watchNext.`;
+    schemaDesc = `{"headline":"string","picks":[{"name":"string","tagline":"string","summary":"string","tryIt":"string","url":"string","tag":"string","vibe":"free|freemium|paid","bestFor":"string"}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include 4 picks and 2 watchNext.`;
   } else {
-    schemaDesc = `{"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","tag":"string"}],"watchNext":[{"title":"string","why":"string","tag":"string"}]}. Include ${storyCount} stories and 2 watchNext.`;
+    schemaDesc = `{"headline":"string","stories":[{"title":"string","summary":"string","takeaway":"string","source":"string","url":"string","tag":"string"}],"watchNext":[{"title":"string","why":"string","url":"string","tag":"string"}]}. Include ${storyCount} stories and 2 watchNext.`;
   }
 
   const prompt = `You are the editor for a weekly intelligence dashboard called "Code, Curiosity & Clarity."
@@ -365,6 +384,8 @@ Here are the latest articles for the "${tab.label}" section:
 ${articleList}
 
 Based on these articles, generate a JSON digest for this week. ${tab.promptHint}
+
+IMPORTANT: You MUST use the original URL from each article in the "url" field. Do NOT make up URLs. Only include stories from reputable, well-known sources (major news outlets, industry publications, established tech blogs). Skip low-quality or unknown sources.
 
 ${TONE_INSTRUCTIONS}
 

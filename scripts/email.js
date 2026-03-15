@@ -101,12 +101,12 @@ function buildStoryHtml(story, color) {
   return `
     <div style="background:#1A1918;border-radius:10px;padding:16px;margin-bottom:12px;border-left:3px solid ${color};">
       <div>${tag}${badgeHtml}</div>
-      <div style="font-family:'Georgia',serif;font-size:15px;font-weight:600;color:#F0EBE0;margin:6px 0;">${escapeHtml(story.title)}</div>
+      ${story.url ? `<a href="${escapeHtml(story.url)}" style="font-family:'Georgia',serif;font-size:15px;font-weight:600;color:#F0EBE0;text-decoration:none;display:block;margin:6px 0;">${escapeHtml(story.title)}</a>` : `<div style="font-family:'Georgia',serif;font-size:15px;font-weight:600;color:#F0EBE0;margin:6px 0;">${escapeHtml(story.title)}</div>`}
       <div style="font-size:13px;color:#A09888;line-height:1.5;margin:6px 0;">${escapeHtml(story.summary)}</div>
       <div style="font-size:12px;color:${color};margin-top:8px;">
         <strong>Takeaway:</strong> ${escapeHtml(story.takeaway || story.strategyTake || '')}
       </div>
-      ${story.source ? `<div style="font-size:11px;color:#6A6560;margin-top:4px;">Source: ${escapeHtml(story.source)}</div>` : ''}
+      ${story.url ? `<a href="${escapeHtml(story.url)}" style="font-size:11px;color:#6A6560;margin-top:4px;text-decoration:none;display:block;">📰 ${escapeHtml(story.source || 'Read article')} →</a>` : story.source ? `<div style="font-size:11px;color:#6A6560;margin-top:4px;">${escapeHtml(story.source)}</div>` : ''}
     </div>`;
 }
 
@@ -115,7 +115,7 @@ function buildToolPickHtml(pick, color) {
   return `
     <div style="background:#1A1918;border-radius:10px;padding:16px;margin-bottom:12px;border-left:3px solid ${color};">
       <div style="display:flex;justify-content:space-between;align-items:center;">
-        <span style="font-family:'Georgia',serif;font-size:15px;font-weight:600;color:#F0EBE0;">${escapeHtml(pick.name)}</span>
+        ${pick.url ? `<a href="${escapeHtml(pick.url)}" style="font-family:'Georgia',serif;font-size:15px;font-weight:600;color:#F0EBE0;text-decoration:none;">${escapeHtml(pick.name)}</a>` : `<span style="font-family:'Georgia',serif;font-size:15px;font-weight:600;color:#F0EBE0;">${escapeHtml(pick.name)}</span>`}
         <span style="background:${vibeColor}20;color:${vibeColor};padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600;text-transform:uppercase;">${escapeHtml(pick.vibe || 'tool')}</span>
       </div>
       <div style="font-size:12px;color:${color};font-style:italic;margin:4px 0;">${escapeHtml(pick.tagline || '')}</div>
@@ -142,7 +142,7 @@ function buildWatchNextHtml(items, color) {
   if (!items || items.length === 0) return '';
   const itemsHtml = items.map(item => `
     <div style="padding:8px 0;border-bottom:1px solid #2A2825;">
-      <div style="font-size:13px;font-weight:600;color:#F0EBE0;">${escapeHtml(item.title)}</div>
+      ${item.url ? `<a href="${escapeHtml(item.url)}" style="font-size:13px;font-weight:600;color:#F0EBE0;text-decoration:none;">${escapeHtml(item.title)}</a>` : `<div style="font-size:13px;font-weight:600;color:#F0EBE0;">${escapeHtml(item.title)}</div>`}
       <div style="font-size:12px;color:#A09888;margin-top:2px;">${escapeHtml(item.why)}</div>
     </div>
   `).join('');
