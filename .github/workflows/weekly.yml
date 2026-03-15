@@ -29,10 +29,7 @@ jobs:
         id: generate
         continue-on-error: true
         env:
-          # RSS + Gemini (free) — primary mode
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # Claude API (paid) — optional override
-          # ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/generate.js
 
       - name: Send email digest
