@@ -2,49 +2,49 @@
   "headline": "Top Models & Releases stories this week",
   "stories": [
     {
-      "title": "Luma AI's new Uni-1 image model tops Nano Banana 2 and GPT Image 1.5 on logic-based benchmarks",
-      "summary": "Luma AI takes on OpenAI and Google with Uni-1, a model that combines image understanding and generation in a single architecture and reasons through prompts as it creates. The article Luma AI's new Uni-1 image model tops Nano Banana 2 and GPT Image 1.5 on logic-based benchmarks appeared first on The",
+      "title": "Anthropic sues Pentagon as Claude downloads soar - Mashable",
+      "summary": "Anthropic sues Pentagon as Claude downloads soar Mashable",
+      "takeaway": "",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83YkVMaXpyQkZQZlM5MVNxcThCSENmeGdHbUg5dDRLSEExdjZ3amhiYzhqamNMRi1QVDFaVDRrYVV1SFIxVXA5dGFEcGpkT2x2MEltOTFfV2ZYekNabm52eVd3?oc=5",
+      "tag": "AI"
+    },
+    {
+      "title": "Claude AI discovered 22 Firefox flaws. Here's how many it figured out how to exploit. - Mashable",
+      "summary": "Claude AI discovered 22 Firefox flaws. Here's how many it figured out how to exploit. Mashable",
+      "takeaway": "",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KaUdDZHJRTVVhTnlUUGJYWTQ3VkR2N0syaTVJSjVoTklHcHFMbGtiZmIta2M0UzdZb1lxeUpFLXlQQl90Nk9FQXM2cndJMklDbDRsN2ZqeWhYeHotdWhoZndFM3hnYWpXdFA2VGM5QQ?oc=5",
+      "tag": "AI"
+    },
+    {
+      "title": "Anthropic is doubling Claude's usage limits during off-peak hours for the next two weeks - Engadget",
+      "summary": "Anthropic is doubling Claude's usage limits during off-peak hours for the next two weeks Engadget",
+      "takeaway": "",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPY2pWNWhmVXB0N0p3LUphWEFyMGZiZnU1UG9mSW5NOWFWMURxZGhJTTRRODdVMzlSc3NEeWhkZUl2SFQzbXlfRTNxVXdlX2dPai1LckUzcUtrdDlfMUNsV2c5VGI1NndNUzlMTTEtdHVjSzdhaktwQzQyNlFEa2hUc0ctTW5idjdZQWM1N2lMOXliSFQ1VDhlRzhVdDVacVF2bFkxbDdmWHJ1WXIxZ1pDMDQxMmZnOUdicGVBa3NCSlRpZmM1UDBHUU5n?oc=5",
+      "tag": "AI"
+    },
+    {
+      "title": "AI consultant uses ChatGPT, AlphaFold, and Grok to find a possible treatment for his dog's cancer",
+      "summary": "An Australian AI consultant used ChatGPT, AlphaFold, and Grok to find a possible treatment for his dog Rosie's incurable cancer. The story went viral after high-profile AI executives like OpenAI's Greg Brockman and Deepmind's Demis Hassabis shared it as proof of what AI can already do. The article A",
       "takeaway": "",
       "source": "Matthias Bastian",
-      "url": "https://the-decoder.com/luma-ais-new-uni-1-image-model-tops-nano-banana-2-and-gpt-image-1-5-on-logic-based-benchmarks/",
-      "tag": "AI"
-    },
-    {
-      "title": "LLM text data is drying up, but Meta points to unlabeled video as the next massive training frontier",
-      "summary": "A research team from Meta FAIR and New York University trained a multimodal AI model from scratch and found that several common assumptions about how these models should be built don't hold up. The article LLM text data is drying up, but Meta points to unlabeled video as the next massive training fr",
-      "takeaway": "",
-      "source": "Jonathan Kemper",
-      "url": "https://the-decoder.com/llm-text-data-is-drying-up-but-meta-points-to-unlabeled-video-as-the-next-massive-training-frontier/",
-      "tag": "AI"
-    },
-    {
-      "title": "Hallucinated references are passing peer review at top AI conferences and a new open tool wants to fix that",
-      "summary": "Fake citations are slipping past peer review at top AI conferences, and commercial LLMs can't spot the fakes they generate. A new open-source tool called CiteAudit allegedly catches what GPT, Gemini, and Claude miss. The article Hallucinated references are passing peer review at top AI conferences a",
-      "takeaway": "",
-      "source": "Jonathan Kemper",
-      "url": "https://the-decoder.com/hallucinated-references-are-passing-peer-review-at-top-ai-conferences-and-a-new-open-tool-wants-to-fix-that/",
-      "tag": "AI"
-    },
-    {
-      "title": "OpenAI's hardware and robotics chief quits over military deal she says lacked enough deliberation",
-      "summary": "OpenAI's head of robotics, Caitlin Kalinowski, is leaving the company over its Pentagon deal, citing concerns about mass surveillance and lethal autonomy. The article OpenAI's hardware and robotics chief quits over military deal she says lacked enough deliberation appeared first on The Decoder.",
-      "takeaway": "",
-      "source": "Matthias Bastian",
-      "url": "https://the-decoder.com/openais-hardware-and-robotics-chief-quits-over-military-deal-she-says-lacked-enough-deliberation/",
+      "url": "https://the-decoder.com/ai-consultant-uses-chatgpt-alphafold-and-grok-to-find-a-possible-treatment-for-his-dogs-cancer/",
       "tag": "AI"
     }
   ],
   "watchNext": [
     {
-      "title": "AI agent benchmarks obsess over coding while ignoring 92% of the US labor market, study finds",
-      "why": "A large-scale study shows that AI agent development focuses almost entirely on programming tasks, ignoring the vast majo",
-      "url": "https://the-decoder.com/ai-agent-benchmarks-obsess-over-coding-while-ignoring-92-of-the-us-labor-market-study-finds/",
+      "title": "Want more of Claude AI? Anthropic just gave all its users double the usage, but the offer is time limited - TechRadar",
+      "why": "Want more of Claude AI? Anthropic just gave all its users double the usage, but the offer is time limited TechRadar",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeXVoQVM1ZjVXUkJiYnU4d1FNUVJETnlJelVJVG9JXy1PQ0xOSkxEM2ZXYkdRakM0NVFWRFVvTk9PTmgteGQ0UGxEWmpxaThNZDY1T1pWaG5ZMXNKUDhqd3ltNGpSeFpQY1hlM3E4SDl6dXJTSEVWTk5vZzNtTzVkYW1qZElqTzE0dmo1azhiR3RTeXV5SXdWRkI3WERibDhfYmJxLTVaMnpMUC1Kd3g3b05vWWhLUE9FSEhqdkNmaG94bFBxYk0tRWtoY21CNWM?oc=5",
       "tag": "AI"
     },
     {
-      "title": "Trump administration drafts AI contract rules requiring companies to license systems for \"all lawful use\"",
-      "why": "New US guidelines for AI contracts would force companies to grant the government an irrevocable license for \"all lawful ",
-      "url": "https://the-decoder.com/trump-administration-drafts-ai-contract-rules-requiring-companies-to-license-systems-for-all-lawful-use/",
+      "title": "RL agents go from face-planting to parkour when researchers keep adding network layers",
+      "why": "While most reinforcement learning algorithms use two to five network layers, a research team achieved 2x to 50x performa",
+      "url": "https://the-decoder.com/rl-agents-go-from-face-planting-to-parkour-when-researchers-keep-adding-network-layers/",
       "tag": "AI"
     }
   ]
