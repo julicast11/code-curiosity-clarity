@@ -56,4 +56,4 @@ jobs:
           VITE_BASE: /code-curiosity-clarity/
         run: |
           npm run build
-          npx gh-pages -d dist -u "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          npx gh-pages -d dist -u "GitHub Actions <github-actions[bot]@users.noreply.github.com>"
