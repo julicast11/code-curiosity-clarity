@@ -1,31 +1,31 @@
 [
   {
-    "title": "Claude Opus 4.6 & Sonnet 4.6",
-    "summary": "anthropic just dropped 1M token context for Opus class models at normal prices. means you can dump entire codebases, long documents, whatever into one conversation without losing your mind or your wallet. fr this changes the game for long-form reasoning.",
-    "takeaway": "1M context window + 128K output, now at standard pricing",
+    "title": "Claude Sonnet 4.6",
+    "summary": "The new default free model on claude.ai with 1M context window & adaptive thinking. Lowkey the best value play rn—same $3/$15 pricing but way more capable for coding & long docs.",
+    "takeaway": "Free tier just got Opus-level reasoning at Sonnet pricing",
     "source": "AI Tool",
-    "url": "https://claude.com",
-    "tag": "LLM Model",
-    "readTime": 3,
-    "_tab": "tools-to-try"
-  },
-  {
-    "title": "Windsurf IDE",
-    "summary": "the first agentic IDE that actually lets you compare models side-by-side, plan before you code, and run multiple agents at once. cascade panes + live preview make it lowkey the best dev experience rn.",
-    "takeaway": "agentic IDE with Arena Mode, Plan Mode, and parallel multi-agent sessions",
-    "source": "AI Tool",
-    "url": "https://codeium.com/windsurf",
-    "tag": "Code Editor",
+    "url": "https://claude.ai",
+    "tag": "AI Model",
     "readTime": 2,
     "_tab": "tools-to-try"
   },
   {
-    "title": "Manus Browser Agent",
-    "summary": "Manus is literally your power intern — scopes tasks, shows you exactly what it did, and handles high-volume market research. not just black-box magic, you can actually audit it and learn from the replay.",
-    "takeaway": "consumer-facing AI agent with Task Replay for transparency + Wide Research mode",
+    "title": "Windsurf",
+    "summary": "IDEs finally got smart enough to actually think through your code. Multi-file refactors, terminal access, & the whole flow just works. Beats Cursor for repo-wide context rn.",
+    "takeaway": "The actual agentic IDE everyone's been waiting for",
     "source": "AI Tool",
-    "url": "https://manus.ai",
-    "tag": "AI Agent",
+    "url": "https://windsurf.dev",
+    "tag": "Developer Tools",
+    "readTime": 3,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "AssemblyAI Universal-Streaming",
+    "summary": "New model hits lightning-fast speech recognition at $0.15/hour. Perfect for building actual voice experiences without lag. Tbh this is the missing piece for voice agent devs.",
+    "takeaway": "~300ms latency speech-to-text built for voice agents",
+    "source": "AI Tool",
+    "url": "https://assemblyai.com",
+    "tag": "Voice AI",
     "readTime": 2,
     "_tab": "tools-to-try"
   }

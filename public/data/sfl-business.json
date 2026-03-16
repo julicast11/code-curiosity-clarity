@@ -1,63 +1,63 @@
 {
-  "headline": "South Florida's real estate & tech boom keeps rolling — billionaires flooding in, mega-projects coming online",
+  "headline": "south florida economy stays strong as tech & startup vibes keep building momentum",
   "stories": [
     {
-      "title": "Miami Ranked #5 for Net Inbound Migration in US",
-      "summary": "Miami's climbing the rankings as a destination for relocation, driven by its strong job market and appeal to wealthy residents. The city's economic momentum is legit fr.",
-      "takeaway": "People are literally moving to Miami in droves—unemployment sits at just 2.4%, making this the place to be if you're hunting for work.",
-      "source": "Miami Realtors",
-      "url": "https://www.miamirealtors.com/2026/03/13/monday-march-16-2026-south-florida-real-estate-market-articles/",
-      "tag": "Migration & Growth",
-      "sector": "Real Estate",
+      "title": "ChatRank Founder Wins spARK Labs Innovation Showcase, Takes Bootstrap Route",
+      "summary": "Jon Mest fr lowkey chose to bootstrap his startup ChatRank after winning an Ark Invest innovation competition. dude's betting on self-funding over traditional VC right now.",
+      "takeaway": "bootstrapping is back in a weird way tbh, even when the funding's there to take",
+      "source": "Business Observer",
+      "url": "https://www.businessobserverse.com/",
+      "tag": "startups",
+      "sector": "Technology",
       "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "FAA Approves Permits for 47-Story Mixed-Use Tower in Fort Lauderdale",
-      "summary": "11 Andrews, a major downtown development, just got the green light to rise 496 feet. This is another big win for FTL's skyline transformation.",
-      "takeaway": "Fort Lauderdale's downtown is lowkey becoming a real estate powerhouse—mega-towers keep getting approved as the city doubles down on development.",
-      "source": "Florida YIMBY",
-      "url": "https://floridayimby.com/category/downtown-fort-lauderdale-2",
-      "tag": "Development",
-      "sector": "Real Estate",
-      "readTime": 2,
+      "title": "Fort Lauderdale Downtown Economy Explodes 20% Since 2022, Becomes Regional Tech Hub",
+      "summary": "Fort Lauderdale's downtown is literally driving $43B in annual economic impact & growing 20% since 2022. Napster Corp planning a 60-acre HQ with 1,000 jobs is the cherry on top.",
+      "takeaway": "downtown ft lauderdale lowkey becoming the real tech epicenter, not just miami's little sibling",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com",
+      "tag": "economic-growth",
+      "sector": "Real Estate & Development",
+      "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Fort Lauderdale's Downtown Economic Impact Surges 20% Since 2022",
-      "summary": "Tech, finance, and creative industries are driving serious growth in downtown FTL—total economic impact jumped 44% since 2019. The 'Wall Street of the South' is no joke.",
-      "takeaway": "Fort Lauderdale's becoming a legit rival to Miami with major tech headquarters like Napster Corp moving in, plus nearly 117k tech workers already based there.",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/fort-lauderdale-on-the-rise-new-report-shows-how-tech-and-finance-combine-to-fuel-economic-growth/",
-      "tag": "Tech & Finance",
-      "sector": "Economic Development",
+      "title": "Florida's Economic Outlook 2026: Growth Outpacing Nation, Housing Market Stabilizing",
+      "summary": "Florida's expected to keep beating national GDP growth in 2026 with unemployment around 4.2-4.3%. Housing prices stabilizing after rapid growth = market cooling into normalization.",
+      "takeaway": "florida economy's still flexing harder than the nation, just at a chill pace now",
+      "source": "Florida Chamber Foundation",
+      "url": "https://www.flchamber.com/florida-2026-economic-outlook/",
+      "tag": "macro-economy",
+      "sector": "Economics",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "Miami Beach Hotels Hit Highest Rates Globally for New Year, Occupancy at 93%",
-      "summary": "Miami Beach crushing it in hospitality—avg daily room rates hit $353 in January (up 8% YoY) with peak occupancy reaching 93%. The city's basically sold out.",
-      "takeaway": "Tourists are spending big on South Florida stays, which means serious revenue for hotels & the broader economy. This momentum keeps building.",
-      "source": "Miami Beach Community News",
-      "url": "https://communitynewspapers.com/miami-beach-news/miami-beachs-economy-is-strong/",
-      "tag": "Hospitality",
-      "sector": "Tourism & Hospitality",
+      "title": "South Florida Tourism Gears Up for 2026 With Major Events & New Infrastructure",
+      "summary": "Fort Lauderdale tourism expecting modest 1-3% growth in 2026, boosted by Formula 1, PGA tournaments & the new Omni hotel. Broward positioned to capture all those south & north bound travelers.",
+      "takeaway": "major events + new hotel infrastructure = south florida about to see that tourism money flow",
+      "source": "Sun Sentinel",
+      "url": "https://www.sun-sentinel.com/business/",
+      "tag": "tourism",
+      "sector": "Hospitality & Tourism",
       "readTime": 3,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "FAA Cuts Flights by 10% at Miami & Fort Lauderdale Airports",
-      "why": "Flight reductions due to staffing pressures will impact travel & commerce in South Florida—worth monitoring how this affects business travel.",
-      "url": "https://www.wlrn.org/business",
-      "tag": "Transportation"
+      "title": "Miami & Angels Angel Investor Networks Merging to Create Statewide Powerhouse",
+      "why": "when major local angel networks combine fr, something big is cooking for startup funding in south florida",
+      "url": "https://refreshmiami.com",
+      "tag": "venture-capital"
     },
     {
-      "title": "Fort Lauderdale Convention Center Expansion Opening 2026",
-      "why": "The massive expansion adds 525k sq ft of space & a new waterfront ballroom—this could seriously boost event business & tourism revenue.",
-      "url": "https://www.broward.org/CCExpansion/Pages/Default.aspx",
-      "tag": "Infrastructure"
+      "title": "Tech Hub Pulse 2026 Conference Explores AI, Space-Defense Tech & Economic 'Super Cycle'",
+      "why": "speakers fr saying next 60 months could see 3-5 major IPOs & a shift to deploying capital regionally, lowkey defining what's next",
+      "url": "https://techhubsouthflorida.org/",
+      "tag": "conferences"
     }
   ]
 }

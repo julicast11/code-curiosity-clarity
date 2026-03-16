@@ -1,71 +1,71 @@
 {
-  "headline": "Enterprise AI Just Hit Reality Check: Scale Over Hype is the New Power Move",
+  "headline": "The Great AI Reality Check: Companies Moving from Pilots to Payoff",
   "stories": [
     {
-      "title": "CIOs Rewiring Companies for Growth—But Most Are Still Stuck in Pilot Hell",
-      "summary": "McKinsey's 2026 research shows top CIOs deploying agentic AI and data monetization at scale, yet 67% of companies remain trapped in experimentation mode instead of driving real business transformation.",
-      "takeaway": "Lowkey, the companies winning aren't better at tech—they're better at organizational design. DBS Bank's product-platform model cut decision cycles from months to days.",
-      "source": "McKinsey Digital",
-      "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/mckinsey-global-tech-agenda-2026",
-      "tag": "Enterprise Transformation",
-      "company": "DBS Bank",
+      "title": "AI Transformation's \"Last Mile\" Problem",
+      "summary": "Companies are hitting a wall converting AI pilots into real business value—it's not about better tech, it's about redesigning ops and culture.",
+      "takeaway": "88% of orgs use AI in some function, but only 1-in-10 deployed agents past pilot. The gap between experimentation and actual impact is widening.",
+      "source": "Harvard Business Review",
+      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
+      "tag": "transformation",
+      "company": "Enterprise leaders",
       "shift": "long-term",
-      "strategyTake": "AI success is behavioral, not technical. Companies scaling fastest focus on how humans and AI work together, not just replacing jobs.",
+      "strategyTake": "Stop building disconnected pilots. Scale AI through enterprise-wide programs with real ops redesign, not just tool rollouts.",
       "readTime": 8,
-      "paywalled": false
+      "paywalled": true
     },
     {
-      "title": "Big Tech's \"People-Intensive to Compute-Intensive\" Pivot Is Reshaping Labor Markets",
-      "summary": "Amazon, Google, and Meta are strategically shifting from hiring to AI, marking a structural (not cyclical) workforce reset with 16,000+ corporate roles eliminated in early 2026—the start of a \"jobless growth\" era.",
-      "takeaway": "This isn't just rightsizing. Companies are systematically building \"AI-first\" operating models where compute replaces headcount. Tech unemployment hit 4.4% by March 2026.",
-      "source": "Financial Times",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-9-the-great-decoupling-can-the-us-labor-market-survive-the-ai-driven-tech-purge-of-2026",
-      "tag": "Workforce & Economics",
-      "company": "Amazon, Google, Meta",
+      "title": "Scaling AI Is Actually About Redesigning Your Entire Workforce",
+      "summary": "BCG's analysis shows companies winning at AI aren't just deploying tech—they're fundamentally restructuring how teams work with AI as collaborators.",
+      "takeaway": "CHROs are becoming architects of \"hybrid workforces,\" redesigning roles so humans + AI agents work together. It's an org restructure, not an IT project.",
+      "source": "BCG",
+      "url": "https://www.bcg.com/publications/2026/reinvention-of-the-chro-in-an-ai-driven-enterprise",
+      "tag": "talent-transformation",
+      "company": "Global enterprises",
       "shift": "long-term",
-      "strategyTake": "The competitive advantage is now measured by compute-to-output ratios, not headcount. Margin improvement via AI agents becomes the default playbook.",
-      "readTime": 7,
-      "paywalled": false
-    },
-    {
-      "title": "Microsoft's Agentic AI Bet Could Capture 10X Market Growth—If Enterprises Can Actually Deploy",
-      "summary": "Microsoft positioned across Azure, Foundry, and Fabric to dominate the agentic AI market (projected to grow from $5.2B to $52.6B by 2030), yet 40% of agentic projects will fail because orgs keep automating broken processes.",
-      "takeaway": "Fr, Microsoft's infrastructure play is solid, but the real bottleneck isn't tech—it's that companies redesign processes *after* deploying agents instead of redesigning *first*.",
-      "source": "Stratechery + Motley Fool Analysis",
-      "url": "https://www.fool.com/investing/2026/03/09/the-agentic-ai-market-could-grow-10x-by-2030-this/",
-      "tag": "Agentic AI Infrastructure",
-      "company": "Microsoft",
-      "shift": "long-term",
-      "strategyTake": "Winners will be companies that view AI as a capital-efficient operating engine, not an expense. Microsoft's 25.7x P/E vs. 33.7x historical shows the market is pricing in massive ROI.",
+      "strategyTake": "Treat AI adoption like you'd treat a merger. Redefine roles, redesign workflows, and invest heavily in talent development. Culture matters more than models.",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "The 'Last Mile' Problem: Why AI Pilots Stay Pilots While Competitors Scale",
-      "summary": "Harvard Business Review reveals seven friction points (pilot proliferation, process debt, agentic governance) preventing AI transformation, with most companies confusing tools deployment with business model redesign.",
-      "takeaway": "Tbh, the companies killing it aren't smarter—they're patient. They redesign workflows *before* adding agents, not reverse-engineering it after the fact.",
-      "source": "Harvard Business Review",
-      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
-      "tag": "Transformation Execution",
-      "company": "Enterprise across sectors",
+      "title": "JPMorgan Chase Reclassifies AI From \"R&D\" to \"Core Infrastructure\"",
+      "summary": "JPMorgan's pivoting its entire playbook—moving AI from experimental pilot spending to mission-critical infrastructure with measurable bottom-line impact.",
+      "takeaway": "This signals a seismic shift: AI is no longer optional or experimental. Banks embedding it into core ops (productivity, security, personalization) see real ROI.",
+      "source": "Tech industry reports",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "tag": "banking-strategy",
+      "company": "JPMorgan Chase",
       "shift": "long-term",
-      "strategyTake": "\"Clean-sheet process redesign\" beats incremental automation. Companies that survive 2026 will obsess over capturing knowledge and managing digital workforce governance from day one.",
-      "readTime": 9,
-      "paywalled": true
+      "strategyTake": "The winners are treating AI like infrastructure, not tools. Move budget from \"try it\" to \"build it at scale\" with governance and accountability baked in.",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Why AI Adoption Failures Hit When Companies Automate Broken Processes",
+      "summary": "Gartner predicts 40% of agentic AI projects will fail by 2027—not because tech doesn't work, but because orgs are automating broken ops instead of redesigning them first.",
+      "takeaway": "The trap: Taking your messy, human-centered process and just \"automating\" it with agents. Real wins come from rethinking the process itself.",
+      "source": "Deloitte Tech Trends 2026",
+      "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends.html",
+      "tag": "execution-risk",
+      "company": "Enterprise organizations",
+      "shift": "long-term",
+      "strategyTake": "Before automating anything, redesign it. Ask \"How should this work if AI could do any part of it?\" not \"How do I automate what we do today?\"",
+      "readTime": 7,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "How Organizations Are Actually Doing Agentic AI (Without the Hype)",
-      "why": "MIT Sloan + BCG study of 2,000 leaders shows the four core tensions orgs must navigate: scalability vs. adaptability, predictability vs. flexibility, control vs. autonomy, and accountability vs. emergence. Lowkey the most honest framework out there.",
-      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/how-to-navigate-age-agentic-ai",
-      "tag": "Leadership Framework"
+      "title": "Microsoft's AI Transformation Hitting the Wall: A $357B Valuation Correction",
+      "why": "Microsoft's facing a major test—Azure growth slowed, and investors questioned whether massive CapEx translates to actual revenue. Worth watching how they pivot from infrastructure to monetization.",
+      "url": "https://stratechery.com/2026/microsoft-and-software-survival/",
+      "tag": "big-tech-pivot"
     },
     {
-      "title": "Why Tech Giants Are Pivoting to \"Capital Discipline\" Over AI Hype",
-      "why": "Morgan Stanley report flagged 2026 as the year AI moves from \"potential\" to \"performance,\" forcing capital reallocation toward compute intensity + margin expansion. Consumer staples now outpacing tech—the \"Great Defensive Pivot\" is real.",
-      "url": "https://creati.ai/ai-news/2026-03-14/morgan-stanley-2026-ai-capability-breakthrough-market-disruption-report/",
-      "tag": "Market Dynamics"
+      "title": "Morgan Stanley: A Massive AI Breakthrough Is Coming H1 2026—and Most Orgs Aren't Ready",
+      "why": "Morgan Stanley's warning about \"transformative AI\" imminent. Lowkey this could shift everything—if they're right about 10x compute = 2x intelligence, the landscape changes fast.",
+      "url": "https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/",
+      "tag": "market-inflection"
     }
   ]
 }

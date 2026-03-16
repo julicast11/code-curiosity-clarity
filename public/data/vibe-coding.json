@@ -1,63 +1,63 @@
 {
-  "headline": "Cursor hits $50B valuation while Claude Code dominates with $2.5B revenue — agentic coding era is here",
+  "headline": "Agentic Era Arrives: Claude Code Dominates, Replit Hits $9B, Copilot Gets Claude Superpowers",
   "stories": [
     {
-      "title": "Cursor seeking $50B valuation, doubles revenue in 3 months",
-      "summary": "AI coding startup Cursor is in talks for a funding round that would value it at $50B, nearly doubling from its Nov $29.3B valuation. The company hit $2B annualized revenue in Feb, which doubled in just 3 months, fr lowkey insane for a 4-year-old startup.",
-      "takeaway": "Enterprise adoption is driving sustainable growth. Cursor's shift to 60% enterprise revenue + new cloud agents launching shows agentic coding is moving from side tool to production infrastructure.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-12-ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation",
-      "tag": "Cursor",
-      "type": "news",
-      "readTime": 4,
-      "paywalled": true
+      "title": "Claude Code Goes From Zero to Number One in 8 Months",
+      "summary": "Claude Code absolutely ate in 2026 — launched May 2025 and by early March hit 46% \"most loved\" rating among devs. Cursor's at 19%, Copilot's sitting at 9%, and basically everyone's using 2-3 tools now depending on the task.",
+      "takeaway": "Claude Code's agentic workflow (no tab completions, just prompts → review) flipped the entire landscape. It's lowkey the best for big refactors and multi-file changes, but the pricing tiers ($20 → $100 → $200) can sting.",
+      "source": "DEV Community",
+      "url": "https://dev.to/alexcloudstar/claude-code-vs-cursor-vs-github-copilot-the-2026-ai-coding-tool-showdown-53n4",
+      "tag": "Claude Code",
+      "type": "comparison",
+      "readTime": 8,
+      "paywalled": false
     },
     {
-      "title": "Cursor launches cloud agents & automations — devs becoming managers of AI factories",
-      "summary": "Cursor rolled out autonomous cloud agents that run on their own, plus automations that trigger agents via Slack/GitHub events. Agent users now 2x tab users, marking a shift from prompt-and-response to set-and-forget agentic work.",
-      "takeaway": "The third era of AI coding just arrived. Developers are moving from writing code → directing agents → managing fleets of AI workers. Cursor reports 1/3 of their PRs are now agent-generated.",
-      "source": "Cursor Blog",
-      "url": "https://cursor.com/changelog",
-      "tag": "Cursor",
-      "type": "product",
+      "title": "Replit Closes $400M at $9B Valuation — 3x Jump",
+      "summary": "Replit literally tripled its valuation after previous round. The vibe coding OG now has a full cloud IDE with Ghostwriter, Agent, and hosting built-in. Databricks, Okta, Shaq, YC all in.",
+      "takeaway": "Replit's not just generating code anymore — it's the full stack (database, auth, deployment). Built-in security scanner catches AI mistakes before deploy. This is why founders are shipping MVPs in weeks instead of months.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/03/12/vibe-coding-startup-replit-closes-400m-round-9b-valuation/",
+      "tag": "Replit",
+      "type": "funding",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Claude Code hits $2.5B revenue, pushes Anthropic toward $2B+ annual run rate",
-      "summary": "Anthropic's Claude Code generated $2.5B annualized revenue by Feb 2026, doubling from Nov. Time mag reports Cherny (lead dev) stopped writing code entirely, letting Claude Code handle everything — no human fallback needed anymore.",
-      "takeaway": "Claude Code Security discovered 500+ vulnerabilities in production codebases that humans missed for decades. This isn't just about speed — it's about finding bugs humans can't see. Anthropic's doubling quotas Mar 13-27 to manage demand surge.",
-      "source": "Time Magazine & Anthropic",
-      "url": "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/",
-      "tag": "Claude Code",
-      "type": "news",
-      "readTime": 6,
+      "title": "Microsoft Adds Claude to Copilot (March 9) — The Plot Thickens",
+      "summary": "Microsoft literally buried the lede: enterprise users can now pick Claude over GPT in M365, Copilot Studio, and GitHub Copilot. Wave 3 went full multi-model. Anthropic became a Microsoft subprocessor on Jan 6.",
+      "takeaway": "This is wild fr — Microsoft invested billions in Anthropic while having a $135B stake in OpenAI. They essentially said \"our partner's model isn't good enough for everything,\" which is the most honest product review ever. Now Copilot's not locked into one vendor.",
+      "source": "Build MVP Fast",
+      "url": "https://www.buildmvpfast.com/blog/microsoft-copilot-claude-anthropic-multi-model-enterprise-2026",
+      "tag": "Copilot",
+      "type": "update",
+      "readTime": 7,
       "paywalled": false
     },
     {
-      "title": "GitHub kills free Copilot Pro for 2M students, restricts model selection Mar 12",
-      "summary": "GitHub rolled out new 'Copilot Student plan' on Mar 12, blocking students from manually selecting Claude Opus, Sonnet, or GPT-5.4 — only Auto mode routing available now. Community forum got 1,836 downvotes. tbh this is kinda rough for learning devs who built workflows around specific models.",
-      "takeaway": "Frontier models too expensive to give away freely anymore. Even Microsoft-backed platforms are pulling back. Shows the hidden economics of bundled model access are breaking down across the industry.",
-      "source": "GitHub Blog",
-      "url": "https://eplus.dev/github-copilot-for-students-what-changed-in-march-2026",
-      "tag": "GitHub Copilot",
-      "type": "news",
-      "readTime": 3,
+      "title": "Simon Willison on Agentic Engineering: \"The New Thing Is You Don't Read the Code\"",
+      "summary": "At Pragmatic Summit (March 14), Simon dropped a fireside chat breakdown on how devs are adopting AI coding in phases. Started with ChatGPT questions, then agents writing bits of code, then agents writing MORE code than humans. Now? \"Three weeks ago, you don't read the code.\"",
+      "takeaway": "The lethal trifecta warning is real — sandboxing agents is critical. Devs are legit trusting AI without review cycles now, which is lowkey terrifying if you're thinking security. But also... that's the efficiency frontier.",
+      "source": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/",
+      "tag": "agentic-engineering",
+      "type": "conference",
+      "readTime": 6,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Anthropic's Claude Partner Network — $100M investment into enterprise adoption",
-      "why": "Anthropic just announced Claude Certified Architect certifications + partner training program. Signal that Claude is going full enterprise play. This is how coding agents move from novelty to production backbone.",
-      "url": "https://releasebot.io/updates/anthropic",
-      "tag": "Claude Code"
+      "title": "The Real Cost of AI Coding in 2026 (Token Burn & Hidden Fees)",
+      "why": "Every tool says \"build free\" but token costs are wild. Taskade Genesis at $6/mo vs Lovable at $25+ vs Bolt's per-request model. Need to know what you're actually paying for before scaling.",
+      "url": "https://www.taskade.com/blog/best-bolt-new-alternatives",
+      "tag": "pricing"
     },
     {
-      "title": "Cursor ACP in JetBrains IDEs + 30 new plugins from Atlassian, GitLab, Datadog",
-      "why": "Cursor expanded to JetBrains (Mar 4) + launched plugin marketplace with 30+ integrations by Mar 11. Shows agentic coding shifting from standalone tools to full IDE ecosystem. Enterprise will go where IDE tooling lives.",
-      "url": "https://cursor.com/changelog",
-      "tag": "Cursor"
+      "title": "GitHub Copilot Student Plan Restrictions (March 12 Update)",
+      "why": "Two million students just got their model selection taken away. Can't manually pick Claude Opus or GPT-5.4 anymore — stuck with Auto mode. Wild move mid-semester.",
+      "url": "https://github.com/orgs/community/discussions/189268",
+      "tag": "copilot"
     }
   ]
 }

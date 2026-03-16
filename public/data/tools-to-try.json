@@ -1,63 +1,63 @@
 {
-  "headline": "AI's hitting different this week — Claude's 1M context went live, Windsurf's still flexing as the agentic IDE, and everyone's obsessed with agents. honestly, the vibe is less 'new shiny tools' and more 'previous tools just got way smarter'",
+  "headline": "Claude 4.6 Opus & New Models Dominate—Agent Era Officially Here",
   "picks": [
     {
-      "name": "Claude Opus 4.6 & Sonnet 4.6",
-      "tagline": "1M context window + 128K output, now at standard pricing",
-      "summary": "anthropic just dropped 1M token context for Opus class models at normal prices. means you can dump entire codebases, long documents, whatever into one conversation without losing your mind or your wallet. fr this changes the game for long-form reasoning.",
-      "tryIt": "claude.com",
-      "url": "https://claude.com",
-      "tag": "LLM Model",
+      "name": "Claude Sonnet 4.6",
+      "tagline": "Free tier just got Opus-level reasoning at Sonnet pricing",
+      "summary": "The new default free model on claude.ai with 1M context window & adaptive thinking. Lowkey the best value play rn—same $3/$15 pricing but way more capable for coding & long docs.",
+      "tryIt": "claude.ai",
+      "url": "https://claude.ai",
+      "tag": "AI Model",
       "vibe": "freemium",
-      "bestFor": "developers, researchers, anyone doing deep dives on massive docs",
-      "readTime": 3
-    },
-    {
-      "name": "Windsurf IDE",
-      "tagline": "agentic IDE with Arena Mode, Plan Mode, and parallel multi-agent sessions",
-      "summary": "the first agentic IDE that actually lets you compare models side-by-side, plan before you code, and run multiple agents at once. cascade panes + live preview make it lowkey the best dev experience rn.",
-      "tryIt": "codeium.com/windsurf",
-      "url": "https://codeium.com/windsurf",
-      "tag": "Code Editor",
-      "vibe": "freemium",
-      "bestFor": "devs who want AI agents actually integrated into their workflow",
-      "readTime": 2
-    },
-    {
-      "name": "Manus Browser Agent",
-      "tagline": "consumer-facing AI agent with Task Replay for transparency + Wide Research mode",
-      "summary": "Manus is literally your power intern — scopes tasks, shows you exactly what it did, and handles high-volume market research. not just black-box magic, you can actually audit it and learn from the replay.",
-      "tryIt": "manus.ai",
-      "url": "https://manus.ai",
-      "tag": "AI Agent",
-      "vibe": "freemium",
-      "bestFor": "researchers, marketers, anyone who needs to delegate bulk comparison work",
+      "bestFor": "coders & writers who were waiting for free tier to get good",
       "readTime": 2
     },
     {
       "name": "Gemini 3.1 Pro",
-      "tagline": "$2/$12 pricing, 77.1% ARC-AGI performance, voice + video processing",
-      "summary": "Google just made reasoning models actually affordable. the price-to-performance ratio is insane, full video parsing, multilingual voice, and tiered thinking levels. basically the budget breakthrough everyone was waiting for.",
-      "tryIt": "google.com/gemini",
-      "url": "https://google.com/gemini",
-      "tag": "LLM Model",
+      "tagline": "Same price as Gemini 3 Pro, literally 2x the reasoning power",
+      "summary": "New model hitting 77.1% on ARC-AGI-2 reasoning benchmark—that's insane for the cost. Zero price increase means you're just getting free performance gains, which fr feels like a flex from Google.",
+      "tryIt": "gemini.google.com",
+      "url": "https://gemini.google.com",
+      "tag": "AI Model",
       "vibe": "freemium",
-      "bestFor": "builders with limited budgets, anyone needing multimodal AI",
+      "bestFor": "teams already in Google Workspace who want reasoning without paying more",
+      "readTime": 2
+    },
+    {
+      "name": "Windsurf",
+      "tagline": "The actual agentic IDE everyone's been waiting for",
+      "summary": "IDEs finally got smart enough to actually think through your code. Multi-file refactors, terminal access, & the whole flow just works. Beats Cursor for repo-wide context rn.",
+      "tryIt": "windsurf.dev",
+      "url": "https://windsurf.dev",
+      "tag": "Developer Tools",
+      "vibe": "freemium",
+      "bestFor": "engineers tired of context-switching between tools",
       "readTime": 3
+    },
+    {
+      "name": "AssemblyAI Universal-Streaming",
+      "tagline": "~300ms latency speech-to-text built for voice agents",
+      "summary": "New model hits lightning-fast speech recognition at $0.15/hour. Perfect for building actual voice experiences without lag. Tbh this is the missing piece for voice agent devs.",
+      "tryIt": "assemblyai.com",
+      "url": "https://assemblyai.com",
+      "tag": "Voice AI",
+      "vibe": "paid",
+      "bestFor": "builders shipping voice-first agents",
+      "readTime": 2
     }
   ],
   "watchNext": [
     {
-      "title": "🎙️ The Next Wave Podcast — Is 2026 shaping up to be the year AI agents become indispensable?",
-      "why": "matt wolfe & joe fier break down the explosion of new models (claude 4.6, gemini 3.1, grok 4.2) and the rise of agentic AI. covers openClaw, how meta & ElevenLabs are building emotionally-aware agents, and whether agents will actually outpace GPT updates.",
-      "url": "https://podcasts.apple.com/us/podcast/the-next-wave-ai-and-the-future-of-technology/id1738550343",
-      "tag": "Podcast"
+      "title": "ByteDance Halts Seedance 2.0 Global Launch Amid Hollywood Copyright Disputes",
+      "why": "Video generation tool drama continues—shows how copyright & AI creation is the real bottleneck rn, not the tech itself",
+      "url": "https://theinformation.com",
+      "tag": "Future Tools News"
     },
     {
-      "title": "Future Tools News Feed — Mar 9-15 digest by Matt Wolfe",
-      "why": "ByteDance halts Seedance 2.0 (hollywood copyright drama), meta's cutting 20% headcount (AI costs rising), xAI poaches Cursor leaders. if you need the week's biggest headlines in one place, matt's got the receipts.",
-      "url": "https://futuretools.io/news",
-      "tag": "News Roundup"
+      "title": "🎙️ The Next Wave: AI Agents vs GPT-5 — Which Actually Wins in 2026?",
+      "why": "Matt Wolfe & Joe Fier break down why agents are eating models for lunch. Worth 20 mins if you're building anything",
+      "url": "https://podcasts.apple.com/us/podcast/the-next-wave-ai-and-the-future-of-technology/id1738550343",
+      "tag": "Podcast"
     }
   ]
 }

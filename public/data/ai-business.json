@@ -1,63 +1,63 @@
 {
-  "headline": "AI agents moving from hype to production; adoption challenges become the bottleneck",
+  "headline": "AI Transforms Into Autonomous Workers—Agents Take Over Real Workflows",
   "stories": [
     {
-      "title": "AI Agents Shift From Tool to Autonomous Co-worker",
-      "summary": "Ethan Mollick says companies need to stop treating AI as a better chatbot and start managing it as a system that performs hours of autonomous work. AI agents are reshaping strategy, coding, and risk assessment across enterprises.",
-      "takeaway": "The real business value from AI comes from agents that work independently, not chatbots that answer questions. Companies that treat AI as an autonomous co-worker will pull ahead.",
-      "source": "One Useful Thing",
-      "url": "https://nationaltoday.com/us/ny/new-york/news/2026/03/12/wharton-professor-ethan-mollick-sees-ai-shifting-from-chatbot-to-coworker/",
-      "tag": "Agents",
-      "industry": "Enterprise Software",
+      "title": "Morgan Stanley Warns of Massive AI Breakthrough Coming in H1 2026",
+      "summary": "Morgan Stanley predicts a transformative AI leap is imminent, driven by unprecedented compute accumulation at US labs. The bank warns most of the world isn't ready—expect AI to become a deflationary force as tools replicate human work at fraction of the cost.",
+      "takeaway": "Tbh the biggest shock isn't the capability jump, it's how fast companies are restructuring around this. AI stops being a tool you use and starts being your coworker.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/",
+      "tag": "Capability",
+      "industry": "Enterprise",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "The Last Mile Problem: Why AI Transformation Stalls",
-      "summary": "Most companies are stuck in pilots—the real bottleneck isn't model quality or data, it's actually changing how work gets done. Fundamental workflow redesign is key to unlocking EBIT impact from gen AI.",
-      "takeaway": "Having great AI tech means nothing if you don't restructure the business around it. The hardest part of AI adoption is organizational change, not technology.",
-      "source": "Harvard Business Review",
-      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
-      "tag": "Adoption",
-      "industry": "Enterprise",
-      "readTime": 7,
-      "paywalled": true
+      "title": "OpenAI's GPT-5.4 Thinking Hits Human Expert Level on Knowledge Work Benchmarks",
+      "summary": "OpenAI's new model scored 83% on GDPVal benchmark with computer-use abilities. This shifts AI from chat partner to actual digital coworker handling spreadsheets, documents, and autonomous workflows—stuff that was impossible a year ago.",
+      "takeaway": "This isn't just better outputs—it's literally AI operating your software for you. Lowkey the most important thing that happened this week but everyone's focused on the drama.",
+      "source": "AI Forum",
+      "url": "https://aiforum.org.uk/ai-news-roundup-march-09-2026/",
+      "tag": "Agents",
+      "industry": "Software",
+      "readTime": 4,
+      "paywalled": false
     },
     {
-      "title": "OpenAI's Competitive Gamble: Can It Survive Without Unique Tech?",
-      "summary": "Benedict Evans argues OpenAI faces a critical problem—no unique technology, narrow user engagement, and zero network effects while incumbents have matched the tech and product distribution. The real value will come from new experiences OpenAI can't invent alone.",
-      "takeaway": "OpenAI's dominance isn't guaranteed. Microsoft, Google, and Meta are catching up fast. The winner will be whoever invents the new experiences on top of AI models.",
-      "source": "Benedict Evans",
-      "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
-      "tag": "Competition",
-      "industry": "AI Infrastructure",
+      "title": "McKinsey: Agentic AI Adoption Challenges Are Experiential, Not Technical",
+      "summary": "McKinsey's latest research shows most orgs are still stuck scaling gen AI. The real blocker isn't the tech—it's getting people to actually use it and trust it. Basically, building the tools is easy, making humans work with them is the hard part.",
+      "takeaway": "Fr the limiting factor is organizational behavior, not LLM quality. Companies spending millions on AI but their teams are like 'idk how to use this.' Classic enterprise problem.",
+      "source": "McKinsey QuantumBlack",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/generative-ai",
+      "tag": "Adoption",
+      "industry": "Enterprise",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "MIT's AI Energy Crisis: Can Infrastructure Keep Up?",
-      "summary": "Data centers are becoming a grid asset, not just company infrastructure. IEA projects AI energy use could hit 945 TWh by 2030 (up from 415 TWh in 2024), forcing utilities to negotiate 100+ megawatt connections and sparking community pushback.",
-      "takeaway": "AI capex and energy constraints are real bottlenecks now. The companies that secure reliable power and computational resources will win the infrastructure race.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/",
-      "tag": "Infrastructure",
-      "industry": "Energy/Computing",
-      "readTime": 6,
+      "title": "a16z: 2026 Marks Death of the Prompt Box—AI Goes Invisible and Proactive",
+      "summary": "a16z predicts the prompt interface disappears this year. AI stops waiting for instructions and starts observing you, then intervenes proactively. Your IDE suggests refactors before you ask, your CRM drafts emails when calls end, your design tool generates variations as you work.",
+      "takeaway": "Chat was training wheels. Now AI becomes invisible scaffolding woven through every workflow. The biggest shift isn't smarter models—it's the UX vanishing entirely.",
+      "source": "a16z",
+      "url": "https://a16z.com/newsletter/big-ideas-2026-part-2/",
+      "tag": "UX",
+      "industry": "Enterprise",
+      "readTime": 7,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Agentic Commerce: $3-5 Trillion Opportunity by 2030",
-      "why": "McKinsey's research shows AI-mediated discovery and evaluation are scaling fast in e-commerce. This is where the next wave of AI value capture happens—not in chat but in autonomous purchasing workflows.",
-      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/europes-agentic-commerce-moment-decision-influence-is-here-execution-is-coming",
-      "tag": "Commerce"
+      "title": "Benedict Evans Keynote at B2BMX 2026: AI Eats the World Platform Shift Analysis",
+      "why": "Evans breaks down AI as a platform shift comparable to PCs and smartphones, not electricity. Shows why 2026's startup winners look nothing like last year's. Essential macro framing.",
+      "url": "https://www.demandgenreport.com/industry-news/feature/b2bmx-2026-benedict-evans-explores-the-next-major-platform-shift-business-impacts-of-ai/52074/",
+      "tag": "Strategy"
     },
     {
-      "title": "2026 Is the Death of the Prompt Box",
-      "why": "a16z predicts the next wave of AI apps will have zero visible prompting—they'll observe your behavior and act proactively. This shift from instruction-based to intent-based AI is the interface reckoning everyone's waiting for.",
-      "url": "https://a16z.com/newsletter/big-ideas-2026-part-2/",
-      "tag": "Product Design"
+      "title": "MIT Tech Review: Operational AI Gap—Why 40% of Agentic Projects Will Fail",
+      "why": "Gartner predicts over 40% of agentic AI projects will be cancelled by 2027. This deep dive explains the actual blockers: cost, inaccuracy, governance. Not hype—the hard conversations.",
+      "url": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
+      "tag": "Reality-Check"
     }
   ]
 }

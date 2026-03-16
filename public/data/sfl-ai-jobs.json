@@ -1,64 +1,63 @@
 {
-  "headline": "AI job shakeup hitting hard—entry-level roles dropping 20%, but manual work stays strong",
+  "headline": "AI's Real-World Impact on Jobs: Entry-Level Roles Softening While New Opportunities Emerge",
   "stories": [
     {
-      "title": "<cite index=\"1-3\">Routine jobs down 13% after ChatGPT, but analytical roles growing 20%</cite>",
-      "summary": "<cite index=\"1-2,1-3\">Generative AI is reshaping white-collar work: automation-prone roles fell 13% after ChatGPT's debut while demand for analytical, technical, and creative jobs grew 20%</cite>. Basically the job market is pivoting, not dying.",
-      "takeaway": "Tbh, if your job is routine af, time to upskill. But if you're creative or analytical, you're literally golden.",
-      "source": "Harvard Business School",
+      "title": "Stanford Economists Reveal Entry-Level Dev Hiring Down 20%",
+      "summary": "Stanford's SIEPR panel dropped actual data showing entry-level software developer hiring (ages 22-26) is already down 20% and call center jobs down 15%. This ain't projection—it's happening right now.",
+      "takeaway": "Young developers need to level up or pivot. AI jobs with heavy exposure are getting hit, but manual labor and healthcare roles are still holding strong.",
+      "source": "4 Corner Resources",
+      "url": "https://www.4cornerresources.com/job-market-news/ai-job-market-impact-2026/",
+      "tag": "labor market",
+      "sector": "technology",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "GenAI Reshaping White-Collar Work, Not Erasing It",
+      "summary": "Harvard researchers analyzed nearly all U.S. job postings from 2019-March 2025 and found routine roles dropped 13% since ChatGPT, but analytical and creative jobs jumped 20%. Companies are literally reshuffling the deck.",
+      "takeaway": "The real risk is for workers stuck automating their old tasks instead of learning to use AI. Reskilling is literally the move.",
+      "source": "Harvard Business Review",
       "url": "https://hbr.org/2026/03/research-how-ai-is-changing-the-labor-market",
-      "tag": "Labor Market",
-      "sector": "Career Development",
+      "tag": "job trends",
+      "sector": "technology",
       "readTime": 6,
       "paywalled": true
     },
     {
-      "title": "<cite index=\"2-1,2-2\">Entry-level dev hiring down 20%, call center jobs down 15%</cite>",
-      "summary": "<cite index=\"2-1,2-2,2-3\">Stanford economists showed entry-level software developer hiring for ages 22-26 is down 20% and call center hiring fell 15%—and these aren't projections, they're already happening</cite>. Not vibes, it's data.",
-      "takeaway": "The AI disruption's fr no joke—young coders and customer service reps are getting hit hardest right now.",
-      "source": "4 Corner Resources",
-      "url": "https://www.4cornerresources.com/job-market-news/ai-job-market-impact-2026/",
-      "tag": "Job Market",
-      "sector": "Technology",
+      "title": "Miami-Dade Launches AI Training Push for Small Biz & Public Sector",
+      "summary": "Miami-Dade County just partnered with Google's InnovateUS to offer free AI courses to public employees and small businesses. They're literally lowkey trying to make sure nobody gets left behind.",
+      "takeaway": "South Florida's actively investing in upskilling its workforce. If you're in the area, this is free professional development you can't ignore.",
+      "source": "GovTech",
+      "url": "https://www.govtech.com/artificial-intelligence/miami-dade-county-fla-works-to-put-ai-in-action",
+      "tag": "skills training",
+      "sector": "government",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "<cite index=\"11-10,11-11\">Florida's AI Bill of Rights passed Senate on March 4</cite>",
-      "summary": "<cite index=\"11-10,11-11,11-13\">SB 482, the Florida AI Bill of Rights, was approved by the Senate on a 35-2 vote and creates an Artificial Intelligence Bill of Rights protecting Floridians' rights relating to AI use, including restricting companies from selling personal data without deidentification</cite>. Gov. DeSantis made some moves here.",
-      "takeaway": "Lowkey a big deal for South Florida—this bill protects your data and gives you rights when companies use AI on you.",
-      "source": "Transparency Coalition",
-      "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-march6-2026",
-      "tag": "Policy",
-      "sector": "Regulation",
+      "title": "CareerSource Broward Gets $300K Grant for AI Training",
+      "summary": "Broward County just secured major funding specifically for AI training programs aimed at local businesses. They're not messing around—this is serious investment in the workforce.",
+      "takeaway": "South Florida is doubling down on making sure businesses and workers get AI-ready. Job market's shifting, but the region's actually prepping for it.",
+      "source": "CareerSource Broward",
+      "url": "https://careersourcebroward.com/news/artificial-intelligence-training",
+      "tag": "workforce development",
+      "sector": "training",
       "readTime": 3,
-      "paywalled": false
-    },
-    {
-      "title": "<cite index=\"18-1,18-3,18-4\">60 AI-proof jobs coming to Ocala, Central Florida</cite>",
-      "summary": "<cite index=\"18-1,18-3,18-4,18-5\">As AI reshapes white-collar industries, College HUNKS Moving is opening a new franchise in Ocala serving five counties with 60 hands-on moving and junk removal positions offering competitive pay</cite>. Manual labor actually staying safe fr.",
-      "takeaway": "If you wanna dodge AI, trades and hands-on work are literally where it's at—these roles are mad secure rn.",
-      "source": "National Law Review",
-      "url": "https://natlawreview.com/press-releases/60-ai-proof-jobs-coming-ocala-and-central-florida-new-employer-moves",
-      "tag": "Jobs",
-      "sector": "Logistics",
-      "readTime": 2,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "<cite index=\"15-2,15-3\">Florida debating data center regulations as communities raise concerns</cite>",
-      "why": "These hyperscale AI data centers are coming to Florida fr, and locals are worried about water usage, noise, and power costs. Worth watching bc it affects job growth and infrastructure.",
-      "url": "https://centralflorida.substack.com/p/florida-ai-data-center-boom",
-      "tag": "Infrastructure"
+      "title": "Healthcare Jobs Leading Growth While Tech Faces Headwinds",
+      "why": "Healthcare is literally the main job creator in 2026. If AI's squeezing tech roles, health positions are your safest bet—they're hiring and ain't slowing down.",
+      "url": "https://www.ai-supremacy.com/p/the-us-labor-market-and-its-ai-problem-2026",
+      "tag": "job market"
     },
     {
-      "title": "<cite index=\"12-1,12-2,12-13\">USF's AI, Cybersecurity & Computing college expanding with new funding</cite>",
-      "why": "<cite index=\"12-13,12-14\">The Bellini College of AI, Cybersecurity and Computing is the first college of its kind in Florida, positioning the state as a leader in AI education</cite>. Could be your next move if you're in South Florida wanting to pivot into tech.",
-      "url": "https://www.usf.edu/ai-cybersecurity-computing/news/2026/connectsecure-invests-in-usfs-cybersecurity-apprenticeship-program.aspx",
-      "tag": "Education"
+      "title": "227 AI Engineer Openings in Miami Right Now",
+      "why": "Miami's got serious AI jobs available if you've got the skills. Companies like Scribd, PWC, and DataAnnotation are actively hiring—fr fr, the market's hot for actual AI talent.",
+      "url": "https://www.glassdoor.com/Job/miami-artificial-intelligence-engineer-jobs-SRCH_IL.0,5_IC1154170_KO6,38.htm",
+      "tag": "hiring"
     }
-  ],
-  "_fromCache": true
+  ]
 }

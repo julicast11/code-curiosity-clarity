@@ -1,8 +1,9 @@
 {
   "success": false,
   "failedTabs": [
-    "sfl-ai-jobs"
+    "value-creation",
+    "sfl-tech"
   ],
   "totalTabs": 12,
-  "generatedAt": "2026-03-16T00:42:50.305Z"
+  "generatedAt": "2026-03-16T01:32:50.884Z"
 }

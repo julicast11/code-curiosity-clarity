@@ -1,52 +1,52 @@
 {
-  "headline": "Level Up Your Consulting Game: Master Data, Automate Excel & Pick the Right Tools",
+  "headline": "Strategic thinking, AI-powered Excel, and smarter project tools are what consultants need rn",
   "stories": [
     {
-      "title": "Emotional Intelligence (EQ): The Secret Weapon Consultants Are Sleeping On",
-      "summary": "Emotional intelligence is lowkey the most underrated skill for consultants in 2026—being able to read your clients, manage tough conversations, and build actual trust moves the needle way more than just having the smartest framework.",
-      "takeaway": "Invest in EQ: it's literally how you turn advice into results that stick.",
-      "source": "Jobaaj Learnings",
-      "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
-      "tag": "Soft Skills",
-      "skill": "Emotional Intelligence",
-      "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "GPT for Excel: Stop Doing Manual Work & Let AI Handle Your Data Grunt Work",
-      "summary": "Use GPT for Excel's natural language prompts to automate text translation, data classification, and database creation—basically tell it what you want and it just does it across entire datasets.",
-      "takeaway": "Prompt-based automation is fr changing how consultants handle repetitive data tasks; can save hours every week.",
-      "source": "The Manila Times",
-      "url": "https://www.manilatimes.net/2026/03/13/tmt-newswire/plentisoft/gpt-for-work-releases-guide-to-using-ai-for-automating-tasks-in-excel/2299380",
-      "tag": "Data Tool",
-      "skill": "AI Automation in Excel",
+      "title": "Strategic Thinking Skills Are What Really Set Top Consultants Apart",
+      "summary": "Lowkey, the best consultants aren't just problem-solvers—they're strategic thinkers who zoom out and guide clients toward long-term wins. Mastering how to evaluate market dynamics and align recommendations with business goals is literally the top-tier skill firms are hiring for.",
+      "takeaway": "Start practicing SWOT analyses and industry benchmarking now. It's the difference between being a consultant and being a trusted advisor.",
+      "source": "Voltage Control",
+      "url": "https://voltagecontrol.com/articles/top-skills-in-demand-for-consultants-in-2025/",
+      "tag": "skill to learn",
+      "skill": "Strategic Thinking",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Rocketlane: The Consulting Project Management Tool That Actually Gets It",
-      "summary": "Rocketlane is built specifically for consulting workflows—handles staffing, financials, and client collab in one place, plus AI-powered resource allocation keeps your team from burning out.",
-      "takeaway": "Tbh, generic PM tools fall short for consultants; Rocketlane solves the profitability + resource mess that keeps teams up at night.",
-      "source": "Rocketlane Blog",
+      "title": "ChatGPT for Excel Just Launched and It's Lowkey Game-Changing",
+      "summary": "ChatGPT for Excel is now in beta (dropped March 5), and fr it lets you build, update, and analyze spreadsheets using plain language instead of wrestling with formulas. Teams can describe what they need and ChatGPT creates or updates models directly in the workbook.",
+      "takeaway": "Ask ChatGPT what you're trying to calculate instead of googling formulas. Save hours on data analysis, scenario modeling, and manual reconciliation.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/chatgpt-for-excel/",
+      "tag": "Excel/data tip",
+      "skill": "Excel Automation",
+      "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "Rocketlane Is Built for Consultants (Not Generic Project Managers)",
+      "summary": "Most consultants are stuck using tools not designed for their workflow. Rocketlane actually solves this—it handles staffing, budgets, and client collab all in one platform, with AI-powered resource allocation to keep teams from burning out.",
+      "takeaway": "Stop juggling 5 tools. Use something built for consulting workflows so you can actually track profitability and client engagement without losing your mind.",
+      "source": "Rocketlane",
       "url": "https://www.rocketlane.com/blogs/best-project-management-tools-for-consultants",
-      "tag": "Project Management",
-      "skill": "Operations Management",
-      "readTime": 7,
+      "tag": "useful tool",
+      "skill": "Project Management",
+      "readTime": 5,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Why Adaptability is Your Consulting Superpower in 2026",
-      "why": "The landscape's shifting fast—consultants who pivot quick stay relevant; worth a 3-min read to stay ahead.",
-      "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
-      "tag": "Career Development"
+      "title": "How to Use AI in Excel with Copilot",
+      "why": "Tbh if you're still not using Copilot in Excel, you're wasting time. Learn how to leverage it for data cleaning, formula generation, and turning messy sheets into shareable insights in minutes.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365-life-hacks/everyday-ai/time-saving-tips/how-to-use-ai-in-excel",
+      "tag": "Excel Deep Dive"
     },
     {
-      "title": "AI Tools Every Consultant Should Know (The Realistic Edition)",
-      "why": "ChatGPT, Tableau AI, Think Cell—here's which AI tools actually move the needle for consulting vs the hype machines.",
+      "title": "The Rise of AI Tools for Consultants in 2026",
+      "why": "Check this breakdown of 11 AI tools actually reshaping consulting—from Tableau AI for insights to Think Cell for presentations. Worth knowing what's out there before your firm adopts something.",
       "url": "https://www.auxi.ai/blog/ai-tools-for-consultants",
-      "tag": "AI Tools"
+      "tag": "Industry Trends"
     }
   ]
 }

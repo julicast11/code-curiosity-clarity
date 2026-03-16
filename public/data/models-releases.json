@@ -1,63 +1,63 @@
 {
-  "headline": "AI went totally unhinged this week — GPT-5.4 dropped w/ 1M context, Claude hit 1B users, Meta delays Avocado, & OpenAI signed a Pentagon deal that's got everyone spiraling",
+  "headline": "AI model releases hit overdrive — Claude Opus 4.6 rules SWE-bench, OpenAI's GPT-5.4 drops w/ million-token context, and Anthropic just killed long-context pricing surcharges",
   "stories": [
     {
-      "title": "OpenAI Retires GPT-5.1, Ships GPT-5.4 With 1.05M Token Context",
-      "summary": "OpenAI killed off GPT-5.1 models on Mar 11 and dropped GPT-5.4 early March with 1.05M token context (their biggest window ever), 33% fewer factual errors on individual claims, and a new Tool Search feature that cuts costs for systems with tons of tools. Lowkey the context window alone is crazy.",
-      "takeaway": "GPT-5.4 is the most capable frontier model for professional work rn, fr. The 1M+ context changes everything for processing entire codebases & long documents at once.",
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+      "title": "Claude Opus 4.6 Officially Dominates Coding Benchmarks",
+      "summary": "Anthropic's flagship 4.6 Opus hits 75.6% on SWE-bench and ships a 1M token context window in beta—basically a codebase's entire life story in one prompt. Sonnet 4.6 does near-Opus work at Sonnet prices, lowkey making it the budget pick devs actually prefer 70% of the time.",
+      "takeaway": "fr, if you're doing serious software engineering rn, Opus 4.6 is your move. Costs haven't changed but you're getting wild context + better reasoning out of box.",
+      "source": "LogRocket Blog, OpenAI Release Notes",
+      "url": "https://blog.logrocket.com/ai-dev-tool-power-rankings/",
       "tag": "model-release",
-      "company": "OpenAI",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Anthropic's Claude Hits 1B Users, Pushes 1M Context for Opus 4.6 on All Plans",
-      "summary": "Claude reached 1 billion monthly active users in Q1 2025 (fastest AI platform growth ever), and Anthropic rolled out 1M token context for Opus 4.6 on Max/Team/Enterprise plans. Also launched Partner Network with $100M commitment to help orgs actually deploy Claude.",
-      "takeaway": "Claude's becoming the default for enterprises tbh. The 1B user milestone + context expansion + enterprise support signals Anthropic's not just competing, they're winning on adoption.",
-      "source": "Anthropic News",
-      "url": "https://releasebot.io/updates/anthropic",
-      "tag": "company-milestone",
       "company": "Anthropic",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Meta Delays Avocado to May 2026 Over Performance Concerns; Internally Eyeing Google Gemini License",
-      "summary": "Meta pushed back its flagship Avocado LLM release from mid-March to at least May after internal testing showed performance inconsistencies. Reports suggest Meta even discussed temporarily licensing Google Gemini while Avocado gets refined—total L for their AI timeline.",
-      "takeaway": "Meta's struggling to keep pace. A delay this big + considering borrowing a competitor's model signals real pressure in the AI arms race.",
-      "source": "The Decoder",
-      "url": "https://www.techloy.com/meta-delayed-its-avocado-ai-model-heres-where-the-project-stands-now/",
-      "tag": "company-news",
-      "company": "Meta",
+      "title": "OpenAI Retires GPT-5.1 Models, Bumps ChatGPT to 5.3/5.4",
+      "summary": "As of March 11, GPT-5.1 is straight up gone from ChatGPT—all convos auto-migrate to 5.3/5.4 variants. Plus new interactive math modules let you play w/ equations in real time across 70+ topics.",
+      "takeaway": "If you're still running 5.1 anywhere, migration is automatic, but check your API usage bc new models hit different pricing tiers.",
+      "source": "OpenAI Release Notes",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+      "tag": "product-update",
+      "company": "OpenAI",
       "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "Alibaba Qwen 3.5 Small Series: 9B Model Matches 120B GPT at a Fraction the Cost",
-      "summary": "Alibaba dropped Qwen 3.5 Small on Mar 1 with a 9B model that matches GPT-OSS-120B on benchmarks (GPQA Diamond: 81.7 vs 71.5) & runs on iPhones in airplane mode. The 2B version hits 4GB RAM. Literally efficiency mode unlocked.",
-      "takeaway": "The era of 'bigger = better' is officially dead. Small language models that outperform giants on specific tasks are the vibe now.",
-      "source": "The Decoder + Papers With Code",
-      "url": "https://www.sci-tech-today.com/12-ai-models-in-one-week-the-march-2026-ai-avalanche/",
-      "tag": "model-release",
-      "company": "Alibaba",
-      "readTime": 3,
+      "title": "Anthropic Drops Pricing Surcharge for Million-Token Context",
+      "summary": "No more 100% premium for long-context requests—Opus 4.6 and Sonnet 4.6 now offer 1M tokens at standard pricing. Media limit jumped from 100 to 600 images per request too, making bulk doc processing way cheaper.",
+      "takeaway": "tbh this is huge if you work w/ long docs. Suddenly context windows aren't a luxury tax anymore—you're just paying normal rates regardless if prompt is 9k or 900k tokens.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/",
+      "tag": "pricing",
+      "company": "Anthropic",
+      "readTime": 2,
+      "paywalled": false
+    },
+    {
+      "title": "Pentagon/Anthropic Dispute Highlights AI Governance Gaps",
+      "summary": "Pentagon labeled Anthropic a supply-chain risk after refusing to enable mass surveillance + autonomous weapons use. 30+ OpenAI & Google DeepMind employees publicly sided w/ Anthropic in court filings, calling the move arbitrary.",
+      "takeaway": "This is lowkey the biggest AI governance story rn—shows major companies are willing to push back on military applications. Sets precedent for what 'responsible AI' actually means in practice.",
+      "source": "TechCrunch, AI News",
+      "url": "https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/",
+      "tag": "ethics",
+      "company": "Anthropic",
+      "readTime": 6,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Google DeepMind's Gemini AI for Science: DOE Partnership & AlphaEvolve for Algorithm Design",
-      "why": "DeepMind's pitching AI as a scientific co-scientist for the DOE's Genesis Mission. AlphaEvolve coding agent + continuous learning in 2026 = AI that actually accelerates discovery, not just chat.",
-      "url": "https://www.bnl.gov/newsroom/news.php?a=222774",
-      "tag": "research-milestone"
+      "title": "Meta's Avocado Model Delayed to May/June After Performance Issues",
+      "why": "Meta's big AI pushback got stalled—their next-gen LLM fell between Google Gemini 2.5 & 3 in benchmarks. Worth watching bc it signals whether they can catch up to frontier labs or if the gap's growing wider.",
+      "url": "https://money.usnews.com/investing/news/articles/2026-03-12/meta-delays-rollout-of-new-ai-model-nyt-reports",
+      "tag": "in-development"
     },
     {
-      "title": "Anthropic's Claude Partner Network & Enterprise Push: $100M Investment in 2026",
-      "why": "The big move from 'cool AI model' to 'actual enterprise infrastructure.' Claude certified architects, dedicated support, co-marketing—Anthropic's playing the long game to lock in customers before OpenAI's Pentagon deal gets bigger.",
-      "url": "https://releasebot.io/updates/anthropic",
-      "tag": "business-strategy"
+      "title": "Google DeepMind Launches AI Co-Scientist for DOE National Labs",
+      "why": "First real use case of agentic AI for hard science—Gemini-powered system already proposing drug candidates & predicting antimicrobial resistance. Shows where frontier AI actually creates value beyond benchmarks.",
+      "url": "https://www.bnl.gov/newsroom/news.php?a=222774",
+      "tag": "real-world-impact"
     }
   ]
 }
