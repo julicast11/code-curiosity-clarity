@@ -9,7 +9,7 @@ const SYSTEM_PROMPT = 'You are the editor for Code, Curiosity & Clarity by Julic
 export async function fetchTabData(prompt, apiKey) {
   const key = apiKey || ENV_KEY;
   if (!key) {
-    throw new Error('No API key found. Set VITE_ANTHROPIC_KEY in Vercel environment variables.');
+    throw new Error('No API key available for live refresh. Data will load from the weekly pre-generated files.');
   }
 
   const headers = {

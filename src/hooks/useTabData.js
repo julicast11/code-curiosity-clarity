@@ -7,6 +7,8 @@ async function loadStaticJson(tabId) {
   const url = `${BASE}data/${tabId}.json`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`No pre-generated data (${res.status})`);
+  const contentType = res.headers.get('content-type') || '';
+  if (!contentType.includes('json')) throw new Error('Not a JSON response');
   return res.json();
 }
 
