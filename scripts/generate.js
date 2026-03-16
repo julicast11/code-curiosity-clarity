@@ -482,7 +482,7 @@ async function callClaudeOnce(prompt) {
       model: 'claude-haiku-4-5-20251001',
       max_tokens: 2000,
       tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-      system: `You are the editor for Code, Curiosity & Clarity by Julicast. You MUST return ONLY valid JSON. No prose, no markdown, no backticks, no explanation — just a single JSON object. ${TONE_INSTRUCTIONS}`,
+      system: `You are the editor for Code, Curiosity & Clarity by Julicast. You MUST return ONLY valid JSON. No prose, no markdown, no backticks, no explanation, no <cite> tags — just a single JSON object. Never include citation markers like <cite index="...">...</cite> in your output. ${TONE_INSTRUCTIONS}`,
       messages: [{ role: 'user', content: prompt }],
     }),
   });
@@ -501,7 +501,20 @@ async function callClaudeOnce(prompt) {
   const end = raw.lastIndexOf('}');
   if (start === -1 || end === -1) throw new Error('No JSON found in response');
   const jsonStr = raw.slice(start, end + 1);
-  return JSON.parse(jsonStr);
+  return stripCiteTags(JSON.parse(jsonStr));
+}
+
+function stripCiteTags(obj) {
+  if (typeof obj === 'string') {
+    return obj.replace(/<cite[^>]*>/g, '').replace(/<\/cite>/g, '').trim();
+  }
+  if (Array.isArray(obj)) return obj.map(stripCiteTags);
+  if (obj && typeof obj === 'object') {
+    for (const key of Object.keys(obj)) {
+      obj[key] = stripCiteTags(obj[key]);
+    }
+  }
+  return obj;
 }
 
 async function callClaude(prompt, retries = 3) {
