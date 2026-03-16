@@ -1,52 +1,52 @@
 {
-  "headline": "Big consulting firms betting billions on AI—and it's reshaping how deals get done",
+  "headline": "Consulting Giants Race to Own the AI Playbook—but the Real Game is Just Starting",
   "stories": [
     {
-      "title": "PE Firms Replace $500K McKinsey Reports With $50K AI Agents",
-      "summary": "DiligenceSquared, a startup founded by a ex-BCG consultant, just convinced major PE firms managing $2+ trillion in combined assets to replace traditional consulting due diligence with AI agents. Thing is, five months of ops isn't enough data to know if this works at scale.",
-      "takeaway": "The old consulting playbook is broken. Cost just collapsed 90%, which kills the info asymmetry that made boutique PE shops dangerous.",
-      "source": "UC Strategies",
-      "url": "https://ucstrategies.com/news/pe-firms-replaced-500k-mckinsey-reports-with-50k-ai-on-live-deals/",
-      "tag": "AI Disruption",
-      "tool": "AI Agents",
-      "readTime": 6,
+      "title": "OpenAI's 'Frontier Alliances' Bet the Farm on Consultants for Enterprise AI Sales",
+      "summary": "OpenAI just dropped multi-year partnerships with BCG, McKinsey, and Accenture to push its enterprise tools into customer tech stacks. Basically OpenAI's saying: consultants are how we actually get enterprises to care about AI.",
+      "takeaway": "Consulting firms are becoming AI's distribution network—and they're getting access to cutting-edge tools to make it happen fr",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
+      "tag": "partnerships",
+      "tool": "enterprise-ai",
+      "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "OpenAI Inks Multiyear Deals With McKinsey, BCG, Accenture & Capgemini",
-      "summary": "OpenAI just formally locked in consulting partnerships to help enterprises actually deploy its Frontier platform into production. These deals signal OpenAI's betting on big firms as distribution partners to move AI from pilot limbo to real workflows.",
-      "takeaway": "Consultants are becoming AI sales reps. The firms helping enterprises go live with OpenAI tech will own the enterprise AI deployment market.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/02/23/open-ai-consulting-accenture-boston-capgemini-mckinsey-frontier.html",
-      "tag": "Partnerships",
-      "tool": "OpenAI Frontier",
+      "title": "PE Firms Already Replacing $500K McKinsey Reports with $50K AI Agents—and the Results Are... Messy",
+      "summary": "DiligenceSquared raised $5M and convinced mega PE firms managing $2T+ to swap traditional consulting for AI-powered due diligence. Lowkey terrifying because they're stress-testing this on live multi-hundred-million-dollar deals.",
+      "takeaway": "AI consulting is cannibalizing traditional consulting's pricing power—but nobody knows if the AI actually works at scale yet",
+      "source": "UC Strategies",
+      "url": "https://ucstrategies.com/news/pe-firms-replaced-500k-mckinsey-reports-with-50k-ai-on-live-deals/",
+      "tag": "disruption",
+      "tool": "ai-agents",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Accenture Jumped 8% After Announcing Mistral AI Deal & Faculty Acquisition",
-      "summary": "Accenture's betting big on 'Physical AI'—embedding AI into robotics and infrastructure—by partnering with Mistral and acquiring Faculty's 400+ specialists. Market's saying this is the move to pivot from cost anxiety to growth play.",
-      "takeaway": "Consulting's AI playbook is shifting from generative AI chatbots to agentic systems that control actual physical systems. That's where the real money flows.",
-      "source": "FinancialContent",
-      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-2-27-the-ai-infrastructure-pivot-why-accenture-acn-just-jumped-8-and-what-it-means-for-the-future-of-consulting",
-      "tag": "M&A",
-      "tool": "Mistral AI",
-      "readTime": 7,
-      "paywalled": false
+      "title": "Deloitte Drops Enterprise AI Navigator—Shifting AI from Cost Center to Revenue Driver",
+      "summary": "Deloitte just launched a platform to help companies move AI from \"expensive experiment\" to \"actually making money.\" Includes AI opportunity scanners and agent creation hubs—basically democratizing what the Big 3 used to gatekeep.",
+      "takeaway": "The consulting playbook is getting productized and the pyramid model is crumbling—jr consultants' jobs just became way more AI-dependent",
+      "source": "Crowdfund Insider",
+      "url": "https://www.crowdfundinsider.com/2026/03/264460-deloitte-introduces-enterprise-ai-solution-to-enable-businesses-to-move-ai-capabilities-from-cost-to-value/",
+      "tag": "strategy",
+      "tool": "enterprise-ai",
+      "readTime": 4,
+      "paywalled": true
     }
   ],
   "watchNext": [
     {
-      "title": "Deloitte Unveils Enterprise AI Navigator Platform",
-      "why": "Deloitte's moving AI from expense to strategic asset with a tool designed to shift thinking from 'can we do AI' to 'where should we deploy it.' Worth watching how the Big Four tools compete for real market share vs just PR.",
-      "url": "https://www.crowdfundinsider.com/2026/03/264460-deloitte-introduces-enterprise-ai-solution-to-enable-businesses-to-move-ai-capabilities-from-cost-to-value/",
-      "tag": "Platforms"
+      "title": "How AI Is Reshaping Consulting's Core Economics—And Why Strategy Firms Are Freaking Out",
+      "why": "Tbh this breaks down why McKinsey & co are losing ground to execution-heavy firms like Accenture—and why the entire consulting value proposition is getting flipped upside down",
+      "url": "https://poetsandquantsforundergrads.com/news/how-ai-is-affecting-the-consulting-industry-mckinsey-edition/",
+      "tag": "industry-analysis"
     },
     {
-      "title": "McKinsey's AI Agent Fleet Hit 20,000—Growing 500% in 18 Months",
-      "why": "Tbh this is lowkey terrifying for junior consultants. If McKinsey's internal AI agents are handling 80% of analyst work, the junior consultant pipeline just got way smaller. This is the real story nobody's talking about.",
-      "url": "https://fortune.com/2026/01/22/deloitte-job-title-change-ai-ushers-in-a-modernization-of-the-big-four-accounting-consulting-firms/",
-      "tag": "Workforce Impact"
+      "title": "2026 CEO Outlook: 61% of Leaders Can't Hire AI Talent Fast Enough—Consulting Firms Are About to Profit Massive",
+      "why": "KPMG's latest CEO survey shows the skills gap is widening and consulting is basically the only place companies can turn—this is where the real AI consulting revenue gets made",
+      "url": "https://kpmg.com/us/en/media/news/ceo-outlook-pulse-2026.html",
+      "tag": "market-trends"
     }
   ]
 }

@@ -1,50 +1,49 @@
 {
-  "headline": "PE Momentum Picking Up But Execution Still the Name of the Game",
+  "headline": "Healthcare PE heating up, AI is lowkey a dealmaker, and leveling up your analyst game",
   "stories": [
     {
-      "title": "Deloitte Nabs Top PE Services Ranking For Second Year Straight",
-      "summary": "Deloitte got recognized as a Leader and Star Performer in Everest Group's Private Equity Services assessment, showing massive demand for consulting support in the PE space. The firm's AI and digital transformation chops are literally carrying PE deals right now.",
-      "takeaway": "PE consulting roles are hot — firms are competing hard on execution and tech capabilities, so brush up on your AI and digital transformation fluency if you're trying to stand out.",
-      "source": "PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/deloitte-is-recognized-as-a-leader-and-star-performer-in-everest-groups-private-equity-services-peak-matrix-assessment-2026-two-years-in-a-row-302712183.html",
-      "tag": "PE/Consulting Industry",
-      "readTime": 3,
+      "title": "PE firms go all-in on healthcare quality plays",
+      "summary": "Healthcare PE is rebounding hard with a flight to quality into scalable niches like behavioral health, value-based care, and AI-enabled pharma services. Mega-funds returning to offense means way more competition for deals.",
+      "takeaway": "The best assets coming to market are cleaner earnings, stronger cash flows, and tech-enabled—that's what PE buyers actually care about in 2026.",
+      "source": "PwC",
+      "url": "https://www.pwc.com/us/en/industries/health-industries/library/health-services-deals-2026-outlook.html",
+      "tag": "Healthcare",
+      "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Healthcare M&A Bouncing Back in 2026 — AI and Digital Care Dominate the Story",
-      "summary": "Healthcare deal activity slowed in 2025 but PwC expects 2026 to rebound hard, with PE playing a bigger role in carve-outs and bolt-ons. Digital-first, AI-enabled care models are the plays everyone's chasing — especially in medtech and health services.",
-      "takeaway": "Healthcare is one of the hottest PE sectors rn. If you want to stand out on healthcare deals, get comfortable with AI application in care delivery, digital transformation timelines, and reimbursement dynamics.",
-      "source": "Fierce Healthcare / PwC",
-      "url": "https://www.fiercehealthcare.com/finance/key-trends-will-shape-healthcare-ma-activity-2026-pwc",
-      "tag": "Healthcare Sector",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Breaking Into PE From Consulting? Timing Is Everything",
-      "summary": "Consulting-to-PE moves are possible but window-dependent — on-cycle recruiting starts insanely early (sometimes before you even start your job), and you'll compete harder than IB candidates. The move gets tougher the more senior you get without direct PE experience.",
-      "takeaway": "If you're at MBB and eyeing PE, start networking NOW and consider what you're learning on consulting deals that translates to value creation. MBA timing matters if you missed early recruiting cycles.",
-      "source": "Menlo Coaching",
-      "url": "https://menlocoaching.com/career-coaching/consulting-to-private-equity/",
-      "tag": "Career Tip",
+      "title": "AI stops being a nice-to-have, becomes the whole deal",
+      "summary": "AI deployment in PE portfolio companies is shifting from short-term gains to infrastructure investments that actually move the needle on valuations. Acquirers now expect real productivity improvements, not just buzzwords.",
+      "takeaway": "If your portfolio company isn't embedding AI seriously into operations, you're leaving money on the table. Firms investing in real AI capability win 2026.",
+      "source": "FTI Consulting",
+      "url": "https://www.fticonsulting.com/insights/articles/four-predictions-private-equity-2026",
+      "tag": "PE/Tech",
       "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Consulting 2026 is about execution, not just flexing frameworks",
+      "summary": "Consulting firms now want proof you can move ideas to action and handle real-world chaos—generic narratives get filtered out fast. Strong storytelling with visible direction and execution proof is fr the bar now.",
+      "takeaway": "Show a clear spike in an area you care about (healthcare, energy, ops, whatever) and concrete examples of delivering results despite messy constraints. That's what lands offers.",
+      "source": "PrepLounge",
+      "url": "https://www.preplounge.com/en/blog/consulting/career/changed-consulting-prep",
+      "tag": "Career",
+      "readTime": 7,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Bain's 2026 Global Private Equity Report — Full Analysis",
-      "why": "Lowkey the most comprehensive breakdown of PE momentum, deal structure trends, and where dry powder's actually going. Plus their take on why '12 is the new 5' for EBITDA growth expectations is super relevant for analysts pitching deals.",
-      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
-      "tag": "PE Industry Deep Dive"
+      "title": "Tech's resilience in PE—why SaaS and AI platforms are still hot",
+      "why": "TMT sector leads IPO pipelines with strong domestic exposure. If healthcare was your story, PE tech plays show where the next wave of exits goes.",
+      "url": "https://www.ey.com/en_us/insights/private-equity/leading-through-change-2026-private-equity-trends",
+      "tag": "Sector"
     },
     {
-      "title": "PwC Healthcare Investment Themes 2026 — Sector Breakdown",
-      "why": "If healthcare is your lane, this spells out exactly where PE capital is flowing — cardiology, surgical robotics, AI-enabled RCM, CROs. Also breaks down the alternative deal structures gaining traction (continuation vehicles, carve-outs) that'll come up in your diligence work.",
-      "url": "https://www.pwc.com/us/en/industries/health-industries/library/2026-healthcare-investment-themes.html",
-      "tag": "Healthcare + PE Strategy"
+      "title": "The continuation vehicle playbook—how PE unlocks aging assets",
+      "why": "Aged holdings are becoming the biggest structural challenge. Understanding CVs and sponsor-to-sponsor sales is lowkey essential knowledge for mid-market PE work.",
+      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
+      "tag": "Strategy"
     }
-  ],
-  "_fromCache": true
+  ]
 }

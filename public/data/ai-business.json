@@ -1,63 +1,63 @@
 {
-  "headline": "AI Shifts from Chatbot to Coworker—Execs Scramble on Scaling & ROI",
+  "headline": "AI Goes From 'Talks' to 'Acts' — The Week Agentic Systems Got Real",
   "stories": [
     {
-      "title": "AI Systems Move from Tools to Autonomous Co-Workers",
-      "summary": "Ethan Mollick says companies need to stop treating AI as advanced chatbots and start recognizing autonomous agents that can carry out hours of independent work reshaping strategy, coding, and risk assessment.",
-      "takeaway": "The real game change isn't AI answering questions—it's AI systems doing actual work independently fr. Companies sleeping on this are gonna regret it.",
-      "source": "One Useful Thing",
-      "url": "https://nationaltoday.com/us/ny/new-york/news/2026/03/12/wharton-professor-ethan-mollick-sees-ai-shifting-from-chatbot-to-coworker/",
-      "tag": "Agents",
-      "industry": "Enterprise",
-      "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "Big Four Spent $400B on AI Last Year; 2026 Budget Hits $650B",
-      "summary": "Benedict Evans breaks down massive capex commitments from major tech platforms and why the infrastructure crunch is real—from GPU shortages to electricity constraints.",
-      "takeaway": "The money flowing into AI is lowkey insane, but here's the thing: building enough capacity to actually deploy it all is the real bottleneck now. All that capital doesn't mean instant magic.",
-      "source": "Benedict Evans at B2BMX 2026",
-      "url": "https://www.demandgenreport.com/industry-news/feature/b2bmx-2026-benedict-evans-explores-the-next-major-platform-shift-business-impacts-of-ai/",
-      "tag": "Infrastructure",
-      "industry": "Technology",
-      "readTime": 7,
-      "paywalled": false
-    },
-    {
-      "title": "The \"Last Mile\" Problem: Why Most AI Pilots Never Scale",
-      "summary": "Harvard Business Review analysis shows companies have hundreds of pilots but can't move beyond them—the bottleneck isn't tech or data, it's organizational redesign and change management.",
-      "takeaway": "Everyone's running AI pilots but only 1/3 of orgs are actually scaling past that. The problem? You can't just bolt AI onto old workflows—you gotta redesign the whole thing.",
+      "title": "The Last Mile Problem: Why AI Pilots Aren't Becoming Reality",
+      "summary": "Companies are drowning in AI pilots but struggling to actually deploy them—the real challenge isn't model quality but changing how orgs fundamentally operate around AI. McKinsey and HBR research shows most are stuck translating tech into business workflows.",
+      "takeaway": "Execution is the differentiator in 2026—not having AI, but having the org structures and processes to actually use it at scale.",
       "source": "Harvard Business Review",
       "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
-      "tag": "Adoption",
-      "industry": "Enterprise",
-      "readTime": 6,
+      "tag": "operations",
+      "industry": "Enterprise Software",
+      "readTime": 8,
       "paywalled": true
     },
     {
-      "title": "Multimodal AI Agents Win the Customer Service Land Grab in 2026",
-      "summary": "CB Insights data shows voice, text, image, and video agents are where the real value is locking in—customer service orgs deploying multimodal agents are leaving competitors in the dust.",
-      "takeaway": "Text-only agents are already mid. The companies scaling voice + multimodal support are gonna own customer service. Voice is the proving ground that actually works.",
+      "title": "Multimodal Agents Win the Customer Service Land Grab",
+      "summary": "Voice is the proving ground where agents go live or die—companies deploying voice agents in production are moving from dev-led tools to enterprise engineering, lowering latency and nailing handoffs.",
+      "takeaway": "Customer service is where agentic AI delivers real ROI first; companies that nail voice while extending to text/images/docs capture the market.",
       "source": "CB Insights",
       "url": "https://www.cbinsights.com/research/ai-agent-predictions-2026/",
-      "tag": "Agents",
+      "tag": "agents",
       "industry": "Customer Service",
-      "readTime": 5,
+      "readTime": 6,
       "paywalled": false
+    },
+    {
+      "title": "AI Adoption Stalls Not From Tech But From Fear—Workers Need Psychological Safety",
+      "summary": "New research shows employees resist AI because it threatens their sense of competence, autonomy, and belonging—not because the tools don't work. Leaders need the AWARE framework to address emotional barriers alongside technical ones.",
+      "takeaway": "Treating AI as purely technical misses the human side; orgs that fail here will see widespread disengagement and covert resistance.",
+      "source": "Harvard Business Review",
+      "url": "https://hbr.org/2026/03/why-gen-ai-feels-so-threatening-to-workers",
+      "tag": "change-management",
+      "industry": "Organizational Change",
+      "readTime": 7,
+      "paywalled": true
+    },
+    {
+      "title": "Agentic Commerce Reshaping Retail—Brands Must Adapt or Disappear",
+      "summary": "AI agents are becoming the interface between consumers and products—discovery and evaluation are now AI-mediated before humans even click. Brands that don't prepare for AI agents choosing *for* customers will lose to those that do.",
+      "takeaway": "The battle for 2026 retail: ensure your brand wins when AI agents do the shopping, not just when humans do.",
+      "source": "Harvard Business Review",
+      "url": "https://hbr.org/2026/03/preparing-your-brand-for-agentic-ai",
+      "tag": "commerce",
+      "industry": "Retail",
+      "readTime": 6,
+      "paywalled": true
     }
   ],
   "watchNext": [
     {
-      "title": "AI Brain Fry: The Mental Fatigue From Excessive Agent Use",
-      "why": "HBR study shows users hitting cognitive overload watching AI agents move too fast to comprehend. Lowkey important if your org is ramping up AI—burnout is real.",
-      "url": "https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry",
-      "tag": "Culture & Work"
+      "title": "Lio Raises $30M From a16z to Automate Enterprise Procurement",
+      "why": "Procurement is the unlocked door for agentic AI in enterprise—AI agents handling vendor evaluation, contract mgmt, and compliance at scale. Watch this for the template of how agents go from concept to billion-dollar business.",
+      "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
+      "tag": "agents"
     },
     {
-      "title": "China's OpenClaw AI Adoption Explodes; Tech Giants Racing to Deploy",
-      "why": "Tencent, ByteDance, JD.com all going all-in on an open-source agent framework. Shows the geopolitical split in AI adoption strategies + how fast things can move outside US.",
-      "url": "https://www.cnbc.com/2026/03/12/china-openclaw-ai-agent-adoption-tech-companies-government-support-lobster-shrimp.html",
-      "tag": "Geopolitics"
+      "title": "OpenAI Acquires OpenClaw—Horizontal Agents About to Go Mainstream",
+      "why": "OpenClaw went from solo dev side project to 68k GitHub stars to OpenAI acquisition in weeks. This signals the moment agents move from dev-only tooling to consumer-grade—lowkey the biggest narrative shift in AI this week.",
+      "url": "https://www.a16z.news/p/top-100-gen-ai-consumer-apps-march",
+      "tag": "agents"
     }
   ]
 }

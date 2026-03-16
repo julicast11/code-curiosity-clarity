@@ -1,52 +1,52 @@
 {
-  "headline": "Nail EQ, Power Query, and Productive this week to level up your consulting game 🚀",
+  "headline": "Master Prompt Engineering, Flash Fill Data Like a Pro, and Use Wrike to Run Consulting Projects",
   "stories": [
     {
-      "title": "Emotional Intelligence: The Skill That Actually Separates Good Consultants From Great Ones",
-      "summary": "EQ is lowkey the most underrated skill in consulting right now. While AI handles the data crunching, consultants with high emotional intelligence are the ones building real client trust and leading change.",
-      "takeaway": "Start building EQ by practicing active listening, managing your own emotions under pressure, and understanding your client's emotional triggers—it's what keeps people coming back.",
-      "source": "The CARA Group & Consultancy.eu",
-      "url": "https://www.thecaragroup.com/leveling-up-your-consulting-skills-with-emotional-intelligence/",
+      "title": "Prompt Engineering Remains the Most In-Demand AI Skill in 2026",
+      "summary": "Prompt engineering—the ability to craft precise instructions for AI systems—is lowkey becoming essential across all industries. Companies are hiring specialists because literally everyone's using AI now, and quality matters.",
+      "takeaway": "Anyone can learn it without coding; it's all about asking the right questions and giving AI clear context to work with.",
+      "source": "Woke Waves Magazine",
+      "url": "https://www.wokewaves.com/posts/what-is-prompt-engineering",
       "tag": "skill",
-      "skill": "Emotional Intelligence",
-      "readTime": 8,
+      "skill": "Prompt Engineering",
+      "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Power Query Fuzzy Matching: Stop Spending Hours Cleaning Data Manually",
-      "summary": "Power Query's fuzzy matching feature is a total game-changer for messy Excel datasets. One-click fixes that used to take hours—plus it automates the whole process so you only clean once.",
-      "takeaway": "Use fuzzy matching to merge messy exports with clean master databases in seconds. Once you set it up, hit Refresh next month instead of rebuilding the whole thing from scratch.",
-      "source": "How-To Geek & Advanced Excel Institute",
-      "url": "https://www.howtogeek.com/microsoft-excel-power-query-fuzzy-matching-clean-up-messy-data/",
-      "tag": "data-tip",
-      "skill": "Power Query",
-      "readTime": 7,
+      "title": "Flash Fill: Excel's Hidden Gem That Saves Hours on Data Cleanup",
+      "summary": "Flash Fill is lowkey magic—give Excel two examples of what you want, hit Ctrl+E, and it automatically fills your entire column based on the pattern. No formulas needed, just pure AI-powered automation.",
+      "takeaway": "Perfect for splitting names, formatting phone numbers, extracting emails, or converting dates without writing a single formula.",
+      "source": "Journal of Accountancy",
+      "url": "https://www.journalofaccountancy.com/newsletters/extra-credit/microsoft-excel-flash-fill/",
+      "tag": "Excel tip",
+      "skill": "Excel Data Entry Automation",
+      "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Productive: The All-in-One Consulting Software That Actually Connects Time, Budgets, and Billing",
-      "summary": "Productive ties together project management, time tracking, budgeting, and invoicing so you're not juggling five different tools. Real-time profit tracking means you see margin issues before they become disasters.",
-      "takeaway": "Track billable vs non-billable hours, generate custom invoices, and watch profitability across client projects in one place. The game-changer: 50+ customizable report templates.",
-      "source": "Digital Project Manager & Productive.io",
+      "title": "Wrike: Enterprise-Grade Project Management That Consultants Actually Love",
+      "summary": "Wrike's the go-to for management consultants managing multiple clients and complex projects. It's got customizable workflows, time tracking, real-time dashboards, and honestly, way more integrations than you'd think (400+).",
+      "takeaway": "Tbh it has a learning curve, but once you're set up, it brings total visibility across your entire portfolio and keeps everyone aligned.",
+      "source": "The Digital Project Manager",
       "url": "https://thedigitalprojectmanager.com/tools/best-project-management-software-for-consultants/",
       "tag": "tool",
-      "skill": "Project Management",
-      "readTime": 6,
+      "skill": "Project Management & Resource Planning",
+      "readTime": 8,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Why Consultants Must Master Adaptability in 2026 (Or Get Left Behind)",
-      "why": "The consulting world is moving faster than ever. Adaptability is the actual skill that lets you pivot on client needs without losing your mind.",
-      "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
-      "tag": "skill"
+      "title": "Why Prompt Engineering Might Not Be Your Most Valuable AI Skill Anymore",
+      "why": "As AI evolves, leadership and judgment skills are becoming way more critical than just writing prompts—worth thinking about for your career growth.",
+      "url": "https://bernardmarr.com/why-prompt-engineering-isnt-the-most-valuable-ai-skill-in-2026/",
+      "tag": "AI trends"
     },
     {
-      "title": "Excel + Power BI Integration: Turn Your Cleaned Data Into Client-Ready Dashboards",
-      "why": "Once your data is clean in Power Query, flowing it straight into Power BI dashboards saves a ton of rework and keeps your reporting consistent across teams.",
-      "url": "https://www.excelgoodies.com/blog/advanced-data-cleaning-excel-power-query-2025",
-      "tag": "data-tip"
+      "title": "AI's Growing Role in Management Consulting Workflows",
+      "why": "Over 70% of top consulting firms are already using AI-powered platforms—this shows the real shift happening in how consultants deliver value to clients.",
+      "url": "https://www.sixpathsconsulting.com/top-management-consulting/",
+      "tag": "consulting trends"
     }
   ]
 }

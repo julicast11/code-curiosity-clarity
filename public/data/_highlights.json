@@ -1,31 +1,31 @@
 [
   {
-    "title": "Claude 4.6 Opus",
-    "summary": "Anthropic's flagship now handles massive documents with full GA on 1M context + 128K output. Lowkey the context king rn with agentic capabilities that actually work.",
-    "takeaway": "1M context window at standard pricing, finally",
-    "source": "AI Tool",
-    "url": "https://www.anthropic.com",
-    "tag": "LLM",
-    "readTime": 3,
-    "_tab": "tools-to-try"
-  },
-  {
     "title": "Windsurf",
-    "summary": "Fr the most complete agentic dev experience. Arena Mode lets you compare models side-by-side, Plan Mode handles smarter task planning before code gen.",
-    "takeaway": "The first agentic IDE that actually ships",
+    "summary": "Windsurf hit #1 this week with Wave 13 dropping sick autonomous agent abilities. Write, test, debug, deploy—all without manually approving every diff. It's like having a dev partner instead of an autocomplete.",
+    "takeaway": "AI-native IDE with Cascade agent for autonomous multi-file coding",
     "source": "AI Tool",
-    "url": "https://codeium.com/windsurf",
-    "tag": "Development",
+    "url": "https://windsurf.dev",
+    "tag": "coding",
     "readTime": 4,
     "_tab": "tools-to-try"
   },
   {
-    "title": "Meta Vibes AI Editor",
-    "summary": "Quietly launched as a full editor now. Image & video generation, timeline editing, production tools—it's like Google Flow but tbh the output quality still needs work.",
-    "takeaway": "Standalone creation studio for video & image gen",
+    "title": "Claude Sonnet 4.6",
+    "summary": "Anthropic finally shipped 1M token context in GA. It's lowkey insane for handling huge codebases without paying Opus rates. Computer use improvements mean Claude can actually drive UI tasks better now.",
+    "takeaway": "1M context window, better computer use, power-user pricing at $3/$15",
     "source": "AI Tool",
-    "url": "https://meta.ai",
-    "tag": "Video/Image Gen",
+    "url": "https://claude.ai",
+    "tag": "model",
+    "readTime": 3,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "Perplexity Personal Computer",
+    "summary": "Perplexity's new system lets your spare Mac run as a local AI agent handling research, automation, and tasks in the background. Basically turns any machine into your personal AI assistant without cloud dependency.",
+    "takeaway": "Your Mac becomes an autonomous local AI agent (waitlist live)",
+    "source": "AI Tool",
+    "url": "https://www.perplexity.ai",
+    "tag": "agent",
     "readTime": 3,
     "_tab": "tools-to-try"
   }

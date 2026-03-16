@@ -1,63 +1,63 @@
 {
-  "headline": "South Florida Tech Week: Angel Groups Merge, AI Sales Startups & Padel Boom 🌴",
+  "headline": "South Florida's tech scene is heating up with quantum investments, women in innovation moments & eVTOL launches taking flight—lowkey it's the best week to be tracking Miami startups fr",
   "stories": [
     {
-      "title": "Miami Angels and New World Angels Merge to Form Statewide Network",
-      "summary": "Two major South Florida angel networks combined to create a larger platform with better deal flow access and AI-powered diligence for founders. The move aims to simplify fundraising with a single entry point to bigger capital pools.",
-      "takeaway": "Lowkey a huge infrastructure play for South Florida startups looking to raise. The merged group is already seeing 5x more pitch volume with AI handling diligence.",
+      "title": "Florida Gets Its First Quantum Computing Investment & Tech Hub Expansion",
+      "summary": "Palm Beach State College nabbed $4.9M from the state for quantum tech workforce development—it's fr the biggest single funding grab showing how serious Florida is about leading the next computing revolution. Meanwhile, Israel Tech Week Miami is accepting applications through March 15 for startups to pitch globally.",
+      "takeaway": "Quantum infrastructure + talent pipeline = Florida's playing for keeps in next-gen computing",
       "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/miami-angels-and-new-world-angels-are-combining-to-form-statewide-network/",
-      "tag": "Funding",
-      "sector": "Venture Capital",
+      "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-a-local-college-wins-5m-in-quantum-funding-plus-news-from-elektron-energy-endeavor-miami-trubar-avenue-z-exowatt-emerge-new-world-angels-tech-jobs-amp/",
+      "tag": "quantum computing",
+      "sector": "deeptech",
+      "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "South Florida Tech Hub Women in Innovation Panel Drops Major Leadership Insights",
+      "summary": "Highkey inspiring conversation happened March 5 at South Florida Tech Hub Pulse 2026 where women leaders shared how they built orgs, earned influence & scaled teams. Meggie Soliman moderated discussions on navigating risk & strategic partnerships.",
+      "takeaway": "Women are literally reshaping the South Florida innovation landscape & sharing the playbook",
+      "source": "DSS/South Florida Tech Hub",
+      "url": "https://www.dssinc.com/fedhealth-forward/meggie-soliman-moderated-women-in-innovation-panel-at-south-florida-tech-hub-pulse-2026",
+      "tag": "women in tech",
+      "sector": "ecosystem",
+      "readTime": 3,
+      "paywalled": false
+    },
+    {
+      "title": "Miami's eVTOL Revolution Gets Federal Green Light—Air Taxis Are Real Now",
+      "summary": "Florida's in the White House's eVTOL Integration Pilot Program with Archer Aviation + Wisk Aero both locking in Miami for electric air taxi service. We're talking infrastructure at Hard Rock Stadium & Magic City Innovation District—this isn't sci-fi anymore.",
+      "takeaway": "South Florida's positioning itself as the capital of urban air mobility, like tomorrow's infrastructure is launching today",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/florida-approaches-the-launch-pad-for-piloting-evtol-innovation/",
+      "tag": "aviation tech",
+      "sector": "mobility",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Racquet 360 Raises $9M to Scale Padel Ecosystem Across US",
-      "summary": "Key Biscayne startup bet big on padel's US growth with $9M from sports investors. Founder Emiliano Abramzon (who sold Nearpod for $650M) is building the full ecosystem—from a pro league to e-commerce to club management.",
-      "takeaway": "Miami's becoming the padel mecca and Racquet 360 is positioning itself as the infrastructure play. Projected 300% revenue growth this year is fr fr wild.",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/game-set-match-miami-startup-serves-9m-bet-on-padels-u-s-rise/",
-      "tag": "Funding",
-      "sector": "Sports Tech",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Cyrus AI Automating Sales Workflows for Enterprise Reps",
-      "summary": "Miami startup building AI that handles the tedious parts of sales—approvals, doc updates, follow-ups. Co-founders Ali Zolfaghari and Jake Heenehan met at Vendr, saw the pain, and built the fix.",
-      "takeaway": "Not trying to replace reps but multiply them by 4x. The 'messy middle' of sales (updates, docs, approvals) is where most time gets wasted and Cyrus is targeting that.",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/cyrus-is-building-the-ai-teammate-that-sales-reps-actually-wanted/",
-      "tag": "AI/Startups",
-      "sector": "Enterprise Software",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Neural Earth Raises $9.3M Seed to Scale Climate Risk Intelligence",
-      "summary": "Miami-based geospatial AI platform raised $9.3M to help insurance and real estate companies assess climate risk. Uses satellite imagery and proprietary analytics to turn complexity into property-level risk scores.",
-      "takeaway": "Climate risk is getting serious and traditional models are breaking. Neural Earth's AI matching real environmental pace is resonating with investors—seed was oversubscribed.",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/neural-earth-raises-9m-to-turn-climate-risk-into-real-time-decisions/",
-      "tag": "Funding",
-      "sector": "Climate Tech",
+      "title": "MDC Launches $1M Startup Internship Program to Plug Miami's Talent Gap",
+      "summary": "Miami Dade College + Blackstone LaunchPad just kicked off paid internships at local startups with $1M backing—students get real experience + professional development workshops before they even graduate. Lowkey genius way to build workforce pipeline.",
+      "takeaway": "Miami's finally connecting students directly to startup jobs while building next generation of founders",
+      "source": "MDC News",
+      "url": "https://news.mdc.edu/mdc-launches-miami-startup-ecosystem-internship-program-with-1-million-in-funding-to-expand-career-readiness-for-students/",
+      "tag": "workforce development",
+      "sector": "education",
       "readTime": 3,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Tech Hub Pulse on South Florida's Tech Economy Future",
-      "why": "Explores AI, drones, and space/defense opportunities in South Florida. Predicts 3-5 IPOs in next 60 months and growth surge if major tech leaders move to region.",
-      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
-      "tag": "Ecosystem"
+      "title": "NationGraph Expands Miami Presence with $18M Series A in Gov Tech",
+      "why": "Canadian AI startup securing government procurement contracts just added Miami to their SF & Toronto offices—shows capital flowing to South Florida for serious B2B tech plays",
+      "url": "https://techstartups.com/2026/03/03/top-startup-and-tech-funding-news-march-3-2025/",
+      "tag": "govtech funding"
     },
     {
-      "title": "FAU Gets $4.5M Air Force Flight Simulator Investment",
-      "why": "Defense tech momentum in South Florida keeps building. FAU's T-1A Jayhawk simulator signals government interest in regional aerospace innovation hubs.",
-      "url": "https://refreshmiami.com/news/fau-lands-4-5m-u-s-air-force-t-1a-jayhawk-flight-simulator/",
-      "tag": "Defense Tech"
+      "title": "USF Engineering Wins Semiconductor Workforce Award—Florida's Chip Strategy Heating Up",
+      "why": "Major recognition fr Florida Semiconductor Institute for USF's microelectronics training program signals state's doubling down on semiconductor talent pipeline & research—directly impacts South Florida's deeptech ecosystem",
+      "url": "https://www.usf.edu/engineering/news/2026/florida-semiconductor-institute-recognizes-usf-engineering.aspx",
+      "tag": "semiconductors"
     }
   ]
 }
