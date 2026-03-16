@@ -1,63 +1,63 @@
 {
-  "headline": "south florida economy stays strong as tech & startup vibes keep building momentum",
+  "headline": "South Florida's Getting Major Moves This Week: Billionaire Real Estate, Luxury Towers, and Angel Investor Mega-Merger",
   "stories": [
     {
-      "title": "ChatRank Founder Wins spARK Labs Innovation Showcase, Takes Bootstrap Route",
-      "summary": "Jon Mest fr lowkey chose to bootstrap his startup ChatRank after winning an Ark Invest innovation competition. dude's betting on self-funding over traditional VC right now.",
-      "takeaway": "bootstrapping is back in a weird way tbh, even when the funding's there to take",
-      "source": "Business Observer",
-      "url": "https://www.businessobserverse.com/",
-      "tag": "startups",
-      "sector": "Technology",
-      "readTime": 3,
-      "paywalled": false
-    },
-    {
-      "title": "Fort Lauderdale Downtown Economy Explodes 20% Since 2022, Becomes Regional Tech Hub",
-      "summary": "Fort Lauderdale's downtown is literally driving $43B in annual economic impact & growing 20% since 2022. Napster Corp planning a 60-acre HQ with 1,000 jobs is the cherry on top.",
-      "takeaway": "downtown ft lauderdale lowkey becoming the real tech epicenter, not just miami's little sibling",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com",
-      "tag": "economic-growth",
+      "title": "Pompano Beach's $2B Luxury Tower Boom Is Real",
+      "summary": "Developers are fr transforming Pompano's skyline with ultra-luxury towers from Related Group, W Hotels, Ritz-Carlton & more—Waldorf Astoria hitting vertical construction in May, Salato opening end of April. This wasn't even supposed to happen 10 years ago but now it's becoming South Florida's hottest beachfront play.",
+      "takeaway": "Pompano's lowkey becoming the new alternative to Miami—same luxury vibes, way more realistic inventory & pricing potential.",
+      "source": "Sun Sentinel",
+      "url": "https://www.sun-sentinel.com/2026/03/14/pompano-beach-luring-some-big-fish-developers-transforming-skyline-with-ultra-luxury-towers/",
+      "tag": "Real Estate",
       "sector": "Real Estate & Development",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Florida's Economic Outlook 2026: Growth Outpacing Nation, Housing Market Stabilizing",
-      "summary": "Florida's expected to keep beating national GDP growth in 2026 with unemployment around 4.2-4.3%. Housing prices stabilizing after rapid growth = market cooling into normalization.",
-      "takeaway": "florida economy's still flexing harder than the nation, just at a chill pace now",
-      "source": "Florida Chamber Foundation",
-      "url": "https://www.flchamber.com/florida-2026-economic-outlook/",
-      "tag": "macro-economy",
-      "sector": "Economics",
+      "title": "Mark Zuckerberg Closes $170M Miami Mansion Deal—Biggest Ever in Miami-Dade",
+      "summary": "Meta CEO snagged a $170M waterfront estate on Indian Creek Island (aka Billionaire Bunker) on March 2, setting a new Miami-Dade county record. The nine-bedroom property features a secret library, jazz lounge, 60-foot pool—and it's still under construction.",
+      "takeaway": "Tech billionaires aren't just visiting anymore, they're literally buying up the entire 'Billionaire Bunker'—Zuckerberg, Bezos, Tom Brady all there now.",
+      "source": "Fox Business",
+      "url": "https://www.foxbusiness.com/real-estate/mark-zuckerberg-googles-brin-close-massive-miami-estates-worth-over-220m-combined",
+      "tag": "Billionaire Migration",
+      "sector": "Real Estate & Wealth",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "South Florida Tourism Gears Up for 2026 With Major Events & New Infrastructure",
-      "summary": "Fort Lauderdale tourism expecting modest 1-3% growth in 2026, boosted by Formula 1, PGA tournaments & the new Omni hotel. Broward positioned to capture all those south & north bound travelers.",
-      "takeaway": "major events + new hotel infrastructure = south florida about to see that tourism money flow",
-      "source": "Sun Sentinel",
-      "url": "https://www.sun-sentinel.com/business/",
-      "tag": "tourism",
-      "sector": "Hospitality & Tourism",
+      "title": "Miami Angels & New World Angels Just Merged to Form Florida's Biggest Early-Stage Investor Network",
+      "summary": "Two South Florida angel groups combined on March 10 to create one statewide platform—Miami Angels (100+ companies funded since 2013) + New World Angels (60+ investments, $30M+ deployed) now pooling capital & expertise. They're using AI to handle a 5x jump in pitch volume.",
+      "takeaway": "South Florida's startup funding ecosystem just leveled up—bigger checks, more industry verticals (Healthcare, IT, Space, Fintech coming soon), better odds for founders.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/miami-angels-and-new-world-angels-are-combining-to-form-statewide-network/",
+      "tag": "Venture Capital",
+      "sector": "Startups & Funding",
+      "readTime": 3,
+      "paywalled": false
+    },
+    {
+      "title": "Google Cofounder Larry Page Drops $173.4M on Two Coconut Grove Estates",
+      "summary": "Late December/early January move: Larry Page (net worth ~$276B) just closed on two ultra-luxury waterfront properties in Coconut Grove for $173.4M combined—Banyan Ridge compound ($101.5M) + Casa Bahia ($71.9M). Lowkey his exit from California ahead of billionaire wealth tax.",
+      "takeaway": "The wealth migration from CA to FL is literally changing who owns South Florida's real estate—tech money is now the dominant buyer at the $100M+ level.",
+      "source": "Yahoo Lifestyle",
+      "url": "https://www.yahoo.com/lifestyle/articles/inside-look-two-mansions-google-100049805.html",
+      "tag": "Billionaire Migration",
+      "sector": "Real Estate & Wealth",
       "readTime": 3,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Miami & Angels Angel Investor Networks Merging to Create Statewide Powerhouse",
-      "why": "when major local angel networks combine fr, something big is cooking for startup funding in south florida",
-      "url": "https://refreshmiami.com",
-      "tag": "venture-capital"
+      "title": "South Florida Real Estate Market Continues to Break Records Amid Billionaire Gold Rush",
+      "why": "More details on how Zuckerberg & Page's mega deals are signaling where ultra-luxury capital is flowing in 2026—good read on neighborhoods & price trends.",
+      "url": "https://www.miamirealtors.com/2026/03/09/monday-march-9-2026-south-florida-real-estate-market-articles/",
+      "tag": "Real Estate"
     },
     {
-      "title": "Tech Hub Pulse 2026 Conference Explores AI, Space-Defense Tech & Economic 'Super Cycle'",
-      "why": "speakers fr saying next 60 months could see 3-5 major IPOs & a shift to deploying capital regionally, lowkey defining what's next",
-      "url": "https://techhubsouthflorida.org/",
-      "tag": "conferences"
+      "title": "Why is South Florida's Tech Ecosystem Suddenly One of the Hottest in the Country?",
+      "why": "Palantir's Miami HQ announcement + angel merger news = South Florida startup scene is legit heating up. Worth understanding what's actually attracting founders & capital here.",
+      "url": "https://refreshmiami.com/",
+      "tag": "Startups"
     }
   ]
 }

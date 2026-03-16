@@ -1,52 +1,52 @@
 {
-  "headline": "Big Consulting Giants Are Going All-In on AI While Startups Eat Their Lunch",
+  "headline": "Big consulting firms locked into OpenAI turf war—and it's reshaping how they actually work",
   "stories": [
     {
-      "title": "OpenAI's Frontier Alliances: Why Consultants Are Now AI's Best Salespeople",
-      "summary": "OpenAI just locked in multi-year deals with BCG, McKinsey, Accenture, and Capgemini to help enterprises actually adopt its AI products. Basically, consultants are now OpenAI's go-to-market strategy.",
-      "takeaway": "Consulting firms went from building AI tools to becoming AI distribution networks—and that's actually smart for solving enterprise adoption",
+      "title": "OpenAI's Frontier Alliances reshape consulting playbook",
+      "summary": "OpenAI announced multi-year partnerships with BCG, McKinsey, Accenture, and Capgemini to deploy its Frontier AI agent platform enterprise-wide. Rather than just selling models, OpenAI wants consultants handling the change management and integration legwork that actually drives adoption.",
+      "takeaway": "Consulting firms are basically becoming OpenAI's sales army—and honestly, it might be the smartest move both sides could make.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
-      "tag": "partnerships",
-      "tool": "agent platforms",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Accenture's Sovereign AI Play + Mistral Deal = The Real Infrastructure Bet",
-      "summary": "Accenture just jumped 8% after announcing a Mistral AI partnership plus the Verum Partners acquisition. Wall Street's seeing this as proof that \"Physical AI\" (robotics, smart infrastructure) is the next $70B market.",
-      "takeaway": "Accenture's pivoting from \"billable hours\" to owning the infrastructure layer—basically positioning itself as the architect of AI-driven operations, not just the advisor.",
-      "source": "FinancialContent Markets",
-      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-2-27-the-ai-infrastructure-pivot-why-accenture-acn-just-jumped-8-and-what-it-means-for-the-future-of-consulting",
-      "tag": "infrastructure",
-      "tool": "sovereign AI",
+      "tag": "enterprise AI",
+      "tool": "OpenAI Frontier",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Tiny Startup Just Replaced McKinsey's $500K Reports With $50K AI—On Live Deals",
-      "summary": "DiligenceSquared closed a $5M seed round and is already doing due diligence for PE firms managing $2+ trillion in AUM using AI agents. McKinsey's traditional model is lowkey getting disrupted in real-time.",
-      "takeaway": "The real threat to consulting isn't internal AI tools—it's startups building domain-specific agents that do the work 10x cheaper and faster, but with billion-dollar risk if they miss nuance.",
+      "title": "Deloitte launches Enterprise AI Navigator to turn AI from cost to value",
+      "summary": "Deloitte dropped a comprehensive platform designed to help companies stop treating AI as an expense and start capturing real outcomes. It includes an opportunity scanner, impact evaluator, and agent creation hub to guide companies through their AI journeys.",
+      "takeaway": "Deloitte's basically saying 'we know you're confused about AI ROI—let us build that roadmap for you,' and tbh that's the consulting move that could actually stick.",
+      "source": "Crowdfund Insider",
+      "url": "https://www.crowdfundinsider.com/2026/03/264460-deloitte-introduces-enterprise-ai-solution-to-enable-businesses-to-move-ai-capabilities-from-cost-to-value/",
+      "tag": "AI implementation",
+      "tool": "Enterprise AI Navigator",
+      "readTime": 4,
+      "paywalled": true
+    },
+    {
+      "title": "PE firms already ditching $500K McKinsey reports for $50K AI agents",
+      "summary": "A 5-month-old startup called DiligenceSquared just got PE firms managing $2+ trillion to replace traditional consulting with AI-powered due diligence, literally cutting costs by 90% while private equity closes deals. It's field-testing billion-dollar AI bets in production right now.",
+      "takeaway": "This is lowkey the existential threat consulting firms actually need to worry about—not AI in general, but startups that make their entire value prop obsolete.",
       "source": "UC Strategies",
       "url": "https://ucstrategies.com/news/pe-firms-replaced-500k-mckinsey-reports-with-50k-ai-on-live-deals/",
-      "tag": "disruption",
-      "tool": "AI agents",
+      "tag": "AI disruption",
+      "tool": "DiligenceSquared",
       "readTime": 6,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Deloitte Launches Enterprise AI Navigator Platform",
-      "why": "Deloitte's treating AI as a strategic asset, not just a tool. Their new platform has an AI opportunity scanner, business impact evaluator, and agent creation hub—basically commoditizing consulting work.",
-      "url": "https://www.crowdfundinsider.com/2026/03/264460-deloitte-introduces-enterprise-ai-solution-to-enable-businesses-to-move-ai-capabilities-from-cost-to-value/",
-      "tag": "platforms"
+      "title": "Why consulting's margin model is fundamentally broken for the AI era",
+      "why": "Big consulting charges by the hour, but AI makes work faster—the math doesn't work anymore and McKinsey's already cutting staff. This explains why the industry is freaking out about margins more than AI replacing jobs.",
+      "url": "https://www.axios.com/2025/08/10/ai-trump-deloitte-accenture-consulting",
+      "tag": "industry analysis"
     },
     {
-      "title": "How AI Is Creating an Internal Rift at McKinsey, Bain, BCG",
-      "why": "Junior consultants are lowkey exhausted—shorter deadlines, less creativity, more AI pressure from senior partners. This tension between what AI promises and what actually works is way more real than the PR.",
-      "url": "https://the-ken.com/story/bcg-and-mckinsey-sell-speed-as-ai-shakes-up-consulting-so-why-arent-consultants-buying-it/",
-      "tag": "culture"
+      "title": "How consulting firms went from 'we'll tell you what to do' to 'we'll build your AI infrastructure'",
+      "why": "McKinsey, BCG, and Bain are shifting from pure strategy to implementation—building actual AI tools and systems instead of just decks. It's a massive business model shift that's still in early innings.",
+      "url": "https://futureofconsulting.ai/ai-leadership/2026-consultings-ai-revolution-update/",
+      "tag": "consulting evolution"
     }
   ]
 }

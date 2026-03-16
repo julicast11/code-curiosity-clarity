@@ -1,49 +1,49 @@
 {
-  "headline": "PE's Momentum Accelerates as Deal Activity Hits New Gears 🚀",
+  "headline": "PE Momentum Picking Up But Execution Still the Name of the Game",
   "stories": [
     {
-      "title": "Deloitte Clinches PE Leader Status Again—AI & Digital Transformation Are Now Table Stakes",
-      "summary": "Deloitte snagged top honors in Everest Group's PE Services PEAK Matrix for the second year running on March 12. The win signals that PE firms are doubling down on digital transformation and AI-driven value creation, making operational upgrades the new deal differentiator.",
-      "takeaway": "If you're pitching value creation to PE sponsors, operational excellence and tech integration aren't nice-to-haves anymore—they're literally how deals get won.",
+      "title": "Deloitte Nabs Top PE Services Ranking For Second Year Straight",
+      "summary": "Deloitte got recognized as a Leader and Star Performer in Everest Group's Private Equity Services assessment, showing massive demand for consulting support in the PE space. The firm's AI and digital transformation chops are literally carrying PE deals right now.",
+      "takeaway": "PE consulting roles are hot — firms are competing hard on execution and tech capabilities, so brush up on your AI and digital transformation fluency if you're trying to stand out.",
       "source": "PR Newswire",
       "url": "https://www.prnewswire.com/news-releases/deloitte-is-recognized-as-a-leader-and-star-performer-in-everest-groups-private-equity-services-peak-matrix-assessment-2026-two-years-in-a-row-302712183.html",
       "tag": "PE/Consulting Industry",
+      "readTime": 3,
+      "paywalled": false
+    },
+    {
+      "title": "Healthcare M&A Bouncing Back in 2026 — AI and Digital Care Dominate the Story",
+      "summary": "Healthcare deal activity slowed in 2025 but PwC expects 2026 to rebound hard, with PE playing a bigger role in carve-outs and bolt-ons. Digital-first, AI-enabled care models are the plays everyone's chasing — especially in medtech and health services.",
+      "takeaway": "Healthcare is one of the hottest PE sectors rn. If you want to stand out on healthcare deals, get comfortable with AI application in care delivery, digital transformation timelines, and reimbursement dynamics.",
+      "source": "Fierce Healthcare / PwC",
+      "url": "https://www.fiercehealthcare.com/finance/key-trends-will-shape-healthcare-ma-activity-2026-pwc",
+      "tag": "Healthcare Sector",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "Healthcare M&A Set to Boom—AI-Driven Care Platforms & GLP-1 Assets Are Winning Investor Attention",
-      "summary": "Healthcare deal activity is about to explode with mega-funds returning aggressive to offense. Mega-funds are targeting behavioral health, physician services, and tech-enabled care delivery—putting pressure on traditional mid-market PE investors to sharpen their sourcing game.",
-      "takeaway": "Healthcare is lowkey the hottest sector for PE right now. If you're working healthcare deals, positioning around AI capabilities and recurring revenue models is literally the difference between winning and losing.",
-      "source": "PwC",
-      "url": "https://www.fiercehealthcare.com/finance/key-trends-will-shape-healthcare-ma-activity-2026-pwc",
-      "tag": "Healthcare Sector",
+      "title": "Breaking Into PE From Consulting? Timing Is Everything",
+      "summary": "Consulting-to-PE moves are possible but window-dependent — on-cycle recruiting starts insanely early (sometimes before you even start your job), and you'll compete harder than IB candidates. The move gets tougher the more senior you get without direct PE experience.",
+      "takeaway": "If you're at MBB and eyeing PE, start networking NOW and consider what you're learning on consulting deals that translates to value creation. MBA timing matters if you missed early recruiting cycles.",
+      "source": "Menlo Coaching",
+      "url": "https://menlocoaching.com/career-coaching/consulting-to-private-equity/",
+      "tag": "Career Tip",
       "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "The Fast-Track Promotion Flex: Analysts Who Can Run Diligence Solo Are Getting Promoted Way Early",
-      "summary": "2026 PE firms are literally creating fast-track opportunities for analysts who can independently manage due diligence workstreams and contribute to IC meetings without constant hand-holding. Translation: actually deliver impact and you won't suffer through the full analyst hazing period.",
-      "takeaway": "Tbh, if you're an analyst right now, this is your moment. Show you can own a workstream end-to-end and you'll move up way faster than the traditional timeline. Own your narrative.",
-      "source": "Uplevered",
-      "url": "https://uplevered.com/private-equity-salary-2025/",
-      "tag": "Career Development",
-      "readTime": 3,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Deal Activity Is Booming Again—Middle-Market M&A Off to Strongest Start in Years",
-      "why": "Shows exactly where PE deal flow is headed in 2026; crucial context for understanding which firms are actually deploying capital and which are still stuck on sidelines.",
-      "url": "https://www.lplegal.com/content/outlook-for-middle-market-ma-and-private-equity-2026/",
-      "tag": "Deal Trends"
+      "title": "Bain's 2026 Global Private Equity Report — Full Analysis",
+      "why": "Lowkey the most comprehensive breakdown of PE momentum, deal structure trends, and where dry powder's actually going. Plus their take on why '12 is the new 5' for EBITDA growth expectations is super relevant for analysts pitching deals.",
+      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
+      "tag": "PE Industry Deep Dive"
     },
     {
-      "title": "The Business Development Flex—GPs Now Hiring Analysts Who Can Originate Deals, Not Just Model Them",
-      "why": "If you're prepping for recruiting or trying to stand out as an analyst, this changes the game. Deal sourcing ability is becoming a primary hiring signal, not an afterthought.",
-      "url": "https://mnacommunity.com/insights/private-equity-recruiting-in-2026-five-key-insights-for-candidates/",
-      "tag": "Recruiting Strategy"
+      "title": "PwC Healthcare Investment Themes 2026 — Sector Breakdown",
+      "why": "If healthcare is your lane, this spells out exactly where PE capital is flowing — cardiology, surgical robotics, AI-enabled RCM, CROs. Also breaks down the alternative deal structures gaining traction (continuation vehicles, carve-outs) that'll come up in your diligence work.",
+      "url": "https://www.pwc.com/us/en/industries/health-industries/library/2026-healthcare-investment-themes.html",
+      "tag": "Healthcare + PE Strategy"
     }
   ]
 }

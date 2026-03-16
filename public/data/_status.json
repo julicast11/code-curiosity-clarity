@@ -1,9 +1,6 @@
 {
-  "success": false,
-  "failedTabs": [
-    "value-creation",
-    "sfl-tech"
-  ],
+  "success": true,
+  "failedTabs": [],
   "totalTabs": 12,
-  "generatedAt": "2026-03-16T01:32:50.884Z"
+  "generatedAt": "2026-03-16T01:50:26.104Z"
 }

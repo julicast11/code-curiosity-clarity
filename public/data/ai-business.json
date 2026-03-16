@@ -1,63 +1,63 @@
 {
-  "headline": "AI Transforms Into Autonomous Workers—Agents Take Over Real Workflows",
+  "headline": "AI Hits an Inflection Point: Agents Go Live, Infrastructure Breaks, Morgan Stanley Warns Everyone's Not Ready",
   "stories": [
     {
-      "title": "Morgan Stanley Warns of Massive AI Breakthrough Coming in H1 2026",
-      "summary": "Morgan Stanley predicts a transformative AI leap is imminent, driven by unprecedented compute accumulation at US labs. The bank warns most of the world isn't ready—expect AI to become a deflationary force as tools replicate human work at fraction of the cost.",
-      "takeaway": "Tbh the biggest shock isn't the capability jump, it's how fast companies are restructuring around this. AI stops being a tool you use and starts being your coworker.",
+      "title": "Morgan Stanley Warns AI Breakthrough Coming in H1 2026—Infrastructure Crunch Is Real",
+      "summary": "Morgan Stanley's report signals a massive AI leap incoming this year, but warns of a brutal power shortage hitting US grids (9-18 GW deficit through 2028). Companies are already converting Bitcoin mines to data centers and deploying fuel cells to stay ahead.",
+      "takeaway": "The real bottleneck isn't AI capability—it's electricity. Infrastructure constraints will reshape where AI actually gets deployed and who wins the compute race.",
       "source": "Fortune",
       "url": "https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/",
-      "tag": "Capability",
-      "industry": "Enterprise",
-      "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "OpenAI's GPT-5.4 Thinking Hits Human Expert Level on Knowledge Work Benchmarks",
-      "summary": "OpenAI's new model scored 83% on GDPVal benchmark with computer-use abilities. This shifts AI from chat partner to actual digital coworker handling spreadsheets, documents, and autonomous workflows—stuff that was impossible a year ago.",
-      "takeaway": "This isn't just better outputs—it's literally AI operating your software for you. Lowkey the most important thing that happened this week but everyone's focused on the drama.",
-      "source": "AI Forum",
-      "url": "https://aiforum.org.uk/ai-news-roundup-march-09-2026/",
-      "tag": "Agents",
-      "industry": "Software",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "McKinsey: Agentic AI Adoption Challenges Are Experiential, Not Technical",
-      "summary": "McKinsey's latest research shows most orgs are still stuck scaling gen AI. The real blocker isn't the tech—it's getting people to actually use it and trust it. Basically, building the tools is easy, making humans work with them is the hard part.",
-      "takeaway": "Fr the limiting factor is organizational behavior, not LLM quality. Companies spending millions on AI but their teams are like 'idk how to use this.' Classic enterprise problem.",
-      "source": "McKinsey QuantumBlack",
-      "url": "https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/generative-ai",
-      "tag": "Adoption",
-      "industry": "Enterprise",
+      "tag": "Infrastructure",
+      "industry": "Infrastructure & Energy",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "a16z: 2026 Marks Death of the Prompt Box—AI Goes Invisible and Proactive",
-      "summary": "a16z predicts the prompt interface disappears this year. AI stops waiting for instructions and starts observing you, then intervenes proactively. Your IDE suggests refactors before you ask, your CRM drafts emails when calls end, your design tool generates variations as you work.",
-      "takeaway": "Chat was training wheels. Now AI becomes invisible scaffolding woven through every workflow. The biggest shift isn't smarter models—it's the UX vanishing entirely.",
-      "source": "a16z",
-      "url": "https://a16z.com/newsletter/big-ideas-2026-part-2/",
-      "tag": "UX",
-      "industry": "Enterprise",
-      "readTime": 7,
+      "title": "McKinsey QuantumBlack: AI Adoption Challenges Are Experiential, Not Technical",
+      "summary": "New McKinsey research drops the hard truth: most orgs are stuck in pilot hell because they can't get people to actually use AI tools, not because the tech is broken. Adoption challenges are about user buy-in and workflow redesign.",
+      "takeaway": "Scaling AI isn't a tech problem—it's a people problem. Teams that nail change management and user experience will outpace those betting on pure tech improvements.",
+      "source": "McKinsey QuantumBlack",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/generative-ai",
+      "tag": "Enterprise Adoption",
+      "industry": "Enterprise Software",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "OpenClaw Becomes GitHub's Most-Starred Project Ever, OpenAI Acqui-Hires Creator",
+      "summary": "OpenClaw went from one developer's side project to 68k GitHub stars in weeks, surpassing React and Linux. OpenAI brought the creator onboard in Feb, hinting at a consumer-friendly version coming soon.",
+      "takeaway": "Agentic AI finally has a viral moment. When OpenAI polishes this tool, expect rapid mainstream adoption of AI agents that actually execute tasks.",
+      "source": "a16z News",
+      "url": "https://www.a16z.news/p/top-100-gen-ai-consumer-apps-march",
+      "tag": "AI Agents",
+      "industry": "Consumer AI",
+      "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "CB Insights: Multimodal AI Agents Winning Customer Service Land Grab in 2026",
+      "summary": "Voice AI is the proving ground—high costs, zero tolerance for latency failures. Companies deploying agents at scale need multimodal capabilities (voice + text + images) to win enterprise deals. Observability tooling is becoming the bottleneck.",
+      "takeaway": "As agents move to production, the real margin shift moves from building agents to deploying, securing, and monitoring them. Observability is the next M&A battleground.",
+      "source": "CB Insights",
+      "url": "https://www.cbinsights.com/research/ai-agent-predictions-2026/",
+      "tag": "Market Analysis",
+      "industry": "Customer Service & Support",
+      "readTime": 5,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Benedict Evans Keynote at B2BMX 2026: AI Eats the World Platform Shift Analysis",
-      "why": "Evans breaks down AI as a platform shift comparable to PCs and smartphones, not electricity. Shows why 2026's startup winners look nothing like last year's. Essential macro framing.",
-      "url": "https://www.demandgenreport.com/industry-news/feature/b2bmx-2026-benedict-evans-explores-the-next-major-platform-shift-business-impacts-of-ai/52074/",
-      "tag": "Strategy"
+      "title": "MIT Technology Review: Bridging the Operational AI Gap—Agentic AI Moving to Production",
+      "why": "Deep dive on why 40% of agentic AI projects will get cancelled by 2027. Gartner's warning hits hard—it's not about capability, it's about integration infrastructure and governance models.",
+      "url": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
+      "tag": "Deep Dive"
     },
     {
-      "title": "MIT Tech Review: Operational AI Gap—Why 40% of Agentic Projects Will Fail",
-      "why": "Gartner predicts over 40% of agentic AI projects will be cancelled by 2027. This deep dive explains the actual blockers: cost, inaccuracy, governance. Not hype—the hard conversations.",
-      "url": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
-      "tag": "Reality-Check"
+      "title": "Benedict Evans: AI Eats the World Keynote (B2BMX 2026)—AI as Platform Shift, Not Magic Wand",
+      "why": "Evans cuts through the hype, contextualizing AI against past tech shifts (mainframes → PCs → smartphones). Big Four spent $400B on AI in 2025, budgeted $650B for 2026. Game-changing perspective on realistic AI adoption timelines.",
+      "url": "https://www.demandgenreport.com/industry-news/feature/b2bmx-2026-benedict-evans-explores-the-next-major-platform-shift-business-impacts-of-ai/",
+      "tag": "Strategic"
     }
   ]
 }

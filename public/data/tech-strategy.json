@@ -1,71 +1,71 @@
 {
-  "headline": "The Great AI Reality Check: Companies Moving from Pilots to Payoff",
+  "headline": "AI's hitting a wall—companies aren't scaling past pilots and the real work is just starting",
   "stories": [
     {
-      "title": "AI Transformation's \"Last Mile\" Problem",
-      "summary": "Companies are hitting a wall converting AI pilots into real business value—it's not about better tech, it's about redesigning ops and culture.",
-      "takeaway": "88% of orgs use AI in some function, but only 1-in-10 deployed agents past pilot. The gap between experimentation and actual impact is widening.",
+      "title": "The 'Last Mile' Problem Slowing AI Transformation",
+      "summary": "Companies are stuck between pilots and real scale. The actual obstacle isn't bad models or data—it's the organizational mess: process debt, tribal knowledge silos, and nobody knows how to govern AI agents.",
+      "takeaway": "Transformation fails when you treat it as tech problem instead of redesigning how work actually happens across the org",
       "source": "Harvard Business Review",
       "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
       "tag": "transformation",
-      "company": "Enterprise leaders",
+      "company": "Enterprise-wide (HBS case studies)",
       "shift": "long-term",
-      "strategyTake": "Stop building disconnected pilots. Scale AI through enterprise-wide programs with real ops redesign, not just tool rollouts.",
+      "strategyTake": "Clean-sheet process redesign > bolt-on AI tools. Agentic governance is non-negotiable now.",
+      "readTime": 7,
+      "paywalled": true
+    },
+    {
+      "title": "Publicis Sapient CEO on Why AI Isn't Just About Speed—It's About Strategy",
+      "summary": "Proof-of-concepts don't scale unless you rethink *how* your business actually works. Real strategic AI moves (like cutting car design time from 18 months to 18 weeks) ripple through supply chain, pricing, and market pivots.",
+      "takeaway": "AI success isn't functional optimization—it's forcing orgs to operate faster and smarter across the entire system",
+      "source": "🎙️ HBR IdeaCast Strategy Summit 2026",
+      "url": "https://hbr.org/podcast/2026/03/strategy-summit-2026-why-ai-transformation-needs-a-human-touch",
+      "tag": "strategy",
+      "company": "Publicis Sapient, Automotive (case example)",
+      "shift": "long-term",
+      "strategyTake": "AI forces you to rethink strategy tempo. Annual cycles & budgets don't work anymore. Speed = competitive advantage.",
       "readTime": 8,
       "paywalled": true
     },
     {
-      "title": "Scaling AI Is Actually About Redesigning Your Entire Workforce",
-      "summary": "BCG's analysis shows companies winning at AI aren't just deploying tech—they're fundamentally restructuring how teams work with AI as collaborators.",
-      "takeaway": "CHROs are becoming architects of \"hybrid workforces,\" redesigning roles so humans + AI agents work together. It's an org restructure, not an IT project.",
-      "source": "BCG",
-      "url": "https://www.bcg.com/publications/2026/reinvention-of-the-chro-in-an-ai-driven-enterprise",
-      "tag": "talent-transformation",
-      "company": "Global enterprises",
+      "title": "McKinsey Global Tech Agenda 2026: CIOs Are Now Strategy Architects",
+      "summary": "Top CIOs are rewriting their companies around agentic AI—embedding tech into business model innovation, not just operations. Nearly 1/3 of top performers prioritizing tech-led business model redesign over next 2 years.",
+      "takeaway": "The old tech/business separation is dead. CIOs who don't sit at strategy table will get left behind hard",
+      "source": "McKinsey Digital",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/mckinsey-global-tech-agenda-2026",
+      "tag": "leadership",
+      "company": "DBS Bank (case example of product-platform model)",
       "shift": "long-term",
-      "strategyTake": "Treat AI adoption like you'd treat a merger. Redefine roles, redesign workflows, and invest heavily in talent development. Culture matters more than models.",
+      "strategyTake": "Top companies investing 10%+ more on tech budgets. Scale agentic AI or get crushed by peers doing it.",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "JPMorgan Chase Reclassifies AI From \"R&D\" to \"Core Infrastructure\"",
-      "summary": "JPMorgan's pivoting its entire playbook—moving AI from experimental pilot spending to mission-critical infrastructure with measurable bottom-line impact.",
-      "takeaway": "This signals a seismic shift: AI is no longer optional or experimental. Banks embedding it into core ops (productivity, security, personalization) see real ROI.",
-      "source": "Tech industry reports",
-      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-      "tag": "banking-strategy",
-      "company": "JPMorgan Chase",
+      "title": "The Emerging Agentic Enterprise: Managing AI as Both Tool AND Coworker",
+      "summary": "76% of execs see agentic AI as a coworker, not just a tool. But orgs are treating it like tech, not talent—so governance, roles, and accountability frameworks are all breaking down.",
+      "takeaway": "Agencies are forcing the biggest org design challenge in decades. Tech and strategy teams *must* merge or fail.",
+      "source": "MIT Sloan Management Review x BCG Henderson Institute",
+      "url": "https://bcghendersoninstitute.com/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai/",
+      "tag": "organization",
+      "company": "Enterprise-wide patterns",
       "shift": "long-term",
-      "strategyTake": "The winners are treating AI like infrastructure, not tools. Move budget from \"try it\" to \"build it at scale\" with governance and accountability baked in.",
-      "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "Why AI Adoption Failures Hit When Companies Automate Broken Processes",
-      "summary": "Gartner predicts 40% of agentic AI projects will fail by 2027—not because tech doesn't work, but because orgs are automating broken ops instead of redesigning them first.",
-      "takeaway": "The trap: Taking your messy, human-centered process and just \"automating\" it with agents. Real wins come from rethinking the process itself.",
-      "source": "Deloitte Tech Trends 2026",
-      "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends.html",
-      "tag": "execution-risk",
-      "company": "Enterprise organizations",
-      "shift": "long-term",
-      "strategyTake": "Before automating anything, redesign it. Ask \"How should this work if AI could do any part of it?\" not \"How do I automate what we do today?\"",
-      "readTime": 7,
+      "strategyTake": "Single AI agent demands both HR (people) and asset management (tech) approaches—traditional management logic breaks",
+      "readTime": 9,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Microsoft's AI Transformation Hitting the Wall: A $357B Valuation Correction",
-      "why": "Microsoft's facing a major test—Azure growth slowed, and investors questioned whether massive CapEx translates to actual revenue. Worth watching how they pivot from infrastructure to monetization.",
-      "url": "https://stratechery.com/2026/microsoft-and-software-survival/",
-      "tag": "big-tech-pivot"
+      "title": "To Thrive in the AI Era, Companies Need Agent Managers",
+      "why": "New leadership role emerging—agent manager at Salesforce shows how real companies are structuring AI team oversight & governance as agents go from pilot to production",
+      "url": "https://hbr.org/2026/02/to-thrive-in-the-ai-era-companies-need-agent-managers",
+      "tag": "talent"
     },
     {
-      "title": "Morgan Stanley: A Massive AI Breakthrough Is Coming H1 2026—and Most Orgs Aren't Ready",
-      "why": "Morgan Stanley's warning about \"transformative AI\" imminent. Lowkey this could shift everything—if they're right about 10x compute = 2x intelligence, the landscape changes fast.",
-      "url": "https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/",
-      "tag": "market-inflection"
+      "title": "Context Engineering as Competitive Edge When Everyone's Using Same AI Models",
+      "why": "When all companies have access to same models, org context (how you actually work, not how you say you work) becomes the differentiator—explains why process redesign > model choice",
+      "url": "https://hbr.org/2026/02/when-every-company-can-use-the-same-ai-models-context-becomes-a-competitive-advantage",
+      "tag": "competitive-advantage"
     }
   ]
 }

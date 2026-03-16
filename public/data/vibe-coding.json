@@ -1,63 +1,63 @@
 {
-  "headline": "Agentic Era Arrives: Claude Code Dominates, Replit Hits $9B, Copilot Gets Claude Superpowers",
+  "headline": "Claude Code Dominates, Cursor Levels Up, Copilot Evolves — The Week AI Coding Got Real",
   "stories": [
     {
-      "title": "Claude Code Goes From Zero to Number One in 8 Months",
-      "summary": "Claude Code absolutely ate in 2026 — launched May 2025 and by early March hit 46% \"most loved\" rating among devs. Cursor's at 19%, Copilot's sitting at 9%, and basically everyone's using 2-3 tools now depending on the task.",
-      "takeaway": "Claude Code's agentic workflow (no tab completions, just prompts → review) flipped the entire landscape. It's lowkey the best for big refactors and multi-file changes, but the pricing tiers ($20 → $100 → $200) can sting.",
-      "source": "DEV Community",
-      "url": "https://dev.to/alexcloudstar/claude-code-vs-cursor-vs-github-copilot-the-2026-ai-coding-tool-showdown-53n4",
-      "tag": "Claude Code",
-      "type": "comparison",
-      "readTime": 8,
+      "title": "Cursor 2.6: Interactive UIs & JetBrains Integration ft. Agent Client Protocol",
+      "summary": "Cursor drops interactive UI support in agent chats, team plugin sharing, and integrates with JetBrains IDEs via Agent Client Protocol for multi-IDE agentic coding—lowkey the move everyone needed fr.",
+      "takeaway": "Cursor's not just competing, it's expanding. IDEs finally getting real agent support outside VS Code means the agent wars are broadening fast.",
+      "source": "Cursor Blog",
+      "url": "https://cursor.com/changelog",
+      "tag": "Cursor",
+      "type": "Feature Release",
+      "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "Replit Closes $400M at $9B Valuation — 3x Jump",
-      "summary": "Replit literally tripled its valuation after previous round. The vibe coding OG now has a full cloud IDE with Ghostwriter, Agent, and hosting built-in. Databricks, Okta, Shaq, YC all in.",
-      "takeaway": "Replit's not just generating code anymore — it's the full stack (database, auth, deployment). Built-in security scanner catches AI mistakes before deploy. This is why founders are shipping MVPs in weeks instead of months.",
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/03/12/vibe-coding-startup-replit-closes-400m-round-9b-valuation/",
-      "tag": "Replit",
-      "type": "funding",
+      "title": "Claude Code March Madness: 1M Context, Voice Mode & MCP Elicitation Drop",
+      "summary": "Anthropic ships voice mode (push-to-talk), 1M token window on Max/Team/Enterprise by default, /loop for persistent sessions, and MCP elicitation for agents to request user input—Claude Code went from zero to hero in 8 months fr.",
+      "takeaway": "Claude Code is literally the most-used AI coding tool now (Pragmatic Engineer survey of 900+ devs). This month's update cement its lead with UX that actually works.",
+      "source": "Anthropic News (Claude Code)",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "tag": "Claude Code",
+      "type": "Feature Release",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Microsoft Adds Claude to Copilot (March 9) — The Plot Thickens",
-      "summary": "Microsoft literally buried the lede: enterprise users can now pick Claude over GPT in M365, Copilot Studio, and GitHub Copilot. Wave 3 went full multi-model. Anthropic became a Microsoft subprocessor on Jan 6.",
-      "takeaway": "This is wild fr — Microsoft invested billions in Anthropic while having a $135B stake in OpenAI. They essentially said \"our partner's model isn't good enough for everything,\" which is the most honest product review ever. Now Copilot's not locked into one vendor.",
-      "source": "Build MVP Fast",
-      "url": "https://www.buildmvpfast.com/blog/microsoft-copilot-claude-anthropic-multi-model-enterprise-2026",
+      "title": "GitHub Copilot for JetBrains: Custom Agents & Plan Mode Go GA",
+      "summary": "Copilot's agentic features—custom agents, sub-agents, plan agent—hit general availability in JetBrains IDEs with agent hooks in preview & MCP auto-approve support, making IDE-native agents a real thing.",
+      "takeaway": "JetBrains users finally getting proper agent support. This is quietly huge for the 50% of devs not on VS Code.",
+      "source": "GitHub Blog (Copilot)",
+      "url": "https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/",
       "tag": "Copilot",
-      "type": "update",
-      "readTime": 7,
+      "type": "Feature Release",
+      "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "Simon Willison on Agentic Engineering: \"The New Thing Is You Don't Read the Code\"",
-      "summary": "At Pragmatic Summit (March 14), Simon dropped a fireside chat breakdown on how devs are adopting AI coding in phases. Started with ChatGPT questions, then agents writing bits of code, then agents writing MORE code than humans. Now? \"Three weeks ago, you don't read the code.\"",
-      "takeaway": "The lethal trifecta warning is real — sandboxing agents is critical. Devs are legit trusting AI without review cycles now, which is lowkey terrifying if you're thinking security. But also... that's the efficiency frontier.",
-      "source": "Simon Willison's Weblog",
-      "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/",
-      "tag": "agentic-engineering",
-      "type": "conference",
-      "readTime": 6,
+      "title": "Pragmatic Engineer Survey: 95% of Devs Use AI Weekly, Claude Code Topples Copilot",
+      "summary": "Survey of 906 engineers shows Claude Code hit #1 in 8 months, 55% use agents regularly (way up from single digits), and Cursor grew 35% since last year—this ain't hype anymore, it's the baseline.",
+      "takeaway": "AI coding adoption is mainstream now. The real story: agents replacing autocomplete. Staff+ engineers are the agent believers (63.5% usage).",
+      "source": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+      "tag": "Industry Data",
+      "type": "Survey",
+      "readTime": 7,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "The Real Cost of AI Coding in 2026 (Token Burn & Hidden Fees)",
-      "why": "Every tool says \"build free\" but token costs are wild. Taskade Genesis at $6/mo vs Lovable at $25+ vs Bolt's per-request model. Need to know what you're actually paying for before scaling.",
-      "url": "https://www.taskade.com/blog/best-bolt-new-alternatives",
-      "tag": "pricing"
+      "title": "Simon Willison on Agentic Engineering: The Divide AI Exposed",
+      "why": "Mar 12 post breaking down how AI-assisted coding creates a fork in the road—craft lovers vs. make-it-go people. Honestly fr, if you're building with agents, this reframes what you're actually doing.",
+      "url": "https://simonwillison.net/2026/Mar/12/les-orchard/",
+      "tag": "Opinion"
     },
     {
-      "title": "GitHub Copilot Student Plan Restrictions (March 12 Update)",
-      "why": "Two million students just got their model selection taken away. Can't manually pick Claude Opus or GPT-5.4 anymore — stuck with Auto mode. Wild move mid-semester.",
-      "url": "https://github.com/orgs/community/discussions/189268",
-      "tag": "copilot"
+      "title": "🎙️ Latent Space: Replit Agent & Cursor Agents with Samantha Whitmore",
+      "why": "Recent pod ep diving into how agents are moving from simple task execution to multi-step reasoning & continuous learning. The guest from Cursor's team breaks down what's actually hard about production agents.",
+      "url": "https://www.latent.space/",
+      "tag": "Podcast"
     }
   ]
 }

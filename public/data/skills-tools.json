@@ -1,52 +1,52 @@
 {
-  "headline": "Strategic thinking, AI-powered Excel, and smarter project tools are what consultants need rn",
+  "headline": "Level up this week: master data analysis, automate Excel workflows, and switch to smarter project tools",
   "stories": [
     {
-      "title": "Strategic Thinking Skills Are What Really Set Top Consultants Apart",
-      "summary": "Lowkey, the best consultants aren't just problem-solvers—they're strategic thinkers who zoom out and guide clients toward long-term wins. Mastering how to evaluate market dynamics and align recommendations with business goals is literally the top-tier skill firms are hiring for.",
-      "takeaway": "Start practicing SWOT analyses and industry benchmarking now. It's the difference between being a consultant and being a trusted advisor.",
-      "source": "Voltage Control",
-      "url": "https://voltagecontrol.com/articles/top-skills-in-demand-for-consultants-in-2025/",
-      "tag": "skill to learn",
-      "skill": "Strategic Thinking",
+      "title": "Data Analysis + Emotional Intelligence = Consultant Superpower",
+      "summary": "Data analysis is fr the most in-demand consulting skill for 2026, but here's the twist—pairing it with emotional intelligence unlocks insights competitors miss. Understanding user emotions behind the data (frustration, excitement) reveals pain points that raw metrics can't catch, boosting customer retention & product adoption by 15-25%.",
+      "takeaway": "Stop treating data as pure numbers. Layer in emotional intelligence to read what users actually need, not just what they're clicking. That's what separates good consultants from great ones.",
+      "source": "Jobaaj Learnings & Tepui Consulting",
+      "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
+      "tag": "Skill",
+      "skill": "Data Analysis + Emotional Intelligence",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "ChatGPT for Excel Just Launched and It's Lowkey Game-Changing",
-      "summary": "ChatGPT for Excel is now in beta (dropped March 5), and fr it lets you build, update, and analyze spreadsheets using plain language instead of wrestling with formulas. Teams can describe what they need and ChatGPT creates or updates models directly in the workbook.",
-      "takeaway": "Ask ChatGPT what you're trying to calculate instead of googling formulas. Save hours on data analysis, scenario modeling, and manual reconciliation.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/chatgpt-for-excel/",
-      "tag": "Excel/data tip",
-      "skill": "Excel Automation",
-      "readTime": 4,
+      "title": "Power Query Pivot Columns: Transform Data Without Building Tables",
+      "summary": "Pivot columns in Power Query save mad time by turning repetitive data into clean summaries in seconds. Instead of manually building pivot tables, Power Query automates the transformation, refreshes automatically when data updates, & reduces errors way better than formulas.",
+      "takeaway": "Use Power Query's pivot feature for quarterly reports, sales breakdowns, or expense summaries. Set it up once, refresh forever. Game changer for consultants drowning in spreadsheets.",
+      "source": "MyExcelOnline & Microsoft Learn",
+      "url": "https://www.myexcelonline.com/blog/create-pivot-columns-using-power-query/",
+      "tag": "Excel Tip",
+      "skill": "Power Query",
+      "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Rocketlane Is Built for Consultants (Not Generic Project Managers)",
-      "summary": "Most consultants are stuck using tools not designed for their workflow. Rocketlane actually solves this—it handles staffing, budgets, and client collab all in one platform, with AI-powered resource allocation to keep teams from burning out.",
-      "takeaway": "Stop juggling 5 tools. Use something built for consulting workflows so you can actually track profitability and client engagement without losing your mind.",
-      "source": "Rocketlane",
-      "url": "https://www.rocketlane.com/blogs/best-project-management-tools-for-consultants",
-      "tag": "useful tool",
+      "title": "Rocketlane's AI PSA Platform Just Changed the Game for Delivery Teams",
+      "summary": "Rocketlane launched Nitro, an AI execution platform that literally does the work instead of just tracking it—automating migrations, config, testing & resource allocation. Early data shows teams can deliver 50% faster while surfacing risks weeks ahead of old tools.",
+      "takeaway": "Tired of disconnected project tools? Rocketlane brings projects, time tracking, finances & client collaboration into one place. If you manage multiple client engagements, this lowkey solves like 80% of your operational chaos.",
+      "source": "Rocketlane & PMG News",
+      "url": "https://news.pm-global.co.uk/2026/03/rocketlane-launches-ai-execution-platform-to-automate-professional-services-delivery/",
+      "tag": "Tool",
       "skill": "Project Management",
-      "readTime": 5,
+      "readTime": 7,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "How to Use AI in Excel with Copilot",
-      "why": "Tbh if you're still not using Copilot in Excel, you're wasting time. Learn how to leverage it for data cleaning, formula generation, and turning messy sheets into shareable insights in minutes.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365-life-hacks/everyday-ai/time-saving-tips/how-to-use-ai-in-excel",
-      "tag": "Excel Deep Dive"
+      "title": "How to Master McKinsey's 7-Step Problem-Solving Framework",
+      "why": "This is legit the thinking system top consulting firms use. If you're leveling up your consulting skill set, learning structured problem-solving will make literally everything else easier. The framework works for client cases & internal projects.",
+      "url": "https://www.udemy.com/course/management-consulting-problem-solving/",
+      "tag": "Skill"
     },
     {
-      "title": "The Rise of AI Tools for Consultants in 2026",
-      "why": "Check this breakdown of 11 AI tools actually reshaping consulting—from Tableau AI for insights to Think Cell for presentations. Worth knowing what's out there before your firm adopts something.",
+      "title": "Beyond Dashboards: AI Tools Transforming Consultant Workflows in 2026",
+      "why": "ChatGPT, Tableau AI & Think Cell are reshaping how consultants work. Stop doing manual analysis—these tools handle research, insights & presentation creation so you can focus on strategy & client relationships. Worth knowing what's available.",
       "url": "https://www.auxi.ai/blog/ai-tools-for-consultants",
-      "tag": "Industry Trends"
+      "tag": "Tool"
     }
   ]
 }

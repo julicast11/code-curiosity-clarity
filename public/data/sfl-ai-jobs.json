@@ -1,63 +1,63 @@
 {
-  "headline": "AI's Real-World Impact on Jobs: Entry-Level Roles Softening While New Opportunities Emerge",
+  "headline": "AI Keeps Reshaping South Florida's Job Market — Here's What's Actually Happening",
   "stories": [
     {
-      "title": "Stanford Economists Reveal Entry-Level Dev Hiring Down 20%",
-      "summary": "Stanford's SIEPR panel dropped actual data showing entry-level software developer hiring (ages 22-26) is already down 20% and call center jobs down 15%. This ain't projection—it's happening right now.",
-      "takeaway": "Young developers need to level up or pivot. AI jobs with heavy exposure are getting hit, but manual labor and healthcare roles are still holding strong.",
+      "title": "Stanford Economists Drop Hard Numbers on AI's Job Impact",
+      "summary": "Entry-level dev hiring down 20%, call centers hit 15% drop — these aren't predictions, they're happening now. Lowkey wild that jobs needing physical presence (healthcare, trades) are holding up while high-AI exposure roles tank.",
+      "takeaway": "Young workers in AI-exposed fields fr need to adapt or face a brutal job market, but experienced workers using AI to upskill are thriving.",
       "source": "4 Corner Resources",
       "url": "https://www.4cornerresources.com/job-market-news/ai-job-market-impact-2026/",
-      "tag": "labor market",
-      "sector": "technology",
+      "tag": "Job Market",
+      "sector": "Tech & Labor",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "GenAI Reshaping White-Collar Work, Not Erasing It",
-      "summary": "Harvard researchers analyzed nearly all U.S. job postings from 2019-March 2025 and found routine roles dropped 13% since ChatGPT, but analytical and creative jobs jumped 20%. Companies are literally reshuffling the deck.",
-      "takeaway": "The real risk is for workers stuck automating their old tasks instead of learning to use AI. Reskilling is literally the move.",
-      "source": "Harvard Business Review",
-      "url": "https://hbr.org/2026/03/research-how-ai-is-changing-the-labor-market",
-      "tag": "job trends",
-      "sector": "technology",
-      "readTime": 6,
-      "paywalled": true
-    },
-    {
-      "title": "Miami-Dade Launches AI Training Push for Small Biz & Public Sector",
-      "summary": "Miami-Dade County just partnered with Google's InnovateUS to offer free AI courses to public employees and small businesses. They're literally lowkey trying to make sure nobody gets left behind.",
-      "takeaway": "South Florida's actively investing in upskilling its workforce. If you're in the area, this is free professional development you can't ignore.",
-      "source": "GovTech",
-      "url": "https://www.govtech.com/artificial-intelligence/miami-dade-county-fla-works-to-put-ai-in-action",
-      "tag": "skills training",
-      "sector": "government",
+      "title": "Tech Giants' $650B AI Spending Could Actually Benefit South Florida",
+      "summary": "Amazon, Google, Meta dumping insane amounts into AI infrastructure. While most $$$ stays in existing tech hubs, South Florida could see indirect benefits through skilled labor demand and engineering services.",
+      "takeaway": "The region's legit positioning itself as a tech corridor — companies are already moving here looking for talent and cheaper ops than the coasts.",
+      "source": "Islander News",
+      "url": "https://www.islandernews.com/local/business/big-tech-s-650-billion-ai-spending-surge-could-ripple-into-south-florida/article_fda8789f-0d5a-4651-a2ad-8d1e42bb5d10.html",
+      "tag": "Investment",
+      "sector": "Tech & Finance",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "CareerSource Broward Gets $300K Grant for AI Training",
-      "summary": "Broward County just secured major funding specifically for AI training programs aimed at local businesses. They're not messing around—this is serious investment in the workforce.",
-      "takeaway": "South Florida is doubling down on making sure businesses and workers get AI-ready. Job market's shifting, but the region's actually prepping for it.",
-      "source": "CareerSource Broward",
-      "url": "https://careersourcebroward.com/news/artificial-intelligence-training",
-      "tag": "workforce development",
-      "sector": "training",
-      "readTime": 3,
+      "title": "South Florida Tech Leaders Want to Be Ready for the Next Wave",
+      "summary": "At Tech Hub Pulse this week, founders and investors talked space, defense, and AI reshaping the region. They're basically saying South Florida needs to prepare for rapid growth or get left behind.",
+      "takeaway": "Tbh, the region's serious about becoming a real tech hub — space/defense opportunities incoming with spaceports and talent recruitment.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
+      "tag": "Regional Tech",
+      "sector": "Tech Ecosystem",
+      "readTime": 4,
       "paywalled": false
+    },
+    {
+      "title": "AI Reshaping White-Collar Work — But Also Creating New Opportunities",
+      "summary": "Analysis of nearly all US job postings shows automation-prone roles down 13%, while analytical and creative jobs up 20%. Companies' reskilling choices will literally decide if workers get displaced or leveled up.",
+      "takeaway": "The job market's not dying — it's literally transforming. Workers who adapt to AI tools early are positioning themselves for the next economy.",
+      "source": "Harvard Business School",
+      "url": "https://hbr.org/2026/03/research-how-ai-is-changing-the-labor-market",
+      "tag": "Macro Trends",
+      "sector": "Labor & Economics",
+      "readTime": 6,
+      "paywalled": true
     }
   ],
   "watchNext": [
     {
-      "title": "Healthcare Jobs Leading Growth While Tech Faces Headwinds",
-      "why": "Healthcare is literally the main job creator in 2026. If AI's squeezing tech roles, health positions are your safest bet—they're hiring and ain't slowing down.",
-      "url": "https://www.ai-supremacy.com/p/the-us-labor-market-and-its-ai-problem-2026",
-      "tag": "job market"
+      "title": "How Young Workers Can Actually Survive the AI Job Market",
+      "why": "Entry-level positions are tanking hard — need to see concrete strategies for 20-somethings breaking in without experience.",
+      "url": "https://www.dallasfed.org/research/economics/2026/0224",
+      "tag": "Career Strategy"
     },
     {
-      "title": "227 AI Engineer Openings in Miami Right Now",
-      "why": "Miami's got serious AI jobs available if you've got the skills. Companies like Scribd, PWC, and DataAnnotation are actively hiring—fr fr, the market's hot for actual AI talent.",
+      "title": "227 AI Engineer Jobs in Miami — What Salaries Actually Look Like",
+      "why": "Lowkey important to see real demand in South Florida + what companies are paying for these roles rn.",
       "url": "https://www.glassdoor.com/Job/miami-artificial-intelligence-engineer-jobs-SRCH_IL.0,5_IC1154170_KO6,38.htm",
-      "tag": "hiring"
+      "tag": "Job Listings"
     }
   ]
 }

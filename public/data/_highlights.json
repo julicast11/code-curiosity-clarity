@@ -1,32 +1,32 @@
 [
   {
-    "title": "Claude Sonnet 4.6",
-    "summary": "The new default free model on claude.ai with 1M context window & adaptive thinking. Lowkey the best value play rn—same $3/$15 pricing but way more capable for coding & long docs.",
-    "takeaway": "Free tier just got Opus-level reasoning at Sonnet pricing",
+    "title": "Claude Opus 4.6",
+    "summary": "Claude just went full beast mode with a 1M token context window (beta), 128K output tokens, and agentic capabilities that actually work. Literally shipped Agent Teams and adaptive thinking without making you pay extra.",
+    "takeaway": "1M context window + 128K output at standard pricing",
     "source": "AI Tool",
-    "url": "https://claude.ai",
-    "tag": "AI Model",
-    "readTime": 2,
-    "_tab": "tools-to-try"
-  },
-  {
-    "title": "Windsurf",
-    "summary": "IDEs finally got smart enough to actually think through your code. Multi-file refactors, terminal access, & the whole flow just works. Beats Cursor for repo-wide context rn.",
-    "takeaway": "The actual agentic IDE everyone's been waiting for",
-    "source": "AI Tool",
-    "url": "https://windsurf.dev",
-    "tag": "Developer Tools",
+    "url": "https://www.anthropic.com",
+    "tag": "LLM",
     "readTime": 3,
     "_tab": "tools-to-try"
   },
   {
-    "title": "AssemblyAI Universal-Streaming",
-    "summary": "New model hits lightning-fast speech recognition at $0.15/hour. Perfect for building actual voice experiences without lag. Tbh this is the missing piece for voice agent devs.",
-    "takeaway": "~300ms latency speech-to-text built for voice agents",
+    "title": "Viktor by Zeta Labs",
+    "summary": "This Slack agent actually observes how your team works and chimes in with automation ideas you didn't even think of. Built from the Claude Code team, it's lowkey the future of workflow automation—no more context switching.",
+    "takeaway": "AI agent that lives in Slack and proactively suggests automations",
     "source": "AI Tool",
-    "url": "https://assemblyai.com",
-    "tag": "Voice AI",
+    "url": "https://www.producthunt.com",
+    "tag": "Agent",
     "readTime": 2,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "Windsurf (IDE)",
+    "summary": "Windsurf added Arena Mode so you can pit Claude vs GPT vs other models against each other on your code. Plan Mode now handles smarter task planning before generation. It's like having a team of devs fighting over whose solution is best.",
+    "takeaway": "Arena Mode lets models compete side-by-side for your coding",
+    "source": "AI Tool",
+    "url": "https://codeium.com/windsurf",
+    "tag": "Dev Tools",
+    "readTime": 3,
     "_tab": "tools-to-try"
   }
 ]
