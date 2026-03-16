@@ -1,63 +1,63 @@
 {
-  "headline": "South Florida's tech momentum keeps accelerating with crypto relocations, defense deals, and quantum investments",
+  "headline": "South Florida Tech Week: Angel Groups Merge, AI Sales Startups & Padel Boom 🌴",
   "stories": [
     {
-      "title": "Palantir Sets Up Miami HQ, Crypto Firms Follow Suit",
-      "summary": "Palantir officially moved its headquarters to the Gold Coast this week, signaling major defense-tech confidence in South Florida. Meanwhile, Elektron Energy (crypto infrastructure) is relocating its US HQ to Brickell.",
-      "takeaway": "Defense and Web3 companies lowkey making Miami the place to be for next-gen tech",
+      "title": "Miami Angels and New World Angels Merge to Form Statewide Network",
+      "summary": "Two major South Florida angel networks combined to create a larger platform with better deal flow access and AI-powered diligence for founders. The move aims to simplify fundraising with a single entry point to bigger capital pools.",
+      "takeaway": "Lowkey a huge infrastructure play for South Florida startups looking to raise. The merged group is already seeing 5x more pitch volume with AI handling diligence.",
       "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-a-local-college-wins-5m-in-quantum-funding-plus-news-from-elektron-energy-endeavor-miami-trubar-avenue-z-exowatt-emerge-new-world-angels-tech-jobs-amp/",
-      "tag": "HQ Relocation",
-      "sector": "Defense Tech / Crypto",
+      "url": "https://refreshmiami.com/news/miami-angels-and-new-world-angels-are-combining-to-form-statewide-network/",
+      "tag": "Funding",
+      "sector": "Venture Capital",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Racquet 360 Raises $9M to Scale Padel Ecosystem Across US",
+      "summary": "Key Biscayne startup bet big on padel's US growth with $9M from sports investors. Founder Emiliano Abramzon (who sold Nearpod for $650M) is building the full ecosystem—from a pro league to e-commerce to club management.",
+      "takeaway": "Miami's becoming the padel mecca and Racquet 360 is positioning itself as the infrastructure play. Projected 300% revenue growth this year is fr fr wild.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/game-set-match-miami-startup-serves-9m-bet-on-padels-u-s-rise/",
+      "tag": "Funding",
+      "sector": "Sports Tech",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "Palm Beach State College Lands $5M Quantum Computing Grant",
-      "summary": "PBSC secured $5M in quantum funding to build a Quantum Innovation Center in downtown West Palm Beach, aiming to attract startups and emerging companies in advanced computing and security.",
-      "takeaway": "South Florida's locking in serious deep-tech infrastructure—workforce training + quantum talent pipeline hitting different",
+      "title": "Cyrus AI Automating Sales Workflows for Enterprise Reps",
+      "summary": "Miami startup building AI that handles the tedious parts of sales—approvals, doc updates, follow-ups. Co-founders Ali Zolfaghari and Jake Heenehan met at Vendr, saw the pain, and built the fix.",
+      "takeaway": "Not trying to replace reps but multiply them by 4x. The 'messy middle' of sales (updates, docs, approvals) is where most time gets wasted and Cyrus is targeting that.",
       "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-a-local-college-wins-5m-in-quantum-funding-plus-news-from-elektron-energy-endeavor-miami-trubar-avenue-z-exowatt-emerge-new-world-angels-tech-jobs-amp/",
+      "url": "https://refreshmiami.com/news/cyrus-is-building-the-ai-teammate-that-sales-reps-actually-wanted/",
+      "tag": "AI/Startups",
+      "sector": "Enterprise Software",
+      "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "Neural Earth Raises $9.3M Seed to Scale Climate Risk Intelligence",
+      "summary": "Miami-based geospatial AI platform raised $9.3M to help insurance and real estate companies assess climate risk. Uses satellite imagery and proprietary analytics to turn complexity into property-level risk scores.",
+      "takeaway": "Climate risk is getting serious and traditional models are breaking. Neural Earth's AI matching real environmental pace is resonating with investors—seed was oversubscribed.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/neural-earth-raises-9m-to-turn-climate-risk-into-real-time-decisions/",
       "tag": "Funding",
-      "sector": "Quantum Computing",
+      "sector": "Climate Tech",
       "readTime": 3,
-      "paywalled": false
-    },
-    {
-      "title": "Miami Angels & New World Angels Merge to Create Statewide Network",
-      "summary": "Two major angel investor groups are combining forces to form a unified statewide network, expanding access to early-stage capital across Florida. The move signals growing maturity in the region's startup financing ecosystem.",
-      "takeaway": "More organized angel capital = better odds for founders getting seed checks without needing West Coast connections",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
-      "tag": "Investor News",
-      "sector": "Venture Capital",
-      "readTime": 2,
-      "paywalled": false
-    },
-    {
-      "title": "Padel Startup Raises $9M on U.S. Sports Expansion Bet",
-      "summary": "A Miami startup is betting $9M on padel's explosive U.S. growth, targeting the sport's booming popularity among younger demographics. The play capitalizes on paddle sports becoming mainstream athletic infrastructure.",
-      "takeaway": "Sports + tech intersection is fr underrated—this startup's riding a real wave (literally)",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
-      "tag": "Startup Funding",
-      "sector": "Sports Tech",
-      "readTime": 2,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Israel Tech Week Miami 2026 (Deadline: March 15)",
-      "why": "Israeli founders can pitch to global investors + media. South Florida already attracting international deep-tech talent, so this is a major sourcing event for the local ecosystem",
-      "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-a-local-college-wins-5m-in-quantum-funding-plus-news-from-elektron-energy-endeavor-miami-trubar-avenue-z-exowatt-emerge-new-world-angels-tech-jobs-amp/",
-      "tag": "Event"
+      "title": "Tech Hub Pulse on South Florida's Tech Economy Future",
+      "why": "Explores AI, drones, and space/defense opportunities in South Florida. Predicts 3-5 IPOs in next 60 months and growth surge if major tech leaders move to region.",
+      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
+      "tag": "Ecosystem"
     },
     {
-      "title": "eMerge AI Hackathon (April 18)",
-      "why": "Judges from Meta, Lightship Capital, and Haize Labs already confirmed. Building AI products + getting in front of tier-1 investors in one day hits different for makers",
-      "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-a-local-college-wins-5m-in-quantum-funding-plus-news-from-elektron-energy-endeavor-miami-trubar-avenue-z-exowatt-emerge-new-world-angels-tech-jobs-amp/",
-      "tag": "Event"
+      "title": "FAU Gets $4.5M Air Force Flight Simulator Investment",
+      "why": "Defense tech momentum in South Florida keeps building. FAU's T-1A Jayhawk simulator signals government interest in regional aerospace innovation hubs.",
+      "url": "https://refreshmiami.com/news/fau-lands-4-5m-u-s-air-force-t-1a-jayhawk-flight-simulator/",
+      "tag": "Defense Tech"
     }
   ]
 }

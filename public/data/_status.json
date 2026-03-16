@@ -1,6 +1,8 @@
 {
-  "success": true,
-  "failedTabs": [],
+  "success": false,
+  "failedTabs": [
+    "life-at-stax"
+  ],
   "totalTabs": 12,
-  "generatedAt": "2026-03-16T01:50:26.104Z"
+  "generatedAt": "2026-03-16T02:11:01.161Z"
 }

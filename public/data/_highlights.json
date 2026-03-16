@@ -1,8 +1,8 @@
 [
   {
-    "title": "Claude Opus 4.6",
-    "summary": "Claude just went full beast mode with a 1M token context window (beta), 128K output tokens, and agentic capabilities that actually work. Literally shipped Agent Teams and adaptive thinking without making you pay extra.",
-    "takeaway": "1M context window + 128K output at standard pricing",
+    "title": "Claude 4.6 Opus",
+    "summary": "Anthropic's flagship now handles massive documents with full GA on 1M context + 128K output. Lowkey the context king rn with agentic capabilities that actually work.",
+    "takeaway": "1M context window at standard pricing, finally",
     "source": "AI Tool",
     "url": "https://www.anthropic.com",
     "tag": "LLM",
@@ -10,22 +10,22 @@
     "_tab": "tools-to-try"
   },
   {
-    "title": "Viktor by Zeta Labs",
-    "summary": "This Slack agent actually observes how your team works and chimes in with automation ideas you didn't even think of. Built from the Claude Code team, it's lowkey the future of workflow automation—no more context switching.",
-    "takeaway": "AI agent that lives in Slack and proactively suggests automations",
+    "title": "Windsurf",
+    "summary": "Fr the most complete agentic dev experience. Arena Mode lets you compare models side-by-side, Plan Mode handles smarter task planning before code gen.",
+    "takeaway": "The first agentic IDE that actually ships",
     "source": "AI Tool",
-    "url": "https://www.producthunt.com",
-    "tag": "Agent",
-    "readTime": 2,
+    "url": "https://codeium.com/windsurf",
+    "tag": "Development",
+    "readTime": 4,
     "_tab": "tools-to-try"
   },
   {
-    "title": "Windsurf (IDE)",
-    "summary": "Windsurf added Arena Mode so you can pit Claude vs GPT vs other models against each other on your code. Plan Mode now handles smarter task planning before generation. It's like having a team of devs fighting over whose solution is best.",
-    "takeaway": "Arena Mode lets models compete side-by-side for your coding",
+    "title": "Meta Vibes AI Editor",
+    "summary": "Quietly launched as a full editor now. Image & video generation, timeline editing, production tools—it's like Google Flow but tbh the output quality still needs work.",
+    "takeaway": "Standalone creation studio for video & image gen",
     "source": "AI Tool",
-    "url": "https://codeium.com/windsurf",
-    "tag": "Dev Tools",
+    "url": "https://meta.ai",
+    "tag": "Video/Image Gen",
     "readTime": 3,
     "_tab": "tools-to-try"
   }

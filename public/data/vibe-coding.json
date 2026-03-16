@@ -1,63 +1,63 @@
 {
-  "headline": "Claude Code Dominates, Cursor Levels Up, Copilot Evolves — The Week AI Coding Got Real",
+  "headline": "Cursor's $2B Run & Claude Code's Massive March Update Reshaping the Agentic Summer",
   "stories": [
     {
-      "title": "Cursor 2.6: Interactive UIs & JetBrains Integration ft. Agent Client Protocol",
-      "summary": "Cursor drops interactive UI support in agent chats, team plugin sharing, and integrates with JetBrains IDEs via Agent Client Protocol for multi-IDE agentic coding—lowkey the move everyone needed fr.",
-      "takeaway": "Cursor's not just competing, it's expanding. IDEs finally getting real agent support outside VS Code means the agent wars are broadening fast.",
+      "title": "Cursor Hits $2B ARR: Cloud Agents Enter Era 3 of AI Coding",
+      "summary": "Cursor crossed $2B annual revenue milestone & launched cloud agents that run autonomously in sandboxes—literally flipping devs from writing code to managing agent factories. First-third of their PRs are now agent-generated.",
+      "takeaway": "Cursor's automations + cloud agents mark the shift from \"prompt & monitor\" to \"set it & forget it\"—devs are becoming engineering managers, not coders.",
       "source": "Cursor Blog",
-      "url": "https://cursor.com/changelog",
+      "url": "https://releasebot.io/updates/cursor",
       "tag": "Cursor",
-      "type": "Feature Release",
-      "readTime": 4,
+      "type": "product-launch",
+      "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Claude Code March Madness: 1M Context, Voice Mode & MCP Elicitation Drop",
-      "summary": "Anthropic ships voice mode (push-to-talk), 1M token window on Max/Team/Enterprise by default, /loop for persistent sessions, and MCP elicitation for agents to request user input—Claude Code went from zero to hero in 8 months fr.",
-      "takeaway": "Claude Code is literally the most-used AI coding tool now (Pragmatic Engineer survey of 900+ devs). This month's update cement its lead with UX that actually works.",
+      "title": "Claude Code Gets Voice Mode, /loop Commands & 1M Token Context in March Blitz",
+      "summary": "Anthropic dropped voice mode, recurring task loops, 1M context window for Opus 4.6, MCP elicitation, and like 50+ micro-fixes—literally the most feature-packed month Claude Code has ever had.",
+      "takeaway": "Claude Code's March update makes it the first truly conversational + executable coding agent; the quota doubling is lowkey Anthropic testing how much users will abuse it.",
       "source": "Anthropic News (Claude Code)",
       "url": "https://releasebot.io/updates/anthropic/claude-code",
       "tag": "Claude Code",
-      "type": "Feature Release",
+      "type": "feature-update",
+      "readTime": 7,
+      "paywalled": false
+    },
+    {
+      "title": "GitHub Copilot SDK Brings Agentic Execution Inside Your Apps",
+      "summary": "GitHub dropped a programmable SDK that lets devs embed the same Copilot execution layer directly into production apps—shifting from \"AI as text\" to \"AI as infrastructure\" that actually does stuff.",
+      "takeaway": "This is the play: instead of prompt→response, you define intent & constraints, agents plan/execute/iterate inside your product. The orchestration layer finally got commoditized.",
+      "source": "GitHub Blog (Copilot)",
+      "url": "https://github.blog/ai-and-ml/github-copilot/the-era-of-ai-as-text-is-over-execution-is-the-new-interface/",
+      "tag": "Copilot",
+      "type": "platform-release",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "GitHub Copilot for JetBrains: Custom Agents & Plan Mode Go GA",
-      "summary": "Copilot's agentic features—custom agents, sub-agents, plan agent—hit general availability in JetBrains IDEs with agent hooks in preview & MCP auto-approve support, making IDE-native agents a real thing.",
-      "takeaway": "JetBrains users finally getting proper agent support. This is quietly huge for the 50% of devs not on VS Code.",
-      "source": "GitHub Blog (Copilot)",
-      "url": "https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/",
-      "tag": "Copilot",
-      "type": "Feature Release",
-      "readTime": 3,
-      "paywalled": false
-    },
-    {
-      "title": "Pragmatic Engineer Survey: 95% of Devs Use AI Weekly, Claude Code Topples Copilot",
-      "summary": "Survey of 906 engineers shows Claude Code hit #1 in 8 months, 55% use agents regularly (way up from single digits), and Cursor grew 35% since last year—this ain't hype anymore, it's the baseline.",
-      "takeaway": "AI coding adoption is mainstream now. The real story: agents replacing autocomplete. Staff+ engineers are the agent believers (63.5% usage).",
-      "source": "The Pragmatic Engineer",
-      "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
-      "tag": "Industry Data",
-      "type": "Survey",
-      "readTime": 7,
+      "title": "Cursor ACP + JetBrains IDEs: Full-Stack Agents Now Live in Your IDE",
+      "summary": "Cursor went multi-IDE through the Agent Client Protocol—now you get Cursor's agentic workflow inside IntelliJ, PyCharm, WebStorm while keeping JetBrains' native code intelligence. 30+ new MCP plugins shipped same day.",
+      "takeaway": "The IDE wars are officially over; agents are portable now. Cursor's not trying to replace JetBrains—it's the agentic layer on top of everything.",
+      "source": "Cursor Blog",
+      "url": "https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/",
+      "tag": "Cursor",
+      "type": "integration-release",
+      "readTime": 4,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Simon Willison on Agentic Engineering: The Divide AI Exposed",
-      "why": "Mar 12 post breaking down how AI-assisted coding creates a fork in the road—craft lovers vs. make-it-go people. Honestly fr, if you're building with agents, this reframes what you're actually doing.",
-      "url": "https://simonwillison.net/2026/Mar/12/les-orchard/",
-      "tag": "Opinion"
+      "title": "Vibe Coding vs Vibe Engineering: The Terminology Debate Simon Willison Started",
+      "why": "Lowkey the philosophical underpinning of everything shipping this week—Willison's drawing a hard line between \"vibes only\" (irresponsible) and \"agentic engineering\" (intentional + tested). Matters for how you think about what these tools actually let you build.",
+      "url": "https://simonw.substack.com/p/vibe-engineering",
+      "tag": "vibe-coding"
     },
     {
-      "title": "🎙️ Latent Space: Replit Agent & Cursor Agents with Samantha Whitmore",
-      "why": "Recent pod ep diving into how agents are moving from simple task execution to multi-step reasoning & continuous learning. The guest from Cursor's team breaks down what's actually hard about production agents.",
-      "url": "https://www.latent.space/",
-      "tag": "Podcast"
+      "title": "Replit Agent 3 vs Bolt vs v0: Full-Stack Vibe Coding Showdown",
+      "why": "The non-developer wave is real—Replit's agent hit 200+ minutes of autonomous building, Bolt's blazingly fast for prototypes, v0's still best for components. This week's benchmarks show who actually ships working stuff vs vibes.",
+      "url": "https://ai-agents-benchmark.com/",
+      "tag": "vibe-coding-platforms"
     }
   ]
 }

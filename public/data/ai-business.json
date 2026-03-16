@@ -1,63 +1,63 @@
 {
-  "headline": "AI Hits an Inflection Point: Agents Go Live, Infrastructure Breaks, Morgan Stanley Warns Everyone's Not Ready",
+  "headline": "AI Shifts from Chatbot to Coworker—Execs Scramble on Scaling & ROI",
   "stories": [
     {
-      "title": "Morgan Stanley Warns AI Breakthrough Coming in H1 2026—Infrastructure Crunch Is Real",
-      "summary": "Morgan Stanley's report signals a massive AI leap incoming this year, but warns of a brutal power shortage hitting US grids (9-18 GW deficit through 2028). Companies are already converting Bitcoin mines to data centers and deploying fuel cells to stay ahead.",
-      "takeaway": "The real bottleneck isn't AI capability—it's electricity. Infrastructure constraints will reshape where AI actually gets deployed and who wins the compute race.",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/",
-      "tag": "Infrastructure",
-      "industry": "Infrastructure & Energy",
-      "readTime": 6,
-      "paywalled": false
-    },
-    {
-      "title": "McKinsey QuantumBlack: AI Adoption Challenges Are Experiential, Not Technical",
-      "summary": "New McKinsey research drops the hard truth: most orgs are stuck in pilot hell because they can't get people to actually use AI tools, not because the tech is broken. Adoption challenges are about user buy-in and workflow redesign.",
-      "takeaway": "Scaling AI isn't a tech problem—it's a people problem. Teams that nail change management and user experience will outpace those betting on pure tech improvements.",
-      "source": "McKinsey QuantumBlack",
-      "url": "https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/generative-ai",
-      "tag": "Enterprise Adoption",
-      "industry": "Enterprise Software",
+      "title": "AI Systems Move from Tools to Autonomous Co-Workers",
+      "summary": "Ethan Mollick says companies need to stop treating AI as advanced chatbots and start recognizing autonomous agents that can carry out hours of independent work reshaping strategy, coding, and risk assessment.",
+      "takeaway": "The real game change isn't AI answering questions—it's AI systems doing actual work independently fr. Companies sleeping on this are gonna regret it.",
+      "source": "One Useful Thing",
+      "url": "https://nationaltoday.com/us/ny/new-york/news/2026/03/12/wharton-professor-ethan-mollick-sees-ai-shifting-from-chatbot-to-coworker/",
+      "tag": "Agents",
+      "industry": "Enterprise",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "OpenClaw Becomes GitHub's Most-Starred Project Ever, OpenAI Acqui-Hires Creator",
-      "summary": "OpenClaw went from one developer's side project to 68k GitHub stars in weeks, surpassing React and Linux. OpenAI brought the creator onboard in Feb, hinting at a consumer-friendly version coming soon.",
-      "takeaway": "Agentic AI finally has a viral moment. When OpenAI polishes this tool, expect rapid mainstream adoption of AI agents that actually execute tasks.",
-      "source": "a16z News",
-      "url": "https://www.a16z.news/p/top-100-gen-ai-consumer-apps-march",
-      "tag": "AI Agents",
-      "industry": "Consumer AI",
-      "readTime": 4,
+      "title": "Big Four Spent $400B on AI Last Year; 2026 Budget Hits $650B",
+      "summary": "Benedict Evans breaks down massive capex commitments from major tech platforms and why the infrastructure crunch is real—from GPU shortages to electricity constraints.",
+      "takeaway": "The money flowing into AI is lowkey insane, but here's the thing: building enough capacity to actually deploy it all is the real bottleneck now. All that capital doesn't mean instant magic.",
+      "source": "Benedict Evans at B2BMX 2026",
+      "url": "https://www.demandgenreport.com/industry-news/feature/b2bmx-2026-benedict-evans-explores-the-next-major-platform-shift-business-impacts-of-ai/",
+      "tag": "Infrastructure",
+      "industry": "Technology",
+      "readTime": 7,
       "paywalled": false
     },
     {
-      "title": "CB Insights: Multimodal AI Agents Winning Customer Service Land Grab in 2026",
-      "summary": "Voice AI is the proving ground—high costs, zero tolerance for latency failures. Companies deploying agents at scale need multimodal capabilities (voice + text + images) to win enterprise deals. Observability tooling is becoming the bottleneck.",
-      "takeaway": "As agents move to production, the real margin shift moves from building agents to deploying, securing, and monitoring them. Observability is the next M&A battleground.",
+      "title": "The \"Last Mile\" Problem: Why Most AI Pilots Never Scale",
+      "summary": "Harvard Business Review analysis shows companies have hundreds of pilots but can't move beyond them—the bottleneck isn't tech or data, it's organizational redesign and change management.",
+      "takeaway": "Everyone's running AI pilots but only 1/3 of orgs are actually scaling past that. The problem? You can't just bolt AI onto old workflows—you gotta redesign the whole thing.",
+      "source": "Harvard Business Review",
+      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
+      "tag": "Adoption",
+      "industry": "Enterprise",
+      "readTime": 6,
+      "paywalled": true
+    },
+    {
+      "title": "Multimodal AI Agents Win the Customer Service Land Grab in 2026",
+      "summary": "CB Insights data shows voice, text, image, and video agents are where the real value is locking in—customer service orgs deploying multimodal agents are leaving competitors in the dust.",
+      "takeaway": "Text-only agents are already mid. The companies scaling voice + multimodal support are gonna own customer service. Voice is the proving ground that actually works.",
       "source": "CB Insights",
       "url": "https://www.cbinsights.com/research/ai-agent-predictions-2026/",
-      "tag": "Market Analysis",
-      "industry": "Customer Service & Support",
+      "tag": "Agents",
+      "industry": "Customer Service",
       "readTime": 5,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "MIT Technology Review: Bridging the Operational AI Gap—Agentic AI Moving to Production",
-      "why": "Deep dive on why 40% of agentic AI projects will get cancelled by 2027. Gartner's warning hits hard—it's not about capability, it's about integration infrastructure and governance models.",
-      "url": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
-      "tag": "Deep Dive"
+      "title": "AI Brain Fry: The Mental Fatigue From Excessive Agent Use",
+      "why": "HBR study shows users hitting cognitive overload watching AI agents move too fast to comprehend. Lowkey important if your org is ramping up AI—burnout is real.",
+      "url": "https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry",
+      "tag": "Culture & Work"
     },
     {
-      "title": "Benedict Evans: AI Eats the World Keynote (B2BMX 2026)—AI as Platform Shift, Not Magic Wand",
-      "why": "Evans cuts through the hype, contextualizing AI against past tech shifts (mainframes → PCs → smartphones). Big Four spent $400B on AI in 2025, budgeted $650B for 2026. Game-changing perspective on realistic AI adoption timelines.",
-      "url": "https://www.demandgenreport.com/industry-news/feature/b2bmx-2026-benedict-evans-explores-the-next-major-platform-shift-business-impacts-of-ai/",
-      "tag": "Strategic"
+      "title": "China's OpenClaw AI Adoption Explodes; Tech Giants Racing to Deploy",
+      "why": "Tencent, ByteDance, JD.com all going all-in on an open-source agent framework. Shows the geopolitical split in AI adoption strategies + how fast things can move outside US.",
+      "url": "https://www.cnbc.com/2026/03/12/china-openclaw-ai-agent-adoption-tech-companies-government-support-lobster-shrimp.html",
+      "tag": "Geopolitics"
     }
   ]
 }
