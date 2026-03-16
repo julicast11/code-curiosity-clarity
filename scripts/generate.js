@@ -701,8 +701,8 @@ async function main() {
       }
     }
 
-    // Delay between calls to respect rate limits (15s for Claude API, 1s for RSS)
-    const delay = ANTHROPIC_KEY ? 20000 : 1000;
+    // Delay between calls to respect rate limits (25s for Claude API, 1s for RSS)
+    const delay = ANTHROPIC_KEY ? 25000 : 1000;
     await new Promise((r) => setTimeout(r, delay));
   }
 
