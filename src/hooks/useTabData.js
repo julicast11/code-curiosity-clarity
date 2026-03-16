@@ -6,9 +6,7 @@ const BASE = import.meta.env.BASE_URL || '/';
 async function loadStaticJson(tabId) {
   const url = `${BASE}data/${tabId}.json`;
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`No pre-generated data (${res.status})`);
-  const contentType = res.headers.get('content-type') || '';
-  if (!contentType.includes('json')) throw new Error('Not a JSON response');
+  if (!res.ok) throw new Error(`Static data not found (${res.status})`);
   return res.json();
 }
 
@@ -29,17 +27,23 @@ export function useTabData() {
 
     try {
       let result;
+
+      // Always try static JSON first (unless manual refresh)
       if (!force) {
-        // Try static JSON first (generated weekly by GitHub Actions)
         try {
           result = await loadStaticJson(tabId);
-        } catch {
-          // Static file not available — fall back to live API
+        } catch (staticErr) {
+          console.warn(`Static load failed for ${tabId}:`, staticErr.message);
         }
       }
 
-      if (!result) {
+      // Only try live API if static failed AND we have an API key
+      if (!result && apiKey) {
         result = await fetchTabData(prompt, apiKey);
+      }
+
+      if (!result) {
+        throw new Error('Data not available yet. Run the weekly workflow to generate content.');
       }
 
       cache.current[tabId] = result;
