@@ -1,56 +1,71 @@
 {
-  "headline": "Top Tech-Driven Strategy Shifts stories this week",
+  "headline": "Companies Shifting from AI Experimentation to Real Business Impact—Agents, Process Redesign & Workforce Rethink Take Center Stage",
   "stories": [
     {
-      "title": "EPAM Systems (EPAM) Is Down 6.0% After New AI Strategy And US$300 Million Buyback - Has The Bull Case Changed? - Yahoo Finance UK",
-      "summary": "EPAM Systems (EPAM) Is Down 6.0% After New AI Strategy And US$300 Million Buyback - Has The Bull Case Changed? Yahoo Finance UK",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE90X0loaWxkNjBSWkQ4OUN6X09wZ29BRFBJVEdVOXBqR1hWZ2hHbWluTndHZlQ2ZC1lT0Vsbkl0Mk5Td1lmYXFRNUh4OUljd2h1Szd1ekJ5NDRjWXRHRkFEbU9CZThwTzVGaHBRWko2RFBPNWhHYW9EWXVzNUVEUQ?oc=5",
-      "tag": "Strategy",
-      "strategyTake": ""
+      "title": "McKinsey: Only 6% of Companies Are AI 'High Performers'—But the Playbook Is Clear",
+      "summary": "<cite index=\"19-8,19-9\">88% of orgs now use AI in at least one function, but most are still experimenting or piloting—only a third have scaled their AI programs.</cite> <cite index=\"19-17\">High performers (6% of companies) push for transformative innovation, redesign workflows, scale faster, and invest more heavily.</cite>",
+      "takeaway": "The gap is massive: adoption is high but real impact is rare. Winners are doing workflow redesign + scaling, not just tool deployment.",
+      "source": "McKinsey Digital",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "tag": "enterprise-ai",
+      "company": "McKinsey & Company",
+      "shift": "long-term",
+      "strategyTake": "Stop piloting. Companies that redesign end-to-end processes and invest 20%+ of digital budgets in AI are pulling away from the pack.",
+      "readTime": 7,
+      "paywalled": false
     },
     {
-      "title": "Explained: Why India’s AI strategy is focusing on smaller language models alongside frontier systems - Storyboard18",
-      "summary": "Explained: Why India’s AI strategy is focusing on smaller language models alongside frontier systems Storyboard18",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPXzhoZ2JJODgzZTB5d3l6em9VTkM2WVVWNUctSHlYbzRRYnBmMTFWd2dTc0JTblpfRUFhb09GbmVtamFUQXg2eVV2UmlUc3dqUW5kdlgzWUFFRGg5SkJ6UTE1RnZVWlFjSjRZT3k4anRvOWJZOFU0WGxxLTBmbTNjSVNva1dnV2Z6X2hCcGtKSTRPaXJHd2plUjJjS2c0Mk82bzBvLVY5TXM2QmF4UjNDLUdVQjdEd3JJa3AzMEVyNHFSXzdZazRnUkcwTFlueHpwQXhMQzZucGItVjNqQjk5RVo4b3LSAeoBQVVfeXFMT1VCdzdxaHpFenEtd2tUS1VaSDc2RlZFaTRnYm51aVhfeDJoRXJtcTdMb3FBenVGejFYZWhEek5FUHJhMThjN1g4V3lNeTRMY19ad0FlU1JzeTEyMzBGem93cmwzRFlad1AycWN2NWZvNF81dFA4UkUtMlNUYkVEaS04eFlyaUlGano5bWFYNWZwTFlVSHgza050MlpkWWR4Z0ZRT2o3dURqajlhaHp2aGp0X1haVzU3SDQzeWpSaDZtdjhqdjE3UzZtcGhJTkkyWWxRZ191TUo4NmtXMGVoam42WkNnTHVLNFZ3?oc=5",
-      "tag": "Strategy",
-      "strategyTake": ""
+      "title": "Agentic AI Moves from Pilot to Production—But It's Reshaping How Work Actually Works",
+      "summary": "<cite index=\"58-3,58-4\">44% of companies deployed or assessed AI agents in 2025; by early 2026, experimentation became full deployments touching code, legal, finance, and admin work.</cite> <cite index=\"25-1,25-2,25-3\">CHROs are becoming architects of hybrid workforces, redesigning orgs to integrate people with AI agents while advancing enterprise capability building.</cite>",
+      "takeaway": "Agents aren't just automating tasks—they're forcing companies to rethink jobs, roles, and org structure. HR's role is fundamentally shifting.",
+      "source": "BCG",
+      "url": "https://www.bcg.com/publications/2026/reinvention-of-the-chro-in-an-ai-driven-enterprise",
+      "tag": "workforce-transformation",
+      "company": "Boston Consulting Group",
+      "shift": "long-term",
+      "strategyTake": "Agents require two-speed HR: strengthen fundamentals first (systems, data, processes), then redesign roles for AI-first ops.",
+      "readTime": 6,
+      "paywalled": false
     },
     {
-      "title": "Accenture's AI Strategy: Bold Bets Amid Industry Transformation - QUASA Connect",
-      "summary": "Accenture's AI Strategy: Bold Bets Amid Industry Transformation QUASA Connect",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNElEdUxrSVVMY0hPUFJYQTFwVzRFcVdHM0hxZVFBQnBYSHVQTW9oSktpS0tUNVE4ZHdfVFFwMS1CeGV5TERHSjhnb180QU56SFJkblY5TlprRnN0eVFCLUVoR0dmSHV1Nk1qSF9JMkNNbWM0X0pMVHZKc0J4X2puRGRsd1hCczM2V2NDcnhR?oc=5",
-      "tag": "Strategy",
-      "strategyTake": ""
+      "title": "The 'Last Mile' Problem: Why Most AI Pilots Fail to Scale",
+      "summary": "<cite index=\"43-1,43-3,43-4\">Few companies have fundamentally changed operating models around AI. Most have launched hundreds of pilots and given broad access to tools like Copilot and ChatGPT, but hit barriers in the \"last mile\" of transformation.</cite> <cite index=\"43-2\">The primary obstacle is rarely model quality or data—it's the operational and business model change itself.</cite>",
+      "takeaway": "tbh it's not a tech problem anymore—it's a change management + process redesign problem. Companies are stuck bridging pilots to org-wide adoption.",
+      "source": "Harvard Business Review",
+      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
+      "tag": "implementation-gap",
+      "company": "Harvard Business School",
+      "shift": "long-term",
+      "strategyTake": "Move beyond pilots by mapping workflows step-by-step, clarifying where agents own work vs. humans, and building change fitness as a core capability.",
+      "readTime": 8,
+      "paywalled": true
     },
     {
-      "title": "Zimbabwe launches National AI Strategy to drive digital transformation - Tech Review Africa",
-      "summary": "Zimbabwe launches National AI Strategy to drive digital transformation Tech Review Africa",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPblhoT0JWSUVMbkphRU9QRklaQ2J4RmlUTWpRQmhJbE5JNEtsblJQTlRtUXc2UWxqTFNweVVnRkItZHYtZUg2ZUxiajcwdnJqUUFmN0gtbWEya1VJNHZDYkQ4eEluNWpmajR3NERPdTdFdGl0SEF1NjE3VS1HU1JJVnl1aUtpSm5fcDI4dklyQnltQ0dRcGlxMGlyckFtd01Ja2NkWkF5YURiTFNzVVE?oc=5",
-      "tag": "Strategy",
-      "strategyTake": ""
+      "title": "Financial Services Sector: AI Moving from Automation Play to Strategic Business Reinvention",
+      "summary": "<cite index=\"60-7,60-8,60-9\">CFOs expect agentic AI to shift from experimentation to proven enterprise-wide impact, with success depending on governance, clean data, and modernized architectures—framing AI as a catalyst to reinvent finance as proactive business driver, not just an efficiency tool.</cite> <cite index=\"55-1,55-2\">The 2026 trend is a shift from AI pilots to enterprise programs; successful firms adopt modular architectures and measure outcomes through live business metrics.</cite>",
+      "takeaway": "Finance is lowkey the bellwether here—CFOs are moving from 'automate grunt work' to 'reinvent how we make decisions and operate.' That mindset shift is spreading.",
+      "source": "Fortune + FinTech Magazine",
+      "url": "https://finance.yahoo.com/news/2026-cfos-predict-ai-transformation-080000379.html",
+      "tag": "finance-transformation",
+      "company": "Multiple Financial Institutions",
+      "shift": "long-term",
+      "strategyTake": "Real value comes from using AI to do *different work*—scenario modeling, real-time risk, strategic foresight—not just speeding up the same processes.",
+      "readTime": 6,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Polestar Analytics Targets CFO-Led AI Strategy With Executive Event in Charlotte - TipRanks",
-      "why": "Polestar Analytics Targets CFO-Led AI Strategy With Executive Event in Charlotte TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa2lXd2pPbWlndGNHTDBCMGJGVEtGS3hESmFxYkdRZ2FYZnEzcFFZU2d5VTh3MXdMOVpIRlJ4RjRJMnVmdjJrRjBDTG9iTFhqYjlpMG92bFM2VG90bXVORHZpM3k0cGs0ZzRvZDR2cThSNW1HQ3kwd0w3bEZCZGoyYlphSzg4eHgxSk1SVnZrU05WT2VkellUQU5XU1A2cXBpcjIxX1owRm5OSzBsQ29CYjBIOEdnd0s2Wk1ScEdCa3B0Z3c2MG5v?oc=5",
-      "tag": "Strategy"
+      "title": "Ben Thompson on TSMC Risk & the AI Infrastructure Crunch",
+      "why": "Stratechery's deep dive on whether AI demand is real, TSMC's $52-56B CapEx bet, and why memory shortages could hit 2026-2027 harder than anyone expects.",
+      "url": "https://stratechery.com/2026/tsmc-risk/",
+      "tag": "supply-chain-risk"
     },
     {
-      "title": "Maven Clinic Reopens Consumer Channel and Pushes AI Strategy in Women’s Digital Health - TipRanks",
-      "why": "Maven Clinic Reopens Consumer Channel and Pushes AI Strategy in Women’s Digital Health TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX1ltYXRGSTJ2ZzlDd2lQa1gtM2x2dG1SajBWRnIyWVJ5TFA1aTkwNS13U01mRnZuci1MMER2WkN6VGJGdjFWcUxJc00yRDhRVXJKTGR5NFEzNTFBTFJYLVNaNmhtSUVmOFRvNmZVV0xhN2dHS3lSTlIwRkRScEdFSFg0eWFhMGw4aGNkZk9PTmhTQS1EeUxfY0Z0TEF5WnJaZGdQdm01QlZDaEwzckVIOXdfcjd6ZWxZeXJVVVRTOXNFRjZLWm9PZnJaYW1oQQ?oc=5",
-      "tag": "Strategy"
+      "title": "HBR: Can AI Stifle Innovation? The Absorptive Capacity Problem",
+      "why": "fr this hits different—when AI makes good-enough answers free, teams stop exploring better approaches. Orgs need calibrated friction to avoid getting faster but shallower.",
+      "url": "https://hbr.org/2026/03/research-using-ai-can-stifle-innovation-but-it-doesnt-have-to",
+      "tag": "innovation-risk"
     }
-  ],
-  "_fromCache": true
+  ]
 }

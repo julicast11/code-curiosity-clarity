@@ -1,44 +1,52 @@
 {
-  "headline": "Top AI in Consulting stories this week",
+  "headline": "Consulting Giants Double Down on AI: OpenAI, Accenture Get Real About Enterprise",
   "stories": [
     {
-      "title": "Probe reveals document detailing alleged $5 million deal linking Milei to Libra promotion: report - The Block",
-      "summary": "Probe reveals document detailing alleged $5 million deal linking Milei to Libra promotion: report The Block",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX2R4Q0k1c2c0cV9wNlkzRUJjS1lyRThENTNJTGlXSW9kYkFadV9nRHN0cjJxTlhxYng2Ymd0N3VTSzlpQVJXMkQ1RE1aNmJEQnFBREx5eC1iVW1WNkpQaG1hZlBoTl93ZGJub1d3RHFLX0tyRmZGQzI0aFZmTE8tSEJQN194bHR4OVp0UHZYUWNpVktudjBHdzhKMEQ1X29XRl92LTJsTl9XdkUtRjYyWE8wMzJzX3lBRmxEaE5pSlY5NExjbk1YTmR5ckJNbzht?oc=5",
-      "tag": "Consulting"
+      "title": "OpenAI Drops Frontier Alliances with Big Four Consulting Firms",
+      "summary": "<cite index=\"29-3,29-4\">OpenAI announced multiyear partnerships with Accenture, BCG, Capgemini and McKinsey to help enterprises define AI strategy and get agents into production workflows faster.</cite> <cite index=\"27-9,27-10\">BCG and McKinsey handle strategy while Accenture and Capgemini wire Frontier into actual systems.</cite>",
+      "takeaway": "Lowkey a massive play by OpenAI—basically saying 'we need the consulting world to actually deploy our stuff at scale.' OpenAI's basically admitting the bottleneck isn't the model, it's getting it live in enterprises.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/02/23/openai-partners-with-mckinsey-bcg-accenture-and-capgemini-to-push-its-frontier-ai-agent-platform/",
+      "tag": "partnerships",
+      "tool": "AI Agents",
+      "readTime": 4,
+      "paywalled": false
     },
     {
-      "title": "Forensic analysis uncovers draft of $5M deal tied to Milei’s Libra promotion: Report - TradingView",
-      "summary": "Forensic analysis uncovers draft of $5M deal tied to Milei’s Libra promotion: Report TradingView",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONUdPLTFpaFNiWWhGNl9RWl96aUpKUTVFSUlxV2w3dTd3c1ZDWFhINXZWRFhmRGVqR201bnpUWDR3bmc5OWlFT1d4SkhuOHpNaEJwMzV6eW5lVWJPLUh0S2ItdzBRclg4aVBLVnVVSzhCTERwcmNzb2JxY21lSWZfclhIQVJYNmRDN1htSEJ0Vm9Lc2dZd3c4dHRmX1ZLQ2RWaEM4Tk93SHdhQVdPbXZYQkozeS02TXFhTGx3bDVpTlZ4aVh2TVFMQmxFRnVDQlJnRFUtWWwzSVhHYmZUQXpN?oc=5",
-      "tag": "Consulting"
+      "title": "Accenture Scoops Up Ookla (Speedtest) for $1.2B in AI Data Play",
+      "summary": "<cite index=\"37-1\">Accenture acquired Ookla, a network intelligence and analytics leader.</cite> <cite index=\"44-16\">The network data feeds insights for fraud prevention in banking, smart home analytics in utilities, and traffic optimization in retail as AI scales.</cite>",
+      "takeaway": "Accenture fr just bought the whole Speedtest empire to build out AI infrastructure plays. They're literally buying network data as the foundation layer for their agentic AI bets.",
+      "source": "GeekWire",
+      "url": "https://www.geekwire.com/2026/accenture-to-acquire-seattle-network-data-company-ookla-in-1-2b-deal/",
+      "tag": "acquisitions",
+      "tool": "Network Intelligence",
+      "readTime": 5,
+      "paywalled": false
     },
     {
-      "title": "Enterprise GenAI readiness assessment: A consulting framework for scaling AI safely - INQUIRER.net USA",
-      "summary": "Enterprise GenAI readiness assessment: A consulting framework for scaling AI safely INQUIRER.net USA",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LbFdUQm9jdk5ZeEE0UkI2ZlFncXFieWRFSXBsYUxyY3FMN0RLbjNCZUxPQjdqLWUzX282UDBjUjJWbXRMRm1vd3pIcHFESS1uWEloMDlwRno3LVd3N3c?oc=5",
-      "tag": "Consulting"
+      "title": "McKinsey Drops Agency Bomb: AI Agents Aren't Chatbots, They're Decision Makers",
+      "summary": "<cite index=\"47-1,47-2\">McKinsey's March 5 podcast ep dives into agentic AI governance, noting AI systems are starting to make decisions autonomously and leaders need to reckon with new risks.</cite> <cite index=\"47-22\">Agency isn't a feature—it's a transfer of decision rights.</cite>",
+      "takeaway": "McKinsey's basically saying 'yo, you're not just deploying chatbots anymore—you're handing decision-making to machines.' The governance conversation just got terrifying in the best way.",
+      "source": "🎙️ The McKinsey Podcast",
+      "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/trust-in-the-age-of-agents",
+      "tag": "governance",
+      "tool": "Agentic AI",
+      "readTime": 8,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "McKinsey's century-old model faces AI challenge - MSN",
-      "why": "McKinsey's century-old model faces AI challenge MSN",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMERxZEJSRXc3NmFnT05WYjlhZGR2TlhDUkhyTWRSdl9sTjY0cjZWVFNXRXJKU2xPVTRMc3ZxM0hKdWJTWnU0aGdzbmY4dWVnamdoMjF1X3N6c3duQ1NCdVRVQ0YwUWhpWmpVMGJBVHJWb1lBN05SVFNTTGs1WjM2ZnpEVDNaMTZyN1dEbVJwdEhHeE9iUklFTk1ncWN2M21adkFBWFJwZGJJTGZTWFE?oc=5",
-      "tag": "Consulting"
+      "title": "Deloitte Unveils Enterprise AI Navigator to Move AI from Cost Center to Strategic Asset",
+      "why": "<cite index=\"13-6,13-7,13-8\">Deloitte launched its Enterprise AI Navigator to shift AI from expense to strategic asset, with components including an AI opportunity scanner and agent creation hub that could halve AI planning and implementation time.</cite>",
+      "url": "https://www.crowdfundinsider.com/2026/03/264460-deloitte-introduces-enterprise-ai-solution-to-enable-businesses-to-move-ai-capabilities-from-cost-to-value/",
+      "tag": "platforms"
     },
     {
-      "title": "TOP 100 DIGITAL STRATEGY CONSULTANTS, AI CONSULTING EXPERTS & KEYNOTE SPEAKERS - futuristsspeakers.com",
-      "why": "TOP 100 DIGITAL STRATEGY CONSULTANTS, AI CONSULTING EXPERTS & KEYNOTE SPEAKERS futuristsspeakers.com",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOby01cW8tQmV5M0FmVUZ5WGl3WkRuSzRHbWNlTms1UG9kS1lhdWRWcFM2VGhpV0VBNjk4U3FURTFzRmxSS2ZUQzNSVVhMNmhDbU8zNk9EWmJNMnlLb0VHeVNOQll2a05sYVg3Zy1xVG5ac3oyb3ZPTG1uRkxROGJPNnZn?oc=5",
-      "tag": "Consulting"
+      "title": "Bain & Anthropic Partnership: Custom Claude Personas for Finance & Consulting",
+      "why": "<cite index=\"12-1,12-3,12-4\">Both Accenture and Deloitte plan to roll out custom Claude personas for accountants, consultants, and developers, moving toward job-specific AI instead of generic assistants.</cite>",
+      "url": "https://www.emarketer.com/content/accenture--deloitte-push-agentic-ai-enterprise-territory-shift",
+      "tag": "customization"
     }
-  ],
-  "_fromCache": true
+  ]
 }

@@ -1,52 +1,63 @@
 {
-  "headline": "Top Models & Releases stories this week",
+  "headline": "Week of chaos: OpenAI kills GPT-5.1, Claude dominates the App Store amid #QuitGPT backlash, and DeepSeek V4 arrives with 1T parameters",
   "stories": [
     {
-      "title": "Anthropic sues Pentagon as Claude downloads soar - Mashable",
-      "summary": "Anthropic sues Pentagon as Claude downloads soar Mashable",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83YkVMaXpyQkZQZlM5MVNxcThCSENmeGdHbUg5dDRLSEExdjZ3amhiYzhqamNMRi1QVDFaVDRrYVV1SFIxVXA5dGFEcGpkT2x2MEltOTFfV2ZYekNabm52eVd3?oc=5",
-      "tag": "AI"
+      "title": "OpenAI retires GPT-5.1, launches GPT-5.3 Instant + GPT-5.4 Thinking/Pro",
+      "summary": "<cite index=\"2-2,2-3\">OpenAI released three new models in the GPT-5 family—GPT-5.3 Instant for fast everyday work, GPT-5.4 Thinking for difficult professional tasks, and GPT-5.4 Pro for the most demanding work</cite>. <cite index=\"1-1,1-2\">GPT-5.1 models were retired and auto-migrated to GPT-5.3 or GPT-5.4 variants as of March 11, 2026</cite>.",
+      "takeaway": "OpenAI's pushing out new family variants but lowkey feels reactive—like they're shuffling deck chairs after the Pentagon drama",
+      "source": "OpenAI Blog",
+      "url": "https://academy.openai.com/public/resources/latest-model",
+      "tag": "Model Release",
+      "company": "OpenAI",
+      "readTime": 4,
+      "paywalled": false
     },
     {
-      "title": "Claude AI discovered 22 Firefox flaws. Here's how many it figured out how to exploit. - Mashable",
-      "summary": "Claude AI discovered 22 Firefox flaws. Here's how many it figured out how to exploit. Mashable",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KaUdDZHJRTVVhTnlUUGJYWTQ3VkR2N0syaTVJSjVoTklHcHFMbGtiZmIta2M0UzdZb1lxeUpFLXlQQl90Nk9FQXM2cndJMklDbDRsN2ZqeWhYeHotdWhoZndFM3hnYWpXdFA2VGM5QQ?oc=5",
-      "tag": "AI"
+      "title": "Claude becomes #1 on App Store amid #QuitGPT boycott; Anthropic launches Claude Partner Network",
+      "summary": "<cite index=\"4-4,4-5\">2.5 million users abandoned ChatGPT and Claude became #1 on the App Store following OpenAI's Pentagon deal</cite>. <cite index=\"11-4,11-6\">Anthropic launched the Claude Partner Network with a $100 million 2026 commitment to support partners with training and technical support</cite>.",
+      "takeaway": "Anthropic's capitalizing on the chaos—building ecosystem support while OpenAI deals with the boycott fallout fr",
+      "source": "Anthropic News + MML Studio AI Weekly",
+      "url": "https://mml-studio.com/blog/ai-weekly-march-2-8-2026/",
+      "tag": "Market Reaction",
+      "company": "Anthropic",
+      "readTime": 5,
+      "paywalled": false
     },
     {
-      "title": "Anthropic is doubling Claude's usage limits during off-peak hours for the next two weeks - Engadget",
-      "summary": "Anthropic is doubling Claude's usage limits during off-peak hours for the next two weeks Engadget",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPY2pWNWhmVXB0N0p3LUphWEFyMGZiZnU1UG9mSW5NOWFWMURxZGhJTTRRODdVMzlSc3NEeWhkZUl2SFQzbXlfRTNxVXdlX2dPai1LckUzcUtrdDlfMUNsV2c5VGI1NndNUzlMTTEtdHVjSzdhaktwQzQyNlFEa2hUc0ctTW5idjdZQWM1N2lMOXliSFQ1VDhlRzhVdDVacVF2bFkxbDdmWHJ1WXIxZ1pDMDQxMmZnOUdicGVBa3NCSlRpZmM1UDBHUU5n?oc=5",
-      "tag": "AI"
+      "title": "DeepSeek V4 launches with 1T parameters, 40% memory reduction via MODEL1 architecture",
+      "summary": "<cite index=\"5-1,5-2,5-3\">DeepSeek V4 launched around March 3 with 1 trillion parameters and MODEL1 architecture that cuts memory by 40%, plus Sparse FP8 decoding achieves 1.8x inference speedup</cite>. Context window expanded to 1M+ tokens.",
+      "takeaway": "China's making serious moves—DeepSeek's efficiency gains hit different, lowkey threatening the compute-cost advantage US labs relied on",
+      "source": "Blog Mean CEO + MML Studio",
+      "url": "https://blog.mean.ceo/new-ai-model-releases-news-march-2026/",
+      "tag": "Frontier Model",
+      "company": "DeepSeek",
+      "readTime": 4,
+      "paywalled": false
     },
     {
-      "title": "AI consultant uses ChatGPT, AlphaFold, and Grok to find a possible treatment for his dog's cancer",
-      "summary": "An Australian AI consultant used ChatGPT, AlphaFold, and Grok to find a possible treatment for his dog Rosie's incurable cancer. The story went viral after high-profile AI executives like OpenAI's Greg Brockman and Deepmind's Demis Hassabis shared it as proof of what AI can already do. The article A",
-      "takeaway": "",
-      "source": "Matthias Bastian",
-      "url": "https://the-decoder.com/ai-consultant-uses-chatgpt-alphafold-and-grok-to-find-a-possible-treatment-for-his-dogs-cancer/",
-      "tag": "AI"
+      "title": "Google DeepMind partners with DOE on Genesis Mission; launches AlphaEvolve for advanced algorithm design",
+      "summary": "<cite index=\"23-19,23-20,23-21\">Google DeepMind launched an accelerated access program for scientists at 17 DOE National Labs with AI co-scientist on Google Cloud—a multi-agent virtual scientific collaborator built on Gemini designed to help scientists synthesize vast amounts of information to generate novel hypotheses</cite>. <cite index=\"23-5\">AlphaEvolve, a Gemini-powered coding agent for designing advanced algorithms, is being expanded for National Laboratories</cite>.",
+      "takeaway": "Google's betting hard on science—partnering with government labs to prove AI can actually accelerate research beyond the hype",
+      "source": "Google DeepMind Blog + Brookhaven National Lab",
+      "url": "https://www.bnl.gov/newsroom/news.php?a=222774",
+      "tag": "Research Partnership",
+      "company": "Google DeepMind",
+      "readTime": 5,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Want more of Claude AI? Anthropic just gave all its users double the usage, but the offer is time limited - TechRadar",
-      "why": "Want more of Claude AI? Anthropic just gave all its users double the usage, but the offer is time limited TechRadar",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeXVoQVM1ZjVXUkJiYnU4d1FNUVJETnlJelVJVG9JXy1PQ0xOSkxEM2ZXYkdRakM0NVFWRFVvTk9PTmgteGQ0UGxEWmpxaThNZDY1T1pWaG5ZMXNKUDhqd3ltNGpSeFpQY1hlM3E4SDl6dXJTSEVWTk5vZzNtTzVkYW1qZElqTzE0dmo1azhiR3RTeXV5SXdWRkI3WERibDhfYmJxLTVaMnpMUC1Kd3g3b05vWWhLUE9FSEhqdkNmaG94bFBxYk0tRWtoY21CNWM?oc=5",
-      "tag": "AI"
+      "title": "Claude 5 (Fennec) leak: coding abilities surpassing Opus 4.6, 50% cheaper pricing expected",
+      "why": "Leaks suggest Claude 5 could drop Feb/March 2026 with major coding + reasoning upgrades; literally the model everyone's waiting for after the Anthropic ban",
+      "url": "https://fazal-sec.medium.com/anthropics-explosive-start-to-2026-everything-claude-has-launched-and-why-it-s-shaking-up-the-668788c2c9de",
+      "tag": "Leaked Model"
     },
     {
-      "title": "RL agents go from face-planting to parkour when researchers keep adding network layers",
-      "why": "While most reinforcement learning algorithms use two to five network layers, a research team achieved 2x to 50x performa",
-      "url": "https://the-decoder.com/rl-agents-go-from-face-planting-to-parkour-when-researchers-keep-adding-network-layers/",
-      "tag": "AI"
+      "title": "Meta's Mango (video generation) + Avocado (LLM) targeting H1 2026 release from Meta Superintelligence Labs",
+      "why": "Meta's first flagship models post-reorganization—Mango aims for world models + video, Avocado for coding; could shake up the market if they actually ship",
+      "url": "https://mlq.ai/news/meta-readies-nextgeneration-mango-and-avocado-ai-models-for-2026-launch/",
+      "tag": "Unreleased Model"
     }
-  ],
-  "_fromCache": true
+  ]
 }

@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "title": "Windsurf Arena Mode",
+    "summary": "Windsurf added Arena Mode to let you pit models against each other blind-voted to find what actually works for YOUR code, not just benchmarks.",
+    "takeaway": "Side-by-side AI model comparison right in your IDE",
+    "source": "AI Tool",
+    "url": "https://windsurf.com/changelog",
+    "tag": "coding",
+    "readTime": 4,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "Claude Opus 4.6",
+    "summary": "Claude got smarter at long-context tasks & debugging unfamiliar codebases. 1M token window (beta) means you can actually keep massive projects in memory.",
+    "takeaway": "1M context window for serious coding work",
+    "source": "AI Tool",
+    "url": "https://www.anthropic.com/news/claude-opus-4-6",
+    "tag": "LLM",
+    "readTime": 5,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "Google Gemini workspace updates",
+    "summary": "Gemini in Workspace can now generate full docs, sheets & presentations by pulling context from your emails, chats & files. Basically turned Drive into an active knowledge base.",
+    "takeaway": "AI that reads your entire Google Drive & builds docs from it",
+    "source": "AI Tool",
+    "url": "https://blog.google/products-and-platforms/devices/pixel/march-2026-pixel-drop/",
+    "tag": "productivity",
+    "readTime": 3,
+    "_tab": "tools-to-try"
+  }
+]

@@ -1,44 +1,52 @@
 {
-  "headline": "Top Skills & Tools stories this week",
+  "headline": "Master Data Analysis, Master Your Workflow, Master Your Projects",
   "stories": [
     {
-      "title": "Caribbean customs seized over 500 illegal... - PressReader",
-      "summary": "Caribbean customs seized over 500 illegal... PressReader",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM0FKRGZhQlZtN2M4dkZfRlRoSmlBaVhaUTRLQmpkeU5pMVVtQlpZVzFEQ1ljUUlGMVlOUlJIelBOd2lYSGtYeUlkVUtaSXlucXR6dmIyM2xYYlJxSFpmdEtSR0lTVE5ITlNiZlE3T1NaMTRHM2NBQjBlWEJGMV9IeDJaUzZBRGM?oc=5",
-      "tag": "Consulting"
+      "title": "Data Analysis is the Skill to Learn in 2026",
+      "summary": "<cite index=\"2-5,2-6,2-7\">In today's data-driven world, consultants need strong data analysis skills since businesses rely on data for decisions and consultants are expected to turn complex data into actionable insights using tools like Excel, Power BI, and Tableau.</cite> Lowkey, if you're not picking up SQL, Python, or advanced data literacy, you're already falling behind.",
+      "takeaway": "Data fluency isn't optional anymore—it's literally your competitive edge fr",
+      "source": "Jobaaj Learnings",
+      "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
+      "tag": "skill",
+      "skill": "Data Analysis & Python",
+      "readTime": 6,
+      "paywalled": false
     },
     {
-      "title": "Ronald Acuña Jr.: Home Run Statcast Analysis - MLB.com",
-      "summary": "Ronald Acuña Jr.: Home Run Statcast Analysis MLB.com",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQanltNWtJNmJjbzFfTHhOSXB0akxqdG82S1l0RjU4eUxPZXF4R3lyOXVlcmtYZUVaTVJObjZ0cUZjajRnZVZXbXBha1I2MzlocENudUQySmswcHRwUWoyYmNkQXpYZ1VzbXZWem5MT213MDBlVkNJZFJ1a0xJU2xxRlVEaDduOEc2?oc=5",
-      "tag": "Consulting"
+      "title": "Quick Excel Trick: Use =TODAY() for Auto-Updating Dates",
+      "summary": "<cite index=\"20-9\">To enter a date that will update to the current date each time you reopen a worksheet or recalculate a formula, type =TODAY() in an empty cell, and then press ENTER.</cite> Saves you from manually updating those deadlines every single day tbh.",
+      "takeaway": "One formula, no more manual date updates—game changer for project tracking",
+      "source": "Microsoft Support",
+      "url": "https://support.microsoft.com/en-us/office/format-a-date-the-way-you-want-in-excel-8e10019e-d5d8-47a1-ba95-db95123d273e",
+      "tag": "tip",
+      "skill": "Excel",
+      "readTime": 3,
+      "paywalled": true
     },
     {
-      "title": "Best Free Excel Alternative for Data Analysis - PlayStation Universe",
-      "summary": "Best Free Excel Alternative for Data Analysis PlayStation Universe",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4UXVTVkpzQkxocTNNUnZlM3hqd0liMmNqN1hZemduZ1ZKVVgwaVZRTzcwbUo3M0h0NThsSmd4a01VNENPWmpYamtacFY1QkxyeW0weWsycDdQV09KLTVlTE9EZmU5VUJINFpCR0ZCdEVpZDhLMktOcjZnSQ?oc=5",
-      "tag": "Consulting"
+      "title": "Rocketlane Nitro: AI-Powered Execution Tool for Consultants",
+      "summary": "<cite index=\"42-4,42-5,42-7\">Rocketlane launched Nitro, an AI-powered execution platform designed to automate delivery across professional services projects—the first agentic execution platform that embeds AI agents directly into project workflows to automate elements like migrations, system configuration, documentation and testing.</cite> Lowkey changes how consulting firms scale without hiring more people.",
+      "takeaway": "AI handles the repetitive stuff, your team focuses on strategy & client relationships",
+      "source": "PMG News",
+      "url": "https://news.pm-global.co.uk/2026/03/rocketlane-launches-ai-execution-platform-to-automate-professional-services-delivery/",
+      "tag": "tool",
+      "skill": "Project Management",
+      "readTime": 5,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Bullpen availability for Arizona, March 14 vs Giants - MLB.com",
-      "why": "Bullpen availability for Arizona, March 14 vs Giants MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV0w3clQ5MGJmaHNsRTh5bW5RcEFlMjcwTVBfaUM0ZWpqYUpxSW5zZDZKOW9BZElfc0c2a1RyYmg2OE4tUFh3dXIxVElWRUVuWDd1WEswTjRLMXBndnRfSk1QajRscnhIVUxLQnhOVVdOSnFiMEtLN1dFMDNrREtEQmJnZw?oc=5",
-      "tag": "Consulting"
+      "title": "AI Tools Every Consultant Should Know About in 2026",
+      "why": "Covers Think Cell, Olive, Forecast, and ChatGPT—all saving consulting teams serious time on chart creation, vendor eval, and resource forecasting",
+      "url": "https://www.auxi.ai/blog/ai-tools-for-consultants",
+      "tag": "deeper-dive"
     },
     {
-      "title": "Best 10 Tableau Projects to Try in 2026 with Source Code - Analytics Insight",
-      "why": "Best 10 Tableau Projects to Try in 2026 with Source Code Analytics Insight",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZkQtaEZLS2xDVjAyVzJkM1pBQm1pcDJCcXBaYTR4RmV1dUNSeFZ4d3FhWDJmcUhqa3ZaS21rREptVGV5TThtNS1FRTFZNlg2WjNfWlJfNWFvTnFzR0txQnRBLTU2THZVV1hTY2pVQWxEakdkUlZ5RXkzOWtfQXhwdDhIdE1zU2NqSXZwZWpkS01pTnJoTHNZbjJMQVhaeDdBclNpV20zSU5ic0hsRjRPWNIBsAFBVV95cUxQZkQtaEZLS2xDVjAyVzJkM1pBQm1pcDJCcXBaYTR4RmV1dUNSeFZ4d3FhWDJmcUhqa3ZaS21rREptVGV5TThtNS1FRTFZNlg2WjNfWlJfNWFvTnFzR0txQnRBLTU2THZVV1hTY2pVQWxEakdkUlZ5RXkzOWtfQXhwdDhIdE1zU2NqSXZwZWpkS01pTnJoTHNZbjJMQVhaeDdBclNpV20zSU5ic0hsRjRPWA?oc=5",
-      "tag": "Consulting"
+      "title": "Working with AI as a Data Professional in 2026",
+      "why": "Real talk on how to stay relevant when AI is literally doing half your job—focus on storytelling and human judgment, not competing with bots",
+      "url": "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
+      "tag": "mindset"
     }
-  ],
-  "_fromCache": true
+  ]
 }

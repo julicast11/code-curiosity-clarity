@@ -1,52 +1,67 @@
 {
-  "headline": "Top Value Creation stories this week",
+  "headline": "<cite index=\"1-2,4-7\">PE resurgence is gathering steam after 2025 saw buyout deals and exits surge to second-highest values on record.</cite>",
   "stories": [
     {
-      "title": "Teciem appoints new board chairman - Bdaily",
-      "summary": "Teciem appoints new board chairman Bdaily",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONmNWbE5BbEU2R2FvcTk1WmNYV3dPbjdwVWJlNzFINnRZZWVNX1JqRWhJR29sQ19wNW96aW82SnA0aWlNYjdMd05wV2xkZFhiamw3M09TVklPeXROd292ZUxHcjVUYzQzX2ctZjlodXgxa2J0cXdYcjB1MFZhenMxQQ?oc=5",
-      "tag": "Strategy"
+      "title": "Beauty & Consumer Consolidation Accelerates: <cite index=\"63-1,63-13\">Luxury fashion and beauty continue to show resilience through strategic acquisitions focused on brand consolidation and market expansion.</cite>",
+      "summary": "<cite index=\"61-3,61-4,61-5\">The consumer market has entered unprecedented consolidation where PE firms deploy sophisticated aggregation strategies across fragmented sectors from beauty and personal care to specialty foods.</cite> Platforms unlock digital/data synergies that standalone brands can't afford.",
+      "takeaway": "DTC brands w/ strong customer data command 15-20% premium multiples; winners are scaling via bolt-on acquisitions & shared back-office functions.",
+      "source": "PitchBook News",
+      "url": "https://www.pcecompanies.com/resources/industry-reports/consumer-retail-q2-2025-pce-investment-bankers",
+      "tag": "Brand Aggregation",
+      "sector": "Consumer",
+      "lever": "Revenue growth",
+      "readTime": 6,
+      "paywalled": false
     },
     {
-      "title": "How alternative investments drive value creation and mitigate risk - sundayindependent.co.za",
-      "summary": "How alternative investments drive value creation and mitigate risk sundayindependent.co.za",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOMzRwSmR3Mjd5RlJDb25NMlMxdlVEaFp0aDVPMFRsSlBjTzFMNEY0QWZhUW5RTXlkSng5dTlHVHF1Q2NSSTJqU1NtMFhpR2xnZVluMDB4N1ZGMmljeGxnOTIybkJTMzFha1dUMk1iOU9iM1VtMTQxaVZ6aWY4OUhLQjQ2Vk8zRThvcG5HMUs0ZWxEaG5jWjYtbmRYOU1TbFk0VGRrYTZnb1RyMEljOTNsaWEzdkZjUVhLMmdGM0czemFTUEp1NE8xZ0pIZUZvVV9IVWFOVE9uY0hNTUpFb3NsYUVMQ05fSTlVaWR3amlvY3NwMVF0WTRQWFF0MnIyWGs?oc=5",
-      "tag": "Strategy"
+      "title": "HVAC Services Roll-Ups Reach Peak Momentum: <cite index=\"75-12\">PE add-on transactions targeting HVAC service providers rose 88% YoY through June, with PE firms & platforms combining for 39 of 77 HVAC M&A deals.</cite>",
+      "summary": "<cite index=\"71-3\">PE firms remain dominant buyers of residential HVAC platforms, executing buy-and-build roll-ups across US regions while middle-market PE focuses on tuck-ins.</cite> <cite index=\"71-10\">Valuations trade at premium with mid-teens EV/EBITDA for high-quality recurring revenue platforms.</cite>",
+      "takeaway": "Fragmented $350B+ market w/ 29K+ private companies attracts PE for maintenance-based recurring revenue & multitrade bundle (HVAC + plumbing + electrical) cross-sell opportunities.",
+      "source": "Capstone Partners",
+      "url": "https://www.capstonepartners.com/insights/article-hvac-services-ma-update/",
+      "tag": "Platform Consolidation",
+      "sector": "Industrials",
+      "lever": "Margin expansion",
+      "readTime": 5,
+      "paywalled": false
     },
     {
-      "title": "Deutsche Beteiligungs AG Stock Drops 3.4% Amid Broader Market Weakness - AD HOC NEWS",
-      "summary": "Deutsche Beteiligungs AG Stock Drops 3.4% Amid Broader Market Weakness AD HOC NEWS",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdVQ0NG9TUk1oZFpkTFBCaVJCQjY3cEdsSk55QmFuMWJHSE05WDJxaDR0RmN0YXpZUWprSmJBOGZCSmJEZXdSZ2pXalhrVS0wVUxPeTUwc24wRHJkRnVwUEpaWmN5MXA5QjkwNmVzV004ajdWcHlBdzlJU3ViWmNoOGkzaENfc1ZlbEtUWnM0UGx0Y0pvYzhDR2g1blpjX1gySVIzZ0lMNWlWSjJMQzBiTzRfN0s2TXNwbHUzM0V3WXpSUFJRYmc?oc=5",
-      "tag": "Strategy"
+      "title": "Healthcare PE Shifts to Value-Based Care: <cite index=\"59-6,59-8,59-9\">Global healthcare PE reached record $191B in 2025, with firms increasingly investing in value-based care models emphasizing outcomes & cost efficiency.</cite>",
+      "summary": "<cite index=\"51-3,51-14\">Tech-enabled care, behavioral health & physician specialty platforms see aggressive capital flows as acquirers scale models that grow without adding labor.</cite> <cite index=\"52-1\">Margin expansion comes via AI-driven cost reduction.</cite>",
+      "takeaway": "Digital health platforms w/ clinical outcome data command premium valuations; clinical trial site consolidation (Baypine, Thomas H. Lee) heating up as PE pivot from physician practices.",
+      "source": "PwC Global Health Industries Report",
+      "url": "https://www.fiercehealthcare.com/finance/key-trends-will-shape-healthcare-ma-activity-2026-pwc",
+      "tag": "Value-Based Care",
+      "sector": "Healthcare",
+      "lever": "Margin expansion",
+      "readTime": 7,
+      "paywalled": false
     },
     {
-      "title": "Technology and data strategy for private markets - Deloitte",
-      "summary": "Technology and data strategy for private markets Deloitte",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPam5IX1BZNkFLWWhfcWxXX3J1WTltQkdfQUYwNnAtMVpEN2JlTmRGZ210M1hkV3lseEk4S3pxazUyNlduUF90X002LTl1V0ZuNnowRnlrMWJRYktzQXZnRFl2NEp1d2tleXl0dy15ckJXdExIc3ZYcDZ5M3B5YjlTVDVjZUt4VElfMFE2c2pzQWRKd3dyMWtUZFdzeE1zX1FJamtIVFlVenhYRTg5elB6S3BGa1daUzQ5OUxvdXhOUHpDLTQ?oc=5",
-      "tag": "Strategy"
+      "title": "OneStream Take-Private Signals PE Bet on AI Finance: <cite index=\"41-4,41-5,41-6\">Hg acquires OneStream for $6.4B in all-cash deal, taking it private 17 months after IPO, signaling strategic pivot to accelerate AI-driven roadmap away from quarterly public market pressures.</cite>",
+      "summary": "<cite index=\"41-2,41-13,41-14\">OneStream reported $489.4M revenue (31% YoY growth) w/ subscription revenue growing 41%, positioning the unified Corporate Performance Management platform for next-gen finance transformation.</cite> <cite index=\"42-2\">Absence of quarterly pressure & Hg's track record should positively impact OneStream's development.</cite>",
+      "takeaway": "Enterprise software valuations remain attractive at 13x revenue despite public market volatility; PE thesis centers on operational improvements & long-term innovation w/o quarterly earnings noise.",
+      "source": "Bain Global PE Report",
+      "url": "https://www.prnewswire.com/news-releases/onestream-enters-into-definitive-agreement-to-be-acquired-by-hg-for-6-4-billion-302654208.html",
+      "tag": "Take-Private",
+      "sector": "Tech",
+      "lever": "Digital transformation",
+      "readTime": 8,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Celero Capital closes Special Purpose Vehicle for Reledo with new investor commitments - Mynewsdesk",
-      "why": "Celero Capital closes Special Purpose Vehicle for Reledo with new investor commitments Mynewsdesk",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSi1WQnlRek82NGFFTTJyamhHSnVGUWVSTXR6eXdfZDUxOHRYUmlCTWM0cEFwVFRYdmpvcEdoRFFSeUFvSkRCWXN5aGJucEQ3VEo4RXJmQTBVd1hHUV93UnRsZjNBZkZNNTFIWnZyYUstcDVqTURYRTdzVHItVnluTEkyRUlDcjRITGNneFYwU2lEbk11RFJQV2xJa25Ma0dMaXVKWUZzNVU2b0VWZ0JqWG1MRzJuajF0c0puSE9CT1ZRa01zZUVjZEVfXzlkQkZqbW1iZGk2cUJRb0d1V0V5Ul9vaG5WQjk2?oc=5",
-      "tag": "Strategy"
+      "title": "<cite index=\"2-19\">Firms standing out will be those finding or sharpening repeatable models for sourcing deals, determining early how to create value & executing at speed.</cite>",
+      "why": "New era demands operational excellence over multiple expansion; PE alpha now comes from disciplined value creation playbooks not financial engineering.",
+      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
+      "tag": "Operational Value Creation"
     },
     {
-      "title": "Private Equity Dealmaking Set to Rebound, per McKinsey - ai-cio.com",
-      "why": "Private Equity Dealmaking Set to Rebound, per McKinsey ai-cio.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX2FIVlZyR3BEMkZFd3BWaFFsY2M3Q0VnWnVSbWYwSVpqVVAyVWhGTmRVSEs0REs2Y2xJbDJtek9IbTFYcTlCckNwLW9JTmRJZmpmWWlRQWlGUFhTbi1aMk9rX1NvVnFyc1E4ZXdDd0dzR0xGaVRQTVJYSzhWUlVDQWNYM0hUbUc5OEE?oc=5",
-      "tag": "Strategy"
+      "title": "<cite index=\"10-8,10-10,10-11\">Entry multiples hit new high at 11.8x EBITDA in 2025; with lower leverage contribution, GPs emphasize value creation on revenue growth & margin expansion.</cite>",
+      "why": "Higher entry prices force PE to chase operational returns; <cite index=\"5-16\">operators' ability to grow top-line revenue & improve margins increasingly under GP/LP scrutiny.</cite>",
+      "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report/private-equity",
+      "tag": "Valuation Reality Check"
     }
-  ],
-  "_fromCache": true
+  ]
 }

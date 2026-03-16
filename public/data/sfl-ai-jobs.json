@@ -1,52 +1,63 @@
 {
-  "headline": "Top South FL AI & Jobs stories this week",
+  "headline": "AI job shakeup hitting hard—entry-level roles dropping 20%, but manual work stays strong",
   "stories": [
     {
-      "title": "15 Jobs That AI Could Never Replace - AOL.com",
-      "summary": "15 Jobs That AI Could Never Replace AOL.com",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWERRcWt4WmgxT2VTT0lfQVpyMi1TSkxkcUdMOWZNakIwMVJnMTljRXE2bElEeDhCRWw5Q185SGhCcFBDanJsYnZNc0dwa0FYX2VBQlQzSUlIMTA2UnF4dm5xVjBmeXB3RGE4ZjlmdmdOclZWMmZIOGhmOFNpdDAtNUlQS1V6VGw4cUE?oc=5",
-      "tag": "South Florida"
+      "title": "<cite index=\"1-3\">Routine jobs down 13% after ChatGPT, but analytical roles growing 20%</cite>",
+      "summary": "<cite index=\"1-2,1-3\">Generative AI is reshaping white-collar work: automation-prone roles fell 13% after ChatGPT's debut while demand for analytical, technical, and creative jobs grew 20%</cite>. Basically the job market is pivoting, not dying.",
+      "takeaway": "Tbh, if your job is routine af, time to upskill. But if you're creative or analytical, you're literally golden.",
+      "source": "Harvard Business School",
+      "url": "https://hbr.org/2026/03/research-how-ai-is-changing-the-labor-market",
+      "tag": "Labor Market",
+      "sector": "Career Development",
+      "readTime": 6,
+      "paywalled": true
     },
     {
-      "title": "Florida Senate candidate Angie Nixon promises to fight for working people - CBS News",
-      "summary": "Florida Senate candidate Angie Nixon promises to fight for working people CBS News",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc2lPNFR3NTFVQ0gyN0d3ZkY2U0c5MVgtQV9mMmtOXzVkaTc0d2hBMWpBcUFuLVlfcGJleGFRRnlhSGhianBMaG5EcXRRQ0NGcnQxMXFJUHBjOHk2UVp2VjhiZzZRa0J5dHBZVG93QnRXcW15dWpNV01mZ3Q3MnFqSDZiM2tTZm5NcThPUlB1aDM3X0lsN0FV?oc=5",
-      "tag": "South Florida"
+      "title": "<cite index=\"2-1,2-2\">Entry-level dev hiring down 20%, call center jobs down 15%</cite>",
+      "summary": "<cite index=\"2-1,2-2,2-3\">Stanford economists showed entry-level software developer hiring for ages 22-26 is down 20% and call center hiring fell 15%—and these aren't projections, they're already happening</cite>. Not vibes, it's data.",
+      "takeaway": "The AI disruption's fr no joke—young coders and customer service reps are getting hit hardest right now.",
+      "source": "4 Corner Resources",
+      "url": "https://www.4cornerresources.com/job-market-news/ai-job-market-impact-2026/",
+      "tag": "Job Market",
+      "sector": "Technology",
+      "readTime": 4,
+      "paywalled": false
     },
     {
-      "title": "‘Holding pattern’: Here’s what Friday’s weak jobs report means for South Florida - AOL.com",
-      "summary": "‘Holding pattern’: Here’s what Friday’s weak jobs report means for South Florida AOL.com",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcWlxbHAwNDVRSzNKTmt1U0dvS3NPN2kzbjdWZngwbzd3WjZqRndqTzNQcGhrTWpMTXd5bXpmM3AyVjN2STZWSnI3T3Iwem8xdXUwTE9JTG9hZktvQm44M2xKdl9ETFQ3eFFDa3Q5N1ozVzN0YXp5RTZnV0FkSmJBZldR?oc=5",
-      "tag": "South Florida"
+      "title": "<cite index=\"11-10,11-11\">Florida's AI Bill of Rights passed Senate on March 4</cite>",
+      "summary": "<cite index=\"11-10,11-11,11-13\">SB 482, the Florida AI Bill of Rights, was approved by the Senate on a 35-2 vote and creates an Artificial Intelligence Bill of Rights protecting Floridians' rights relating to AI use, including restricting companies from selling personal data without deidentification</cite>. Gov. DeSantis made some moves here.",
+      "takeaway": "Lowkey a big deal for South Florida—this bill protects your data and gives you rights when companies use AI on you.",
+      "source": "Transparency Coalition",
+      "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-march6-2026",
+      "tag": "Policy",
+      "sector": "Regulation",
+      "readTime": 3,
+      "paywalled": false
     },
     {
-      "title": "5-Star Honor Fa'alave-Johnson Commits to USC Over LSU, Oregon, Miami, Texas, More - Bleacher Report",
-      "summary": "5-Star Honor Fa'alave-Johnson Commits to USC Over LSU, Oregon, Miami, Texas, More Bleacher Report",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd0J4c0ZVMEdyRmZQR0ZvM0x5SEwxUkh5MUNwdG1mbW5kQWxSZWFjUTFESXhfVkdsNkt6YlJfVWNHNnE0OWVFXy1KSHJYUVJ1LUwwbldJQ3VINURKal9WSWt2cG5wQXJHREtwajdOc29PcjU4VGdEYWcwVDFqRWZnMmY5UFhBLWpNcU5WTXN1YWlidFM3Vk5QX2RybzRRVW5rdHZ2cl9sSFhBSmxsRElheEVTemo1dWN6N1E?oc=5",
-      "tag": "South Florida"
+      "title": "<cite index=\"18-1,18-3,18-4\">60 AI-proof jobs coming to Ocala, Central Florida</cite>",
+      "summary": "<cite index=\"18-1,18-3,18-4,18-5\">As AI reshapes white-collar industries, College HUNKS Moving is opening a new franchise in Ocala serving five counties with 60 hands-on moving and junk removal positions offering competitive pay</cite>. Manual labor actually staying safe fr.",
+      "takeaway": "If you wanna dodge AI, trades and hands-on work are literally where it's at—these roles are mad secure rn.",
+      "source": "National Law Review",
+      "url": "https://natlawreview.com/press-releases/60-ai-proof-jobs-coming-ocala-and-central-florida-new-employer-moves",
+      "tag": "Jobs",
+      "sector": "Logistics",
+      "readTime": 2,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Colorado loses billion-dollar AI tech company to Florida - MSN",
-      "why": "Colorado loses billion-dollar AI tech company to Florida MSN",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVzhQMXFUZmpzdXkxYU5TRFh6OEMwWmZDNXk0dk02N09TLUprd0tTeXI1U0dROXZBekpUc0pvcF9aSGZnZkQxZFNmRkI1QUxiRVByOGdia24yQzRiOHZXUnBPZHUyM2hxUU9VWkVjQ2dwMzNMWGhoQ2REeG96NWNrVDdNRG1hRzJsRXhwMjhPb1Z2TkR1dEl4ZUw2ZDc5Zl9zaDBSb0c0NDRRUEN4c1pxYk9oSjhNaDlrZTRtTUVNYWRSNXZ5Z3c?oc=5",
-      "tag": "South Florida"
+      "title": "<cite index=\"15-2,15-3\">Florida debating data center regulations as communities raise concerns</cite>",
+      "why": "These hyperscale AI data centers are coming to Florida fr, and locals are worried about water usage, noise, and power costs. Worth watching bc it affects job growth and infrastructure.",
+      "url": "https://centralflorida.substack.com/p/florida-ai-data-center-boom",
+      "tag": "Infrastructure"
     },
     {
-      "title": "More Layoffs Hit FL As Federal Job Numbers Fall - Patch",
-      "why": "More Layoffs Hit FL As Federal Job Numbers Fall Patch",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbGhQYXhuX3RuenBfakRnRkdxa2otTDU3T2xFRExscEZ5aXRpS1lwOEhqamI2Z2x1cEpUTF9lSENTQVZIclkwa0Fhd0N0Mk1wOGNEZ3N3bldVaWR0SmJlUkxka0l6Q0o1S0tNdlpjcGFocjBLb1EzalZaYXRCZHlCbkc1WmhkVG9h0gGeAUFVX3lxTE9xcG02OU0wUlJBQVRqdTZmWldUTExsWUF6TVRBbXQwTGY1cHcxQ1poWWs5WHRoNGlsY0JUYWE4T0pOV0tlVXZISEhZYkJnVDJGbnd0M0FIMHJab1NsenlmcFZvVnhldTdJeWgzSURLOVRST2U5STZQcjM5TWtsNV96RjZwR200bWI1U2Vrekd0Ql9xU05WYUNHZGF6VlBn?oc=5",
-      "tag": "South Florida"
+      "title": "<cite index=\"12-1,12-2,12-13\">USF's AI, Cybersecurity & Computing college expanding with new funding</cite>",
+      "why": "<cite index=\"12-13,12-14\">The Bellini College of AI, Cybersecurity and Computing is the first college of its kind in Florida, positioning the state as a leader in AI education</cite>. Could be your next move if you're in South Florida wanting to pivot into tech.",
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/news/2026/connectsecure-invests-in-usfs-cybersecurity-apprenticeship-program.aspx",
+      "tag": "Education"
     }
-  ],
-  "_fromCache": true
+  ]
 }

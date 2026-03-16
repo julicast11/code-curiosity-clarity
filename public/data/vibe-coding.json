@@ -1,52 +1,63 @@
 {
-  "headline": "Top Vibe Coding stories this week",
+  "headline": "AI coding hits warp speed—Cursor at $50B talks, Replit Agent 4 ships parallel builds, Claude Code Revenue doubles to $2.5B",
   "stories": [
     {
-      "title": "What is agentic engineering?",
-      "summary": "",
-      "takeaway": "",
-      "source": "simonwillison.net",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything",
-      "tag": "AI"
+      "title": "Replit Agent 4 launches with parallel agents and infinite design canvas",
+      "summary": "<cite index=\"49-3,49-4\">Replit officially launched Agent 4 on March 11, 2026, representing a major leap in how developers can build and ship software with built-in philosophy that devs should focus on creating, not coordinating</cite>. <cite index=\"50-5,50-6\">Parallel agent execution lets independent tasks run simultaneously—authentication, databases, backend, and frontend can all be in progress at once</cite>.",
+      "takeaway": "vibe coding just went parallel—ship full apps 10x faster by running multiple agent tasks at once instead of waiting for one to finish",
+      "source": "Replit News",
+      "url": "https://tamiltech.in/article/replit-introduces-agent-4-the-ai-coding-agent-built-for-human-creativity-1",
+      "tag": "Replit Agent",
+      "type": "product_launch",
+      "readTime": 5,
+      "paywalled": false
     },
     {
-      "title": "Beginners guide to vibe coding - The New Stack",
-      "summary": "Beginners guide to vibe coding The New Stack",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZMS1aY2xPVFV4cEh6aFd1ZHBoZ2pzektxeFBIdUQ2ZVRubUdqYjZ5M1cyU19oOWRwZHhKTDZkVFhjeHpXTUV1cDNuSXFNa3hTZzQzUDhfUkYxVzUzeVRtQ2d5ZFE?oc=5",
-      "tag": "AI"
+      "title": "Cursor talks $50B valuation, drops ACP for JetBrains IDEs Mar 4",
+      "summary": "<cite index=\"21-1,21-2\">Cursor is in talks with investors for a funding round that would value it at about $50 billion, nearly double the valuation from last fall</cite>. <cite index=\"20-1,20-3,20-4\">Cursor became available in JetBrains IDEs through Agent Client Protocol, letting developers use frontier models from OpenAI, Anthropic, Google, and Cursor for agent-driven development</cite>.",
+      "takeaway": "Cursor's enterprise dominance keeps growing—now Java/multilang devs can use it natively in JetBrains without leaving their favorite IDE",
+      "source": "Bloomberg / Cursor Changelog",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation",
+      "tag": "Cursor",
+      "type": "funding",
+      "readTime": 4,
+      "paywalled": true
     },
     {
-      "title": "Meta hires the team behind Gizmo, the buzzy vibe-coding app that lets users create their own mini-games - AOL.com",
-      "summary": "Meta hires the team behind Gizmo, the buzzy vibe-coding app that lets users create their own mini-games AOL.com",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Pb3BnUU42MmxaSnJWbkxrQVoxdTBwaUlnalJRVGx0ZWJmMTBONDJzUmdGT0otODl3X2ZWSUVUTkdyYXFXdFVmTkJFdUxpdWNmLV9BVVpuUGJjRWF4UnBRSXV2MmhaaGlySzZUZVEtZHN2eGF1Q2w3WE8tNDU?oc=5",
-      "tag": "AI"
+      "title": "Claude Code hits $2.5B ARR, Anthropic doubles quotas Mar 13-27",
+      "summary": "<cite index=\"41-3,41-4,41-20\">Claude Code annualized revenue topped $1 billion by end of 2025, then more than doubled to $2.5 billion by February, putting Anthropic on track to surpass OpenAI's revenue by end of 2026</cite>. <cite index=\"47-1,47-2\">From March 13-27, Anthropic doubles usage quotas across all plans outside 8 AM-2 PM ET, no action required</cite>.",
+      "takeaway": "Claude Code's dominance is real—$2.5B ARR shows enterprise adoption crushing, plus they're lowkey easing quota friction to lock in users",
+      "source": "TIME Magazine / Medium",
+      "url": "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/",
+      "tag": "Claude Code",
+      "type": "business",
+      "readTime": 5,
+      "paywalled": false
     },
     {
-      "title": "Can Pega’s New AI “Vibe Coding” Tools Redefine Its Workflow Automation Edge for Investors (PEGA)? - simplywall.st",
-      "summary": "Can Pega’s New AI “Vibe Coding” Tools Redefine Its Workflow Automation Edge for Investors (PEGA)? simplywall.st",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdF81d084NXFuMi13YmlvM29GeDg2elRhSTl6Uzh5VjZheWpsZ0hwNEhCYnEzbzlhMWZ5c21oZ0FlMFMtQjhhNndlc3U0V041RGd6NUkwejlfajE5bEZkR0FabVl1M3FyUm9NLURWYkoxRDU0ZGM3ZFhWb0VCR1BFWWRibENicDBvRUNHRTM4dzZ2V1JmdE4tcFdkX19iSGV5RVA5MXZFenZUNzl5clFnNnQtN0FXLUdHekdMamFudUtDU1JLM3UzS2FB0gHPAUFVX3lxTE1STTVVazFQMU9laE51UzNwWl9WdXVWMkY2RFY1Y2c1QXdkcldPbGFvVTNFa0pFOWlvajI4VS1SV2s3SmtRZFU0cURNUUsxYXhfMEZVeW56TmQzWDZxVHJJdlZMeDBlRTBOWFhvQU1NRWlLQ2UyWFgxaG5JMXdSckEzcUF4N2o0RHdrRXJIZUFydHM1ZGFEZXd1TUEzY1YzWS02c2pOT0MtUTF0WG0tempqcFZnMFJIdmJadDdGeFVvaXdxREZlNkRUV0QyYXVpQQ?oc=5",
-      "tag": "AI"
+      "title": "GitHub Copilot CLI hits 1.0, adds /pr command and autopilot timing Mar 2",
+      "summary": "<cite index=\"28-6,28-7\">GitHub announced Copilot CLI 1.0 after general availability, incrementing the major version to commemorate reaching GA</cite>. <cite index=\"33-5,33-6\">New /pr command helps create and view PRs, automatically fix CI failures, and Copilot CLI brings coding agent power directly to the terminal</cite>.",
+      "takeaway": "Copilot CLI's GA sprint complete—now it's terminal-first agentic dev with native PR flows, still competing hard with Cursor's IDE dominance",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-03-02-copilot-metrics-now-includes-plan-mode/",
+      "tag": "Copilot",
+      "type": "product_release",
+      "readTime": 4,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Vibe Coding and its Impact on Modern Product Development event - The Portugal News",
-      "why": "Vibe Coding and its Impact on Modern Product Development event The Portugal News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRENVWGppV3hGSjdJYVFCUVlibzktTG1SQUtQdmVJUjZHZnJJQ05wbWpwUTNLa0twQWdZVTIzckx0ekM3dzdkaFRROHdVZV92NlZDX2p6eDlmQVhfZWhodzZZYi1EQmFTaGxjYVg2ZDFzZ3BTdVVRMjlaRzY2US1wbnYxVnp6azZUZk13a1dfdUFBTkFJRHphVGVSVkNNUHh5OW5raVJ4Zy1URlFUdDNRX3dGZUtXSzdH?oc=5",
-      "tag": "AI"
+      "title": "Cursor's $50B Talks Signal Enterprise War—Can Copilot/Claude Keep Up?",
+      "why": "Cursor's valuation climb shows enterprise's chosen their agentic IDE, but Copilot's multi-IDE strategy + Claude Code's $2.5B ARR suggest this market's big enough for winners across different workflows",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation",
+      "tag": "market_dynamics"
     },
     {
-      "title": "Claude Code rolls out a voice mode capability - MSN",
-      "why": "Claude Code rolls out a voice mode capability MSN",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNamJhZTA4X3VReGc0UUNyTGMxczRKQzdKS1A5OWpIUXhWTDR3N1J1Rk5hVWRPQjQ5Y3JBNUtMWmZuYzhtbFcxTXNHRVZfeTc3QUtOZ19qWktOX3J3alNGRUNlSmV2OGZYWlFtUExtWUN0VUZ2OEVBN3NHZHVWaWRsNE9qQjZ0QV9tMkxrdjZLZml5cFJ5X2o0ZlFkVkwtdk5ldVhrZ1hCdkZ0SEFBMEJNWFBuUmNVT3BrMkhuTUZhZHVvWmIyZmpOM3RaRGtWQTBGNkxzM1ZNVEJIOFZKMFhzYmVB?oc=5",
-      "tag": "AI"
+      "title": "Simon Willison on AI-Assisted Coding's Divide: Outcome-Driven vs Craft-Lovers",
+      "why": "fr, Simon's take on how coding agents are exposing a real split in dev motivation—some want outcomes fast, others care about process. understanding this shapes how tools evolve next",
+      "url": "https://simonwillison.net/2026/Mar/12/the-divide-among-developers/",
+      "tag": "culture"
     }
-  ],
-  "_fromCache": true
+  ]
 }
