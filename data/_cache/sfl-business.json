@@ -1,63 +1,63 @@
 {
-  "headline": "South Florida's Getting Major Moves This Week: Billionaire Real Estate, Luxury Towers, and Angel Investor Mega-Merger",
+  "headline": "Pompano rising as luxury hotspot while Palantir CEO goes all-in on Miami real estate",
   "stories": [
     {
-      "title": "Pompano Beach's $2B Luxury Tower Boom Is Real",
-      "summary": "Developers are fr transforming Pompano's skyline with ultra-luxury towers from Related Group, W Hotels, Ritz-Carlton & more—Waldorf Astoria hitting vertical construction in May, Salato opening end of April. This wasn't even supposed to happen 10 years ago but now it's becoming South Florida's hottest beachfront play.",
-      "takeaway": "Pompano's lowkey becoming the new alternative to Miami—same luxury vibes, way more realistic inventory & pricing potential.",
+      "title": "Pompano's Ultra-Luxury Tower Boom Transforms Sleepy Beach Town",
+      "summary": "Pompano Beach is lowkey becoming the new luxury destination with Ritz-Carlton, Waldorf Astoria, and W Pompano towers reshaping its skyline. After decades in Miami's shadow, the coastal town is now attracting serious developers and high-end restaurants.",
+      "takeaway": "South Florida's luxury development is spreading beyond Miami—Pompano's beachfront transformation shows real estate momentum is shifting to new neighborhoods with better value.",
       "source": "Sun Sentinel",
       "url": "https://www.sun-sentinel.com/2026/03/14/pompano-beach-luring-some-big-fish-developers-transforming-skyline-with-ultra-luxury-towers/",
-      "tag": "Real Estate",
-      "sector": "Real Estate & Development",
+      "tag": "Real Estate Development",
+      "sector": "Real Estate",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Mark Zuckerberg Closes $170M Miami Mansion Deal—Biggest Ever in Miami-Dade",
-      "summary": "Meta CEO snagged a $170M waterfront estate on Indian Creek Island (aka Billionaire Bunker) on March 2, setting a new Miami-Dade county record. The nine-bedroom property features a secret library, jazz lounge, 60-foot pool—and it's still under construction.",
-      "takeaway": "Tech billionaires aren't just visiting anymore, they're literally buying up the entire 'Billionaire Bunker'—Zuckerberg, Bezos, Tom Brady all there now.",
-      "source": "Fox Business",
-      "url": "https://www.foxbusiness.com/real-estate/mark-zuckerberg-googles-brin-close-massive-miami-estates-worth-over-220m-combined",
-      "tag": "Billionaire Migration",
-      "sector": "Real Estate & Wealth",
+      "title": "Palantir CEO Alex Karp Quietly Bought $46M Miami Mansion Before HQ Move",
+      "summary": "Palantir Technologies CEO Alex Karp purchased a $46 million Venetian Islands waterfront mansion in June, seven months before the software company announced it was moving its headquarters from Denver to Miami. The move signals another major tech firm joining the exodus to South Florida.",
+      "takeaway": "Tech billionaires are literally buying into Miami before announcing their moves—Karp's pre-emptive mansion purchase shows how serious the relocation wave really is.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/palantir-s-karp-is-said-to-be-buyer-of-46-million-miami-mansion",
+      "tag": "Tech Migration",
+      "sector": "Technology",
       "readTime": 4,
-      "paywalled": false
+      "paywalled": true
     },
     {
-      "title": "Miami Angels & New World Angels Just Merged to Form Florida's Biggest Early-Stage Investor Network",
-      "summary": "Two South Florida angel groups combined on March 10 to create one statewide platform—Miami Angels (100+ companies funded since 2013) + New World Angels (60+ investments, $30M+ deployed) now pooling capital & expertise. They're using AI to handle a 5x jump in pitch volume.",
-      "takeaway": "South Florida's startup funding ecosystem just leveled up—bigger checks, more industry verticals (Healthcare, IT, Space, Fintech coming soon), better odds for founders.",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/miami-angels-and-new-world-angels-are-combining-to-form-statewide-network/",
-      "tag": "Venture Capital",
-      "sector": "Startups & Funding",
+      "title": "Aria Reserve Marks Another Milestone as South Tower Nears Completion",
+      "summary": "The Melo Group's flagship dual-tower development in Edgewater has topped out its South Tower at 62 stories, with both towers expected to fully complete within three years of groundbreaking. Pre-sales have exceeded 60% with strong penthouse demand.",
+      "takeaway": "Aria Reserve's record-breaking sales velocity fr shows that Miami's luxury waterfront market is absolutely thriving despite general condo market slowdown.",
+      "source": "PROFILEmiami",
+      "url": "https://profilemiamire.com/miamirealestate/tag/Melo+Group",
+      "tag": "Luxury Development",
+      "sector": "Real Estate",
       "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "Google Cofounder Larry Page Drops $173.4M on Two Coconut Grove Estates",
-      "summary": "Late December/early January move: Larry Page (net worth ~$276B) just closed on two ultra-luxury waterfront properties in Coconut Grove for $173.4M combined—Banyan Ridge compound ($101.5M) + Casa Bahia ($71.9M). Lowkey his exit from California ahead of billionaire wealth tax.",
-      "takeaway": "The wealth migration from CA to FL is literally changing who owns South Florida's real estate—tech money is now the dominant buyer at the $100M+ level.",
-      "source": "Yahoo Lifestyle",
-      "url": "https://www.yahoo.com/lifestyle/articles/inside-look-two-mansions-google-100049805.html",
-      "tag": "Billionaire Migration",
-      "sector": "Real Estate & Wealth",
-      "readTime": 3,
+      "title": "Boca Raton Waterfront Home Sells for $10.7M, Nearly 3x Its 2022 Price",
+      "summary": "A 6,600-square-foot Boca Raton waterfront property at 1957 Southeast 21st Avenue sold for $10.7 million—up from $3.9 million just four years ago. The deal signals continued strong appreciation in South Florida's residential market.",
+      "takeaway": "Waterfront homes in Boca are printing money—that 170% appreciation in four years shows why everyone's buying coastal South Florida real estate.",
+      "source": "The Real Deal",
+      "url": "https://therealdeal.com/miami/2026/03/14/south-florida-top-real-estate-deals-friday-march-13-2026/",
+      "tag": "Market Movement",
+      "sector": "Real Estate",
+      "readTime": 2,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "South Florida Real Estate Market Continues to Break Records Amid Billionaire Gold Rush",
-      "why": "More details on how Zuckerberg & Page's mega deals are signaling where ultra-luxury capital is flowing in 2026—good read on neighborhoods & price trends.",
-      "url": "https://www.miamirealtors.com/2026/03/09/monday-march-9-2026-south-florida-real-estate-market-articles/",
-      "tag": "Real Estate"
+      "title": "South Florida Housing Market Outlook: Will Lower Mortgage Rates Help in 2026?",
+      "why": "The Miami Realtors Association predicts 30-year mortgage rates could drop to 5.8% by year-end, lowering monthly payments and potentially unlocking more sellers—worth tracking how rates actually move.",
+      "url": "https://www.wlrn.org/business/2026-01-04/real-estate-outlook-2026-south-florida",
+      "tag": "Market Trends"
     },
     {
-      "title": "Why is South Florida's Tech Ecosystem Suddenly One of the Hottest in the Country?",
-      "why": "Palantir's Miami HQ announcement + angel merger news = South Florida startup scene is legit heating up. Worth understanding what's actually attracting founders & capital here.",
-      "url": "https://refreshmiami.com/",
-      "tag": "Startups"
+      "title": "More California Tech Billionaires Moving to Florida—Inside the Exodus",
+      "why": "Beyond Palantir, billionaires like Mark Zuckerberg, Larry Page, and Sergey Brin are buying massive properties in Miami. Understanding the tax and lifestyle drivers could signal what's next for South Florida's economy.",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-03-11/inside-exodus-of-california-tech-billionaires-to-florida",
+      "tag": "Tech Trends"
     }
   ]
 }

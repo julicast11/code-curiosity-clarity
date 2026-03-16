@@ -1,63 +1,63 @@
 {
-  "headline": "Pompano rising as luxury hotspot while Palantir CEO goes all-in on Miami real estate",
+  "headline": "South Florida economy cooling but staying strong—tech, tourism, and housing showing mixed signals",
   "stories": [
     {
-      "title": "Pompano's Ultra-Luxury Tower Boom Transforms Sleepy Beach Town",
-      "summary": "Pompano Beach is lowkey becoming the new luxury destination with Ritz-Carlton, Waldorf Astoria, and W Pompano towers reshaping its skyline. After decades in Miami's shadow, the coastal town is now attracting serious developers and high-end restaurants.",
-      "takeaway": "South Florida's luxury development is spreading beyond Miami—Pompano's beachfront transformation shows real estate momentum is shifting to new neighborhoods with better value.",
-      "source": "Sun Sentinel",
-      "url": "https://www.sun-sentinel.com/2026/03/14/pompano-beach-luring-some-big-fish-developers-transforming-skyline-with-ultra-luxury-towers/",
-      "tag": "Real Estate Development",
-      "sector": "Real Estate",
-      "readTime": 5,
+      "title": "Tech Hub Pulse Shows South Florida's Next Chapter: From Capital Attraction to Deployment",
+      "summary": "South Florida just hosted Tech Hub Pulse where hundreds of leaders gathered to discuss the region's shift from attracting capital to actually deploying it through 2026-2030. Speakers predicted a surge in space/defense tech investment and potentially 3-5 IPOs within 60 months as the region positions itself as a serious tech player.",
+      "takeaway": "South Florida's transitioning fr just being a place where money comes to being a place where it actually gets deployed—that's literally the next growth cycle.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
+      "tag": "Technology",
+      "sector": "Technology & Innovation",
+      "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "Palantir CEO Alex Karp Quietly Bought $46M Miami Mansion Before HQ Move",
-      "summary": "Palantir Technologies CEO Alex Karp purchased a $46 million Venetian Islands waterfront mansion in June, seven months before the software company announced it was moving its headquarters from Denver to Miami. The move signals another major tech firm joining the exodus to South Florida.",
-      "takeaway": "Tech billionaires are literally buying into Miami before announcing their moves—Karp's pre-emptive mansion purchase shows how serious the relocation wave really is.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-12/palantir-s-karp-is-said-to-be-buyer-of-46-million-miami-mansion",
-      "tag": "Tech Migration",
+      "title": "D-Wave Relocates Quantum Computing HQ to Boca Raton—FAU Buys $20M Quantum Computer",
+      "summary": "The world's leading quantum computing company just moved from California to Boca Raton, and Florida Atlantic University grabbed a $20M quantum computer from them. This is lowkey huge for South Florida's tech credentials and positions the region as a quantum computing hub.",
+      "takeaway": "Quantum computing is officially moving to South Florida—this signals real tech heavyweight interest beyond just crypto and finance bros.",
+      "source": "Sun Sentinel",
+      "url": "https://www.sun-sentinel.com/2026/02/09/south-floridas-economy-shows-staying-power-despite-slower-pace-trade-and-immigration-chaos/",
+      "tag": "Tech & Innovation",
       "sector": "Technology",
-      "readTime": 4,
-      "paywalled": true
-    },
-    {
-      "title": "Aria Reserve Marks Another Milestone as South Tower Nears Completion",
-      "summary": "The Melo Group's flagship dual-tower development in Edgewater has topped out its South Tower at 62 stories, with both towers expected to fully complete within three years of groundbreaking. Pre-sales have exceeded 60% with strong penthouse demand.",
-      "takeaway": "Aria Reserve's record-breaking sales velocity fr shows that Miami's luxury waterfront market is absolutely thriving despite general condo market slowdown.",
-      "source": "PROFILEmiami",
-      "url": "https://profilemiamire.com/miamirealestate/tag/Melo+Group",
-      "tag": "Luxury Development",
-      "sector": "Real Estate",
       "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "Boca Raton Waterfront Home Sells for $10.7M, Nearly 3x Its 2022 Price",
-      "summary": "A 6,600-square-foot Boca Raton waterfront property at 1957 Southeast 21st Avenue sold for $10.7 million—up from $3.9 million just four years ago. The deal signals continued strong appreciation in South Florida's residential market.",
-      "takeaway": "Waterfront homes in Boca are printing money—that 170% appreciation in four years shows why everyone's buying coastal South Florida real estate.",
-      "source": "The Real Deal",
-      "url": "https://therealdeal.com/miami/2026/03/14/south-florida-top-real-estate-deals-friday-march-13-2026/",
-      "tag": "Market Movement",
-      "sector": "Real Estate",
+      "title": "Florida's Housing Market Cooling: Prices Stabilizing as Inventory Rises",
+      "summary": "After years of insane price growth, South Florida's real estate market is finally cooling down—inventory is coming back and prices are stabilizing. The Florida Chamber Foundation says this normalization is actually healthy and sets buyers up better for 2026.",
+      "takeaway": "Housing prices aren't exploding anymore, which honestly might be good news for people who actually want to buy instead of just speculate.",
+      "source": "Florida Realtors & Florida Chamber Foundation",
+      "url": "https://www.floridarealtors.org/news-media/news-articles/2026/02/florida-economy-set-outperform-nation-2026",
+      "tag": "Real Estate",
+      "sector": "Real Estate & Housing",
+      "readTime": 3,
+      "paywalled": false
+    },
+    {
+      "title": "Consumer Confidence Rising in Florida—Buyers Getting More Optimistic",
+      "summary": "Consumer sentiment in Florida just climbed for the third straight month, reflecting stronger financial outlooks that shape major buying decisions. People are fr starting to feel better about their wallets even as the broader economy moderates.",
+      "takeaway": "Despite economic slowdown vibes, people actually feel more confident about their finances—that's the floor holding up tbh.",
+      "source": "Miami Realtors Association",
+      "url": "https://www.miamirealtors.com/2026/03/03/wednesday-march-4-2026-south-florida-real-estate-market-articles/",
+      "tag": "Economy & Sentiment",
+      "sector": "Consumer Confidence",
       "readTime": 2,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "South Florida Housing Market Outlook: Will Lower Mortgage Rates Help in 2026?",
-      "why": "The Miami Realtors Association predicts 30-year mortgage rates could drop to 5.8% by year-end, lowering monthly payments and potentially unlocking more sellers—worth tracking how rates actually move.",
-      "url": "https://www.wlrn.org/business/2026-01-04/real-estate-outlook-2026-south-florida",
-      "tag": "Market Trends"
+      "title": "Fort Lauderdale's Economic Impact Growth Reaches 20% Since 2022",
+      "why": "Downtown Fort Lauderdale is quietly becoming a serious economic engine with tech, finance and entertainment—good context for understanding the tri-county power shift.",
+      "url": "https://refreshmiami.com/news/fort-lauderdale-on-the-rise-new-report-shows-how-tech-and-finance-combine-to-fuel-economic-strength/",
+      "tag": "Regional Growth"
     },
     {
-      "title": "More California Tech Billionaires Moving to Florida—Inside the Exodus",
-      "why": "Beyond Palantir, billionaires like Mark Zuckerberg, Larry Page, and Sergey Brin are buying massive properties in Miami. Understanding the tax and lifestyle drivers could signal what's next for South Florida's economy.",
-      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-03-11/inside-exodus-of-california-tech-billionaires-to-florida",
-      "tag": "Tech Trends"
+      "title": "Tourism Outlook: South Florida Expects 1-3% Growth in 2026 Despite Airport Slowdown",
+      "why": "Visit Lauderdale's new campaign and hotel openings suggest tourism can recover even as airport traffic dipped—worth watching how events like Formula 1 move the needle.",
+      "url": "https://www.sun-sentinel.com/2026/02/09/south-floridas-economy-shows-staying-power-despite-slower-pace-trade-and-immigration-chaos/",
+      "tag": "Tourism & Hospitality"
     }
   ]
 }

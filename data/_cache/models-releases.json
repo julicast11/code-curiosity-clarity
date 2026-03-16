@@ -1,63 +1,63 @@
 {
-  "headline": "Week of Mar 9-15: AI models exploding, Anthropic & OpenAI locked in Pentagon drama, agents are here",
+  "headline": "AI moved FAST this week: GPT-5.4 drops, Claude gets 1M context, Gemini 3.1 dominating benchmarks, Meta's MTIA chips coming, and lowkey everyone's in an arms race",
   "stories": [
     {
-      "title": "OpenAI drops GPT-5.4 with 1M context window & native computer use",
-      "summary": "Lowkey the biggest flex this week — GPT-5.4 drops with 1M token context window, native computer use, better token efficiency, and 33% fewer hallucinations than GPT-5.2. Tool Search API redesign hits different for systems with tons of available tools.",
-      "takeaway": "OpenAI's computer use + massive context window shifts AI from assistant to actual workflow collaborator. Enterprise stuff about to go wild.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
-      "tag": "Model Release",
+      "title": "OpenAI GPT-5.4 Released with 1M Token Context & 33% Fewer Errors",
+      "summary": "GPT-5.4 just shipped with a massive 1-million-token context window and delivers 33% fewer factual errors vs GPT-5.2. API pricing is dirt cheap at $2.50/M input tokens.",
+      "takeaway": "This is lowkey the biggest move yet—frontier model performance at prices that won't break your budget. Perfect storm.",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+      "tag": "LLM Release",
       "company": "OpenAI",
-      "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "Anthropic's $100M Partner Network + Pentagon lawsuit escalates military AI divide",
-      "summary": "Anthropic literally just committed $100M to enterprise partnerships while fighting the Pentagon over guardrails on autonomous weapons & mass surveillance. Revenue jumped to ~$20B annualized, but federal blacklist could tank everything.",
-      "takeaway": "This fr is the defining tension of 2026: companies building power AI but refusing unrestricted military use. OpenAI capitulated; Anthropic doubled down.",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news",
-      "tag": "Business & Policy",
-      "company": "Anthropic",
-      "readTime": 7,
-      "paywalled": false
-    },
-    {
-      "title": "Claude Code basically broke software engineering workflows, Anthropic hit $1B ARR in 6 months",
-      "summary": "Engineers shipping in hours what used to take weeks. GitHub Copilot at 15M paid seats, but Claude Code already doing $2.5B annualized by February. Wall Street literally freaked out — IBM lost $40B in market cap when Anthropic mentioned COBOL translation.",
-      "takeaway": "Not hype: AI coding genuinely shifted how engineering teams operate. Smaller teams, crazy fast velocity, older systems getting reimagined.",
-      "source": "Time Magazine",
-      "url": "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/",
-      "tag": "Impact & Disruption",
-      "company": "Anthropic",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Meta planning 20% workforce cuts as AI efficiency gains hit, DeepMind launches 'automated research labs' with robotics",
-      "summary": "Meta's execs told managers to start planning layoffs (16K employees) to offset $600B AI infrastructure bet. Meanwhile DeepMind + Boston Dynamics dropping Gemini Robotics for humanoid Atlas robots; automated research lab opens in UK 2026 for materials science.",
-      "takeaway": "Two stories, same truth: AI making labor cheaper. Less people needed per dollar of output. The scaling is actually happening.",
-      "source": "Reuters / Boston Dynamics",
-      "url": "https://www.pymnts.com/meta/2026/meta-weighs-widespread-layoffs-as-ai-spending-grows/",
-      "tag": "Workforce & Robotics",
-      "company": "Meta",
+      "title": "Claude Opus 4.6 Unlocks 1M Context for All Tiers, Ups the Game",
+      "summary": "Anthropic pushed out Claude Opus 4.6 on Feb 5 with 1M token context on Max/Team/Enterprise, plus partner program committing $100M for ecosystem support. Multi-agent 'Dev Team' mode coming soon.",
+      "takeaway": "Tbh Anthropic's playing the long game—betting on partners + massive context = winning enterprise over.",
+      "source": "Anthropic Official",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "tag": "LLM Release",
+      "company": "Anthropic",
       "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Google Gemini 3.1 Drops, Dominates 13 of 16 Major Benchmarks",
+      "summary": "Gemini 3.1 Pro arrived with 1M-token context window, crushing benchmarks on multimodal reasoning. Flash-Lite variant also dropped at just $0.25/M input tokens for cost-conscious builders.",
+      "takeaway": "Literally Google's saying 'we built the best, and it's cheaper than everything.' Frontier performance hitting commodity pricing.",
+      "source": "Google DeepMind Blog",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+      "tag": "LLM Release",
+      "company": "Google",
+      "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "Meta MTIA Chip Strategy: 4 New Generations by End of 2027",
+      "summary": "Meta announced MTIA 300, 400, 450, 500 chips rolling out through 2027 to cut AI costs & reduce Nvidia reliance. Part of the massive AI infrastructure pivot away from metaverse.",
+      "takeaway": "Meta's betting billions on custom silicon to power agentic AI at scale. This is the infrastructure arms race heating up.",
+      "source": "Meta Newsroom",
+      "url": "https://about.fb.com/news/",
+      "tag": "Hardware",
+      "company": "Meta",
+      "readTime": 3,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Anthropic vs Pentagon: The supply-chain risk designation could reshape US AI policy",
-      "why": "Next hearing March 24. If Anthropic loses, entire industry safety guardrail approach collapses under federal pressure. If they win, it's precedent for AI ethics over military demands.",
-      "url": "https://fortune.com/2026/03/10/google-openai-employees-back-anthropic-legal-fight-military-use-of-ai/",
-      "tag": "Policy"
+      "title": "OpenAI Raises $110B, Hits $730B Valuation—IPO Coming 2026?",
+      "why": "Insane funding round signals AI war is real. Watch for public markets reaction to frontier model pricing power.",
+      "url": "https://theaitrack.com/ai-news-march-2026-in-depth-and-concise/",
+      "tag": "Funding"
     },
     {
-      "title": "DeepSeek V4 (1T params) hitting production + Chinese AI labs dominating Hugging Face downloads",
-      "why": "Open models from China literally beating closed US APIs now. V4's 40% memory reduction + sparse FP8 changes the inference economics game. Worth tracking how this reshapes global AI deployment.",
-      "url": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment",
-      "tag": "Open Source"
+      "title": "Papers with Code Shutdown (2025) Leaves Benchmark Infrastructure Gap",
+      "why": "Meta killed Papers with Code last year; now Hugging Face is filling the void but missing SOTA leaderboards. Critical for staying updated on actual model performance.",
+      "url": "https://www.codesota.com/papers-with-code",
+      "tag": "Research"
     }
   ]
 }

@@ -1,63 +1,63 @@
 {
-  "headline": "Claude's got 1M context window now (for real), Gemini 3.1 Pro slapping on price, and a whole lotta model drama this week",
+  "headline": "Claude Opus gets wild context, new models drop left & right",
   "picks": [
     {
-      "name": "Claude Opus 4.6",
-      "tagline": "1M context window + 128K output at standard pricing",
-      "summary": "Claude just went full beast mode with a 1M token context window (beta), 128K output tokens, and agentic capabilities that actually work. Literally shipped Agent Teams and adaptive thinking without making you pay extra.",
-      "tryIt": "Try now in Claude API",
+      "name": "Claude 4.6 Opus",
+      "tagline": "1M context window at standard pricing, finally",
+      "summary": "Anthropic's flagship now handles massive documents with full GA on 1M context + 128K output. Lowkey the context king rn with agentic capabilities that actually work.",
+      "tryIt": "https://claude.ai",
       "url": "https://www.anthropic.com",
       "tag": "LLM",
-      "vibe": "paid",
-      "bestFor": "Long-form reasoning, document analysis, complex coding tasks",
+      "vibe": "freemium",
+      "bestFor": "long-form analysis, research, complex reasoning",
       "readTime": 3
+    },
+    {
+      "name": "Windsurf",
+      "tagline": "The first agentic IDE that actually ships",
+      "summary": "Fr the most complete agentic dev experience. Arena Mode lets you compare models side-by-side, Plan Mode handles smarter task planning before code gen.",
+      "tryIt": "https://codeium.com/windsurf",
+      "url": "https://codeium.com/windsurf",
+      "tag": "Development",
+      "vibe": "freemium",
+      "bestFor": "developers wanting repo-wide context & multi-file refactors",
+      "readTime": 4
     },
     {
       "name": "Gemini 3.1 Pro",
-      "tagline": "Best price-to-performance ratio with tiered thinking levels",
-      "summary": "Google dropped Gemini 3.1 Pro with insane ARC-AGI scores (77.1%) at $2/$12 pricing. Low/Medium/High thinking levels let you trade cost vs quality per task. Honestly might be the smartest play for devs watching their bill rn.",
-      "tryIt": "Access via Google API",
-      "url": "https://google.com/gemini",
+      "tagline": "$2/$12 pricing with best price-to-performance ratio",
+      "summary": "Google's new model doubles reasoning performance vs Gemini 3 Pro. Full video processing, 24-language voice, tiered thinking levels = massive value for cost-conscious teams.",
+      "tryIt": "https://gemini.google.com",
+      "url": "https://gemini.google.com",
       "tag": "LLM",
-      "vibe": "paid",
-      "bestFor": "Cost-conscious dev shops, reasoning tasks, multi-language work",
+      "vibe": "freemium",
+      "bestFor": "multimodal tasks, voice work, cost-optimized inference",
       "readTime": 3
     },
     {
-      "name": "Viktor by Zeta Labs",
-      "tagline": "AI agent that lives in Slack and proactively suggests automations",
-      "summary": "This Slack agent actually observes how your team works and chimes in with automation ideas you didn't even think of. Built from the Claude Code team, it's lowkey the future of workflow automation—no more context switching.",
-      "tryIt": "Request beta access",
-      "url": "https://www.producthunt.com",
-      "tag": "Agent",
-      "vibe": "freemium",
-      "bestFor": "Teams drowning in manual workflows, anyone who lives in Slack",
-      "readTime": 2
-    },
-    {
-      "name": "Windsurf (IDE)",
-      "tagline": "Arena Mode lets models compete side-by-side for your coding",
-      "summary": "Windsurf added Arena Mode so you can pit Claude vs GPT vs other models against each other on your code. Plan Mode now handles smarter task planning before generation. It's like having a team of devs fighting over whose solution is best.",
-      "tryIt": "Download free IDE with Claude promo pricing",
-      "url": "https://codeium.com/windsurf",
-      "tag": "Dev Tools",
-      "vibe": "freemium",
-      "bestFor": "Engineers comparing models, anyone building with multi-model strategy",
+      "name": "Meta Vibes AI Editor",
+      "tagline": "Standalone creation studio for video & image gen",
+      "summary": "Quietly launched as a full editor now. Image & video generation, timeline editing, production tools—it's like Google Flow but tbh the output quality still needs work.",
+      "tryIt": "https://meta.ai",
+      "url": "https://meta.ai",
+      "tag": "Video/Image Gen",
+      "vibe": "free",
+      "bestFor": "creators wanting to prototype visuals fast",
       "readTime": 3
     }
   ],
   "watchNext": [
     {
-      "title": "OpenAI's $110B funding round + Anthropic supply chain drama",
-      "why": "The US government literally labeled Anthropic a supply chain risk over Claude's military restrictions, while OpenAI supposedly reached an 'agreement' with the Department of War. This is reshaping who gets access to what models fr",
-      "url": "https://news.bensbites.com",
-      "tag": "Industry"
+      "title": "xAI Hires Cursor Leaders for Coding Push",
+      "why": "Musk's AI company is pulling top talent from the fastest-growing IDE. Signal that coding agent wars are heating up fr.",
+      "url": "https://theinformation.com",
+      "tag": "News"
     },
     {
-      "title": "🎙️ The Next Wave: Claude 4.6 vs Gemini 3.1 Pro breakdown",
-      "why": "Matt Wolfe and team dissect the explosion of new models this week and whether agents are finally about to eat GPT-5's lunch. Actually useful comparison of real pricing and use cases.",
-      "url": "https://www.youtube.com/@TheNextWavePod",
-      "tag": "Podcast"
+      "title": "Meta Layoffs & AI Cost Explosion",
+      "why": "Meta planning 20%+ cuts as AI infrastructure costs spiral. Reminder that even giants feel the compute crunch.",
+      "url": "https://www.theguardian.com",
+      "tag": "Industry"
     }
   ]
 }

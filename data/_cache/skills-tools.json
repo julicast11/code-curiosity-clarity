@@ -1,52 +1,52 @@
 {
-  "headline": "Level up this week: master data analysis, automate Excel workflows, and switch to smarter project tools",
+  "headline": "Nail EQ, Power Query, and Productive this week to level up your consulting game 🚀",
   "stories": [
     {
-      "title": "Data Analysis + Emotional Intelligence = Consultant Superpower",
-      "summary": "Data analysis is fr the most in-demand consulting skill for 2026, but here's the twist—pairing it with emotional intelligence unlocks insights competitors miss. Understanding user emotions behind the data (frustration, excitement) reveals pain points that raw metrics can't catch, boosting customer retention & product adoption by 15-25%.",
-      "takeaway": "Stop treating data as pure numbers. Layer in emotional intelligence to read what users actually need, not just what they're clicking. That's what separates good consultants from great ones.",
-      "source": "Jobaaj Learnings & Tepui Consulting",
-      "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
-      "tag": "Skill",
-      "skill": "Data Analysis + Emotional Intelligence",
-      "readTime": 6,
+      "title": "Emotional Intelligence: The Skill That Actually Separates Good Consultants From Great Ones",
+      "summary": "EQ is lowkey the most underrated skill in consulting right now. While AI handles the data crunching, consultants with high emotional intelligence are the ones building real client trust and leading change.",
+      "takeaway": "Start building EQ by practicing active listening, managing your own emotions under pressure, and understanding your client's emotional triggers—it's what keeps people coming back.",
+      "source": "The CARA Group & Consultancy.eu",
+      "url": "https://www.thecaragroup.com/leveling-up-your-consulting-skills-with-emotional-intelligence/",
+      "tag": "skill",
+      "skill": "Emotional Intelligence",
+      "readTime": 8,
       "paywalled": false
     },
     {
-      "title": "Power Query Pivot Columns: Transform Data Without Building Tables",
-      "summary": "Pivot columns in Power Query save mad time by turning repetitive data into clean summaries in seconds. Instead of manually building pivot tables, Power Query automates the transformation, refreshes automatically when data updates, & reduces errors way better than formulas.",
-      "takeaway": "Use Power Query's pivot feature for quarterly reports, sales breakdowns, or expense summaries. Set it up once, refresh forever. Game changer for consultants drowning in spreadsheets.",
-      "source": "MyExcelOnline & Microsoft Learn",
-      "url": "https://www.myexcelonline.com/blog/create-pivot-columns-using-power-query/",
-      "tag": "Excel Tip",
+      "title": "Power Query Fuzzy Matching: Stop Spending Hours Cleaning Data Manually",
+      "summary": "Power Query's fuzzy matching feature is a total game-changer for messy Excel datasets. One-click fixes that used to take hours—plus it automates the whole process so you only clean once.",
+      "takeaway": "Use fuzzy matching to merge messy exports with clean master databases in seconds. Once you set it up, hit Refresh next month instead of rebuilding the whole thing from scratch.",
+      "source": "How-To Geek & Advanced Excel Institute",
+      "url": "https://www.howtogeek.com/microsoft-excel-power-query-fuzzy-matching-clean-up-messy-data/",
+      "tag": "data-tip",
       "skill": "Power Query",
-      "readTime": 5,
+      "readTime": 7,
       "paywalled": false
     },
     {
-      "title": "Rocketlane's AI PSA Platform Just Changed the Game for Delivery Teams",
-      "summary": "Rocketlane launched Nitro, an AI execution platform that literally does the work instead of just tracking it—automating migrations, config, testing & resource allocation. Early data shows teams can deliver 50% faster while surfacing risks weeks ahead of old tools.",
-      "takeaway": "Tired of disconnected project tools? Rocketlane brings projects, time tracking, finances & client collaboration into one place. If you manage multiple client engagements, this lowkey solves like 80% of your operational chaos.",
-      "source": "Rocketlane & PMG News",
-      "url": "https://news.pm-global.co.uk/2026/03/rocketlane-launches-ai-execution-platform-to-automate-professional-services-delivery/",
-      "tag": "Tool",
+      "title": "Productive: The All-in-One Consulting Software That Actually Connects Time, Budgets, and Billing",
+      "summary": "Productive ties together project management, time tracking, budgeting, and invoicing so you're not juggling five different tools. Real-time profit tracking means you see margin issues before they become disasters.",
+      "takeaway": "Track billable vs non-billable hours, generate custom invoices, and watch profitability across client projects in one place. The game-changer: 50+ customizable report templates.",
+      "source": "Digital Project Manager & Productive.io",
+      "url": "https://thedigitalprojectmanager.com/tools/best-project-management-software-for-consultants/",
+      "tag": "tool",
       "skill": "Project Management",
-      "readTime": 7,
+      "readTime": 6,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "How to Master McKinsey's 7-Step Problem-Solving Framework",
-      "why": "This is legit the thinking system top consulting firms use. If you're leveling up your consulting skill set, learning structured problem-solving will make literally everything else easier. The framework works for client cases & internal projects.",
-      "url": "https://www.udemy.com/course/management-consulting-problem-solving/",
-      "tag": "Skill"
+      "title": "Why Consultants Must Master Adaptability in 2026 (Or Get Left Behind)",
+      "why": "The consulting world is moving faster than ever. Adaptability is the actual skill that lets you pivot on client needs without losing your mind.",
+      "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
+      "tag": "skill"
     },
     {
-      "title": "Beyond Dashboards: AI Tools Transforming Consultant Workflows in 2026",
-      "why": "ChatGPT, Tableau AI & Think Cell are reshaping how consultants work. Stop doing manual analysis—these tools handle research, insights & presentation creation so you can focus on strategy & client relationships. Worth knowing what's available.",
-      "url": "https://www.auxi.ai/blog/ai-tools-for-consultants",
-      "tag": "Tool"
+      "title": "Excel + Power BI Integration: Turn Your Cleaned Data Into Client-Ready Dashboards",
+      "why": "Once your data is clean in Power Query, flowing it straight into Power BI dashboards saves a ton of rework and keeps your reporting consistent across teams.",
+      "url": "https://www.excelgoodies.com/blog/advanced-data-cleaning-excel-power-query-2025",
+      "tag": "data-tip"
     }
   ]
 }
