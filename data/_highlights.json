@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Claude 4.6 Opus",
+    "summary": "Anthropic's flagship now handles massive documents with full GA on 1M context + 128K output. Lowkey the context king rn with agentic capabilities that actually work.",
+    "takeaway": "1M context window at standard pricing, finally",
+    "source": "AI Tool",
+    "url": "https://www.anthropic.com",
+    "tag": "LLM",
+    "readTime": 3,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "Windsurf",
+    "summary": "Fr the most complete agentic dev experience. Arena Mode lets you compare models side-by-side, Plan Mode handles smarter task planning before code gen.",
+    "takeaway": "The first agentic IDE that actually ships",
+    "source": "AI Tool",
+    "url": "https://codeium.com/windsurf",
+    "tag": "Development",
+    "readTime": 4,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "Meta Vibes AI Editor",
+    "summary": "Quietly launched as a full editor now. Image & video generation, timeline editing, production tools—it's like Google Flow but tbh the output quality still needs work.",
+    "takeaway": "Standalone creation studio for video & image gen",
+    "source": "AI Tool",
+    "url": "https://meta.ai",
+    "tag": "Video/Image Gen",
+    "readTime": 3,
+    "_tab": "tools-to-try"
+  }
+]

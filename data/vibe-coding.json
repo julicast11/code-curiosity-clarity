@@ -1,51 +1,63 @@
 {
-  "headline": "Top Vibe Coding stories this week",
+  "headline": "Cursor's $2B Run & Claude Code's Massive March Update Reshaping the Agentic Summer",
   "stories": [
     {
-      "title": "Fake Claude Code Guides Lure Vibe Coders With Malware - findarticles.com",
-      "summary": "Fake Claude Code Guides Lure Vibe Coders With Malware findarticles.com",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSWJpVGJUSElFLUpHY0ZyTkhGUDRXM2pmanVMLVpKVmtKSkJ1enRZZU9KOEtqMzhXa25rZEpoSHc2NkVUbkI4Ulp6OGF3QUtJUmprREpKMnhUN2ZKYzVraXIyR3R5R3RidEhqV3JCQ3BPYmdGd3F1QWg4dFRwX01acnNrNW5Vc0MyT25F0gGTAUFVX3lxTFBST0JNczdaaFZ0UGNlWEZDVHliOXJPNjhWOERKWVJVSkU3Uk1qbVluc1NBcGdFcXB3Nm9vaGlzN2NKalktVWpaWmlTTTkwVlRtdmJxZUR5QnhwajBkMmdNdWNxR1lvckdMZ3RhY0p4b2VqWG5oMENsX1RDdkxMN3MtWkdQUzFmM2diWGo0WEVJaUlRcw?oc=5",
-      "tag": "AI"
+      "title": "Cursor Hits $2B ARR: Cloud Agents Enter Era 3 of AI Coding",
+      "summary": "Cursor crossed $2B annual revenue milestone & launched cloud agents that run autonomously in sandboxes—literally flipping devs from writing code to managing agent factories. First-third of their PRs are now agent-generated.",
+      "takeaway": "Cursor's automations + cloud agents mark the shift from \"prompt & monitor\" to \"set it & forget it\"—devs are becoming engineering managers, not coders.",
+      "source": "Cursor Blog",
+      "url": "https://releasebot.io/updates/cursor",
+      "tag": "Cursor",
+      "type": "product-launch",
+      "readTime": 6,
+      "paywalled": false
     },
     {
-      "title": "GitHub Copilot in Visual Studio Code v1.110 – February release - The GitHub Blog",
-      "summary": "GitHub Copilot in Visual Studio Code v1.110 – February release The GitHub Blog",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeHZvV3JpR1pvUjlJaDI0RXNEMGdWV1RvVDlReFU2UVhnTEtmZUVybVlUZVhyU0VES0xVVTRQSGJzdkVlM2k3ZzY1TzJIczBVQURUcUVfU2oyQlZzUFVZRlE5M0ZnS21xTHBhS08zWkplWC1WcU03SXV5dExrYXNOYWRobXAzNXYzbjBEcW1hQVFJOHJmclZfZ2Y4UTdpLVF1Z05z?oc=5",
-      "tag": "AI"
+      "title": "Claude Code Gets Voice Mode, /loop Commands & 1M Token Context in March Blitz",
+      "summary": "Anthropic dropped voice mode, recurring task loops, 1M context window for Opus 4.6, MCP elicitation, and like 50+ micro-fixes—literally the most feature-packed month Claude Code has ever had.",
+      "takeaway": "Claude Code's March update makes it the first truly conversational + executable coding agent; the quota doubling is lowkey Anthropic testing how much users will abuse it.",
+      "source": "Anthropic News (Claude Code)",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "tag": "Claude Code",
+      "type": "feature-update",
+      "readTime": 7,
+      "paywalled": false
     },
     {
-      "title": "After the Panic, the Reality of Claude Code Security - GovInfoSecurity",
-      "summary": "After the Panic, the Reality of Claude Code Security GovInfoSecurity",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMnlvMWowdWY2MXh3WFlEQktjR1FFeHFBQ2JoWjUyQjNreHFhcTRmNW9QNzZEa0pqNG1BUm1IMTM4amMwanZHdFpsNExmSWtqWTFmMm9nbl9JRTJNZUk5VkdjV2t5RDJWR1JqNzZXd1VqWVhQX0h4RmxhaU4wc3JCc0tiaWxieE0?oc=5",
-      "tag": "AI"
+      "title": "GitHub Copilot SDK Brings Agentic Execution Inside Your Apps",
+      "summary": "GitHub dropped a programmable SDK that lets devs embed the same Copilot execution layer directly into production apps—shifting from \"AI as text\" to \"AI as infrastructure\" that actually does stuff.",
+      "takeaway": "This is the play: instead of prompt→response, you define intent & constraints, agents plan/execute/iterate inside your product. The orchestration layer finally got commoditized.",
+      "source": "GitHub Blog (Copilot)",
+      "url": "https://github.blog/ai-and-ml/github-copilot/the-era-of-ai-as-text-is-over-execution-is-the-new-interface/",
+      "tag": "Copilot",
+      "type": "platform-release",
+      "readTime": 5,
+      "paywalled": false
     },
     {
-      "title": "Phony Claude Code Install Guides Trick Vibe Coders Into Installing Malware - PCMag",
-      "summary": "Phony Claude Code Install Guides Trick Vibe Coders Into Installing Malware PCMag",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeTBpZXVCenlYcTZidndMQ2JBSzJSRXNqRGhYUlN4Q2FZbFlwWHdOZnRTNGFqZ001akg1dVlvV254SFJPNjlKc2JwVWNjdk1xSnhPRGFRTmIxWWZ3NEI4UU1iZ3BiOFE5bkoya2pVQXdUUmNHaVZQdW91RVRDdFd5LWo2NXpzRl9kRDNqMUFlSGNfUkNILWQwWElaYjJ1SC0xMVYw?oc=5",
-      "tag": "AI"
+      "title": "Cursor ACP + JetBrains IDEs: Full-Stack Agents Now Live in Your IDE",
+      "summary": "Cursor went multi-IDE through the Agent Client Protocol—now you get Cursor's agentic workflow inside IntelliJ, PyCharm, WebStorm while keeping JetBrains' native code intelligence. 30+ new MCP plugins shipped same day.",
+      "takeaway": "The IDE wars are officially over; agents are portable now. Cursor's not trying to replace JetBrains—it's the agentic layer on top of everything.",
+      "source": "Cursor Blog",
+      "url": "https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/",
+      "tag": "Cursor",
+      "type": "integration-release",
+      "readTime": 4,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "PEGA Stock Surges on Launch of Vibe Coding Assistant in Pega Blueprint - Zacks Investment Research",
-      "why": "PEGA Stock Surges on Launch of Vibe Coding Assistant in Pega Blueprint Zacks Investment Research",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRVg3UHJKelpRQjJjMDhlUHJFcjJrWW94d1BEd1ZzTTNDVHlNWXVCSEY5eGxVOXRva2hETkswUS1ybmt3cmFNVEotMC1DcDctLVk0TW0yYndNSGNKR0tEMDRnUkJpbW1OSXdMMEJoMW80b2hjQURILTF4Mm8tMl96UEZqMEdTYWt5aVhPcUtBNm5ZdFplWHBLU0FocW1KMXRvQnU1OXNQN3AxWDlPNTlvTw?oc=5",
-      "tag": "AI"
+      "title": "Vibe Coding vs Vibe Engineering: The Terminology Debate Simon Willison Started",
+      "why": "Lowkey the philosophical underpinning of everything shipping this week—Willison's drawing a hard line between \"vibes only\" (irresponsible) and \"agentic engineering\" (intentional + tested). Matters for how you think about what these tools actually let you build.",
+      "url": "https://simonw.substack.com/p/vibe-engineering",
+      "tag": "vibe-coding"
     },
     {
-      "title": "Anthropic and the Pentagon",
-      "why": "",
-      "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
-      "tag": "AI"
+      "title": "Replit Agent 3 vs Bolt vs v0: Full-Stack Vibe Coding Showdown",
+      "why": "The non-developer wave is real—Replit's agent hit 200+ minutes of autonomous building, Bolt's blazingly fast for prototypes, v0's still best for components. This week's benchmarks show who actually ships working stuff vs vibes.",
+      "url": "https://ai-agents-benchmark.com/",
+      "tag": "vibe-coding-platforms"
     }
   ]
 }

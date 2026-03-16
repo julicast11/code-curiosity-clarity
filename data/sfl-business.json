@@ -1,51 +1,63 @@
 {
-  "headline": "Top South FL Business stories this week",
+  "headline": "Pompano rising as luxury hotspot while Palantir CEO goes all-in on Miami real estate",
   "stories": [
     {
-      "title": "Local health care company, Japanese auto maker sign new leases in Doral - The Business Journals",
-      "summary": "Local health care company, Japanese auto maker sign new leases in Doral The Business Journals",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWmpxUld2SG54VlNVZkZBQ3phMmhNWmt1T0FLaktDd3E4QmJDczcxUUxTQW9sTVROMFdiRGpoRm1hYVNBQXFLQ2lqNlFZbDBBNFlKOUs4Q2VFZ1FiekNrcFpqVzhVMlNFak1ZRTZrR21CT3ItNGM0ZjBKclZrNVM0LWVIQkV4LTNsMG5wcFpCc0ZEVmVWWWpTZnJ3b1RIZXM?oc=5",
-      "tag": "South Florida"
+      "title": "Pompano's Ultra-Luxury Tower Boom Transforms Sleepy Beach Town",
+      "summary": "Pompano Beach is lowkey becoming the new luxury destination with Ritz-Carlton, Waldorf Astoria, and W Pompano towers reshaping its skyline. After decades in Miami's shadow, the coastal town is now attracting serious developers and high-end restaurants.",
+      "takeaway": "South Florida's luxury development is spreading beyond Miami—Pompano's beachfront transformation shows real estate momentum is shifting to new neighborhoods with better value.",
+      "source": "Sun Sentinel",
+      "url": "https://www.sun-sentinel.com/2026/03/14/pompano-beach-luring-some-big-fish-developers-transforming-skyline-with-ultra-luxury-towers/",
+      "tag": "Real Estate Development",
+      "sector": "Real Estate",
+      "readTime": 5,
+      "paywalled": false
     },
     {
-      "title": "Developer seeks incentives for 47-story tower in Miami - The Business Journals",
-      "summary": "Developer seeks incentives for 47-story tower in Miami The Business Journals",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWlUTnVPNnpnWWx0MG1TX2VPb1JRRzVJdWcyUllwZlNWc2NKSVFGS1ZWeGRWaEEtbVRpWXB2YUxOTVd5VEc5SVd2ajhYVWQ1N2dFVVlTaVl3V3NCVDRFdWYzLS1qMFJuMk9tZTFTeWRvOC1XLVZvMjhPcEdQdVFqelJiNnh5aG5nTzZWUXFGQTZGOGFhR1dJM05pOHBiYXdsckhaSkRBRzNOR2dTV2c?oc=5",
-      "tag": "South Florida"
+      "title": "Palantir CEO Alex Karp Quietly Bought $46M Miami Mansion Before HQ Move",
+      "summary": "Palantir Technologies CEO Alex Karp purchased a $46 million Venetian Islands waterfront mansion in June, seven months before the software company announced it was moving its headquarters from Denver to Miami. The move signals another major tech firm joining the exodus to South Florida.",
+      "takeaway": "Tech billionaires are literally buying into Miami before announcing their moves—Karp's pre-emptive mansion purchase shows how serious the relocation wave really is.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/palantir-s-karp-is-said-to-be-buyer-of-46-million-miami-mansion",
+      "tag": "Tech Migration",
+      "sector": "Technology",
+      "readTime": 4,
+      "paywalled": true
     },
     {
-      "title": "NYSE company plans warehouses in Miami-Dade - The Business Journals",
-      "summary": "NYSE company plans warehouses in Miami-Dade The Business Journals",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWkstcDJfZDE4UVlVTDVsQ2R4X2NCOTRDbFNfOUg1aUkxZTFfU29KY09KN1QyM21KUTl0ZU9XVVZpSmpmLXRaVy13aVE3NWlVR3RQSTZnUHhUSktxcUlGUGJyNk5kV1JkMDhvNW96eWU3NTd2VmRDUGMzLURoalhaR0ttSHl0Yy1BeTF2cHZOLXZlUkV4ekUwU2V4d3VkT2ZHd3djR0ctWDk?oc=5",
-      "tag": "South Florida"
+      "title": "Aria Reserve Marks Another Milestone as South Tower Nears Completion",
+      "summary": "The Melo Group's flagship dual-tower development in Edgewater has topped out its South Tower at 62 stories, with both towers expected to fully complete within three years of groundbreaking. Pre-sales have exceeded 60% with strong penthouse demand.",
+      "takeaway": "Aria Reserve's record-breaking sales velocity fr shows that Miami's luxury waterfront market is absolutely thriving despite general condo market slowdown.",
+      "source": "PROFILEmiami",
+      "url": "https://profilemiamire.com/miamirealestate/tag/Melo+Group",
+      "tag": "Luxury Development",
+      "sector": "Real Estate",
+      "readTime": 3,
+      "paywalled": false
     },
     {
-      "title": "Toyota dealership could double in size - The Business Journals",
-      "summary": "Toyota dealership could double in size The Business Journals",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNl9zRVVYWGxISmx6bHU2WmkyTjRuVHpDdnBneDJENGFBenRtQl9YUmpQT1BQSGtVaGRTaFJ3WTdLQVhna0NSOTZJUVpxT1p5MktHcS0ySWhNZkNmZHFXaUZQZ1lWdXRrdzQwZUlheVJ3R080eThTZDZiVHNpZFFFX1AzV3lGcEJMOUM0S3pKaU9mWXhrR3hIM2hTeU1tUGZ4b0E?oc=5",
-      "tag": "South Florida"
+      "title": "Boca Raton Waterfront Home Sells for $10.7M, Nearly 3x Its 2022 Price",
+      "summary": "A 6,600-square-foot Boca Raton waterfront property at 1957 Southeast 21st Avenue sold for $10.7 million—up from $3.9 million just four years ago. The deal signals continued strong appreciation in South Florida's residential market.",
+      "takeaway": "Waterfront homes in Boca are printing money—that 170% appreciation in four years shows why everyone's buying coastal South Florida real estate.",
+      "source": "The Real Deal",
+      "url": "https://therealdeal.com/miami/2026/03/14/south-florida-top-real-estate-deals-friday-march-13-2026/",
+      "tag": "Market Movement",
+      "sector": "Real Estate",
+      "readTime": 2,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "South Florida museum names new CEO as $150 million expansion advances - The Business Journals",
-      "why": "South Florida museum names new CEO as $150 million expansion advances The Business Journals",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTnRPeWtUdVdUa2pRT1hfMlN3VGdnakloM2x6TFY3bDl1bndkVU5UWi04U3lyc1hjX1o2a0duQkdSMFVVY01ZVHE1SFFjQkxoVVZBbnZWOWxySm5Gb0Nndm9nWGM1b3hMM2JOSko3dGpHNnhncVZ6WmxCX1VFQlhLSUJlQzB4a2o5bUpTWkpVVHI5eTlFSml3WVVpeU1sOGdpNGRWcjlOWXFGSHlIMnRkbUxB?oc=5",
-      "tag": "South Florida"
+      "title": "South Florida Housing Market Outlook: Will Lower Mortgage Rates Help in 2026?",
+      "why": "The Miami Realtors Association predicts 30-year mortgage rates could drop to 5.8% by year-end, lowering monthly payments and potentially unlocking more sellers—worth tracking how rates actually move.",
+      "url": "https://www.wlrn.org/business/2026-01-04/real-estate-outlook-2026-south-florida",
+      "tag": "Market Trends"
     },
     {
-      "title": "Pentagon, SBA commit $150 million to maritime defense tech investment fund - The Business Journals",
-      "why": "Pentagon, SBA commit $150 million to maritime defense tech investment fund The Business Journals",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaWtOS1pnTzItb0dxS0tLV1gzYy1qeGJZQjV2T1ZrMlJuOW5KaUJHMkh2M2s3dThwa1k4SlF5cjZKQjFrWlpkRkdmckVGemJDNkpWN1JvZ0lsR1VKOEFPSTdoclFMOWZkRHhBeGVXQnBKU0VldC1iTGptTGNXVXdoVmc5cWtLZzdudXMwRzhvVXJKTDN2LS1qLQ?oc=5",
-      "tag": "South Florida"
+      "title": "More California Tech Billionaires Moving to Florida—Inside the Exodus",
+      "why": "Beyond Palantir, billionaires like Mark Zuckerberg, Larry Page, and Sergey Brin are buying massive properties in Miami. Understanding the tax and lifestyle drivers could signal what's next for South Florida's economy.",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-03-11/inside-exodus-of-california-tech-billionaires-to-florida",
+      "tag": "Tech Trends"
     }
   ]
 }

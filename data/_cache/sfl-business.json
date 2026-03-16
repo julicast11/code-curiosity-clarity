@@ -1,0 +1,63 @@
+{
+  "headline": "South Florida's Getting Major Moves This Week: Billionaire Real Estate, Luxury Towers, and Angel Investor Mega-Merger",
+  "stories": [
+    {
+      "title": "Pompano Beach's $2B Luxury Tower Boom Is Real",
+      "summary": "Developers are fr transforming Pompano's skyline with ultra-luxury towers from Related Group, W Hotels, Ritz-Carlton & more—Waldorf Astoria hitting vertical construction in May, Salato opening end of April. This wasn't even supposed to happen 10 years ago but now it's becoming South Florida's hottest beachfront play.",
+      "takeaway": "Pompano's lowkey becoming the new alternative to Miami—same luxury vibes, way more realistic inventory & pricing potential.",
+      "source": "Sun Sentinel",
+      "url": "https://www.sun-sentinel.com/2026/03/14/pompano-beach-luring-some-big-fish-developers-transforming-skyline-with-ultra-luxury-towers/",
+      "tag": "Real Estate",
+      "sector": "Real Estate & Development",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Mark Zuckerberg Closes $170M Miami Mansion Deal—Biggest Ever in Miami-Dade",
+      "summary": "Meta CEO snagged a $170M waterfront estate on Indian Creek Island (aka Billionaire Bunker) on March 2, setting a new Miami-Dade county record. The nine-bedroom property features a secret library, jazz lounge, 60-foot pool—and it's still under construction.",
+      "takeaway": "Tech billionaires aren't just visiting anymore, they're literally buying up the entire 'Billionaire Bunker'—Zuckerberg, Bezos, Tom Brady all there now.",
+      "source": "Fox Business",
+      "url": "https://www.foxbusiness.com/real-estate/mark-zuckerberg-googles-brin-close-massive-miami-estates-worth-over-220m-combined",
+      "tag": "Billionaire Migration",
+      "sector": "Real Estate & Wealth",
+      "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "Miami Angels & New World Angels Just Merged to Form Florida's Biggest Early-Stage Investor Network",
+      "summary": "Two South Florida angel groups combined on March 10 to create one statewide platform—Miami Angels (100+ companies funded since 2013) + New World Angels (60+ investments, $30M+ deployed) now pooling capital & expertise. They're using AI to handle a 5x jump in pitch volume.",
+      "takeaway": "South Florida's startup funding ecosystem just leveled up—bigger checks, more industry verticals (Healthcare, IT, Space, Fintech coming soon), better odds for founders.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/miami-angels-and-new-world-angels-are-combining-to-form-statewide-network/",
+      "tag": "Venture Capital",
+      "sector": "Startups & Funding",
+      "readTime": 3,
+      "paywalled": false
+    },
+    {
+      "title": "Google Cofounder Larry Page Drops $173.4M on Two Coconut Grove Estates",
+      "summary": "Late December/early January move: Larry Page (net worth ~$276B) just closed on two ultra-luxury waterfront properties in Coconut Grove for $173.4M combined—Banyan Ridge compound ($101.5M) + Casa Bahia ($71.9M). Lowkey his exit from California ahead of billionaire wealth tax.",
+      "takeaway": "The wealth migration from CA to FL is literally changing who owns South Florida's real estate—tech money is now the dominant buyer at the $100M+ level.",
+      "source": "Yahoo Lifestyle",
+      "url": "https://www.yahoo.com/lifestyle/articles/inside-look-two-mansions-google-100049805.html",
+      "tag": "Billionaire Migration",
+      "sector": "Real Estate & Wealth",
+      "readTime": 3,
+      "paywalled": false
+    }
+  ],
+  "watchNext": [
+    {
+      "title": "South Florida Real Estate Market Continues to Break Records Amid Billionaire Gold Rush",
+      "why": "More details on how Zuckerberg & Page's mega deals are signaling where ultra-luxury capital is flowing in 2026—good read on neighborhoods & price trends.",
+      "url": "https://www.miamirealtors.com/2026/03/09/monday-march-9-2026-south-florida-real-estate-market-articles/",
+      "tag": "Real Estate"
+    },
+    {
+      "title": "Why is South Florida's Tech Ecosystem Suddenly One of the Hottest in the Country?",
+      "why": "Palantir's Miami HQ announcement + angel merger news = South Florida startup scene is legit heating up. Worth understanding what's actually attracting founders & capital here.",
+      "url": "https://refreshmiami.com/",
+      "tag": "Startups"
+    }
+  ]
+}

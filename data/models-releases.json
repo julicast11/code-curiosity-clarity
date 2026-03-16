@@ -1,51 +1,63 @@
 {
-  "headline": "Top Models & Releases stories this week",
+  "headline": "AI moved FAST this week: GPT-5.4 drops, Claude gets 1M context, Gemini 3.1 dominating benchmarks, Meta's MTIA chips coming, and lowkey everyone's in an arms race",
   "stories": [
     {
-      "title": "OpenAI launches Codex Security, an AI agent designed to detect vulnerabilities in software projects",
-      "summary": "OpenAI's new Codex Security agent automatically hunts for vulnerabilities in code and has already found gaps in OpenSSH and Chromium. The article OpenAI launches Codex Security, an AI agent designed to detect vulnerabilities in software projects appeared first on The Decoder.",
-      "takeaway": "",
-      "source": "Matthias Bastian",
-      "url": "https://the-decoder.com/openai-launches-codex-security-an-ai-agent-designed-to-detect-vulnerabilities-in-software-projects/",
-      "tag": "AI"
+      "title": "OpenAI GPT-5.4 Released with 1M Token Context & 33% Fewer Errors",
+      "summary": "GPT-5.4 just shipped with a massive 1-million-token context window and delivers 33% fewer factual errors vs GPT-5.2. API pricing is dirt cheap at $2.50/M input tokens.",
+      "takeaway": "This is lowkey the biggest move yet—frontier model performance at prices that won't break your budget. Perfect storm.",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+      "tag": "LLM Release",
+      "company": "OpenAI",
+      "readTime": 6,
+      "paywalled": false
     },
     {
-      "title": "Conversational LLM Evaluations in Minutes with NVIDIA NeMo Evaluator Agent Skills",
-      "summary": "",
-      "takeaway": "",
-      "source": "huggingface.co",
-      "url": "https://huggingface.co/blog/nvidia/model-evaluation-skill",
-      "tag": "AI"
+      "title": "Claude Opus 4.6 Unlocks 1M Context for All Tiers, Ups the Game",
+      "summary": "Anthropic pushed out Claude Opus 4.6 on Feb 5 with 1M token context on Max/Team/Enterprise, plus partner program committing $100M for ecosystem support. Multi-agent 'Dev Team' mode coming soon.",
+      "takeaway": "Tbh Anthropic's playing the long game—betting on partners + massive context = winning enterprise over.",
+      "source": "Anthropic Official",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "tag": "LLM Release",
+      "company": "Anthropic",
+      "readTime": 5,
+      "paywalled": false
     },
     {
-      "title": "Anthropic officially deemed supply chain risk, CEO Amodei announces legal challenge",
-      "summary": "The Pentagon formally notified Anthropic on March 4 that the company and its products have been designated as a supply chain risk to US national security. The article Anthropic officially deemed supply chain risk, CEO Amodei announces legal challenge appeared first on The Decoder.",
-      "takeaway": "",
-      "source": "Maximilian Schreiner",
-      "url": "https://the-decoder.com/anthropic-officially-deemed-supply-chain-risk-ceo-amodei-announces-legal-challenge/",
-      "tag": "AI"
+      "title": "Google Gemini 3.1 Drops, Dominates 13 of 16 Major Benchmarks",
+      "summary": "Gemini 3.1 Pro arrived with 1M-token context window, crushing benchmarks on multimodal reasoning. Flash-Lite variant also dropped at just $0.25/M input tokens for cost-conscious builders.",
+      "takeaway": "Literally Google's saying 'we built the best, and it's cheaper than everything.' Frontier performance hitting commodity pricing.",
+      "source": "Google DeepMind Blog",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+      "tag": "LLM Release",
+      "company": "Google",
+      "readTime": 4,
+      "paywalled": false
     },
     {
-      "title": "Softbank seeks record $40 billion loan to fund OpenAI stake",
-      "summary": "A $40 billion loan for a single bet on OpenAI. Softbank is taking what the AI industry has been doing for a while to its logical extreme: financing the boom on credit. The article Softbank seeks record $40 billion loan to fund OpenAI stake appeared first on The Decoder.",
-      "takeaway": "",
-      "source": "Matthias Bastian",
-      "url": "https://the-decoder.com/softbank-seeks-record-40-billion-loan-to-fund-openai-stake/",
-      "tag": "AI"
+      "title": "Meta MTIA Chip Strategy: 4 New Generations by End of 2027",
+      "summary": "Meta announced MTIA 300, 400, 450, 500 chips rolling out through 2027 to cut AI costs & reduce Nvidia reliance. Part of the massive AI infrastructure pivot away from metaverse.",
+      "takeaway": "Meta's betting billions on custom silicon to power agentic AI at scale. This is the infrastructure arms race heating up.",
+      "source": "Meta Newsroom",
+      "url": "https://about.fb.com/news/",
+      "tag": "Hardware",
+      "company": "Meta",
+      "readTime": 3,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "The Take: How is the US using Anthropic’s Claude AI in Iran? - Al Jazeera",
-      "why": "The Take: How is the US using Anthropic’s Claude AI in Iran? Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPekRNZkp2ZUZKQlc4alVPTTNXVkYtdGpucUVLSkF1WExmcnRKRHlhOVFodWNFOVl5MEtob0FRSU9LUTM2dURVOHYxcWxhTks2cm5GV1ZnWUtwS01xVGowV0gwa2NVVTZQUkhNb0h4RUxEWkFwTUs5Smd2TUIxZEZjeVU2a0NKeWc0ZzZCUjJtX1RUcmMyRk1iNHQtcnZiblIwc19r?oc=5",
-      "tag": "AI"
+      "title": "OpenAI Raises $110B, Hits $730B Valuation—IPO Coming 2026?",
+      "why": "Insane funding round signals AI war is real. Watch for public markets reaction to frontier model pricing power.",
+      "url": "https://theaitrack.com/ai-news-march-2026-in-depth-and-concise/",
+      "tag": "Funding"
     },
     {
-      "title": "Anthropic's Claude overtakes ChatGPT in App Store - Mashable",
-      "why": "Anthropic's Claude overtakes ChatGPT in App Store Mashable",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oVTRfc0ZXdUs4WVdUSmhadXFMLUlSSWlyWjBWbmVnZlFldUJvdVZ6NElndkhVRjJ3STl5RDczbFJUX1M2aUpyb3RsS2xnN2NtYUJBZnduOUdHTnYzdi1BY0pEWXRIM0hlRzVmVVZRWllJT1gyYUNiRlVJejU?oc=5",
-      "tag": "AI"
+      "title": "Papers with Code Shutdown (2025) Leaves Benchmark Infrastructure Gap",
+      "why": "Meta killed Papers with Code last year; now Hugging Face is filling the void but missing SOTA leaderboards. Critical for staying updated on actual model performance.",
+      "url": "https://www.codesota.com/papers-with-code",
+      "tag": "Research"
     }
   ]
 }

@@ -1,0 +1,63 @@
+{
+  "headline": "Week of Mar 9-15: AI models exploding, Anthropic & OpenAI locked in Pentagon drama, agents are here",
+  "stories": [
+    {
+      "title": "OpenAI drops GPT-5.4 with 1M context window & native computer use",
+      "summary": "Lowkey the biggest flex this week — GPT-5.4 drops with 1M token context window, native computer use, better token efficiency, and 33% fewer hallucinations than GPT-5.2. Tool Search API redesign hits different for systems with tons of available tools.",
+      "takeaway": "OpenAI's computer use + massive context window shifts AI from assistant to actual workflow collaborator. Enterprise stuff about to go wild.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
+      "tag": "Model Release",
+      "company": "OpenAI",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Anthropic's $100M Partner Network + Pentagon lawsuit escalates military AI divide",
+      "summary": "Anthropic literally just committed $100M to enterprise partnerships while fighting the Pentagon over guardrails on autonomous weapons & mass surveillance. Revenue jumped to ~$20B annualized, but federal blacklist could tank everything.",
+      "takeaway": "This fr is the defining tension of 2026: companies building power AI but refusing unrestricted military use. OpenAI capitulated; Anthropic doubled down.",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "tag": "Business & Policy",
+      "company": "Anthropic",
+      "readTime": 7,
+      "paywalled": false
+    },
+    {
+      "title": "Claude Code basically broke software engineering workflows, Anthropic hit $1B ARR in 6 months",
+      "summary": "Engineers shipping in hours what used to take weeks. GitHub Copilot at 15M paid seats, but Claude Code already doing $2.5B annualized by February. Wall Street literally freaked out — IBM lost $40B in market cap when Anthropic mentioned COBOL translation.",
+      "takeaway": "Not hype: AI coding genuinely shifted how engineering teams operate. Smaller teams, crazy fast velocity, older systems getting reimagined.",
+      "source": "Time Magazine",
+      "url": "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/",
+      "tag": "Impact & Disruption",
+      "company": "Anthropic",
+      "readTime": 6,
+      "paywalled": false
+    },
+    {
+      "title": "Meta planning 20% workforce cuts as AI efficiency gains hit, DeepMind launches 'automated research labs' with robotics",
+      "summary": "Meta's execs told managers to start planning layoffs (16K employees) to offset $600B AI infrastructure bet. Meanwhile DeepMind + Boston Dynamics dropping Gemini Robotics for humanoid Atlas robots; automated research lab opens in UK 2026 for materials science.",
+      "takeaway": "Two stories, same truth: AI making labor cheaper. Less people needed per dollar of output. The scaling is actually happening.",
+      "source": "Reuters / Boston Dynamics",
+      "url": "https://www.pymnts.com/meta/2026/meta-weighs-widespread-layoffs-as-ai-spending-grows/",
+      "tag": "Workforce & Robotics",
+      "company": "Meta",
+      "readTime": 5,
+      "paywalled": false
+    }
+  ],
+  "watchNext": [
+    {
+      "title": "Anthropic vs Pentagon: The supply-chain risk designation could reshape US AI policy",
+      "why": "Next hearing March 24. If Anthropic loses, entire industry safety guardrail approach collapses under federal pressure. If they win, it's precedent for AI ethics over military demands.",
+      "url": "https://fortune.com/2026/03/10/google-openai-employees-back-anthropic-legal-fight-military-use-of-ai/",
+      "tag": "Policy"
+    },
+    {
+      "title": "DeepSeek V4 (1T params) hitting production + Chinese AI labs dominating Hugging Face downloads",
+      "why": "Open models from China literally beating closed US APIs now. V4's 40% memory reduction + sparse FP8 changes the inference economics game. Worth tracking how this reshapes global AI deployment.",
+      "url": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment",
+      "tag": "Open Source"
+    }
+  ]
+}

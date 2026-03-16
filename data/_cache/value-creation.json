@@ -1,0 +1,67 @@
+{
+  "headline": "PE's New Era: Ops > Finance as Firms Chase EBITDA Growth & Digital-First Value Creation",
+  "stories": [
+    {
+      "title": "Healthcare PE Hits Record $191B Dealmaking Momentum on AI-Driven IT Value Plays",
+      "summary": "Healthcare PE crushed it in 2025 with record $191B deal value, driven by healthcare IT's explosive growth (doubled to $32B). PE firms are now treating AI as margin expansion, not a bolt-on.",
+      "takeaway": "Behavioral health & AI-enabled provider platforms getting aggressive capital flows as firms scale models without adding labor — this is the real value creation move.",
+      "source": "Bain Global Healthcare Private Equity Report 2026",
+      "url": "https://www.bain.com/insights/healthcare-private-equity-market-2025-global-healthcare-private-equity-report-2026/",
+      "tag": "Healthcare",
+      "sector": "Healthcare",
+      "lever": "Margin expansion",
+      "readTime": 8,
+      "paywalled": false
+    },
+    {
+      "title": "Tech M&A Consolidation Play: AI Infrastructure & Software Firms Dominate PE Investment Pipeline",
+      "summary": "AI deal activity is moving beyond software early-adopters into professional services, fintech, and industrial goods. Build-to-buy constructs & platform roll-ups are the new playbook for capturing fragmented markets.",
+      "takeaway": "PE firms are aggressively deploying buy-and-build strategies (40% of 2024 PE deal value), especially in software, with add-ons expanding geographic reach & product offerings fast.",
+      "source": "PitchBook 2026 US Private Equity Outlook & McKinsey Global Private Markets Report",
+      "url": "https://pitchbook.com/news/reports/2026-us-private-equity-outlook",
+      "tag": "Tech & Digital Transformation",
+      "sector": "Tech",
+      "lever": "Revenue growth",
+      "readTime": 7,
+      "paywalled": false
+    },
+    {
+      "title": "Consumer Field Services: PE's Buy-and-Build Playbook Drives Pricing Power & EBITDA Uplift",
+      "summary": "PE-backed multisite roll-ups are unlocking 25% EBITDA uplifts through surgical pricing actions and operational discipline. New funds like Point 41 Capital's $400M debut signal sustained confidence in field services consolidation.",
+      "takeaway": "Lowkey, the move here is bottom-up pricing power assessment + integration discipline. Firms that build scale + standardize ops across locations are outperforming.",
+      "source": "Cherry Bekaert PE Report 2025 Trends & 2026 Outlook",
+      "url": "https://www.cbh.com/insights/reports/private-equity-report-2025-trends-and-2026-outlook/",
+      "tag": "Consolidation & Pricing Strategy",
+      "sector": "Consumer",
+      "lever": "Margin expansion",
+      "readTime": 6,
+      "paywalled": false
+    },
+    {
+      "title": "Industrials PE: Energy Transition & Digital Infrastructure Capture Mega-Fund Dry Powder Flows",
+      "summary": "Industrials saw elevated valuation multiples & transaction diversity in 2025, with PE firms pursuing energy transition opportunities and digital infrastructure plays that support AI demand. NextEra's acquisition of Symmetry Energy marks strategic exit momentum.",
+      "takeaway": "Infrastructure & energy transition are the durable opportunity set for industrials. Firms embedding operational excellence are gaining the edge as buyouts move beyond financial engineering.",
+      "source": "Cherry Bekaert & PwC Industrial Sector Analysis 2026",
+      "url": "https://www.cbh.com/insights/reports/private-equity-report-2025-trends-and-2026-outlook/",
+      "tag": "Energy Transition & Infrastructure",
+      "sector": "Industrials",
+      "lever": "Digital transformation",
+      "readTime": 7,
+      "paywalled": false
+    }
+  ],
+  "watchNext": [
+    {
+      "title": "Bain Global PE Report 2026: '12 is the New 5' — Why EBITDA Growth Speed is Everything",
+      "why": "This report literally rewrites PE's playbook. Deals now demand faster EBITDA growth to offset multiple compression. Winners will build systems & invest in AI/talent, not slogans.",
+      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
+      "tag": "Must-Read Strategic Framework"
+    },
+    {
+      "title": "BCG: Digital Transformation & AI as Core Value Drivers, Not Bolt-Ons",
+      "why": "Survey data shows 53% of LPs now rank GP value creation strategy in their top 5 manager selection criteria. Digital + AI is no longer nice-to-have — it's table stakes for returns.",
+      "url": "https://www.bcg.com/publications/2026/private-equitys-future-digital-first-and-ai-powered",
+      "tag": "LP Expectations Shift"
+    }
+  ]
+}

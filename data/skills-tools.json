@@ -1,43 +1,52 @@
 {
-  "headline": "Top Skills & Tools stories this week",
+  "headline": "Nail EQ, Power Query, and Productive this week to level up your consulting game 🚀",
   "stories": [
     {
-      "title": "Quiz: Python Stacks, Queues, and Priority Queues in Practice",
-      "summary": "In this quiz, you’ll test your understanding of Python stacks, queues, and priority queues. You’ll review LIFO and FIFO behavior, enqueue and dequeue operations, and how deques work. You’ll implement a queue with collections.deque and learn how priority queues order elements. You’ll also see how que",
-      "takeaway": "",
-      "source": "realpython.com",
-      "url": "https://realpython.com/quizzes/queue-in-python/",
-      "tag": "Consulting"
+      "title": "Emotional Intelligence: The Skill That Actually Separates Good Consultants From Great Ones",
+      "summary": "EQ is lowkey the most underrated skill in consulting right now. While AI handles the data crunching, consultants with high emotional intelligence are the ones building real client trust and leading change.",
+      "takeaway": "Start building EQ by practicing active listening, managing your own emotions under pressure, and understanding your client's emotional triggers—it's what keeps people coming back.",
+      "source": "The CARA Group & Consultancy.eu",
+      "url": "https://www.thecaragroup.com/leveling-up-your-consulting-skills-with-emotional-intelligence/",
+      "tag": "skill",
+      "skill": "Emotional Intelligence",
+      "readTime": 8,
+      "paywalled": false
     },
     {
-      "title": "Meteora Launches its Dynamic Terminal for Enhanced Experience for Liquidity Providers - Tekedia",
-      "summary": "Meteora Launches its Dynamic Terminal for Enhanced Experience for Liquidity Providers Tekedia",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNmhKdkw1a0xmT2RQSFc2N3JDUzhDdXg3ZFpaN09URUlMeDktOXBuOTBKYWFlVlFsRnpEQzl5VE1zNGNiRk9rOElKVGhxMWRZQUJpVVdnZ1J3bXZWRUh3ZVZmVnNCTWRiQmU0b2hYUjR5bnRHbUlxazJHeENYR1duY2pyaEoybEFZX21KRElnbVdKZlI4ZFpWZUlRMDNudUllbUZZbUlVSW1hYS02RHRv?oc=5",
-      "tag": "Consulting"
+      "title": "Power Query Fuzzy Matching: Stop Spending Hours Cleaning Data Manually",
+      "summary": "Power Query's fuzzy matching feature is a total game-changer for messy Excel datasets. One-click fixes that used to take hours—plus it automates the whole process so you only clean once.",
+      "takeaway": "Use fuzzy matching to merge messy exports with clean master databases in seconds. Once you set it up, hit Refresh next month instead of rebuilding the whole thing from scratch.",
+      "source": "How-To Geek & Advanced Excel Institute",
+      "url": "https://www.howtogeek.com/microsoft-excel-power-query-fuzzy-matching-clean-up-messy-data/",
+      "tag": "data-tip",
+      "skill": "Power Query",
+      "readTime": 7,
+      "paywalled": false
     },
     {
-      "title": "Crypto Futures Open Interest: LBank Labs Soars to 4th Place with $8 Billion Milestone - CryptoRank",
-      "summary": "Crypto Futures Open Interest: LBank Labs Soars to 4th Place with $8 Billion Milestone CryptoRank",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVUl0blpsaVBVekdYamkxTWpLazZIdHdqd3hxUVlKS3ozLVM2aTBoZ2x5dGlnT2JaM0RiUVNrTmhiSGlzeU5HZlpueEF6YmdObVdoZm9jU3c5UEdsWjNWUHJnOFo0dFFKY3E3c2g2N3FwRUo1Ry1ZOE9LQ094T2dwektNZw?oc=5",
-      "tag": "Consulting"
+      "title": "Productive: The All-in-One Consulting Software That Actually Connects Time, Budgets, and Billing",
+      "summary": "Productive ties together project management, time tracking, budgeting, and invoicing so you're not juggling five different tools. Real-time profit tracking means you see margin issues before they become disasters.",
+      "takeaway": "Track billable vs non-billable hours, generate custom invoices, and watch profitability across client projects in one place. The game-changer: 50+ customizable report templates.",
+      "source": "Digital Project Manager & Productive.io",
+      "url": "https://thedigitalprojectmanager.com/tools/best-project-management-software-for-consultants/",
+      "tag": "tool",
+      "skill": "Project Management",
+      "readTime": 6,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Retro-Inspired AI Dashboards - Trend Hunter",
-      "why": "Retro-Inspired AI Dashboards Trend Hunter",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fR3hCU200WHNYV0dZTzlWb0FKLWFsZXZGdndZT19jamdZQ0Joc2lCM3JXV1lOcUstOE5tRV9yQ0RvT190TnZMLXdHblB2cGZtUHUtYlNNNHN6UTNyNThsVGFzUUMzYS1ON2tB0gFrQVVfeXFMT19HeEJTbTRYc1hXR1lPOVZvQUotYWxldkZ2d1lPX2NqZ1lDQmhzaUIzcldXWU5xSy04Tm1FX3JDRG9PX3ROdkwtd0duUHZwZm1QdS1iU000c3pRM3I1OGxUYXNRQzNhLU43a0E?oc=5",
-      "tag": "Consulting"
+      "title": "Why Consultants Must Master Adaptability in 2026 (Or Get Left Behind)",
+      "why": "The consulting world is moving faster than ever. Adaptability is the actual skill that lets you pivot on client needs without losing your mind.",
+      "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
+      "tag": "skill"
     },
     {
-      "title": "OpenAI Targets AI Skill Gap in Education - StartupHub.ai",
-      "why": "OpenAI Targets AI Skill Gap in Education StartupHub.ai",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB2ZEloVXFXRzdILTljYzktYnd6MGxfcjZ0RGZWSlBsSzZTbm1TSTIyTjROZVpzVzQ4R2JXdmN1TVVQeXM1U3ZEX2RZbGFrS1BEQkczSUthQ2U1bEVPZ2pRM01yN3ZvY2draG9PVVBNUkZZa1hKbzI0UFpXNA?oc=5",
-      "tag": "Consulting"
+      "title": "Excel + Power BI Integration: Turn Your Cleaned Data Into Client-Ready Dashboards",
+      "why": "Once your data is clean in Power Query, flowing it straight into Power BI dashboards saves a ton of rework and keeps your reporting consistent across teams.",
+      "url": "https://www.excelgoodies.com/blog/advanced-data-cleaning-excel-power-query-2025",
+      "tag": "data-tip"
     }
   ]
 }

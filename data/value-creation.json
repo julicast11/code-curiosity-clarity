@@ -1,51 +1,67 @@
 {
-  "headline": "Top Value Creation stories this week",
+  "headline": "PE's New Playbook: Ops > Finance in 2026",
   "stories": [
     {
-      "title": "Women’s Day Special: 100 Women Driving Venture Capital and Startup Innovation - Indian Startup Times",
-      "summary": "Women’s Day Special: 100 Women Driving Venture Capital and Startup Innovation Indian Startup Times",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRWFMNGpZam5LOXFaZjcwcnFlV3FOTzgzMGdOQkNtUW82a0pLXzFFQ18xWDEzb2FSU1VSd3pNTk1zYkRRVFNNZXNCSUlsWXR6N0xKUWsxcU9UNmxIVlRoSTZKZ0dYaGdJdjdYanFBZlRGTmpLUFhtdHE4SzJKdkdLaDUxV1dyOG1EZEkzMEtHRjNWcGtub21wUlBUaEJfMlA5aEVzYXZYTm5iQ1dnZEM2QUxleThXeWs?oc=5",
-      "tag": "Strategy"
+      "title": "Physician Groups Level Up Beyond Buy-and-Build",
+      "summary": "Healthcare PE is ditching raw consolidation for AI-powered ops. Cardinal Health's GI Alliance acquisition strategy shows how distributors are winning by embedding efficiency tech, revenue cycle management, and physician alignment instead of just stacking practices.",
+      "takeaway": "Operational excellence and AI deployment are now table stakes—groups pushing performance analytics and care coordination models will dominate exits.",
+      "source": "Bain Global Healthcare PE Report 2026",
+      "url": "https://www.bain.com/insights/new-models-of-value-creation-for-physician-groups-global-healthcare-private-equity-report-2026/",
+      "tag": "Buy-and-build evolution",
+      "sector": "Healthcare",
+      "lever": "Revenue growth",
+      "readTime": 6,
+      "paywalled": false
     },
     {
-      "title": "Critical Minerals Strategy Guide: Economics & Investment - Discovery Alert",
-      "summary": "Critical Minerals Strategy Guide: Economics & Investment Discovery Alert",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWk9WLWlZUU9GeFY1anpQUXlLa0JDOHg0dlNoaVhGaElPVkVId0JXRFhxeU9oNExlSTR5TjFTeDBJZnU2dU9ZTzlKWldhN1pQUFAxR0N0NG5YWGstX2VuNllLZld1YjUxYjMxUGpBV0NDYXB2T0tkX21RU0NINHRoQW52NF9DaTcwTnc?oc=5",
-      "tag": "Strategy"
+      "title": "Retail's Margin Play: Private Label + AI Personalization",
+      "summary": "Walgreens-style take-privates are using supply chain efficiency and store-brand expansion to build defensible margins. PE buyers targeting retail are now focused on operational discipline plus omnichannel personalization—not just closing stores.",
+      "takeaway": "Margin expansion via private label, RMN monetization, and AI-driven pricing will unlock 2–4% gross margin gains faster than legacy playbooks.",
+      "source": "PwC Consumer Deals Outlook 2026",
+      "url": "https://www.pwc.com/us/en/industries/consumer-markets/library/consumer-deals-outlook.html",
+      "tag": "Margin optimization",
+      "sector": "Consumer",
+      "lever": "Margin expansion",
+      "readTime": 7,
+      "paywalled": false
     },
     {
-      "title": "Dorilton Capital Portfolio Impact: Williams Racing & Investment Analysis - Bitget",
-      "summary": "Dorilton Capital Portfolio Impact: Williams Racing & Investment Analysis Bitget",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuU2RHTl9MY0huQ2lpZlI4SThON19rYnB0dWtZMVhid2hYdkRHZ2duVFE0X0l6VnJvY1RrbnA5Q01Td29SdExiSDg2and6TTVUYWFNNXZJY1BtX2VJTWt6cQ?oc=5",
-      "tag": "Strategy"
+      "title": "AI Data Centers + Energy Reshoring Drive Manufacturing M&A",
+      "summary": "Industrial PE is chasing supply chain resilience and AI infrastructure demand. Chart Industries–Flowserve merger ($19B) exemplifies how scale in thermal management and energy systems commands premiums as reshoring and decarbonization tailwinds accelerate.",
+      "takeaway": "Manufacturing buyers winning on automation, predictive maintenance, and EV/clean energy exposure—tariff-proof supply chains are now a valuation lever.",
+      "source": "PwC Industrial Manufacturing Outlook 2026",
+      "url": "https://www.pwc.com/us/en/industries/industrial-products/library/industrial-manufacturing-deals-outlook.html",
+      "tag": "Supply chain resilience",
+      "sector": "Industrials",
+      "lever": "Revenue growth",
+      "readTime": 8,
+      "paywalled": false
     },
     {
-      "title": "Oskar Lewnowski Congo Cobalt Investment Deal Breakdown - Discovery Alert",
-      "summary": "Oskar Lewnowski Congo Cobalt Investment Deal Breakdown Discovery Alert",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTGpZNS1NbDVCTTIzUXhRTFh2eHh5ZUZnM1l5bFFtU1ExanpvdWhZSzdqbUtjR2g2RzF1bHpxTnQzTVNCZWlqZktieDNVRmsyNUN5amxadVg5Qjc0MzY1ZDBMeHY0V3pCM3poLWh5SklIMmJqQlZaYklheVRJRHlzVw?oc=5",
-      "tag": "Strategy"
+      "title": "Healthcare IT: Rule of 60 via Pricing + AI Automation",
+      "summary": "Bain Capital's HealthEdge–HealthProof merger shows tech PE shifting from user-adoption metrics to Rule of 60 economics. Gen AI in RCM stacks, pricing optimization, and cross-sell are now baseline value levers—platforms winning on measurable ROI to end customers.",
+      "takeaway": "Healthcare IT deals outperforming broader PE because AI acts as a revenue accelerator, not just cost-cutting tool. Defensible platforms with embedded compliance data hold premium exit multiples.",
+      "source": "Bain Global Healthcare IT Insights 2026",
+      "url": "https://www.bain.com/insights/what-differentiates-winning-healthcare-it-investments-global-healthcare-private-equity-report-2026/",
+      "tag": "AI monetization",
+      "sector": "Tech",
+      "lever": "Digital transformation",
+      "readTime": 7,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Galvanize Raises $370 Million for Real Estate Decarbonization Fund - ESG Today",
-      "why": "Galvanize Raises $370 Million for Real Estate Decarbonization Fund ESG Today",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONVpVZmFDdG5ITkRpSHRWOE9haklXcUdkcEFMcFFuYnlfc25pbmdCS2Nlc2FuQXRIV3FheTVDeUt2ZnNZSXp3TE1zTmFwclhSb1ktcDN2c0Z4dkNERXZGT2c1UHBEdTZxd04tUXhwbWZhM2E2UGNvckxEU2NxVUg0ZFIxdzJidFBlSEdDQ2ZVb201bDY1Z0E?oc=5",
-      "tag": "Strategy"
+      "title": "McKinsey Global Private Markets Report 2026: Mature PE Demands Operational Rigor",
+      "why": "Deep dive on the 'new math for PE'—LPs now rank value creation strategy as top-3 manager selection criteria, pushing GPs to invest in in-house operating teams and AI playbooks rather than leverage arbitrage.",
+      "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report",
+      "tag": "Industry thesis"
     },
     {
-      "title": "Vintage Investment Partners: David Chiodo Joins To Expand North American Venture Presence - Pulse 2.0",
-      "why": "Vintage Investment Partners: David Chiodo Joins To Expand North American Venture Presence Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS09OUjd2cVluY2t4dHo1R0NwV2dhMmNqemVEX0tFNGpRc3U3OC1Da1BDOWJzMVBsbE9RanBndVdDMDM0R3EzSFBGTUx2VGNuOFB3UExSMkViZVNyMHllQllYWFdYRXdCZl9oTnB6LW1RRmh4V3FYRnZYWkxOVHl0YmFDQ2k2QnRyeDhFQm1zNkZJbXJSdVBtbU9fM29SX3hmeE1zdUx5OW1OUXR30gGyAUFVX3lxTE0xdldPNE1lRXR6TGVTelo5c1d5UDExWVlRNkt6N3IwZGMtSDJBYnU5WTRXbDI3S1ZEUTVzc3htT2JTRWdhMXdESGc5bWdDTU1iMjJmYXpKcjhQSTNKTGZ1RWFqU1pMRG5HMU5YMXVuVnVRcXdONElzWGlpeHFMWWttS19Qdzd6MTVvQXZzZlk0VlRkRGdGYVItd292YV9OTnVvck14RzNqZkhBTVhCLUkyOEE?oc=5",
-      "tag": "Strategy"
+      "title": "Bain 2026 Global PE Report: '12 is the New 5' – Extended Hold Periods Demand Different Value Levers",
+      "why": "With median hold periods hitting 6.7 years, GPs need sustainable EBITDA growth, not multiple arbitrage. Report shows secondary markets hitting $240B in 2025 and continuation vehicles at $115B—reshaping exit strategies.",
+      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
+      "tag": "Deal mechanics"
     }
   ]
 }

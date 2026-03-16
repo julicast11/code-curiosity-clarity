@@ -1,0 +1,71 @@
+{
+  "headline": "AI's hitting a wall—companies aren't scaling past pilots and the real work is just starting",
+  "stories": [
+    {
+      "title": "The 'Last Mile' Problem Slowing AI Transformation",
+      "summary": "Companies are stuck between pilots and real scale. The actual obstacle isn't bad models or data—it's the organizational mess: process debt, tribal knowledge silos, and nobody knows how to govern AI agents.",
+      "takeaway": "Transformation fails when you treat it as tech problem instead of redesigning how work actually happens across the org",
+      "source": "Harvard Business Review",
+      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
+      "tag": "transformation",
+      "company": "Enterprise-wide (HBS case studies)",
+      "shift": "long-term",
+      "strategyTake": "Clean-sheet process redesign > bolt-on AI tools. Agentic governance is non-negotiable now.",
+      "readTime": 7,
+      "paywalled": true
+    },
+    {
+      "title": "Publicis Sapient CEO on Why AI Isn't Just About Speed—It's About Strategy",
+      "summary": "Proof-of-concepts don't scale unless you rethink *how* your business actually works. Real strategic AI moves (like cutting car design time from 18 months to 18 weeks) ripple through supply chain, pricing, and market pivots.",
+      "takeaway": "AI success isn't functional optimization—it's forcing orgs to operate faster and smarter across the entire system",
+      "source": "🎙️ HBR IdeaCast Strategy Summit 2026",
+      "url": "https://hbr.org/podcast/2026/03/strategy-summit-2026-why-ai-transformation-needs-a-human-touch",
+      "tag": "strategy",
+      "company": "Publicis Sapient, Automotive (case example)",
+      "shift": "long-term",
+      "strategyTake": "AI forces you to rethink strategy tempo. Annual cycles & budgets don't work anymore. Speed = competitive advantage.",
+      "readTime": 8,
+      "paywalled": true
+    },
+    {
+      "title": "McKinsey Global Tech Agenda 2026: CIOs Are Now Strategy Architects",
+      "summary": "Top CIOs are rewriting their companies around agentic AI—embedding tech into business model innovation, not just operations. Nearly 1/3 of top performers prioritizing tech-led business model redesign over next 2 years.",
+      "takeaway": "The old tech/business separation is dead. CIOs who don't sit at strategy table will get left behind hard",
+      "source": "McKinsey Digital",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/mckinsey-global-tech-agenda-2026",
+      "tag": "leadership",
+      "company": "DBS Bank (case example of product-platform model)",
+      "shift": "long-term",
+      "strategyTake": "Top companies investing 10%+ more on tech budgets. Scale agentic AI or get crushed by peers doing it.",
+      "readTime": 6,
+      "paywalled": false
+    },
+    {
+      "title": "The Emerging Agentic Enterprise: Managing AI as Both Tool AND Coworker",
+      "summary": "76% of execs see agentic AI as a coworker, not just a tool. But orgs are treating it like tech, not talent—so governance, roles, and accountability frameworks are all breaking down.",
+      "takeaway": "Agencies are forcing the biggest org design challenge in decades. Tech and strategy teams *must* merge or fail.",
+      "source": "MIT Sloan Management Review x BCG Henderson Institute",
+      "url": "https://bcghendersoninstitute.com/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai/",
+      "tag": "organization",
+      "company": "Enterprise-wide patterns",
+      "shift": "long-term",
+      "strategyTake": "Single AI agent demands both HR (people) and asset management (tech) approaches—traditional management logic breaks",
+      "readTime": 9,
+      "paywalled": false
+    }
+  ],
+  "watchNext": [
+    {
+      "title": "To Thrive in the AI Era, Companies Need Agent Managers",
+      "why": "New leadership role emerging—agent manager at Salesforce shows how real companies are structuring AI team oversight & governance as agents go from pilot to production",
+      "url": "https://hbr.org/2026/02/to-thrive-in-the-ai-era-companies-need-agent-managers",
+      "tag": "talent"
+    },
+    {
+      "title": "Context Engineering as Competitive Edge When Everyone's Using Same AI Models",
+      "why": "When all companies have access to same models, org context (how you actually work, not how you say you work) becomes the differentiator—explains why process redesign > model choice",
+      "url": "https://hbr.org/2026/02/when-every-company-can-use-the-same-ai-models-context-becomes-a-competitive-advantage",
+      "tag": "competitive-advantage"
+    }
+  ]
+}

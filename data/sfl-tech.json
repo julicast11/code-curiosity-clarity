@@ -1,51 +1,63 @@
 {
-  "headline": "Top South FL Tech stories this week",
+  "headline": "South Florida Tech Week: Angel Groups Merge, AI Sales Startups & Padel Boom 🌴",
   "stories": [
     {
-      "title": "The Silicon Valley to Miami Pipeline — by the Numbers - Business Insider",
-      "summary": "The Silicon Valley to Miami Pipeline — by the Numbers Business Insider",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVHZieEpGbW81azRFRVoycmx3UWw4azhzR2RYR2hFc3VwVGpmTndoSXViUVRXd1BTMXRiMHdjY0pLX2NHalktQnUtUThod1BHQTk2VUtieGFoZzdEV18xSUdfcG9fby1mZnVvakdjVVBtOXNFNUY2alpBSU53WXY3RkpqQ2dpTmFOcWl1a3U3SWpPMFpWRDlSY1hzWDRISDlJaldLeGM0VDJCTTJ3blF5Mg?oc=5",
-      "tag": "South Florida"
+      "title": "Miami Angels and New World Angels Merge to Form Statewide Network",
+      "summary": "Two major South Florida angel networks combined to create a larger platform with better deal flow access and AI-powered diligence for founders. The move aims to simplify fundraising with a single entry point to bigger capital pools.",
+      "takeaway": "Lowkey a huge infrastructure play for South Florida startups looking to raise. The merged group is already seeing 5x more pitch volume with AI handling diligence.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/miami-angels-and-new-world-angels-are-combining-to-form-statewide-network/",
+      "tag": "Funding",
+      "sector": "Venture Capital",
+      "readTime": 5,
+      "paywalled": false
     },
     {
-      "title": "Vacation rental startup emerges from bankruptcy with new ownership - The Business Journals",
-      "summary": "Vacation rental startup emerges from bankruptcy with new ownership The Business Journals",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcHhSYmFwdHg4UEdhcjF5XzVKcHJNMzJxMHhHZ0RyNmgzSHBHbkF5eF9GcVpEVkhfR2FXMnhCS2dKQnlvRUtsT21WeDltS3g1TW9QblpmLUVCM00yRGxxVVNMVFItTHQzN25Zc05EOHVUNmFTZWtTemI2WDFnNm9DLWw1LXFMUnh4bHBESHkwbEFBNEhIMkVjdlpKbXhuVXNSQ21J?oc=5",
-      "tag": "South Florida"
+      "title": "Racquet 360 Raises $9M to Scale Padel Ecosystem Across US",
+      "summary": "Key Biscayne startup bet big on padel's US growth with $9M from sports investors. Founder Emiliano Abramzon (who sold Nearpod for $650M) is building the full ecosystem—from a pro league to e-commerce to club management.",
+      "takeaway": "Miami's becoming the padel mecca and Racquet 360 is positioning itself as the infrastructure play. Projected 300% revenue growth this year is fr fr wild.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/game-set-match-miami-startup-serves-9m-bet-on-padels-u-s-rise/",
+      "tag": "Funding",
+      "sector": "Sports Tech",
+      "readTime": 4,
+      "paywalled": false
     },
     {
-      "title": "PantoSource Debuts 'Signal Enrichment' Engine to Fix Starving Ad Algorithms for Shopify & WooCommerce Merchants - TechBullion",
-      "summary": "PantoSource Debuts 'Signal Enrichment' Engine to Fix Starving Ad Algorithms for Shopify & WooCommerce Merchants TechBullion",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaEN4RmJPUHFJZ2VtOGRPNVpLVWFEaWVYZmNXMkdmRzI4MXlmXzUzdGs1cmx0WVhIejRVd2RUQlVrcDFPcDNHZ3c0UEpOT3pzVGh1Z29BUEpQaC1aeHJyaG1DV2dyOU1UYTFVaHczcDRST1VvTW5zRXF1UE9ydGk1M1kyeDdIV1hoQXlGd3lTMl9xSjdTS3BkVVI2OE5ic2pvQXNRaWNfMFFxNEJuTnNmS1IzVWc4Q0ZkMDJqY1I4U21xSWdKWWlfZXp5bFU?oc=5",
-      "tag": "South Florida"
+      "title": "Cyrus AI Automating Sales Workflows for Enterprise Reps",
+      "summary": "Miami startup building AI that handles the tedious parts of sales—approvals, doc updates, follow-ups. Co-founders Ali Zolfaghari and Jake Heenehan met at Vendr, saw the pain, and built the fix.",
+      "takeaway": "Not trying to replace reps but multiply them by 4x. The 'messy middle' of sales (updates, docs, approvals) is where most time gets wasted and Cyrus is targeting that.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/cyrus-is-building-the-ai-teammate-that-sales-reps-actually-wanted/",
+      "tag": "AI/Startups",
+      "sector": "Enterprise Software",
+      "readTime": 4,
+      "paywalled": false
     },
     {
-      "title": "ClawCon Miami presented by Kilo Code - Refresh Miami",
-      "summary": "ClawCon Miami presented by Kilo Code Refresh Miami",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9zeG5hZXE2bEF2Qkp3ZHVqVGlvNDNVM1g5MVNaX1MtN2QtUjJ5YkVVTnU2QmxLVWlGVUFHS3NQeFRJYldjOERKLXBjVndpa0prb29JMVBKUjF0Vm5VcXZlV0tYY2tzRHBzWDd4MWJEMG9LTnBUUHpz?oc=5",
-      "tag": "South Florida"
+      "title": "Neural Earth Raises $9.3M Seed to Scale Climate Risk Intelligence",
+      "summary": "Miami-based geospatial AI platform raised $9.3M to help insurance and real estate companies assess climate risk. Uses satellite imagery and proprietary analytics to turn complexity into property-level risk scores.",
+      "takeaway": "Climate risk is getting serious and traditional models are breaking. Neural Earth's AI matching real environmental pace is resonating with investors—seed was oversubscribed.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/neural-earth-raises-9m-to-turn-climate-risk-into-real-time-decisions/",
+      "tag": "Funding",
+      "sector": "Climate Tech",
+      "readTime": 3,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Miami Coin Price 2026: Buy, Invest, and Trade Safely - Bitget",
-      "why": "Miami Coin Price 2026: Buy, Invest, and Trade Safely Bitget",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdlY2Yjk3bVFkS0lEcHRJamlRY2p2UFBVTDRIX1VqS3MtZURtVzRjeWlpN25HaWdxREpPT1p0US1vUHhCMS04UGRDR1lUcGNlNUdNRjMyQVBMSjRIeDhTSTV6NU5uYlNEZlFPeDgxcXlEYjhabnNSa1RMWlV6MjRLalN3UVJqZHJTemtjZ0xaVHlCS3RXamk3X2tYdkl6eFhPMTJGa19BN0hUNkxkRFBHMThOeWJ4enJGbzBleGRYdmptcUJP0gHEAUFVX3lxTE92VjZiOTdtUWRLSURwdElqaVFjanZQUFVMNEhfVWpLcy1lRG1XNGN5aWk3bkdpZ3FESk9PWnRRLW9QeEIxLThQZENHWVRwY2U1R01GMzJBUExKNEh4OFNJNXo1Tm5iU0RmUU94ODFxeURiOFpuc1JrVExaVXoyNEtqU3dRUmpkclN6a2NnTFpUeUJLdFdqaTdfa1h2SXp4WE8xMkZrX0E3SFQ2TGREUEcxOE55Ynh6ckZvMGV4ZFh2am1xQk8?oc=5",
-      "tag": "South Florida"
+      "title": "Tech Hub Pulse on South Florida's Tech Economy Future",
+      "why": "Explores AI, drones, and space/defense opportunities in South Florida. Predicts 3-5 IPOs in next 60 months and growth surge if major tech leaders move to region.",
+      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
+      "tag": "Ecosystem"
     },
     {
-      "title": "The Idea Center Is Offering Summer Internships Through Miami Startup Ecosystem Program - mdcthereporter.com",
-      "why": "The Idea Center Is Offering Summer Internships Through Miami Startup Ecosystem Program mdcthereporter.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNXzlOLUNYVVFGOU00M2M5LXdQVXY1VmdCTzU0eEhXNlJFZlhtdjJHeTlhVldCNmRWeG93cGNMS2d4SEw1UHF6WkFYcEFHdzJBTnMyOXNQY09aVWNPb252XzBfNzdTRjE2THpOWUs5VEZMZzRZUU4zdV9TYWk5eGhhZ3NFVzhyNEpLUXRqdFBxbzVJN0RSWlF1d1BfaVYxRzE0bWlvdWFnQVBZWGNhM3BVaVFZN0I?oc=5",
-      "tag": "South Florida"
+      "title": "FAU Gets $4.5M Air Force Flight Simulator Investment",
+      "why": "Defense tech momentum in South Florida keeps building. FAU's T-1A Jayhawk simulator signals government interest in regional aerospace innovation hubs.",
+      "url": "https://refreshmiami.com/news/fau-lands-4-5m-u-s-air-force-t-1a-jayhawk-flight-simulator/",
+      "tag": "Defense Tech"
     }
   ]
 }

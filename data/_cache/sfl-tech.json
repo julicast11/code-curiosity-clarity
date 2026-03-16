@@ -1,0 +1,63 @@
+{
+  "headline": "South Florida's tech momentum keeps accelerating with crypto relocations, defense deals, and quantum investments",
+  "stories": [
+    {
+      "title": "Palantir Sets Up Miami HQ, Crypto Firms Follow Suit",
+      "summary": "Palantir officially moved its headquarters to the Gold Coast this week, signaling major defense-tech confidence in South Florida. Meanwhile, Elektron Energy (crypto infrastructure) is relocating its US HQ to Brickell.",
+      "takeaway": "Defense and Web3 companies lowkey making Miami the place to be for next-gen tech",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-a-local-college-wins-5m-in-quantum-funding-plus-news-from-elektron-energy-endeavor-miami-trubar-avenue-z-exowatt-emerge-new-world-angels-tech-jobs-amp/",
+      "tag": "HQ Relocation",
+      "sector": "Defense Tech / Crypto",
+      "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "Palm Beach State College Lands $5M Quantum Computing Grant",
+      "summary": "PBSC secured $5M in quantum funding to build a Quantum Innovation Center in downtown West Palm Beach, aiming to attract startups and emerging companies in advanced computing and security.",
+      "takeaway": "South Florida's locking in serious deep-tech infrastructure—workforce training + quantum talent pipeline hitting different",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-a-local-college-wins-5m-in-quantum-funding-plus-news-from-elektron-energy-endeavor-miami-trubar-avenue-z-exowatt-emerge-new-world-angels-tech-jobs-amp/",
+      "tag": "Funding",
+      "sector": "Quantum Computing",
+      "readTime": 3,
+      "paywalled": false
+    },
+    {
+      "title": "Miami Angels & New World Angels Merge to Create Statewide Network",
+      "summary": "Two major angel investor groups are combining forces to form a unified statewide network, expanding access to early-stage capital across Florida. The move signals growing maturity in the region's startup financing ecosystem.",
+      "takeaway": "More organized angel capital = better odds for founders getting seed checks without needing West Coast connections",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
+      "tag": "Investor News",
+      "sector": "Venture Capital",
+      "readTime": 2,
+      "paywalled": false
+    },
+    {
+      "title": "Padel Startup Raises $9M on U.S. Sports Expansion Bet",
+      "summary": "A Miami startup is betting $9M on padel's explosive U.S. growth, targeting the sport's booming popularity among younger demographics. The play capitalizes on paddle sports becoming mainstream athletic infrastructure.",
+      "takeaway": "Sports + tech intersection is fr underrated—this startup's riding a real wave (literally)",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
+      "tag": "Startup Funding",
+      "sector": "Sports Tech",
+      "readTime": 2,
+      "paywalled": false
+    }
+  ],
+  "watchNext": [
+    {
+      "title": "Israel Tech Week Miami 2026 (Deadline: March 15)",
+      "why": "Israeli founders can pitch to global investors + media. South Florida already attracting international deep-tech talent, so this is a major sourcing event for the local ecosystem",
+      "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-a-local-college-wins-5m-in-quantum-funding-plus-news-from-elektron-energy-endeavor-miami-trubar-avenue-z-exowatt-emerge-new-world-angels-tech-jobs-amp/",
+      "tag": "Event"
+    },
+    {
+      "title": "eMerge AI Hackathon (April 18)",
+      "why": "Judges from Meta, Lightship Capital, and Haize Labs already confirmed. Building AI products + getting in front of tier-1 investors in one day hits different for makers",
+      "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-a-local-college-wins-5m-in-quantum-funding-plus-news-from-elektron-energy-endeavor-miami-trubar-avenue-z-exowatt-emerge-new-world-angels-tech-jobs-amp/",
+      "tag": "Event"
+    }
+  ]
+}

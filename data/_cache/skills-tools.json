@@ -1,0 +1,52 @@
+{
+  "headline": "Level up this week: master data analysis, automate Excel workflows, and switch to smarter project tools",
+  "stories": [
+    {
+      "title": "Data Analysis + Emotional Intelligence = Consultant Superpower",
+      "summary": "Data analysis is fr the most in-demand consulting skill for 2026, but here's the twist—pairing it with emotional intelligence unlocks insights competitors miss. Understanding user emotions behind the data (frustration, excitement) reveals pain points that raw metrics can't catch, boosting customer retention & product adoption by 15-25%.",
+      "takeaway": "Stop treating data as pure numbers. Layer in emotional intelligence to read what users actually need, not just what they're clicking. That's what separates good consultants from great ones.",
+      "source": "Jobaaj Learnings & Tepui Consulting",
+      "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
+      "tag": "Skill",
+      "skill": "Data Analysis + Emotional Intelligence",
+      "readTime": 6,
+      "paywalled": false
+    },
+    {
+      "title": "Power Query Pivot Columns: Transform Data Without Building Tables",
+      "summary": "Pivot columns in Power Query save mad time by turning repetitive data into clean summaries in seconds. Instead of manually building pivot tables, Power Query automates the transformation, refreshes automatically when data updates, & reduces errors way better than formulas.",
+      "takeaway": "Use Power Query's pivot feature for quarterly reports, sales breakdowns, or expense summaries. Set it up once, refresh forever. Game changer for consultants drowning in spreadsheets.",
+      "source": "MyExcelOnline & Microsoft Learn",
+      "url": "https://www.myexcelonline.com/blog/create-pivot-columns-using-power-query/",
+      "tag": "Excel Tip",
+      "skill": "Power Query",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Rocketlane's AI PSA Platform Just Changed the Game for Delivery Teams",
+      "summary": "Rocketlane launched Nitro, an AI execution platform that literally does the work instead of just tracking it—automating migrations, config, testing & resource allocation. Early data shows teams can deliver 50% faster while surfacing risks weeks ahead of old tools.",
+      "takeaway": "Tired of disconnected project tools? Rocketlane brings projects, time tracking, finances & client collaboration into one place. If you manage multiple client engagements, this lowkey solves like 80% of your operational chaos.",
+      "source": "Rocketlane & PMG News",
+      "url": "https://news.pm-global.co.uk/2026/03/rocketlane-launches-ai-execution-platform-to-automate-professional-services-delivery/",
+      "tag": "Tool",
+      "skill": "Project Management",
+      "readTime": 7,
+      "paywalled": false
+    }
+  ],
+  "watchNext": [
+    {
+      "title": "How to Master McKinsey's 7-Step Problem-Solving Framework",
+      "why": "This is legit the thinking system top consulting firms use. If you're leveling up your consulting skill set, learning structured problem-solving will make literally everything else easier. The framework works for client cases & internal projects.",
+      "url": "https://www.udemy.com/course/management-consulting-problem-solving/",
+      "tag": "Skill"
+    },
+    {
+      "title": "Beyond Dashboards: AI Tools Transforming Consultant Workflows in 2026",
+      "why": "ChatGPT, Tableau AI & Think Cell are reshaping how consultants work. Stop doing manual analysis—these tools handle research, insights & presentation creation so you can focus on strategy & client relationships. Worth knowing what's available.",
+      "url": "https://www.auxi.ai/blog/ai-tools-for-consultants",
+      "tag": "Tool"
+    }
+  ]
+}
