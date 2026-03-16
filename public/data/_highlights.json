@@ -1,32 +1,32 @@
 [
   {
-    "title": "Windsurf Arena Mode",
-    "summary": "Windsurf added Arena Mode to let you pit models against each other blind-voted to find what actually works for YOUR code, not just benchmarks.",
-    "takeaway": "Side-by-side AI model comparison right in your IDE",
+    "title": "Claude Opus 4.6 & Sonnet 4.6",
+    "summary": "anthropic just dropped 1M token context for Opus class models at normal prices. means you can dump entire codebases, long documents, whatever into one conversation without losing your mind or your wallet. fr this changes the game for long-form reasoning.",
+    "takeaway": "1M context window + 128K output, now at standard pricing",
     "source": "AI Tool",
-    "url": "https://windsurf.com/changelog",
-    "tag": "coding",
-    "readTime": 4,
-    "_tab": "tools-to-try"
-  },
-  {
-    "title": "Claude Opus 4.6",
-    "summary": "Claude got smarter at long-context tasks & debugging unfamiliar codebases. 1M token window (beta) means you can actually keep massive projects in memory.",
-    "takeaway": "1M context window for serious coding work",
-    "source": "AI Tool",
-    "url": "https://www.anthropic.com/news/claude-opus-4-6",
-    "tag": "LLM",
-    "readTime": 5,
-    "_tab": "tools-to-try"
-  },
-  {
-    "title": "Google Gemini workspace updates",
-    "summary": "Gemini in Workspace can now generate full docs, sheets & presentations by pulling context from your emails, chats & files. Basically turned Drive into an active knowledge base.",
-    "takeaway": "AI that reads your entire Google Drive & builds docs from it",
-    "source": "AI Tool",
-    "url": "https://blog.google/products-and-platforms/devices/pixel/march-2026-pixel-drop/",
-    "tag": "productivity",
+    "url": "https://claude.com",
+    "tag": "LLM Model",
     "readTime": 3,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "Windsurf IDE",
+    "summary": "the first agentic IDE that actually lets you compare models side-by-side, plan before you code, and run multiple agents at once. cascade panes + live preview make it lowkey the best dev experience rn.",
+    "takeaway": "agentic IDE with Arena Mode, Plan Mode, and parallel multi-agent sessions",
+    "source": "AI Tool",
+    "url": "https://codeium.com/windsurf",
+    "tag": "Code Editor",
+    "readTime": 2,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "Manus Browser Agent",
+    "summary": "Manus is literally your power intern — scopes tasks, shows you exactly what it did, and handles high-volume market research. not just black-box magic, you can actually audit it and learn from the replay.",
+    "takeaway": "consumer-facing AI agent with Task Replay for transparency + Wide Research mode",
+    "source": "AI Tool",
+    "url": "https://manus.ai",
+    "tag": "AI Agent",
+    "readTime": 2,
     "_tab": "tools-to-try"
   }
 ]

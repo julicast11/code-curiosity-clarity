@@ -1,52 +1,63 @@
 {
-  "headline": "Top South FL Tech stories this week",
+  "headline": "South Florida's angel investor ecosystem is consolidating while startups like Racquet 360 and Cyrus AI are pushing innovation into new frontiers.",
   "stories": [
     {
-      "title": "How to Experiment Safely With OpenClaw Without Risking Your Company’s Data - inc.com",
-      "summary": "How to Experiment Safely With OpenClaw Without Risking Your Company’s Data inc.com",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNC13WnYya2xPQmFFUWF3WU8zRWRoTmREcVcxOWxqTU5MckM0TFpKSG9XRFRyRjNUdl96VGJxRDBSRzUxOUcta1BwTU1JU2dmVjZ0LWRvQUM1VHZqN1VKNE1ab2xPX3VSWkpJcXJtMUZvT1dBU0tLWDEtNEdETDZUVFB4VlcwVXBLYXk5R0p4NFNfTzEyMW1nM0hUZUw0eFBBWnNvam01T3RJcWJrenB4dUg4TGk?oc=5",
-      "tag": "South Florida"
+      "title": "Racquet 360 nets $9M for padel expansion across US",
+      "summary": "Key Biscayne-based Racquet 360 raised $9M to scale padel across America, building out leagues, events, retail, and clubs. Founder Emiliano Abramzon is basically making Miami the padel epicenter while literally betting on the sport's explosive US growth.",
+      "takeaway": "Padel's lowkey becoming Miami's next fitness empire after Zumba and Barry's—and investors are fr fr backing it.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/game-set-match-miami-startup-serves-9m-bet-on-padels-u-s-rise/",
+      "tag": "Sports Tech",
+      "sector": "Sports & Fitness",
+      "readTime": 4,
+      "paywalled": false
     },
     {
-      "title": "Miami startup bets palm scans can beat AI deepfakes - The Business Journals",
-      "summary": "Miami startup bets palm scans can beat AI deepfakes The Business Journals",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa09KWWZyVGJEUGN1U3RnWnk0WGNEeGswYmpyTFJEQlhuRlk2VWczTmU4eWJkLUU1V0h3VmU1cjZremtYQWRTbjJNWjk5N0RoM2tNVDNIdjFoMFpYeUFJZ2JBazh2TjE2QS1zdml5RlZyNGt2ZzR1dTdlQ3BmS1MwUTNFWFlxODVpZUV3Z21CRm9VVTBTUjE4UUpWRGFUalp6czdDZkpSdw?oc=5",
-      "tag": "South Florida"
+      "title": "Cyrus AI automates the sales reps' worst nightmare",
+      "summary": "Miami startup Cyrus AI is building AI that tackles the tedious middle of sales—docs, approvals, follow-ups. Co-founders Ali Zolfaghari and Jake Heenehan want to 4x rep productivity by handling the stuff they actually hate doing.",
+      "takeaway": "Instead of replacing reps, they're multiplying them with AI that does the manual grunt work sales teams waste time on.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/cyrus-is-building-the-ai-teammate-that-sales-reps-actually-wanted/",
+      "tag": "AI/Sales Tech",
+      "sector": "Enterprise Software",
+      "readTime": 3,
+      "paywalled": false
     },
     {
-      "title": "AI real estate startup expands with acquisition - The Business Journals",
-      "summary": "AI real estate startup expands with acquisition The Business Journals",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaXFYa1E1Vm00ZVRtTXRwei1PRFl0emd6aXd1d1Q5RHBLT1JaUERYWURGUkZFZG1IRzZRSmxCcG5jQTM3U2J6MEI0cXB4VTkyanBEZ3poX08yN3U1S0txZzJPTUpSSFhSV3ZOSjFsLS1uUDlCcFFmVF9LTDFVRk5qemRiNmJMcmlCNGsxOEJmSWlDalViNnNTQXZWdEVoaUhyRUhDZXc3ck1QMGMyWDVkRA?oc=5",
-      "tag": "South Florida"
+      "title": "Miami Angels and New World Angels merge to form statewide powerhouse",
+      "summary": "Two major South Florida angel networks combined on Mar 10 to create Florida's premier early-stage investor platform. The merger gives founders single-point access to bigger checks while NWA applies AI to manage a 5x surge in incoming pitches.",
+      "takeaway": "Miami's angel ecosystem is maturing and consolidating—basically the region's proving it can scale capital infrastructure like legacy tech hubs.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/miami-angels-and-new-world-angels-are-combining-to-form-statewide-network/",
+      "tag": "Venture Capital",
+      "sector": "Investment/Fundraising",
+      "readTime": 3,
+      "paywalled": false
     },
     {
-      "title": "Women in Miami Tech Happy Hour - Refresh Miami",
-      "summary": "Women in Miami Tech Happy Hour Refresh Miami",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE82NkdTXzNmNGpib05xRExBblEtcEk3VGV6dmhrYXhmb3RaLVctWXBqWWo4S0E2YjVvWkFQWTV5dVNmb01mY2hmY0lSVDJSaHJ3SU9mUEdwUFBmaUpnQ2xEaGRyem5vemJHTl9vREh6cEFtUQ?oc=5",
-      "tag": "South Florida"
+      "title": "USF research spending hits $531M, fueling AI and space innovation",
+      "summary": "University of South Florida reported $531M in research expenditures for 2025—a 15% bump over two years driven by federal grants and record corporate partnerships. USF is now ranked #2 in Florida and #47 nationally for research spend.",
+      "takeaway": "Tbh Tampa's quietly becoming a research powerhouse; USF's momentum with NASA, nursing workforce dev, and Alzheimer's research is literally changing the region's tech trajectory.",
+      "source": "Business Observer",
+      "url": "https://www.businessobserverfl.com/news/2026/mar/10/usf-reports-research-activity/",
+      "tag": "Academic Research",
+      "sector": "Education & Research",
+      "readTime": 4,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "WFC Stock Today: March 12 — Wealth Unit Relocates to Florida in HNW Push - Meyka",
-      "why": "WFC Stock Today: March 12 — Wealth Unit Relocates to Florida in HNW Push Meyka",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWVl1Q2pJdktfRUhUQ1lEUVZJMEF4dDFYXzZXRUlPdFAzeVY3RGw3enpYY0tLVHlkR3BJQ3d5RDA4aTRpVkVqOERMM3htMGVINU1iZC1XTlFVYmRyUUl5SGpxZHYtN0w0dWhRaUxWY09MY0xSdEpZVFY2WHdUdGtOMEdXSFg5c3VJNTB3akgwTndFZk1KWmZVOThobjNobHM?oc=5",
-      "tag": "South Florida"
+      "title": "Space-Eyes platform detects dark vessels for maritime security",
+      "why": "South Florida's deep-tech scene is expanding beyond padel—this space-based maritime tech startup dropped Mar 11 and shows the region's getting serious about aerospace innovation.",
+      "url": "https://refreshmiami.com/news/when-vessels-go-dark-space-eyes-lights-them-up/",
+      "tag": "Space Tech"
     },
     {
-      "title": "Miami’s Tech Boom Is Minting Winners, and These 5 Stocks Are Cashing In - 24/7 Wall St.",
-      "why": "Miami’s Tech Boom Is Minting Winners, and These 5 Stocks Are Cashing In 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeXBpVDRMTDRoR2JXcUNuRHozZ1ZDcUlkdFprRVN1Mzg1VlFDLW5VZXI0eDFYOVpkZG9JRS1rQWR5UmVEV1g5aWcyVUNtYnJEM1ZNaWNESTVNS05wNXpBNnVnRmRNNDY5cktEWXVfWHpyejBlbGhRelF0UHdWUndUSVJrcXQtV3pWZ2hVVEgyanY5RnJtMzZXM29NSGcyeW5YTTl0QUJwS2JOb1pKRDVDTm51OA?oc=5",
-      "tag": "South Florida"
+      "title": "FAU lands $4.5M Air Force flight simulator from TENCAP",
+      "why": "Defense and aerospace contracts are literally flowing into South Florida universities. FAU's simulator deal (Mar 8) signals federal dollars backing hard tech innovation locally.",
+      "url": "https://refreshmiami.com/news/fau-lands-4-5m-u-s-air-force-t-1a-jayhawk-flight-simulator/",
+      "tag": "Defense Tech"
     }
-  ],
-  "_fromCache": true
+  ]
 }

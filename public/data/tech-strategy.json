@@ -1,71 +1,71 @@
 {
-  "headline": "Companies Shifting from AI Experimentation to Real Business Impact—Agents, Process Redesign & Workforce Rethink Take Center Stage",
+  "headline": "Enterprise AI Just Hit Reality Check: Scale Over Hype is the New Power Move",
   "stories": [
     {
-      "title": "McKinsey: Only 6% of Companies Are AI 'High Performers'—But the Playbook Is Clear",
-      "summary": "<cite index=\"19-8,19-9\">88% of orgs now use AI in at least one function, but most are still experimenting or piloting—only a third have scaled their AI programs.</cite> <cite index=\"19-17\">High performers (6% of companies) push for transformative innovation, redesign workflows, scale faster, and invest more heavily.</cite>",
-      "takeaway": "The gap is massive: adoption is high but real impact is rare. Winners are doing workflow redesign + scaling, not just tool deployment.",
+      "title": "CIOs Rewiring Companies for Growth—But Most Are Still Stuck in Pilot Hell",
+      "summary": "McKinsey's 2026 research shows top CIOs deploying agentic AI and data monetization at scale, yet 67% of companies remain trapped in experimentation mode instead of driving real business transformation.",
+      "takeaway": "Lowkey, the companies winning aren't better at tech—they're better at organizational design. DBS Bank's product-platform model cut decision cycles from months to days.",
       "source": "McKinsey Digital",
-      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
-      "tag": "enterprise-ai",
-      "company": "McKinsey & Company",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/mckinsey-global-tech-agenda-2026",
+      "tag": "Enterprise Transformation",
+      "company": "DBS Bank",
       "shift": "long-term",
-      "strategyTake": "Stop piloting. Companies that redesign end-to-end processes and invest 20%+ of digital budgets in AI are pulling away from the pack.",
+      "strategyTake": "AI success is behavioral, not technical. Companies scaling fastest focus on how humans and AI work together, not just replacing jobs.",
+      "readTime": 8,
+      "paywalled": false
+    },
+    {
+      "title": "Big Tech's \"People-Intensive to Compute-Intensive\" Pivot Is Reshaping Labor Markets",
+      "summary": "Amazon, Google, and Meta are strategically shifting from hiring to AI, marking a structural (not cyclical) workforce reset with 16,000+ corporate roles eliminated in early 2026—the start of a \"jobless growth\" era.",
+      "takeaway": "This isn't just rightsizing. Companies are systematically building \"AI-first\" operating models where compute replaces headcount. Tech unemployment hit 4.4% by March 2026.",
+      "source": "Financial Times",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-9-the-great-decoupling-can-the-us-labor-market-survive-the-ai-driven-tech-purge-of-2026",
+      "tag": "Workforce & Economics",
+      "company": "Amazon, Google, Meta",
+      "shift": "long-term",
+      "strategyTake": "The competitive advantage is now measured by compute-to-output ratios, not headcount. Margin improvement via AI agents becomes the default playbook.",
       "readTime": 7,
       "paywalled": false
     },
     {
-      "title": "Agentic AI Moves from Pilot to Production—But It's Reshaping How Work Actually Works",
-      "summary": "<cite index=\"58-3,58-4\">44% of companies deployed or assessed AI agents in 2025; by early 2026, experimentation became full deployments touching code, legal, finance, and admin work.</cite> <cite index=\"25-1,25-2,25-3\">CHROs are becoming architects of hybrid workforces, redesigning orgs to integrate people with AI agents while advancing enterprise capability building.</cite>",
-      "takeaway": "Agents aren't just automating tasks—they're forcing companies to rethink jobs, roles, and org structure. HR's role is fundamentally shifting.",
-      "source": "BCG",
-      "url": "https://www.bcg.com/publications/2026/reinvention-of-the-chro-in-an-ai-driven-enterprise",
-      "tag": "workforce-transformation",
-      "company": "Boston Consulting Group",
+      "title": "Microsoft's Agentic AI Bet Could Capture 10X Market Growth—If Enterprises Can Actually Deploy",
+      "summary": "Microsoft positioned across Azure, Foundry, and Fabric to dominate the agentic AI market (projected to grow from $5.2B to $52.6B by 2030), yet 40% of agentic projects will fail because orgs keep automating broken processes.",
+      "takeaway": "Fr, Microsoft's infrastructure play is solid, but the real bottleneck isn't tech—it's that companies redesign processes *after* deploying agents instead of redesigning *first*.",
+      "source": "Stratechery + Motley Fool Analysis",
+      "url": "https://www.fool.com/investing/2026/03/09/the-agentic-ai-market-could-grow-10x-by-2030-this/",
+      "tag": "Agentic AI Infrastructure",
+      "company": "Microsoft",
       "shift": "long-term",
-      "strategyTake": "Agents require two-speed HR: strengthen fundamentals first (systems, data, processes), then redesign roles for AI-first ops.",
+      "strategyTake": "Winners will be companies that view AI as a capital-efficient operating engine, not an expense. Microsoft's 25.7x P/E vs. 33.7x historical shows the market is pricing in massive ROI.",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "The 'Last Mile' Problem: Why Most AI Pilots Fail to Scale",
-      "summary": "<cite index=\"43-1,43-3,43-4\">Few companies have fundamentally changed operating models around AI. Most have launched hundreds of pilots and given broad access to tools like Copilot and ChatGPT, but hit barriers in the \"last mile\" of transformation.</cite> <cite index=\"43-2\">The primary obstacle is rarely model quality or data—it's the operational and business model change itself.</cite>",
-      "takeaway": "tbh it's not a tech problem anymore—it's a change management + process redesign problem. Companies are stuck bridging pilots to org-wide adoption.",
+      "title": "The 'Last Mile' Problem: Why AI Pilots Stay Pilots While Competitors Scale",
+      "summary": "Harvard Business Review reveals seven friction points (pilot proliferation, process debt, agentic governance) preventing AI transformation, with most companies confusing tools deployment with business model redesign.",
+      "takeaway": "Tbh, the companies killing it aren't smarter—they're patient. They redesign workflows *before* adding agents, not reverse-engineering it after the fact.",
       "source": "Harvard Business Review",
       "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
-      "tag": "implementation-gap",
-      "company": "Harvard Business School",
+      "tag": "Transformation Execution",
+      "company": "Enterprise across sectors",
       "shift": "long-term",
-      "strategyTake": "Move beyond pilots by mapping workflows step-by-step, clarifying where agents own work vs. humans, and building change fitness as a core capability.",
-      "readTime": 8,
+      "strategyTake": "\"Clean-sheet process redesign\" beats incremental automation. Companies that survive 2026 will obsess over capturing knowledge and managing digital workforce governance from day one.",
+      "readTime": 9,
       "paywalled": true
-    },
-    {
-      "title": "Financial Services Sector: AI Moving from Automation Play to Strategic Business Reinvention",
-      "summary": "<cite index=\"60-7,60-8,60-9\">CFOs expect agentic AI to shift from experimentation to proven enterprise-wide impact, with success depending on governance, clean data, and modernized architectures—framing AI as a catalyst to reinvent finance as proactive business driver, not just an efficiency tool.</cite> <cite index=\"55-1,55-2\">The 2026 trend is a shift from AI pilots to enterprise programs; successful firms adopt modular architectures and measure outcomes through live business metrics.</cite>",
-      "takeaway": "Finance is lowkey the bellwether here—CFOs are moving from 'automate grunt work' to 'reinvent how we make decisions and operate.' That mindset shift is spreading.",
-      "source": "Fortune + FinTech Magazine",
-      "url": "https://finance.yahoo.com/news/2026-cfos-predict-ai-transformation-080000379.html",
-      "tag": "finance-transformation",
-      "company": "Multiple Financial Institutions",
-      "shift": "long-term",
-      "strategyTake": "Real value comes from using AI to do *different work*—scenario modeling, real-time risk, strategic foresight—not just speeding up the same processes.",
-      "readTime": 6,
-      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Ben Thompson on TSMC Risk & the AI Infrastructure Crunch",
-      "why": "Stratechery's deep dive on whether AI demand is real, TSMC's $52-56B CapEx bet, and why memory shortages could hit 2026-2027 harder than anyone expects.",
-      "url": "https://stratechery.com/2026/tsmc-risk/",
-      "tag": "supply-chain-risk"
+      "title": "How Organizations Are Actually Doing Agentic AI (Without the Hype)",
+      "why": "MIT Sloan + BCG study of 2,000 leaders shows the four core tensions orgs must navigate: scalability vs. adaptability, predictability vs. flexibility, control vs. autonomy, and accountability vs. emergence. Lowkey the most honest framework out there.",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/how-to-navigate-age-agentic-ai",
+      "tag": "Leadership Framework"
     },
     {
-      "title": "HBR: Can AI Stifle Innovation? The Absorptive Capacity Problem",
-      "why": "fr this hits different—when AI makes good-enough answers free, teams stop exploring better approaches. Orgs need calibrated friction to avoid getting faster but shallower.",
-      "url": "https://hbr.org/2026/03/research-using-ai-can-stifle-innovation-but-it-doesnt-have-to",
-      "tag": "innovation-risk"
+      "title": "Why Tech Giants Are Pivoting to \"Capital Discipline\" Over AI Hype",
+      "why": "Morgan Stanley report flagged 2026 as the year AI moves from \"potential\" to \"performance,\" forcing capital reallocation toward compute intensity + margin expansion. Consumer staples now outpacing tech—the \"Great Defensive Pivot\" is real.",
+      "url": "https://creati.ai/ai-news/2026-03-14/morgan-stanley-2026-ai-capability-breakthrough-market-disruption-report/",
+      "tag": "Market Dynamics"
     }
   ]
 }

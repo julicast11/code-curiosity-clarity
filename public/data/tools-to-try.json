@@ -1,63 +1,63 @@
 {
-  "headline": "Claude Opus 4.6 drops in Windsurf with Arena Mode, but March 2-8 was lowkey quiet for new tool launches",
+  "headline": "AI's hitting different this week — Claude's 1M context went live, Windsurf's still flexing as the agentic IDE, and everyone's obsessed with agents. honestly, the vibe is less 'new shiny tools' and more 'previous tools just got way smarter'",
   "picks": [
     {
-      "name": "Windsurf Arena Mode",
-      "tagline": "Side-by-side AI model comparison right in your IDE",
-      "summary": "Windsurf added Arena Mode to let you pit models against each other blind-voted to find what actually works for YOUR code, not just benchmarks.",
-      "tryIt": "windsurf.com",
-      "url": "https://windsurf.com/changelog",
-      "tag": "coding",
+      "name": "Claude Opus 4.6 & Sonnet 4.6",
+      "tagline": "1M context window + 128K output, now at standard pricing",
+      "summary": "anthropic just dropped 1M token context for Opus class models at normal prices. means you can dump entire codebases, long documents, whatever into one conversation without losing your mind or your wallet. fr this changes the game for long-form reasoning.",
+      "tryIt": "claude.com",
+      "url": "https://claude.com",
+      "tag": "LLM Model",
       "vibe": "freemium",
-      "bestFor": "devs who don't trust hype",
-      "readTime": 4
-    },
-    {
-      "name": "Claude Opus 4.6",
-      "tagline": "1M context window for serious coding work",
-      "summary": "Claude got smarter at long-context tasks & debugging unfamiliar codebases. 1M token window (beta) means you can actually keep massive projects in memory.",
-      "tryIt": "claude.ai or via Windsurf",
-      "url": "https://www.anthropic.com/news/claude-opus-4-6",
-      "tag": "LLM",
-      "vibe": "freemium",
-      "bestFor": "enterprise coding & complex reasoning",
-      "readTime": 5
-    },
-    {
-      "name": "Google Gemini workspace updates",
-      "tagline": "AI that reads your entire Google Drive & builds docs from it",
-      "summary": "Gemini in Workspace can now generate full docs, sheets & presentations by pulling context from your emails, chats & files. Basically turned Drive into an active knowledge base.",
-      "tryIt": "workspace.google.com",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/march-2026-pixel-drop/",
-      "tag": "productivity",
-      "vibe": "freemium",
-      "bestFor": "teams drowning in research & docs",
+      "bestFor": "developers, researchers, anyone doing deep dives on massive docs",
       "readTime": 3
     },
     {
-      "name": "Claude for Excel/PowerPoint shared context",
-      "tagline": "Pull data from Excel, turn it into slides, all in one session",
-      "summary": "Claude can now read spreadsheets & instantly translate results into presentation slides without copy-pasting. Teams can create reusable 'skills' for repetitive workflows.",
-      "tryIt": "Claude plugins for Microsoft 365",
-      "url": "https://www.marketingprofs.com/opinions/2026/54427/ai-update-march-13-2026-ai-news-and-views-from-the-past-week",
-      "tag": "enterprise",
-      "vibe": "paid",
-      "bestFor": "finance analysts & business teams",
+      "name": "Windsurf IDE",
+      "tagline": "agentic IDE with Arena Mode, Plan Mode, and parallel multi-agent sessions",
+      "summary": "the first agentic IDE that actually lets you compare models side-by-side, plan before you code, and run multiple agents at once. cascade panes + live preview make it lowkey the best dev experience rn.",
+      "tryIt": "codeium.com/windsurf",
+      "url": "https://codeium.com/windsurf",
+      "tag": "Code Editor",
+      "vibe": "freemium",
+      "bestFor": "devs who want AI agents actually integrated into their workflow",
+      "readTime": 2
+    },
+    {
+      "name": "Manus Browser Agent",
+      "tagline": "consumer-facing AI agent with Task Replay for transparency + Wide Research mode",
+      "summary": "Manus is literally your power intern — scopes tasks, shows you exactly what it did, and handles high-volume market research. not just black-box magic, you can actually audit it and learn from the replay.",
+      "tryIt": "manus.ai",
+      "url": "https://manus.ai",
+      "tag": "AI Agent",
+      "vibe": "freemium",
+      "bestFor": "researchers, marketers, anyone who needs to delegate bulk comparison work",
+      "readTime": 2
+    },
+    {
+      "name": "Gemini 3.1 Pro",
+      "tagline": "$2/$12 pricing, 77.1% ARC-AGI performance, voice + video processing",
+      "summary": "Google just made reasoning models actually affordable. the price-to-performance ratio is insane, full video parsing, multilingual voice, and tiered thinking levels. basically the budget breakthrough everyone was waiting for.",
+      "tryIt": "google.com/gemini",
+      "url": "https://google.com/gemini",
+      "tag": "LLM Model",
+      "vibe": "freemium",
+      "bestFor": "builders with limited budgets, anyone needing multimodal AI",
       "readTime": 3
     }
   ],
   "watchNext": [
     {
-      "title": "DeepSeek V4 (still waiting)",
-      "why": "fr everyone's been refreshing since March 2. Trillion-param model w/ 1M context supposed to crush GPT-5.4 on code. When it actually drops, it's gonna shift the whole market.",
-      "url": "https://deepseekv4.app/news",
-      "tag": "model"
+      "title": "🎙️ The Next Wave Podcast — Is 2026 shaping up to be the year AI agents become indispensable?",
+      "why": "matt wolfe & joe fier break down the explosion of new models (claude 4.6, gemini 3.1, grok 4.2) and the rise of agentic AI. covers openClaw, how meta & ElevenLabs are building emotionally-aware agents, and whether agents will actually outpace GPT updates.",
+      "url": "https://podcasts.apple.com/us/podcast/the-next-wave-ai-and-the-future-of-technology/id1738550343",
+      "tag": "Podcast"
     },
     {
-      "title": "Page Agent by Alibaba, Hermes Agent by NousResearch",
-      "why": "Lowkey dropped on GitHub trending mid-week. JavaScript GUI agents & adaptive AI frameworks starting to show how web automation & agentic systems are evolving fast.",
-      "url": "https://github.com/trending",
-      "tag": "agents"
+      "title": "Future Tools News Feed — Mar 9-15 digest by Matt Wolfe",
+      "why": "ByteDance halts Seedance 2.0 (hollywood copyright drama), meta's cutting 20% headcount (AI costs rising), xAI poaches Cursor leaders. if you need the week's biggest headlines in one place, matt's got the receipts.",
+      "url": "https://futuretools.io/news",
+      "tag": "News Roundup"
     }
   ]
 }

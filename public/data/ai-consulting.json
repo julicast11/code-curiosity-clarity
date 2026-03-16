@@ -1,52 +1,52 @@
 {
-  "headline": "Consulting Giants Double Down on AI: OpenAI, Accenture Get Real About Enterprise",
+  "headline": "Big consulting firms are racing AI adoption but hitting a wall: cheaper AI agents replacing $500K reports, consultants burnt out on shortened timelines",
   "stories": [
     {
-      "title": "OpenAI Drops Frontier Alliances with Big Four Consulting Firms",
-      "summary": "<cite index=\"29-3,29-4\">OpenAI announced multiyear partnerships with Accenture, BCG, Capgemini and McKinsey to help enterprises define AI strategy and get agents into production workflows faster.</cite> <cite index=\"27-9,27-10\">BCG and McKinsey handle strategy while Accenture and Capgemini wire Frontier into actual systems.</cite>",
-      "takeaway": "Lowkey a massive play by OpenAI—basically saying 'we need the consulting world to actually deploy our stuff at scale.' OpenAI's basically admitting the bottleneck isn't the model, it's getting it live in enterprises.",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/02/23/openai-partners-with-mckinsey-bcg-accenture-and-capgemini-to-push-its-frontier-ai-agent-platform/",
-      "tag": "partnerships",
+      "title": "PE Firms Replace $500K McKinsey Due Diligence with $50K AI Agents in Live Deals",
+      "summary": "DiligenceSquared, a five-month-old startup founded by an ex-BCG consultant, just got $2+ trillion in combined AUM from PE firms to replace traditional consulting with AI-powered interviews—literally cutting costs by 90% on production deals with real money at risk.",
+      "takeaway": "AI is lowkey dismantling the consulting pyramid: McKinsey's whole scarcity-based value prop just got undercut, and now PE firms are field-testing AI on billion-dollar deals before anyone even knows if it actually works.",
+      "source": "UC Strategies",
+      "url": "https://ucstrategies.com/news/pe-firms-replaced-500k-mckinsey-reports-with-50k-ai-on-live-deals/",
+      "tag": "AI Disruption",
       "tool": "AI Agents",
-      "readTime": 4,
+      "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Accenture Scoops Up Ookla (Speedtest) for $1.2B in AI Data Play",
-      "summary": "<cite index=\"37-1\">Accenture acquired Ookla, a network intelligence and analytics leader.</cite> <cite index=\"44-16\">The network data feeds insights for fraud prevention in banking, smart home analytics in utilities, and traffic optimization in retail as AI scales.</cite>",
-      "takeaway": "Accenture fr just bought the whole Speedtest empire to build out AI infrastructure plays. They're literally buying network data as the foundation layer for their agentic AI bets.",
-      "source": "GeekWire",
-      "url": "https://www.geekwire.com/2026/accenture-to-acquire-seattle-network-data-company-ookla-in-1-2b-deal/",
-      "tag": "acquisitions",
-      "tool": "Network Intelligence",
+      "title": "OpenAI Announces 'Frontier Alliances' with McKinsey, BCG, and Accenture to Drive Enterprise AI Adoption",
+      "summary": "OpenAI dropped multi-year partnerships with McKinsey, BCG, Accenture, and Capgemini to help enterprises actually deploy AI agents at scale—basically weaponizing consultants to sell OpenAI's tech stack to their clients.",
+      "takeaway": "Big consulting firms are becoming OpenAI's distribution network fr fr. They'll co-develop solutions, but the real play is consultants convincing clients to change workflows around OpenAI products.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
+      "tag": "Strategic Partnerships",
+      "tool": "OpenAI Frontier",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "McKinsey Drops Agency Bomb: AI Agents Aren't Chatbots, They're Decision Makers",
-      "summary": "<cite index=\"47-1,47-2\">McKinsey's March 5 podcast ep dives into agentic AI governance, noting AI systems are starting to make decisions autonomously and leaders need to reckon with new risks.</cite> <cite index=\"47-22\">Agency isn't a feature—it's a transfer of decision rights.</cite>",
-      "takeaway": "McKinsey's basically saying 'yo, you're not just deploying chatbots anymore—you're handing decision-making to machines.' The governance conversation just got terrifying in the best way.",
-      "source": "🎙️ The McKinsey Podcast",
-      "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/trust-in-the-age-of-agents",
-      "tag": "governance",
-      "tool": "Agentic AI",
-      "readTime": 8,
+      "title": "Accenture's 8% Stock Jump: Why Sovereign AI & Mistral Partnership Signals Physical AI Era",
+      "summary": "Accenture surged after announcing a multi-year deal with Mistral AI plus acquiring Verum Partners—market's betting hard that consulting's future is \"Physical AI\" (robotics, infrastructure) not chatbots, and Accenture's playing both sides.",
+      "takeaway": "Accenture tbh just positioned itself as the infrastructure play in AI consulting while others are stuck in chatbot land. Wall Street thinks consultants can't be replaced if they're building actual factories and power grids.",
+      "source": "FinancialContent/Finterra",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-2-27-the-ai-infrastructure-pivot-why-accenture-acn-just-jumped-8-and-what-it-means-for-the-future-of-consulting",
+      "tag": "Market Strategy",
+      "tool": "Infrastructure AI",
+      "readTime": 7,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Deloitte Unveils Enterprise AI Navigator to Move AI from Cost Center to Strategic Asset",
-      "why": "<cite index=\"13-6,13-7,13-8\">Deloitte launched its Enterprise AI Navigator to shift AI from expense to strategic asset, with components including an AI opportunity scanner and agent creation hub that could halve AI planning and implementation time.</cite>",
-      "url": "https://www.crowdfundinsider.com/2026/03/264460-deloitte-introduces-enterprise-ai-solution-to-enable-businesses-to-move-ai-capabilities-from-cost-to-value/",
-      "tag": "platforms"
+      "title": "How AI is Creating a Rift at McKinsey, BCG, and Bain: Faster Timelines, Vanishing Creativity",
+      "why": "Junior consultants lowkey hate their AI 'productivity tools' because partners are now demanding work in hours instead of weeks—literally creating burnout while claiming to save time.",
+      "url": "https://the-ken.com/story/bcg-and-mckinsey-sell-speed-as-ai-shakes-up-consulting-so-why-arent-consultants-buying-it/",
+      "tag": "Internal Culture"
     },
     {
-      "title": "Bain & Anthropic Partnership: Custom Claude Personas for Finance & Consulting",
-      "why": "<cite index=\"12-1,12-3,12-4\">Both Accenture and Deloitte plan to roll out custom Claude personas for accountants, consultants, and developers, moving toward job-specific AI instead of generic assistants.</cite>",
-      "url": "https://www.emarketer.com/content/accenture--deloitte-push-agentic-ai-enterprise-territory-shift",
-      "tag": "customization"
+      "title": "Deloitte's 'Modernization': Scrapping Job Titles, Shifting to Agentic Workforce by June 2026",
+      "why": "Deloitte's literally restructuring how it defines consultants (alphanumeric levels instead of titles) because AI agents are replacing the pyramid model—McKinsey's fleet of AI agents grew 500% in 18 months.",
+      "url": "https://fortune.com/2026/01/22/deloitte-job-title-change-ai-reshapes-big-4-accounting-consulting-firms/",
+      "tag": "Industry Transformation"
     }
   ]
 }

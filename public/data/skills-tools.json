@@ -1,52 +1,52 @@
 {
-  "headline": "Master Data Analysis, Master Your Workflow, Master Your Projects",
+  "headline": "Level Up Your Consulting Game: Master Data, Automate Excel & Pick the Right Tools",
   "stories": [
     {
-      "title": "Data Analysis is the Skill to Learn in 2026",
-      "summary": "<cite index=\"2-5,2-6,2-7\">In today's data-driven world, consultants need strong data analysis skills since businesses rely on data for decisions and consultants are expected to turn complex data into actionable insights using tools like Excel, Power BI, and Tableau.</cite> Lowkey, if you're not picking up SQL, Python, or advanced data literacy, you're already falling behind.",
-      "takeaway": "Data fluency isn't optional anymore—it's literally your competitive edge fr",
+      "title": "Emotional Intelligence (EQ): The Secret Weapon Consultants Are Sleeping On",
+      "summary": "Emotional intelligence is lowkey the most underrated skill for consultants in 2026—being able to read your clients, manage tough conversations, and build actual trust moves the needle way more than just having the smartest framework.",
+      "takeaway": "Invest in EQ: it's literally how you turn advice into results that stick.",
       "source": "Jobaaj Learnings",
       "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
-      "tag": "skill",
-      "skill": "Data Analysis & Python",
+      "tag": "Soft Skills",
+      "skill": "Emotional Intelligence",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "GPT for Excel: Stop Doing Manual Work & Let AI Handle Your Data Grunt Work",
+      "summary": "Use GPT for Excel's natural language prompts to automate text translation, data classification, and database creation—basically tell it what you want and it just does it across entire datasets.",
+      "takeaway": "Prompt-based automation is fr changing how consultants handle repetitive data tasks; can save hours every week.",
+      "source": "The Manila Times",
+      "url": "https://www.manilatimes.net/2026/03/13/tmt-newswire/plentisoft/gpt-for-work-releases-guide-to-using-ai-for-automating-tasks-in-excel/2299380",
+      "tag": "Data Tool",
+      "skill": "AI Automation in Excel",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Quick Excel Trick: Use =TODAY() for Auto-Updating Dates",
-      "summary": "<cite index=\"20-9\">To enter a date that will update to the current date each time you reopen a worksheet or recalculate a formula, type =TODAY() in an empty cell, and then press ENTER.</cite> Saves you from manually updating those deadlines every single day tbh.",
-      "takeaway": "One formula, no more manual date updates—game changer for project tracking",
-      "source": "Microsoft Support",
-      "url": "https://support.microsoft.com/en-us/office/format-a-date-the-way-you-want-in-excel-8e10019e-d5d8-47a1-ba95-db95123d273e",
-      "tag": "tip",
-      "skill": "Excel",
-      "readTime": 3,
-      "paywalled": true
-    },
-    {
-      "title": "Rocketlane Nitro: AI-Powered Execution Tool for Consultants",
-      "summary": "<cite index=\"42-4,42-5,42-7\">Rocketlane launched Nitro, an AI-powered execution platform designed to automate delivery across professional services projects—the first agentic execution platform that embeds AI agents directly into project workflows to automate elements like migrations, system configuration, documentation and testing.</cite> Lowkey changes how consulting firms scale without hiring more people.",
-      "takeaway": "AI handles the repetitive stuff, your team focuses on strategy & client relationships",
-      "source": "PMG News",
-      "url": "https://news.pm-global.co.uk/2026/03/rocketlane-launches-ai-execution-platform-to-automate-professional-services-delivery/",
-      "tag": "tool",
-      "skill": "Project Management",
-      "readTime": 5,
+      "title": "Rocketlane: The Consulting Project Management Tool That Actually Gets It",
+      "summary": "Rocketlane is built specifically for consulting workflows—handles staffing, financials, and client collab in one place, plus AI-powered resource allocation keeps your team from burning out.",
+      "takeaway": "Tbh, generic PM tools fall short for consultants; Rocketlane solves the profitability + resource mess that keeps teams up at night.",
+      "source": "Rocketlane Blog",
+      "url": "https://www.rocketlane.com/blogs/best-project-management-tools-for-consultants",
+      "tag": "Project Management",
+      "skill": "Operations Management",
+      "readTime": 7,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "AI Tools Every Consultant Should Know About in 2026",
-      "why": "Covers Think Cell, Olive, Forecast, and ChatGPT—all saving consulting teams serious time on chart creation, vendor eval, and resource forecasting",
-      "url": "https://www.auxi.ai/blog/ai-tools-for-consultants",
-      "tag": "deeper-dive"
+      "title": "Why Adaptability is Your Consulting Superpower in 2026",
+      "why": "The landscape's shifting fast—consultants who pivot quick stay relevant; worth a 3-min read to stay ahead.",
+      "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
+      "tag": "Career Development"
     },
     {
-      "title": "Working with AI as a Data Professional in 2026",
-      "why": "Real talk on how to stay relevant when AI is literally doing half your job—focus on storytelling and human judgment, not competing with bots",
-      "url": "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
-      "tag": "mindset"
+      "title": "AI Tools Every Consultant Should Know (The Realistic Edition)",
+      "why": "ChatGPT, Tableau AI, Think Cell—here's which AI tools actually move the needle for consulting vs the hype machines.",
+      "url": "https://www.auxi.ai/blog/ai-tools-for-consultants",
+      "tag": "AI Tools"
     }
   ]
 }

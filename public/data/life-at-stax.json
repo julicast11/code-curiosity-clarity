@@ -1,23 +1,49 @@
 {
-  "headline": "Top Life at Stax stories this week",
+  "headline": "PE bouncing back & consulting firms hustling for talent",
   "stories": [
     {
-      "title": "Dave Schuette Joins DataJoint Board of Directors - The Malaysian Reserve",
-      "summary": "Dave Schuette Joins DataJoint Board of Directors The Malaysian Reserve",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQm9XejhNVW5SOTQ3VF9sOXo5Y1FLR2xkemxtUUl0and0a2hueW9XSERWTTVLQXZjSThLUU93RTM1WEVQc1NIWUJYQ0sxNGc4REt0ZU5XeGpYTkswQjkta08weWNrbFFYM0pENjljR1YxYmJVWGtTRDJ0ck5tSEpmcU5jU2VpajR0Zk9jUk51SngtX19YSEVr?oc=5",
-      "tag": "Consulting"
+      "title": "PE Dealmaking Finally Found Its Footing—But It's Complicated",
+      "summary": "Deal values surged in 2025 after a rough few years, but it's a K-shaped recovery where only top tier firms are winning. Firms gotta focus on operational value creation, not just leverage, to make money in 2026.",
+      "takeaway": "If you're advising PE clients, the play is helping them spot mispriced assets and execute faster than competitors. Dry powder is massive, but so is the backlog of unsold portfolio companies.",
+      "source": "Bain & Company / Within Intelligence",
+      "url": "https://www.withintelligence.com/insights/private-equity-outlook-2026/",
+      "tag": "PE/Consulting Industry",
+      "readTime": 6,
+      "paywalled": false
     },
     {
-      "title": "New AI-driven due diligence platform, DiligenceSquared, gets VC backing - Alternatives Watch",
-      "summary": "New AI-driven due diligence platform, DiligenceSquared, gets VC backing Alternatives Watch",
-      "takeaway": "",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTmtxSlBLVllXSEFTTW9NUVp1NE5qNDMxQm1TUVMwVEY3bE5faUpra2l0TWo3WWkzS0xDZUN5Rmd3dE16ZjliNlpkUkRSNXQ1OVRjMkpWOS1OR2l3TzFzMk1fVWJkN1dza1lWSWUyT2tzTGhnaGRxQUxqbWRWaHpCQ2tqeUdTckJhN1NVX1hXRjN3LV84Z0ZMMHUwVjlLZ1BKa1VHTDdtbXI3QQ?oc=5",
-      "tag": "Consulting"
+      "title": "Healthcare M&A Heating Up—AI & Tech Are the Real Prize",
+      "summary": "Healthcare deal value is expected to bounce back in 2026 after a slower 2025, with PE pivoting hard toward tech-enabled platforms and away from reimbursement risk. AI-driven revenue cycle tools & telehealth are hot targets.",
+      "takeaway": "Healthcare clients are desperate for operational leverage. Position AI as margin expansion, not a nice-to-have. Data infrastructure and software plays punch above their weight right now.",
+      "source": "PwC",
+      "url": "https://www.pwc.com/gx/en/services/deals/trends/health-industries.html",
+      "tag": "Healthcare/Tech Sector",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Consulting Hiring Is Back On—But Salaries Are Flat",
+      "summary": "Full-time and internship hiring are accelerating in 2026, which is great news for career growth. Salaries are staying flat tho because firms are squeezing more output per consultant through AI and remote work.",
+      "takeaway": "Focus on getting promoted fast rather than chasing salary bumps early in your career. Internal strategy roles at corporates are becoming legit competition for consulting talent, so firms gotta offer real development.",
+      "source": "Management Consulted",
+      "url": "https://managementconsulted.com/consulting-recruiting-trends/",
+      "tag": "Career Development",
+      "readTime": 4,
+      "paywalled": false
     }
   ],
-  "watchNext": [],
-  "_fromCache": true
+  "watchNext": [
+    {
+      "title": "Deloitte Ranked Top PE Services Consultant—Again",
+      "why": "Major recognition in the PE consulting space dropped mid-March. Shows where the big players are investing (AI, digital transformation frameworks). Worth knowing if you're benchmarking against competitors.",
+      "url": "https://www.prnewswire.com/news-releases/deloitte-is-recognized-as-a-leader-and-star-performer-in-everest-groups-private-equity-services-peak-matrix-assessment-2026-two-years-in-a-row-302712183.html",
+      "tag": "PE/Consulting Industry"
+    },
+    {
+      "title": "Industrial & Manufacturing PE Consolidation Is Exploding",
+      "why": "Lowkey huge for Stax's core sectors. Fragmented industries + operational upside + dry powder = M&A bonanza. The playbook of buying broken stuff and fixing it is back in vogue.",
+      "url": "https://www.cbh.com/insights/reports/private-equity-report-2025-trends-and-2026-outlook/",
+      "tag": "Industrials/PE Sector"
+    }
+  ]
 }

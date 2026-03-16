@@ -1,63 +1,63 @@
 {
-  "headline": "South Florida's Economic Engine Revs Up: Consumer Confidence Rises, World Cup Fever Builds, But Spring Break Takes a Hit",
+  "headline": "South Florida's real estate & tech boom keeps rolling — billionaires flooding in, mega-projects coming online",
   "stories": [
     {
-      "title": "FIFA 2026 World Cup Setting South Florida Up for Major Economic Windfall",
-      "summary": "<cite index=\"11-1,11-2\">The 2026 FIFA World Cup is coming to South Florida with matches at Hard Rock Stadium, only 100 days away and poised to bring a major surge in customers.</cite> <cite index=\"11-24,11-25\">Officials anticipate about a million folks generating $1.3 billion in economic impact for Miami-Dade, Broward, and Palm Beach counties.</cite>",
-      "takeaway": "Lowkey this is huge for the region—tourism, hospitality, and local businesses are prepping for the biggest economic boost in years, but logistics and infrastructure are the real challenge.",
-      "source": "WSVN 7News Miami",
-      "url": "https://wsvn.com/sports/2026-fifa-world-cup-anticipation-grows-as-miami-dade-preps-for-influx-of-business/",
-      "tag": "tourism",
-      "sector": "hospitality",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Florida Consumer Sentiment Hits Three-Month High, Shaping Major Buying Decisions",
-      "summary": "<cite index=\"8-1\">Consumer sentiment in Florida rose for a third straight month, reflecting stronger financial outlooks that can shape major buying decisions.</cite> This momentum signals renewed optimism across the state's economy.",
-      "takeaway": "Tbh this is lowkey encouraging—people are feeling better about their finances and ready to spend, which is great for retail and real estate sectors.",
+      "title": "Miami Ranked #5 for Net Inbound Migration in US",
+      "summary": "Miami's climbing the rankings as a destination for relocation, driven by its strong job market and appeal to wealthy residents. The city's economic momentum is legit fr.",
+      "takeaway": "People are literally moving to Miami in droves—unemployment sits at just 2.4%, making this the place to be if you're hunting for work.",
       "source": "Miami Realtors",
-      "url": "https://www.miamirealtors.com/2026/03/03/wednesday-march-4-2026-south-florida-real-estate-market-articles/",
-      "tag": "consumer-sentiment",
-      "sector": "retail",
-      "readTime": 2,
-      "paywalled": false
-    },
-    {
-      "title": "Fort Lauderdale Spring Break Slowing Down Due to Alcohol Ordinance",
-      "summary": "<cite index=\"12-2,12-3,12-4\">Spring break business has slowed on Fort Lauderdale Beach, with local businesses citing a new city ordinance banning outdoor alcohol sales and open containers, with some operators noting about 30 percent of sales typically come from to-go drinks.</cite>",
-      "takeaway": "This ordinance is literally cutting into beach bar profits—some owners are seeing massive revenue drops compared to normal years, though they're hopeful business picks up later in the month.",
-      "source": "CBS Miami",
-      "url": "https://www.cbsnews.com/miami/news/fort-lauderdale-spring-break-2026-alcohol-ordinance-effects/",
-      "tag": "hospitality",
-      "sector": "hospitality",
+      "url": "https://www.miamirealtors.com/2026/03/13/monday-march-16-2026-south-florida-real-estate-market-articles/",
+      "tag": "Migration & Growth",
+      "sector": "Real Estate",
       "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "Florida Economy Set to Outperform Nation Again in 2026 Despite Moderation",
-      "summary": "<cite index=\"2-1,2-2\">Florida's economic growth has outpaced the nation by an average of 2.3 percentage points over the past four years and is expected to exceed national GDP growth again in 2026, though by a narrower margin than recent years.</cite> <cite index=\"2-11\">Florida's unemployment rate is projected to range between 4.2 and 4.3 percent in 2026.</cite>",
-      "takeaway": "Fr the state's still crushing it economically—slower growth than before but stable and solid, which is actually healthy long-term.",
-      "source": "Florida Chamber Foundation",
-      "url": "https://www.flchamber.com/florida-chamber-foundations-2026-economic-outlook-predicts-florida-economy-expected-to-outperform-the-nation/",
-      "tag": "macroeconomics",
-      "sector": "general",
-      "readTime": 5,
+      "title": "FAA Approves Permits for 47-Story Mixed-Use Tower in Fort Lauderdale",
+      "summary": "11 Andrews, a major downtown development, just got the green light to rise 496 feet. This is another big win for FTL's skyline transformation.",
+      "takeaway": "Fort Lauderdale's downtown is lowkey becoming a real estate powerhouse—mega-towers keep getting approved as the city doubles down on development.",
+      "source": "Florida YIMBY",
+      "url": "https://floridayimby.com/category/downtown-fort-lauderdale-2",
+      "tag": "Development",
+      "sector": "Real Estate",
+      "readTime": 2,
+      "paywalled": false
+    },
+    {
+      "title": "Fort Lauderdale's Downtown Economic Impact Surges 20% Since 2022",
+      "summary": "Tech, finance, and creative industries are driving serious growth in downtown FTL—total economic impact jumped 44% since 2019. The 'Wall Street of the South' is no joke.",
+      "takeaway": "Fort Lauderdale's becoming a legit rival to Miami with major tech headquarters like Napster Corp moving in, plus nearly 117k tech workers already based there.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/fort-lauderdale-on-the-rise-new-report-shows-how-tech-and-finance-combine-to-fuel-economic-growth/",
+      "tag": "Tech & Finance",
+      "sector": "Economic Development",
+      "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "Miami Beach Hotels Hit Highest Rates Globally for New Year, Occupancy at 93%",
+      "summary": "Miami Beach crushing it in hospitality—avg daily room rates hit $353 in January (up 8% YoY) with peak occupancy reaching 93%. The city's basically sold out.",
+      "takeaway": "Tourists are spending big on South Florida stays, which means serious revenue for hotels & the broader economy. This momentum keeps building.",
+      "source": "Miami Beach Community News",
+      "url": "https://communitynewspapers.com/miami-beach-news/miami-beachs-economy-is-strong/",
+      "tag": "Hospitality",
+      "sector": "Tourism & Hospitality",
+      "readTime": 3,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Miami Tech Hub Emerging as Gateway to Latin America—Companies Relocating in 2026",
-      "why": "<cite index=\"18-1,18-2\">Miami has rapidly become a magnet for startups and tech ventures, with its strategic location as a gateway to Latin America, diverse talent pool, and growing tech ecosystem positioning it uniquely for regional expansion.</cite>",
-      "url": "https://secure.miamidade.gov/employee/news-item.page?Mduid_news=news1771516508874191",
-      "tag": "tech"
+      "title": "FAA Cuts Flights by 10% at Miami & Fort Lauderdale Airports",
+      "why": "Flight reductions due to staffing pressures will impact travel & commerce in South Florida—worth monitoring how this affects business travel.",
+      "url": "https://www.wlrn.org/business",
+      "tag": "Transportation"
     },
     {
-      "title": "D-Wave Quantum Computing Headquarters Relocates to Boca Raton—FAU Gets $20M Quantum Computer",
-      "why": "<cite index=\"22-11,22-12\">Palm Beach County got a sizable lift when D-Wave announced relocating its headquarters from California to Boca Raton, while Florida Atlantic University purchased a $20 million quantum computer, making it the state's first and only university to host an onsite quantum computer.</cite>",
-      "url": "https://www.sun-sentinel.com/2026/02/09/south-floridas-economy-shows-staying-power-despite-slower-pace-trade-and-immigration-chaos/",
-      "tag": "tech"
+      "title": "Fort Lauderdale Convention Center Expansion Opening 2026",
+      "why": "The massive expansion adds 525k sq ft of space & a new waterfront ballroom—this could seriously boost event business & tourism revenue.",
+      "url": "https://www.broward.org/CCExpansion/Pages/Default.aspx",
+      "tag": "Infrastructure"
     }
   ]
 }

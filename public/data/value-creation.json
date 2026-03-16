@@ -1,49 +1,49 @@
 {
-  "headline": "<cite index=\"1-2,4-7\">PE resurgence is gathering steam after 2025 saw buyout deals and exits surge to second-highest values on record.</cite>",
+  "headline": "Healthcare IT Platforms & AI-Driven Productivity: PE's New Value Playbook",
   "stories": [
     {
-      "title": "Beauty & Consumer Consolidation Accelerates: <cite index=\"63-1,63-13\">Luxury fashion and beauty continue to show resilience through strategic acquisitions focused on brand consolidation and market expansion.</cite>",
-      "summary": "<cite index=\"61-3,61-4,61-5\">The consumer market has entered unprecedented consolidation where PE firms deploy sophisticated aggregation strategies across fragmented sectors from beauty and personal care to specialty foods.</cite> Platforms unlock digital/data synergies that standalone brands can't afford.",
-      "takeaway": "DTC brands w/ strong customer data command 15-20% premium multiples; winners are scaling via bolt-on acquisitions & shared back-office functions.",
-      "source": "PitchBook News",
-      "url": "https://www.pcecompanies.com/resources/industry-reports/consumer-retail-q2-2025-pce-investment-bankers",
-      "tag": "Brand Aggregation",
-      "sector": "Consumer",
-      "lever": "Revenue growth",
-      "readTime": 6,
-      "paywalled": false
-    },
-    {
-      "title": "HVAC Services Roll-Ups Reach Peak Momentum: <cite index=\"75-12\">PE add-on transactions targeting HVAC service providers rose 88% YoY through June, with PE firms & platforms combining for 39 of 77 HVAC M&A deals.</cite>",
-      "summary": "<cite index=\"71-3\">PE firms remain dominant buyers of residential HVAC platforms, executing buy-and-build roll-ups across US regions while middle-market PE focuses on tuck-ins.</cite> <cite index=\"71-10\">Valuations trade at premium with mid-teens EV/EBITDA for high-quality recurring revenue platforms.</cite>",
-      "takeaway": "Fragmented $350B+ market w/ 29K+ private companies attracts PE for maintenance-based recurring revenue & multitrade bundle (HVAC + plumbing + electrical) cross-sell opportunities.",
-      "source": "Capstone Partners",
-      "url": "https://www.capstonepartners.com/insights/article-hvac-services-ma-update/",
-      "tag": "Platform Consolidation",
-      "sector": "Industrials",
-      "lever": "Margin expansion",
-      "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "Healthcare PE Shifts to Value-Based Care: <cite index=\"59-6,59-8,59-9\">Global healthcare PE reached record $191B in 2025, with firms increasingly investing in value-based care models emphasizing outcomes & cost efficiency.</cite>",
-      "summary": "<cite index=\"51-3,51-14\">Tech-enabled care, behavioral health & physician specialty platforms see aggressive capital flows as acquirers scale models that grow without adding labor.</cite> <cite index=\"52-1\">Margin expansion comes via AI-driven cost reduction.</cite>",
-      "takeaway": "Digital health platforms w/ clinical outcome data command premium valuations; clinical trial site consolidation (Baypine, Thomas H. Lee) heating up as PE pivot from physician practices.",
-      "source": "PwC Global Health Industries Report",
-      "url": "https://www.fiercehealthcare.com/finance/key-trends-will-shape-healthcare-ma-activity-2026-pwc",
-      "tag": "Value-Based Care",
+      "title": "Healthcare IT Platforms Attracting Record PE Capital as Value Creation Shifts to AI Integration",
+      "summary": "Healthcare IT investments keep outpacing broader healthcare PE, driven by platforms embedding AI for revenue cycle management and care delivery optimization. High multiples demand PE firms underwrite explicit operational levers from day one.",
+      "takeaway": "PE winning in HCIT when they can articulate clear AI productivity gains & platform consolidation synergies before deal close",
+      "source": "Bain Global Healthcare Private Equity Report 2026",
+      "url": "https://www.bain.com/insights/what-differentiates-winning-healthcare-IT-investments-global-healthcare-private-equity-report-2026/",
+      "tag": "Healthcare IT",
       "sector": "Healthcare",
-      "lever": "Margin expansion",
+      "lever": "Digital transformation",
       "readTime": 7,
       "paywalled": false
     },
     {
-      "title": "OneStream Take-Private Signals PE Bet on AI Finance: <cite index=\"41-4,41-5,41-6\">Hg acquires OneStream for $6.4B in all-cash deal, taking it private 17 months after IPO, signaling strategic pivot to accelerate AI-driven roadmap away from quarterly public market pressures.</cite>",
-      "summary": "<cite index=\"41-2,41-13,41-14\">OneStream reported $489.4M revenue (31% YoY growth) w/ subscription revenue growing 41%, positioning the unified Corporate Performance Management platform for next-gen finance transformation.</cite> <cite index=\"42-2\">Absence of quarterly pressure & Hg's track record should positively impact OneStream's development.</cite>",
-      "takeaway": "Enterprise software valuations remain attractive at 13x revenue despite public market volatility; PE thesis centers on operational improvements & long-term innovation w/o quarterly earnings noise.",
-      "source": "Bain Global PE Report",
-      "url": "https://www.prnewswire.com/news-releases/onestream-enters-into-definitive-agreement-to-be-acquired-by-hg-for-6-4-billion-302654208.html",
-      "tag": "Take-Private",
+      "title": "Consumer Healthcare Consolidation Through CRO Add-ons Amid Policy Uncertainty",
+      "summary": "Pharma services PE activity lagging broader healthcare as tariffs & pricing reform create uncertainty, but sponsors strategically targeting CRO site networks & manufacturing businesses insulated from policy shocks.",
+      "takeaway": "Smart PE move: bolt-on CROs & manufacturing over exposed pharma distribution until policy crystallizes",
+      "source": "Bain Global Healthcare Private Equity Report 2026",
+      "url": "https://www.bain.com/insights/playing-the-long-game-in-pharma-services-global-healthcare-private-equity-report-2026/",
+      "tag": "Pharma Services",
+      "sector": "Consumer",
+      "lever": "Margin expansion",
+      "readTime": 6,
+      "paywalled": false
+    },
+    {
+      "title": "Industrial Services Platforms Accelerating Through HVAC & Environmental Services Consolidation",
+      "summary": "Industrial Services (HVAC, I&ES) recording double-digit growth with strong PE interest as sponsors build platforms via add-ons. Tariff-friendly US sourcing assets attracting aggressive buyer competition.",
+      "takeaway": "PE targeting industrials with low tariff exposure & consolidation runway—HVAC/environmental services are lowkey the sweet spot rn",
+      "source": "Capstone Partners M&A Outlook 2026",
+      "url": "https://www.capstonepartners.com/insights/merger-and-acquisition-outlook-2026/",
+      "tag": "Industrial Services",
+      "sector": "Industrials",
+      "lever": "Revenue growth",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "AI-Native SaaS Becoming Table Stakes for PE Tech Portfolio Exits in Compressed Windows",
+      "summary": "PE firms sitting on aging 2021-2022 vintages need credible AI value creation stories to command premium exits as agentic automation reshapes software valuations. Product velocity > margin expansion now.",
+      "takeaway": "AI roadmap isn't optional anymore—it's literally the prerequisite for PE tech portfolio liquidity in 2026",
+      "source": "PwC Private Markets AI Software Valuations",
+      "url": "https://www.pwc.com/us/en/services/consulting/deals/library/ai-software-valuations-ma-private-equity.html",
+      "tag": "Software Valuations",
       "sector": "Tech",
       "lever": "Digital transformation",
       "readTime": 8,
@@ -52,16 +52,16 @@
   ],
   "watchNext": [
     {
-      "title": "<cite index=\"2-19\">Firms standing out will be those finding or sharpening repeatable models for sourcing deals, determining early how to create value & executing at speed.</cite>",
-      "why": "New era demands operational excellence over multiple expansion; PE alpha now comes from disciplined value creation playbooks not financial engineering.",
-      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
-      "tag": "Operational Value Creation"
+      "title": "BCG: Private Equity's Advantage Is Shifting—Returns Now Tradeable by Growth, Margin, Leverage & Multiple",
+      "why": "Investors can cherry-pick manager strategies; PE returns becoming unbundled—worth tracking how LPs & GPs adapt",
+      "url": "https://www.bcg.com/publications/2026/private-equitys-advantage-is-shifting-not-shrinking",
+      "tag": "PE Strategy"
     },
     {
-      "title": "<cite index=\"10-8,10-10,10-11\">Entry multiples hit new high at 11.8x EBITDA in 2025; with lower leverage contribution, GPs emphasize value creation on revenue growth & margin expansion.</cite>",
-      "why": "Higher entry prices force PE to chase operational returns; <cite index=\"5-16\">operators' ability to grow top-line revenue & improve margins increasingly under GP/LP scrutiny.</cite>",
-      "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report/private-equity",
-      "tag": "Valuation Reality Check"
+      "title": "PitchBook 2026 PE Outlook: Talent at Center of Value Creation as Extended Holds Change Leadership Equation",
+      "why": "Aging portfolios mean sponsors less willing to wait on leadership misalignment—executive search & talent strategy fr becoming core PE ops lever",
+      "url": "https://huntscanlon.com/pitchbooks-2026-pe-outlook-puts-talent-at-the-center-of-value-creation/",
+      "tag": "Talent Strategy"
     }
   ]
 }
