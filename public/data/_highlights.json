@@ -1,31 +1,31 @@
 [
   {
-    "title": "Windsurf",
-    "summary": "Windsurf hit #1 this week with Wave 13 dropping sick autonomous agent abilities. Write, test, debug, deploy—all without manually approving every diff. It's like having a dev partner instead of an autocomplete.",
-    "takeaway": "AI-native IDE with Cascade agent for autonomous multi-file coding",
+    "title": "Claude Cowork Projects",
+    "summary": "Anthropic shipped Projects for Claude Cowork on Mar 20—basically turns your agent work from one-off sessions into persistent workspaces tied to folders & recurring tasks. No more losing context between sessions.",
+    "takeaway": "Local AI agent workspace that actually remembers what you're working on",
     "source": "AI Tool",
-    "url": "https://windsurf.dev",
-    "tag": "coding",
+    "url": "https://claude.ai",
+    "tag": "Desktop Agent",
     "readTime": 4,
     "_tab": "tools-to-try"
   },
   {
-    "title": "Claude Sonnet 4.6",
-    "summary": "Anthropic finally shipped 1M token context in GA. It's lowkey insane for handling huge codebases without paying Opus rates. Computer use improvements mean Claude can actually drive UI tasks better now.",
-    "takeaway": "1M context window, better computer use, power-user pricing at $3/$15",
+    "title": "Perplexity Health",
+    "summary": "Launched Mar 19 connecting Apple Health, EHRs from 1.7M providers & wearables to give you personalized health answers grounded in your actual data, not generic web results. Rolling out US-only to Pro/Max first.",
+    "takeaway": "Your scattered health data finally makes sense with AI that actually knows your medical history",
     "source": "AI Tool",
-    "url": "https://claude.ai",
-    "tag": "model",
-    "readTime": 3,
+    "url": "https://perplexity.ai/health",
+    "tag": "Health AI",
+    "readTime": 5,
     "_tab": "tools-to-try"
   },
   {
-    "title": "Perplexity Personal Computer",
-    "summary": "Perplexity's new system lets your spare Mac run as a local AI agent handling research, automation, and tasks in the background. Basically turns any machine into your personal AI assistant without cloud dependency.",
-    "takeaway": "Your Mac becomes an autonomous local AI agent (waitlist live)",
+    "title": "Windsurf IDE",
+    "summary": "Arena Mode lets you compare models side-by-side while coding, Plan Mode adds smarter task planning, & parallel multi-agent sessions mean you can run 5 projects at once without context bleeding everywhere.",
+    "takeaway": "The agentic code editor that actually feels like working with an AI teammate",
     "source": "AI Tool",
-    "url": "https://www.perplexity.ai",
-    "tag": "agent",
+    "url": "https://codeium.com/windsurf",
+    "tag": "Coding Agent",
     "readTime": 3,
     "_tab": "tools-to-try"
   }

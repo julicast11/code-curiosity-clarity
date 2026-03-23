@@ -1,49 +1,49 @@
 {
-  "headline": "Healthcare PE heating up, AI is lowkey a dealmaker, and leveling up your analyst game",
+  "headline": "PE's in full momentum heading into spring 2026—here's what's actually moving the needle",
   "stories": [
     {
-      "title": "PE firms go all-in on healthcare quality plays",
-      "summary": "Healthcare PE is rebounding hard with a flight to quality into scalable niches like behavioral health, value-based care, and AI-enabled pharma services. Mega-funds returning to offense means way more competition for deals.",
-      "takeaway": "The best assets coming to market are cleaner earnings, stronger cash flows, and tech-enabled—that's what PE buyers actually care about in 2026.",
-      "source": "PwC",
-      "url": "https://www.pwc.com/us/en/industries/health-industries/library/health-services-deals-2026-outlook.html",
-      "tag": "Healthcare",
-      "readTime": 6,
+      "title": "AI Skills Are Now Table Stakes for PE Analysts",
+      "summary": "PE firms are shifting hiring away from traditional analyst roles toward candidates with data-centric and coding skills. 84% of PE funds expect AI to transform their business, and over half are already hunting for data scientists and digital transformation specialists.",
+      "takeaway": "If you're in consulting considering PE, start building technical chops NOW—coding, data analytics, even basic Python skills. The days of pure modeling being enough are lowkey over.",
+      "source": "The DRAWDºWN",
+      "url": "https://the-drawdown.com/article/new-skills-needed-to-navigate-pe-career",
+      "tag": "career",
+      "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "AI stops being a nice-to-have, becomes the whole deal",
-      "summary": "AI deployment in PE portfolio companies is shifting from short-term gains to infrastructure investments that actually move the needle on valuations. Acquirers now expect real productivity improvements, not just buzzwords.",
-      "takeaway": "If your portfolio company isn't embedding AI seriously into operations, you're leaving money on the table. Firms investing in real AI capability win 2026.",
-      "source": "FTI Consulting",
-      "url": "https://www.fticonsulting.com/insights/articles/four-predictions-private-equity-2026",
-      "tag": "PE/Tech",
+      "title": "Healthcare PE Deals Are About to Explode in 2026",
+      "summary": "After 2025's cautious pause, healthcare M&A is poised for a rebound driven by better-quality assets, improving market conditions, and mega-funds deploying dry powder. Behavioral health, ambulatory surgery centers, and tech-enabled care are the hot spots.",
+      "takeaway": "Healthcare's becoming PE's playground in 2026—especially if you can demonstrate AI integration and operational value creation. The IPO window is cracking open again fr.",
+      "source": "PwC",
+      "url": "https://www.fiercehealthcare.com/finance/key-trends-will-shape-healthcare-ma-activity-2026-pwc",
+      "tag": "healthcare",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Consulting 2026 is about execution, not just flexing frameworks",
-      "summary": "Consulting firms now want proof you can move ideas to action and handle real-world chaos—generic narratives get filtered out fast. Strong storytelling with visible direction and execution proof is fr the bar now.",
-      "takeaway": "Show a clear spike in an area you care about (healthcare, energy, ops, whatever) and concrete examples of delivering results despite messy constraints. That's what lands offers.",
-      "source": "PrepLounge",
-      "url": "https://www.preplounge.com/en/blog/consulting/career/changed-consulting-prep",
-      "tag": "Career",
-      "readTime": 7,
+      "title": "PE Deal Volume Expected to Keep Rising, but Only for Megafunds",
+      "summary": "2026 is shaping up to be selective—mega-funds are deploying record dry powder into fewer, larger deals, while mid-market PE faces tougher fundraising. The industry is now mature and demanding sharper operational value creation, not just leverage plays.",
+      "takeaway": "PE's recovering but it's a K-shaped game. Mega-funds eating well, mid-market grinding harder. Winners will be obsessed with operational excellence and actual EBITDA growth, not multiple expansion tricks.",
+      "source": "Bain & Company",
+      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
+      "tag": "industry",
+      "readTime": 6,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Tech's resilience in PE—why SaaS and AI platforms are still hot",
-      "why": "TMT sector leads IPO pipelines with strong domestic exposure. If healthcare was your story, PE tech plays show where the next wave of exits goes.",
-      "url": "https://www.ey.com/en_us/insights/private-equity/leading-through-change-2026-private-equity-trends",
-      "tag": "Sector"
+      "title": "Bain & Company's 2026 Global Private Equity Report",
+      "why": "Comprehensive breakdown of PE trends, exit strategies, and the shift toward operational value creation. Essential reading if you want to understand what deal leadership actually cares about rn.",
+      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
+      "tag": "industry"
     },
     {
-      "title": "The continuation vehicle playbook—how PE unlocks aging assets",
-      "why": "Aged holdings are becoming the biggest structural challenge. Understanding CVs and sponsor-to-sponsor sales is lowkey essential knowledge for mid-market PE work.",
-      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
-      "tag": "Strategy"
+      "title": "EY's PE Pulse: 2026 Hiring Trends & Specialist Demand",
+      "why": "Direct intel on what PE firms are hiring for—data scientists, digital transformation leads, AI specialists. Tells you exactly what skills to build if you're planning your next move.",
+      "url": "https://www.ey.com/en_us/insights/private-equity/leading-through-change-2026-private-equity-trends",
+      "tag": "career"
     }
   ]
 }

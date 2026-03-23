@@ -1,63 +1,63 @@
 {
-  "headline": "AI Goes From 'Talks' to 'Acts' — The Week Agentic Systems Got Real",
+  "headline": "AI goes agentic & IBM seals biggest deal in weeks—Claude hits 1M tokens, regulators vs. innovation, and enterprise adoption hits inflection point",
   "stories": [
     {
-      "title": "The Last Mile Problem: Why AI Pilots Aren't Becoming Reality",
-      "summary": "Companies are drowning in AI pilots but struggling to actually deploy them—the real challenge isn't model quality but changing how orgs fundamentally operate around AI. McKinsey and HBR research shows most are stuck translating tech into business workflows.",
-      "takeaway": "Execution is the differentiator in 2026—not having AI, but having the org structures and processes to actually use it at scale.",
-      "source": "Harvard Business Review",
-      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
-      "tag": "operations",
-      "industry": "Enterprise Software",
-      "readTime": 8,
-      "paywalled": true
-    },
-    {
-      "title": "Multimodal Agents Win the Customer Service Land Grab",
-      "summary": "Voice is the proving ground where agents go live or die—companies deploying voice agents in production are moving from dev-led tools to enterprise engineering, lowering latency and nailing handoffs.",
-      "takeaway": "Customer service is where agentic AI delivers real ROI first; companies that nail voice while extending to text/images/docs capture the market.",
-      "source": "CB Insights",
-      "url": "https://www.cbinsights.com/research/ai-agent-predictions-2026/",
-      "tag": "agents",
-      "industry": "Customer Service",
-      "readTime": 6,
+      "title": "IBM closes $11B Confluent acquisition, doubles down on data streaming for enterprise AI",
+      "summary": "IBM completed its acquisition of Confluent on March 17 for $31/share, bringing real-time data streaming to watsonx and enabling enterprises to feed live, governed data directly into AI models and agentic systems. This is tbh massive for hybrid cloud plays.",
+      "takeaway": "Enterprise AI moves from pilots to production when data actually flows at scale. Incumbents are getting serious about the fundamentals others skip.",
+      "source": "StockTitan",
+      "url": "https://www.stocktitan.net/news/IBM/",
+      "tag": "M&A",
+      "industry": "Enterprise Tech",
+      "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "AI Adoption Stalls Not From Tech But From Fear—Workers Need Psychological Safety",
-      "summary": "New research shows employees resist AI because it threatens their sense of competence, autonomy, and belonging—not because the tools don't work. Leaders need the AWARE framework to address emotional barriers alongside technical ones.",
-      "takeaway": "Treating AI as purely technical misses the human side; orgs that fail here will see widespread disengagement and covert resistance.",
-      "source": "Harvard Business Review",
-      "url": "https://hbr.org/2026/03/why-gen-ai-feels-so-threatening-to-workers",
-      "tag": "change-management",
-      "industry": "Organizational Change",
-      "readTime": 7,
-      "paywalled": true
+      "title": "Claude 4.6 hits 1M token context—paste entire business plans into one prompt",
+      "summary": "Anthropic quietly shipped Claude Opus 4.6 and Sonnet 4.6 supporting 1M token context (roughly 750k words) at standard pricing. Game changer for consultants, analysts, and anyone doing deep document analysis.",
+      "takeaway": "Context window is becoming the new moat. Being able to reference an entire codebase or financial dataset in a single prompt changes how people actually work with AI.",
+      "source": "SmartAI for Biz",
+      "url": "https://smartaiforbiz.com/ai-news/",
+      "tag": "Model Update",
+      "industry": "AI Infrastructure",
+      "readTime": 3,
+      "paywalled": false
     },
     {
-      "title": "Agentic Commerce Reshaping Retail—Brands Must Adapt or Disappear",
-      "summary": "AI agents are becoming the interface between consumers and products—discovery and evaluation are now AI-mediated before humans even click. Brands that don't prepare for AI agents choosing *for* customers will lose to those that do.",
-      "takeaway": "The battle for 2026 retail: ensure your brand wins when AI agents do the shopping, not just when humans do.",
-      "source": "Harvard Business Review",
-      "url": "https://hbr.org/2026/03/preparing-your-brand-for-agentic-ai",
-      "tag": "commerce",
-      "industry": "Retail",
-      "readTime": 6,
-      "paywalled": true
+      "title": "QuantumBlack hits production with agentic workflows—90%+ code accuracy, reshaping enterprise ops",
+      "summary": "McKinsey's AI arm is deploying agentic systems that handle complex end-to-end operations with 90%+ accuracy, from coding architecture to generating production-ready software. They're moving from experimentation to scalable agent factories.",
+      "takeaway": "Agentic AI moves from hype to measurable business impact. The firms shipping this stuff now will own entire workflow categories by year-end.",
+      "source": "🎙️ AI Magazine & Technology Magazine",
+      "url": "https://aimagazine.com/news/quantumblack-a-global-force-in-agentic-ai-transformation",
+      "tag": "Enterprise Adoption",
+      "industry": "Consulting & Services",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "McKinsey: adoption challenges aren't technical, they're human—orgs struggle to scale despite having tools",
+      "summary": "McKinsey QuantumBlack (March 11) calls out the real blocker: almost all orgs use AI, but most are stuck in early pilots because they refuse to redesign workflows. The gap between AI natives and legacy orgs is literally widening every quarter now.",
+      "takeaway": "You can have the best models ever. If your org structure and processes stay the same, you get 3% upside and expensive experimentation. Workflow redesign is the actual multiplier.",
+      "source": "McKinsey QuantumBlack",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/generative-ai",
+      "tag": "Strategy",
+      "industry": "Organizational Change",
+      "readTime": 4,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Lio Raises $30M From a16z to Automate Enterprise Procurement",
-      "why": "Procurement is the unlocked door for agentic AI in enterprise—AI agents handling vendor evaluation, contract mgmt, and compliance at scale. Watch this for the template of how agents go from concept to billion-dollar business.",
-      "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
-      "tag": "agents"
+      "title": "GPT-5 shipping in April with native multimodal reasoning (text, images, audio, video in one model)",
+      "why": "This is fr the inflection moment everyone's been waiting for. If OpenAI actually nails true multimodal reasoning at GPT-4 pricing, everything changes in content, creative, and knowledge work workflows.",
+      "url": "https://smartaiforbiz.com/ai-news/",
+      "tag": "Model Launch"
     },
     {
-      "title": "OpenAI Acquires OpenClaw—Horizontal Agents About to Go Mainstream",
-      "why": "OpenClaw went from solo dev side project to 68k GitHub stars to OpenAI acquisition in weeks. This signals the moment agents move from dev-only tooling to consumer-grade—lowkey the biggest narrative shift in AI this week.",
-      "url": "https://www.a16z.news/p/top-100-gen-ai-consumer-apps-march",
-      "tag": "agents"
+      "title": "US AI Accountability Act passes March 2026—now everyone deploying AI in hiring, lending, healthcare needs bias audits",
+      "why": "Lowkey the biggest regulation drop since the EU AI Act. This ends voluntary self-regulation and creates real compliance burden. Watch which companies get audit-ready first and which try to skirt it.",
+      "url": "https://www.insightfulpost.com/what-is-artificial-intelligence-news-2026/",
+      "tag": "Regulation"
     }
   ]
 }

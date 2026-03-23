@@ -1,46 +1,46 @@
 {
-  "headline": "AI release velocity hit fever pitch this week — GPT-5.4 shipped, Gemini 3 dropped, and the frontier's getting weird",
+  "headline": "Week of Mar 16-22: Claude's dominance, GPT updates, & Google's scientific AI push shaking up the industry fr",
   "stories": [
     {
-      "title": "OpenAI's GPT-5.4 & Thinking Mode: Basically the 'just get it done' model",
-      "summary": "OpenAI dropped GPT-5.4 Thinking on March 5, bringing 1M token context windows and native computer-use capabilities. Literally does spreadsheets, presentations, and multi-app workflows without hand-holding. Shut down GPT-5.1 models same week (March 11) and rolled out interactive learning for 70+ math/science topics.",
-      "takeaway": "Agentic workflows are lowkey here fr. The model plans its own thinking in real-time—you can adjust mid-response. This isn't just faster GPT-4, it's fundamentally different.",
-      "source": "OpenAI Blog",
-      "url": "https://academy.openai.com/public/resources/latest-model",
-      "tag": "model-release",
-      "company": "OpenAI",
+      "title": "Anthropic Drops Claude Channels - Discord & Telegram Integration for Code",
+      "summary": "Anthropic shipped Claude Code Channels on Mar 20, letting developers message Claude via Discord/Telegram for persistent, asynchronous coding work. Honestly a game-changer for remote dev workflows.",
+      "takeaway": "Lowkey killed OpenClaw overnight. No more need for dedicated hardware—just your phone & Claude running in the background.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels",
+      "tag": "agentic-ai",
+      "company": "Anthropic",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Google's Gemini 3: The 'actually multimodal' upgrade arrives",
-      "summary": "Google shipped Gemini 3 Pro (March 12) and Gemini 3.1 Flash-Lite (March 3) offering 2.5x faster response times at just $0.25/M input tokens. Flash-Lite hits 86.9% on GPQA Diamond (graduate-level reasoning). Introduces Deep Think reasoning mode for research and engineering challenges.",
-      "takeaway": "Tbh the pricing here is wild—frontier-level performance at basically commodity rates. Deep Think mode lets you dial reasoning depth per request instead of fixed models.",
-      "source": "Google DeepMind Blog",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
-      "tag": "model-release",
-      "company": "Google",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Anthropic's DOD Lawsuit & Partner Network: The million-dollar bet",
-      "summary": "Anthropic sued the Pentagon (March 9) over supply-chain risk designation after refusing to allow mass surveillance and autonomous weapons use. Simultaneously announced $100M Claude Partner Network for enterprise adoption, with certification programs and co-investment for integrators.",
-      "takeaway": "This is the ethics-vs-money moment everyone's been waiting for. Anthropic's drawing hard lines on use cases while betting $100M that enterprises will pick them anyway. 30+ OpenAI/Google employees publicly backed them in court.",
-      "source": "TechCrunch & NBC News",
-      "url": "https://www.nbcnews.com/tech/tech-news/anthropic-sues-trump-administration-ai-dispute-pentagon-rcna262444",
-      "tag": "business",
-      "company": "Anthropic",
+      "title": "OpenAI Rolls Out GPT-5.4 Mini & Interactive Learning in ChatGPT",
+      "summary": "OpenAI released GPT-5.4 mini on Mar 16 with cheaper reasoning fallback for paid users, plus 70+ interactive math/science modules. Speed & affordability flexing hard.",
+      "takeaway": "Reasoning is now accessible to free users via mini model. Plus interactive formulas let students actually experiment instead of just reading theory.",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-gpt-5-2/",
+      "tag": "reasoning-models",
+      "company": "OpenAI",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Meta Acquires Moltbook, Bets $135B on AI Infrastructure",
-      "summary": "Meta snapped up Moltbook (AI agent social network) for its Superintelligence Labs (March 10), bringing creators of agentic frameworks in-house. Simultaneously planning $135B capex in 2026—nearly double last year—to bankroll data centers, custom silicon, and GPU clusters for the AI arms race.",
-      "takeaway": "Meta's literally betting the farm on AI agents. Cutting 16k jobs (20% of workforce) to fund infrastructure. The metaverse is dead; AI automation is the new play.",
-      "source": "Axios & Meta Newsroom",
-      "url": "https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network",
-      "tag": "acquisition",
+      "title": "Google DeepMind Launches AI Co-Scientist & AlphaEvolve for National Labs",
+      "summary": "DeepMind expanded its accelerated access program on Mar 16 with AI co-scientist for biomedical research & AlphaEvolve for algorithm design. Already proving drug candidates & predicting resistance mechanisms.",
+      "takeaway": "AI is literally compressing years of research into weeks. This isn't hype—it's actually working in real labs right now.",
+      "source": "BNL Newsroom",
+      "url": "https://www.bnl.gov/newsroom/news.php?a=222774",
+      "tag": "scientific-ai",
+      "company": "Google DeepMind",
+      "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "Meta Prepping Mango & Avocado Models for H1 2026 Launch",
+      "summary": "Meta's internally developing Mango (multimodal image/video) & Avocado (better coding LLM) targeting first-half 2026 release via Meta Superintelligence Labs. Trying to catch up fr.",
+      "takeaway": "Meta knows it's behind & is betting big on world models & coding. If these land, could actually be competitive again. But that's still a big if.",
+      "source": "MLQ.ai",
+      "url": "https://mlq.ai/news/meta-readies-nextgeneration-mango-and-avocado-ai-models-for-2026-launch/",
+      "tag": "frontier-models",
       "company": "Meta",
       "readTime": 5,
       "paywalled": false
@@ -48,16 +48,16 @@
   ],
   "watchNext": [
     {
-      "title": "Anthropic Institute Launch: Societal Impact Research Arm",
-      "why": "Anthropic launched a new research institute (March 11) focused on how AI reshapes jobs, economy, and society. Jack Clark leading as Head of Public Benefit. Worth watching bc this signals the biggest AI labs are finally doing the 'what about jobs' work mainstream media's been asking.",
-      "url": "https://www.eweek.com/news/anthropic-institute-launch-march-2026/",
-      "tag": "research"
+      "title": "Codex Security: OpenAI's Cybersecurity Agent Now in Research Preview",
+      "why": "Scored 55.6% on SWE-Bench Pro (software engineering benchmarks). This is the first model that can actually find real vulnerabilities across entire codebases.",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+      "tag": "security-ai"
     },
     {
-      "title": "Princeton's OpenClaw-RL: Making AI Agents Learn from Real Interactions",
-      "why": "Researchers dropped a framework turning live chat/terminal/GUI signals into training data. Just a few dozen interactions = noticeable improvements. This solves the 'agents throw away feedback' problem and lowers the barrier for custom agents fr.",
-      "url": "https://the-decoder.com/",
-      "tag": "research"
+      "title": "Project Genie Now Live: Google's World Model You Can Actually Use",
+      "why": "Rolling out to AI Ultra subscribers—generate & explore interactive 3D worlds with text prompts. This is the \"world model\" everyone's been theorizing about, now in production.",
+      "url": "https://www.techbuzz.ai/articles/google-deepmind-unleashes-project-genie-to-ai-ultra-subscribers",
+      "tag": "world-models"
     }
   ]
 }
