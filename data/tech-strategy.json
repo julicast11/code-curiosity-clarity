@@ -1,71 +1,71 @@
 {
-  "headline": "Companies Moving From AI Pilots to Production Mode; Agentic AI Scaling Becomes Real Business Challenge",
+  "headline": "Companies Are Ditching Experiments & Going All-In on AI—But Most Still Can't Nail the Execution",
   "stories": [
     {
-      "title": "The Last Mile Problem: Why Most AI Transformations Aren't Scaling Yet",
-      "summary": "Harvard Business Review explores how companies are spinning hundreds of pilots but hitting a critical wall when trying to move AI from experimentation to actual business operations. The gap between proof-of-concept and real production deployment is where most initiatives stall.",
-      "takeaway": "Scaling AI ain't about better models—it's lowkey a people & process problem. Companies underestimate how hard it is to actually change how work happens vs just automating what already exists.",
-      "source": "Harvard Business Review",
-      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
-      "tag": "Transformation",
-      "company": "Enterprise-Wide",
+      "title": "JPMorgan Chase Reclassifies AI From R&D to 'Core Infrastructure' Spending",
+      "summary": "JPMorgan just made a massive strategic move, reframing its AI investments as foundational infrastructure rather than experimental projects. The bank's doubling down on internal productivity, cybersecurity hardening, and retail personalization.",
+      "takeaway": "This shift signals that AI is transitioning from 'nice-to-have' projects to the literal backbone of enterprise operations—and JPM isn't waiting around.",
+      "source": "McKinsey Digital",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "tag": "Infrastructure Investment",
+      "company": "JPMorgan Chase",
       "shift": "long-term",
-      "strategyTake": "Moving from pilots to production requires rethinking operations, not just adding AI tools on top of broken processes.",
-      "readTime": 6,
-      "paywalled": true
-    },
-    {
-      "title": "Microsoft's Copilot Monetization Shift: Building Recurring Revenue from AI Agents",
-      "summary": "Microsoft reached 15 million paid Copilot seats in Q2, with adoption tripling at enterprises using 35k+ seats. The company is pivoting from infrastructure play to selling AI software directly, leveraging its Office distribution.",
-      "takeaway": "Microsoft fr fr getting way smarter about making AI actually print money. They're embedding agents directly into tools people already use daily instead of asking teams to adopt new platforms.",
-      "source": "The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/03/16/prediction-this-artificial-intelligence-ai-stock-w/",
-      "tag": "Monetization",
-      "company": "Microsoft",
-      "shift": "short-term",
-      "strategyTake": "Distribution + embedded AI > standalone AI products. Microsoft's unfair advantage is they control the tools knowledge workers live in.",
+      "strategyTake": "Moving AI from experimental R&D to core operational capability signals permanent business model restructuring, not temporary optimization.",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Why AI Adoption Stalls: The Human Anxiety Factor Nobody Talks About",
-      "summary": "New research from HBR reveals companies report widespread AI usage but disappointing returns because employees' anxiety about relevance—not technical execution—kills adoption. The real barrier is cultural, not code.",
-      "takeaway": "Tbh, companies keep blaming tech when the real problem is people scared AI will make them irrelevant. Building trust matters way more than rolling out better models.",
-      "source": "Harvard Business Review",
-      "url": "https://hbr.org/2026/02/why-ai-adoption-stalls-according-to-industry-data",
-      "tag": "Adoption",
-      "company": "Enterprise-Wide",
+      "title": "Block Cuts 4,000 Jobs (40% of Workforce) Explicitly Blaming AI Automation",
+      "summary": "Block (Square/Cash App's parent) just pulled back the curtain and told the truth: they're replacing humans with AI systems at scale. This is the biggest single AI-driven layoff in corporate history, and CEO Jack Dorsey was brutally candid about it.",
+      "takeaway": "This marks a watershed moment—companies are finally admitting publicly that AI isn't just optimizing work, it's straight-up replacing roles. The displacement is happening faster than reskilling timelines.",
+      "source": "Financial Times",
+      "url": "https://tech-insider.org/tech-layoffs-2026-ai-workforce-impact/",
+      "tag": "Workforce Transformation",
+      "company": "Block Inc.",
       "shift": "long-term",
-      "strategyTake": "AI success requires addressing employee anxiety head-on through communication, reskilling, and clear career pathways—not just technical deployment.",
+      "strategyTake": "Companies are moving from 'AI augments workers' narrative to actively replacing human roles with autonomous systems—and being transparent about it.",
       "readTime": 7,
-      "paywalled": true
+      "paywalled": false
     },
     {
-      "title": "40% of Agentic AI Projects Will Get Canceled—Here's Why Banks Are at Risk",
-      "summary": "Gartner research shows over 40% of agentic AI initiatives will be canceled by 2027, with financial institutions being hit hardest. The culprit: hype-driven experimentation without real business value and severe talent gaps in AI governance & cloud-native skills.",
-      "takeaway": "Agentic AI lowkey looks cooler in slides than it works in practice. Banks especially are about to realize most of their million-dollar pilots solve nothing because they lack the governance framework to scale them safely.",
-      "source": "Strategio",
-      "url": "https://strategio.tech/the-2026-financial-tech-shift-how-financial-institutions-are-rebuilding-tech-capabilities-during-ai-modernizationn/",
-      "tag": "Risk",
-      "company": "Financial Services Industry",
+      "title": "OpenAI Plans to Nearly Double Workforce to 8,000 by End of 2026",
+      "summary": "While other tech companies are laying off, OpenAI is aggressively hiring—nearly doubling from 4,500 to 8,000 employees. They're betting big on scaling commercial products and enterprise solutions before the competition catches up.",
+      "takeaway": "OpenAI's expansion spree signals confidence in monetization pathways but also reveals the immense operational challenges of scaling frontier AI research and deployment simultaneously.",
+      "source": "Financial Times",
+      "url": "https://creati.ai/ai-news/2026-03-22/openai-double-workforce-8000-employees-end-2026/",
+      "tag": "Talent & Scaling",
+      "company": "OpenAI",
       "shift": "long-term",
-      "strategyTake": "Agentic AI investments without governance, risk frameworks, and reskilled teams become expensive failures. The winners will have built these foundational capabilities first.",
+      "strategyTake": "Aggressive headcount expansion reflects confidence in near-term revenue inflection points and long-term competitive positioning—but cultural integration at scale is a massive execution risk.",
+      "readTime": 6,
+      "paywalled": false
+    },
+    {
+      "title": "McKinsey: 88% of Orgs Use AI, But Only 6% Are Actually Winning (And Making Real Profit)",
+      "summary": "McKinsey's new data is lowkey brutal: nearly everyone's deploying AI, but most are still stuck in pilot hell. Only 6% of companies qualify as 'high performers' where AI drives 5%+ EBIT impact—the rest are seeing marginal efficiency gains at best.",
+      "takeaway": "The gap between AI adoption and actual value creation is widening. It's not a tech problem anymore—it's an org design & execution problem. Companies need to reimagine workflows, not just automate existing ones.",
+      "source": "McKinsey Digital",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "tag": "Transformation Strategy",
+      "company": "Multiple (McKinsey Study)",
+      "shift": "long-term",
+      "strategyTake": "The 'AI adoption' metric is becoming meaningless. Real competitive advantage goes to companies redesigning workflows end-to-end, not those automating broken processes.",
       "readTime": 8,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Strategy Tempo Must Change: How AI Is Forcing Companies to Ditch Annual Planning Cycles",
-      "why": "Nigel Vaz (Publicis Sapient CEO) on HBR breaks down why traditional annual strategy cycles are already dead in an AI-driven world. This is the strategic rethink most execs haven't grappled with yet.",
-      "url": "https://hbr.org/podcast/2026/03/strategy-summit-2026-why-ai-transformation-needs-a-human-touch",
-      "tag": "Strategy"
+      "title": "The 'Last Mile' Problem: Why Most AI Transformations Are Stalling Out",
+      "why": "Harvard Business Review just published an eye-opening breakdown of why companies with hundreds of pilots still can't scale—and it's not the models or the data. It's the gap between technical implementation and actual organizational change.",
+      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
+      "tag": "Execution Risk"
     },
     {
-      "title": "Why Chief Innovation Officers Are Now Non-Negotiable: The New Org Structure for AI Success",
-      "why": "MIT Sloan reveals why traditional CIOs + CTOs aren't enough anymore. Organizations need dedicated Chief Innovation & Transformation Officers to manage the human-org side of AI, not just the tech side.",
-      "url": "https://sloanreview.mit.edu/article/why-ai-demands-a-new-breed-of-leaders/",
-      "tag": "Leadership"
+      "title": "AI Doesn't Reduce Work—It Intensifies It",
+      "why": "New research from UC Berkeley shows the dirty secret nobody wants to admit: AI tools don't actually lighten workloads. They create more complexity, higher expectations, and burnout. Essential read if you care about the human side of AI adoption.",
+      "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+      "tag": "Culture & People"
     }
   ]
 }

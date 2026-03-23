@@ -1,64 +1,63 @@
 {
-  "headline": "Cursor's $2B Run & Claude Code's Massive March Update Reshaping the Agentic Summer",
+  "headline": "Claude Code Review Catches Production Bugs AI Built, GitHub Copilot Adds Claude & Codex Agents, Replit Agent 4 Drops Extended Thinking",
   "stories": [
     {
-      "title": "Cursor Hits $2B ARR: Cloud Agents Enter Era 3 of AI Coding",
-      "summary": "Cursor crossed $2B annual revenue milestone & launched cloud agents that run autonomously in sandboxes—literally flipping devs from writing code to managing agent factories. First-third of their PRs are now agent-generated.",
-      "takeaway": "Cursor's automations + cloud agents mark the shift from \"prompt & monitor\" to \"set it & forget it\"—devs are becoming engineering managers, not coders.",
-      "source": "Cursor Blog",
-      "url": "https://releasebot.io/updates/cursor",
-      "tag": "Cursor",
-      "type": "product-launch",
-      "readTime": 6,
-      "paywalled": false
-    },
-    {
-      "title": "Claude Code Gets Voice Mode, /loop Commands & 1M Token Context in March Blitz",
-      "summary": "Anthropic dropped voice mode, recurring task loops, 1M context window for Opus 4.6, MCP elicitation, and like 50+ micro-fixes—literally the most feature-packed month Claude Code has ever had.",
-      "takeaway": "Claude Code's March update makes it the first truly conversational + executable coding agent; the quota doubling is lowkey Anthropic testing how much users will abuse it.",
-      "source": "Anthropic News (Claude Code)",
-      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "title": "Anthropic Launches Claude Code Review for AI-Generated Code",
+      "summary": "Anthropic released Claude Code Review to catch bugs in AI-generated pull requests. Internally caught an authentication-breaking change that would've tanked production. Priced at $15-25 per review, research preview for Teams & Enterprise.",
+      "takeaway": "fr the real talk: AI's writing code faster than humans can review. Anthropic's betting that catching the disasters is more valuable than speed. Deep approach, not fast.",
+      "source": "WinBuzzer",
+      "url": "https://winbuzzer.com/2026/03/10/anthropic-claude-code-review-parallel-ai-agents-bugs-security-xcxwbn/",
       "tag": "Claude Code",
-      "type": "feature-update",
+      "type": "product-release",
       "readTime": 7,
       "paywalled": false
     },
     {
-      "title": "GitHub Copilot SDK Brings Agentic Execution Inside Your Apps",
-      "summary": "GitHub dropped a programmable SDK that lets devs embed the same Copilot execution layer directly into production apps—shifting from \"AI as text\" to \"AI as infrastructure\" that actually does stuff.",
-      "takeaway": "This is the play: instead of prompt→response, you define intent & constraints, agents plan/execute/iterate inside your product. The orchestration layer finally got commoditized.",
-      "source": "GitHub Blog (Copilot)",
-      "url": "https://github.blog/ai-and-ml/github-copilot/the-era-of-ai-as-text-is-over-execution-is-the-new-interface/",
+      "title": "Microsoft Adds Claude to Copilot Studio, M365, & GitHub Copilot",
+      "summary": "Microsoft shipped Wave 3 enabling enterprise users to pick Claude over GPT in Copilot Studio, M365, and GitHub Copilot. Copilot Cowork runs on Anthropic's agentic tech. Multi-model is now the default.",
+      "takeaway": "Lowkey the biggest power move: Microsoft basically said 'OpenAI alone isn't enough' and gave Claude a spotlight inside GitHub. That's not competition, that's market reality.",
+      "source": "BuildMVPFast",
+      "url": "https://www.buildmvpfast.com/blog/microsoft-copilot-claude-anthropic-multi-model-enterprise-2026",
       "tag": "Copilot",
-      "type": "platform-release",
-      "readTime": 5,
+      "type": "product-release",
+      "readTime": 9,
       "paywalled": false
     },
     {
-      "title": "Cursor ACP + JetBrains IDEs: Full-Stack Agents Now Live in Your IDE",
-      "summary": "Cursor went multi-IDE through the Agent Client Protocol—now you get Cursor's agentic workflow inside IntelliJ, PyCharm, WebStorm while keeping JetBrains' native code intelligence. 30+ new MCP plugins shipped same day.",
-      "takeaway": "The IDE wars are officially over; agents are portable now. Cursor's not trying to replace JetBrains—it's the agentic layer on top of everything.",
-      "source": "Cursor Blog",
-      "url": "https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/",
-      "tag": "Cursor",
-      "type": "integration-release",
-      "readTime": 4,
+      "title": "GitHub Copilot Now Solves 56% of SWE-Bench Tasks, Edging Cursor",
+      "summary": "Latest SWE-bench verified benchmarks (Mar 16) show Copilot at 56% vs Cursor's 52%. Copilot still slower though—Cursor completes tasks 30% faster. Copilot CLI also reached GA in Feb for terminal-first devs.",
+      "takeaway": "Copilot finally cracked the benchmark lead but speed matters more for daily work. It's not about who's 'best'—it's about which fits your workflow.",
+      "source": "Tech Insider",
+      "url": "https://tech-insider.org/github-copilot-vs-cursor-2026/",
+      "tag": "Copilot",
+      "type": "benchmark",
+      "readTime": 6,
+      "paywalled": false
+    },
+    {
+      "title": "Replit Agent 4 Ships Extended Thinking & Autonomous Testing",
+      "summary": "Replit Agent 4 brings extended thinking (like reasoning tokens) plus autonomous self-testing loops. Generates full-stack apps from natural language with built-in Stripe, auth, Supabase. ARR jumped from $10M to $100M in 9 months.",
+      "takeaway": "Replit went from 'side hustle tool' to enterprise capable. Agent 4's self-testing is lowkey genius—let the AI debug its own mistakes before you see them.",
+      "source": "Replit Discover",
+      "url": "https://replit.com/discover/v0-alternatives-best-option-you",
+      "tag": "Replit Agent",
+      "type": "product-release",
+      "readTime": 8,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Vibe Coding vs Vibe Engineering: The Terminology Debate Simon Willison Started",
-      "why": "Lowkey the philosophical underpinning of everything shipping this week—Willison's drawing a hard line between \"vibes only\" (irresponsible) and \"agentic engineering\" (intentional + tested). Matters for how you think about what these tools actually let you build.",
-      "url": "https://simonw.substack.com/p/vibe-engineering",
-      "tag": "vibe-coding"
+      "title": "Claude Opus 4 & Sonnet 4 Hit General Availability with 200K+ Context",
+      "why": "Anthropic just dropped next-gen models purpose-built for agentic workflows. Opus 4 is now 'world's best coding model' per their own words. This directly powers Claude Code.",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "tag": "Claude Code"
     },
     {
-      "title": "Replit Agent 3 vs Bolt vs v0: Full-Stack Vibe Coding Showdown",
-      "why": "The non-developer wave is real—Replit's agent hit 200+ minutes of autonomous building, Bolt's blazingly fast for prototypes, v0's still best for components. This week's benchmarks show who actually ships working stuff vs vibes.",
-      "url": "https://ai-agents-benchmark.com/",
-      "tag": "vibe-coding-platforms"
+      "title": "The 2026 AI Coding Tool Wars: Comparative Benchmarks & Real Usage Data",
+      "why": "Can't pick a tool based on hype anymore. Real devs are using 2-3 tools in combo: Claude Code for heavy lifting, Cursor for daily flow, Copilot for teams. Know which does what best.",
+      "url": "https://medium.com/@aftab001x/the-2026-ai-coding-platform-wars-replit-vs-windsurf-vs-bolt-new-f908b9f76325",
+      "tag": "Vibe Coding"
     }
-  ],
-  "_fromCache": true
+  ]
 }

@@ -1,63 +1,63 @@
 {
-  "headline": "Claude Opus gets wild context, new models drop left & right",
+  "headline": "AI coding just got agentic—Windsurf's Wave 13 dominates, Claude gets 1M context, and agents finally act like teammates",
   "picks": [
     {
-      "name": "Claude 4.6 Opus",
-      "tagline": "1M context window at standard pricing, finally",
-      "summary": "Anthropic's flagship now handles massive documents with full GA on 1M context + 128K output. Lowkey the context king rn with agentic capabilities that actually work.",
-      "tryIt": "https://claude.ai",
-      "url": "https://www.anthropic.com",
-      "tag": "LLM",
-      "vibe": "freemium",
-      "bestFor": "long-form analysis, research, complex reasoning",
-      "readTime": 3
-    },
-    {
       "name": "Windsurf",
-      "tagline": "The first agentic IDE that actually ships",
-      "summary": "Fr the most complete agentic dev experience. Arena Mode lets you compare models side-by-side, Plan Mode handles smarter task planning before code gen.",
-      "tryIt": "https://codeium.com/windsurf",
-      "url": "https://codeium.com/windsurf",
-      "tag": "Development",
+      "tagline": "AI-native IDE with Cascade agent for autonomous multi-file coding",
+      "summary": "Windsurf hit #1 this week with Wave 13 dropping sick autonomous agent abilities. Write, test, debug, deploy—all without manually approving every diff. It's like having a dev partner instead of an autocomplete.",
+      "tryIt": "Free tier with 25 credits/month, Pro at $15/month with 500 credits. Go risk-free.",
+      "url": "https://windsurf.dev",
+      "tag": "coding",
       "vibe": "freemium",
-      "bestFor": "developers wanting repo-wide context & multi-file refactors",
+      "bestFor": "Devs who want agentic workflows without leaving their IDE",
       "readTime": 4
     },
     {
-      "name": "Gemini 3.1 Pro",
-      "tagline": "$2/$12 pricing with best price-to-performance ratio",
-      "summary": "Google's new model doubles reasoning performance vs Gemini 3 Pro. Full video processing, 24-language voice, tiered thinking levels = massive value for cost-conscious teams.",
-      "tryIt": "https://gemini.google.com",
-      "url": "https://gemini.google.com",
-      "tag": "LLM",
+      "name": "Claude Sonnet 4.6",
+      "tagline": "1M context window, better computer use, power-user pricing at $3/$15",
+      "summary": "Anthropic finally shipped 1M token context in GA. It's lowkey insane for handling huge codebases without paying Opus rates. Computer use improvements mean Claude can actually drive UI tasks better now.",
+      "tryIt": "Free on claude.ai, paid users get the upgrades. Already live.",
+      "url": "https://claude.ai",
+      "tag": "model",
       "vibe": "freemium",
-      "bestFor": "multimodal tasks, voice work, cost-optimized inference",
+      "bestFor": "Builders who work with massive projects, coders needing long-context reasoning",
       "readTime": 3
     },
     {
-      "name": "Meta Vibes AI Editor",
-      "tagline": "Standalone creation studio for video & image gen",
-      "summary": "Quietly launched as a full editor now. Image & video generation, timeline editing, production tools—it's like Google Flow but tbh the output quality still needs work.",
-      "tryIt": "https://meta.ai",
-      "url": "https://meta.ai",
-      "tag": "Video/Image Gen",
+      "name": "Perplexity Personal Computer",
+      "tagline": "Your Mac becomes an autonomous local AI agent (waitlist live)",
+      "summary": "Perplexity's new system lets your spare Mac run as a local AI agent handling research, automation, and tasks in the background. Basically turns any machine into your personal AI assistant without cloud dependency.",
+      "tryIt": "Waitlist is open now. Get early access before it launches.",
+      "url": "https://www.perplexity.ai",
+      "tag": "agent",
       "vibe": "free",
-      "bestFor": "creators wanting to prototype visuals fast",
+      "bestFor": "Anyone wanting local AI agents that respect privacy",
+      "readTime": 3
+    },
+    {
+      "name": "Copilot Cowork",
+      "tagline": "Microsoft's agentic copilot that actually executes tasks across Outlook, Teams, Excel",
+      "summary": "Stop describing what you want and waiting—Cowork builds the plan AND executes it. Reschedule your Tuesday, pull a client deck from scattered emails, done. Claude powers the engine underneath.",
+      "tryIt": "Rolling out late March 2026. Keep an eye on your Microsoft 365 account.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/copilot",
+      "tag": "productivity",
+      "vibe": "paid",
+      "bestFor": "Teams drowning in context-switching between Outlook, Teams, and spreadsheets",
       "readTime": 3
     }
   ],
   "watchNext": [
     {
-      "title": "xAI Hires Cursor Leaders for Coding Push",
-      "why": "Musk's AI company is pulling top talent from the fastest-growing IDE. Signal that coding agent wars are heating up fr.",
-      "url": "https://theinformation.com",
-      "tag": "News"
+      "title": "Gemini 3.1 Pro enters coding models at #2 with best price-to-performance in frontier tier ($2/$12 pricing)",
+      "why": "77.1% on ARC-AGI-2 (more than doubles 3.0's reasoning), 24-language voice, full video processing. This is the quiet threat to Claude's dominance—same capability, cheaper execution.",
+      "url": "https://www.google.com/gemini",
+      "tag": "model"
     },
     {
-      "title": "Meta Layoffs & AI Cost Explosion",
-      "why": "Meta planning 20%+ cuts as AI infrastructure costs spiral. Reminder that even giants feel the compute crunch.",
-      "url": "https://www.theguardian.com",
-      "tag": "Industry"
+      "title": "Anthropic Claude add-ins now live in Excel/PowerPoint on Mac & Windows (paid plans only)",
+      "why": "fr this marks serious enterprise integration. Claude sitting inside Excel/PowerPoint means productivity workflows finally got a brain—not just prompt-pasting in a new tab.",
+      "url": "https://www.anthropic.com",
+      "tag": "integration"
     }
   ]
 }

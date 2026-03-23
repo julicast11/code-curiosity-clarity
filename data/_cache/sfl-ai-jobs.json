@@ -1,10 +1,10 @@
 {
-  "headline": "AI reshaping job market: Entry-level dev hiring down 20%, but South Florida tech scene heats up with new investment waves",
+  "headline": "AI's reshaping South Florida's job market — entry-level roles are taking a hit while skilled tech positions boom",
   "stories": [
     {
-      "title": "Stanford Data: Entry-Level Dev Jobs Down 20% Due to AI",
-      "summary": "Stanford economists revealed entry-level software developer hiring for workers aged 22-26 is down 20%, and call center roles dropped 15%—these are current numbers, not projections. Meanwhile, new AI-adjacent roles are actually growing, so adaptation is key.",
-      "takeaway": "AI isn't killing all jobs—it's reshaping them. Workers who use AI to level up their skills are seeing growth, fr.",
+      "title": "Stanford economists reveal AI job reality: Entry-level coding down 20%, call centers down 15%",
+      "summary": "Stanford's top economists just shared actual data (not projections) showing AI is already hitting specific sectors hard. Entry-level software dev jobs for workers 22-26 dropped 20%, and call center hiring fell 15%, but new AI-adjacent roles are growing.",
+      "takeaway": "If you're in an AI-exposed field, you gotta adapt or risk getting left behind. The winners are those actively using AI to learn new skills, not just automating old ones.",
       "source": "4 Corner Resources",
       "url": "https://www.4cornerresources.com/job-market-news/ai-job-market-impact-2026/",
       "tag": "AI Impact",
@@ -13,51 +13,51 @@
       "paywalled": false
     },
     {
-      "title": "Tech Giants Spending $650B on AI, South Florida Poised to Benefit Indirectly",
-      "summary": "Amazon, Google, and Meta are collectively dropping hundreds of billions on AI infrastructure. While most spending concentrates in existing tech hubs, South Florida could capture talent demand, construction gigs, and engineering services fallout.",
-      "takeaway": "South Florida's emerging tech corridor could lowkey ride the coattails of Big Tech's massive AI spending wave.",
-      "source": "Islander News",
-      "url": "https://www.islandernews.com/local/business/big-tech-s-650-billion-ai-spending-surge-could-ripple-into-south-florida/article_fda8789f-0d5a-4651-a2ad-8d1e42bb5d10.html",
+      "title": "Tech Hub Pulse: South Florida positioning for massive AI and space tech investment surge",
+      "summary": "Hundreds of founders and investors gathered in Broward to discuss South Florida's tech future. Experts predict 3-5 major IPOs in 60 months and a huge investment wave in space/defense tech, with quantum computing already landing in Boca Raton.",
+      "takeaway": "South Florida is lowkey becoming a real tech hub, not just a crypto meme city. If you're in tech here, infrastructure growth and talent demand could be massive opportunities.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
       "tag": "Regional Growth",
       "sector": "Technology",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "South Florida Tech Hub Pulse: Region Eyes 3-5 IPOs in Next 60 Months",
-      "summary": "At Tech Hub Pulse, leaders predicted a surge in space and defense tech investment. With Brickell becoming a financial hub and venture capital flooding in, South Florida could see 3-5 major IPOs over the next five years if infrastructure and talent recruitment keep pace.",
-      "takeaway": "South Florida is literally positioning itself to be the next big thing in AI and emerging tech—tbh, the ecosystem is ready.",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
-      "tag": "Ecosystem",
+      "title": "Tech giants flexing AI budgets: Amazon $200B, Google $185B, Meta $135B — South Florida could benefit indirectly",
+      "summary": "The big three tech companies are dumping hundreds of billions into AI infrastructure. While most spending stays near existing hubs, experts say South Florida could see ripple effects through demand for skilled labor, engineering, construction, and data services.",
+      "takeaway": "The AI gold rush is real and South Florida's emerging tech corridor could catch some overflow. Skilled workers in engineering and data science might see more opportunities.",
+      "source": "Islander News",
+      "url": "https://www.islandernews.com/local/business/big-tech-s-650-billion-ai-spending-surge-could-ripple-into-south-florida/article_fda8789f-0d5a-4651-a2ad-8d1e42bb5d10.html",
+      "tag": "Market Trends",
       "sector": "Technology",
-      "readTime": 6,
+      "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "AI Transitioning From Experimental to Mainstream in Florida Industries",
-      "summary": "Healthcare, tourism, and manufacturing leaders at Florida's Economic Outlook summit agree AI is shifting from experimental pet projects to core business strategy in 2026. Workforce adaptation and regulatory challenges are the biggest concerns.",
-      "takeaway": "AI adoption is getting real across Florida industries—companies gotta figure out workforce training ASAP.",
-      "source": "Business Observer",
+      "title": "Florida Chamber Foundation: AI transitioning from 'experiment' to 'essential business tool' in 2026",
+      "summary": "Healthcare, tourism, and manufacturing leaders all agreed that AI is fundamentally changing how work gets done across industries. Mayo Clinic expects AI to shift from experimental to operational in 2026, while manufacturers worry about workforce adaptation.",
+      "takeaway": "Tbh, every industry needs to figure out AI integration ASAP. The challenge isn't tech — it's training workers on how to actually use this stuff effectively.",
+      "source": "Business Observer Florida",
       "url": "https://www.businessobserverfl.com/news/2026/feb/02/the-year-of-ai-florida-industry-experts-talk-emerging-technology-during-annual-jobs-summit/",
-      "tag": "Industry Trends",
-      "sector": "Multiple",
-      "readTime": 5,
+      "tag": "Industry Outlook",
+      "sector": "Multiple Industries",
+      "readTime": 4,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "BLS Employment Projections: Software Dev Jobs Expected to Grow 17.9% Through 2033",
-      "why": "Despite entry-level hiring slowdowns, long-term projections show software developers are still in demand. Good news for career planners—just gotta survive the next few years.",
-      "url": "https://www.bls.gov/opub/ted/2025/ai-impacts-in-bls-employment-projections.htm",
-      "tag": "Career Planning"
+      "title": "Routine white-collar jobs down 13%, analytical roles up 20% — Harvard Business School research",
+      "why": "Shows the bigger picture of AI job displacement. If you're doing repetitive work, fr you're at risk. But creative and analytical roles are actually growing.",
+      "url": "https://hbr.org/2026/03/research-how-ai-is-changing-the-labor-market",
+      "tag": "Deep Dive"
     },
     {
-      "title": "Harvard Research: ChatGPT Killed 13% of Routine Jobs, Boosted Creative Roles 20%",
-      "why": "New study shows routine automation-prone roles collapsed 13%, but analytical and creative job openings jumped 20%—generative AI is literally reshaping what skills matter.",
-      "url": "https://hbr.org/2026/03/research-how-ai-is-changing-the-labor-market",
-      "tag": "Research"
+      "title": "450+ open IT and AI jobs in South Florida right now — salary data and requirements",
+      "why": "Lowkey solid resources to see what's actually hiring. Glassdoor, LinkedIn, and Indeed have hundreds of open positions in the region if you're job hunting.",
+      "url": "https://www.glassdoor.com/Job/south-florida-information-technology-jobs-SRCH_IL.0,13_IC1166206_KO14,36.htm",
+      "tag": "Job Hunt"
     }
   ]
 }

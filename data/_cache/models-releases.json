@@ -1,63 +1,63 @@
 {
-  "headline": "AI moved FAST this week: GPT-5.4 drops, Claude gets 1M context, Gemini 3.1 dominating benchmarks, Meta's MTIA chips coming, and lowkey everyone's in an arms race",
+  "headline": "AI release velocity hit fever pitch this week — GPT-5.4 shipped, Gemini 3 dropped, and the frontier's getting weird",
   "stories": [
     {
-      "title": "OpenAI GPT-5.4 Released with 1M Token Context & 33% Fewer Errors",
-      "summary": "GPT-5.4 just shipped with a massive 1-million-token context window and delivers 33% fewer factual errors vs GPT-5.2. API pricing is dirt cheap at $2.50/M input tokens.",
-      "takeaway": "This is lowkey the biggest move yet—frontier model performance at prices that won't break your budget. Perfect storm.",
+      "title": "OpenAI's GPT-5.4 & Thinking Mode: Basically the 'just get it done' model",
+      "summary": "OpenAI dropped GPT-5.4 Thinking on March 5, bringing 1M token context windows and native computer-use capabilities. Literally does spreadsheets, presentations, and multi-app workflows without hand-holding. Shut down GPT-5.1 models same week (March 11) and rolled out interactive learning for 70+ math/science topics.",
+      "takeaway": "Agentic workflows are lowkey here fr. The model plans its own thinking in real-time—you can adjust mid-response. This isn't just faster GPT-4, it's fundamentally different.",
       "source": "OpenAI Blog",
-      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
-      "tag": "LLM Release",
+      "url": "https://academy.openai.com/public/resources/latest-model",
+      "tag": "model-release",
       "company": "OpenAI",
-      "readTime": 6,
-      "paywalled": false
-    },
-    {
-      "title": "Claude Opus 4.6 Unlocks 1M Context for All Tiers, Ups the Game",
-      "summary": "Anthropic pushed out Claude Opus 4.6 on Feb 5 with 1M token context on Max/Team/Enterprise, plus partner program committing $100M for ecosystem support. Multi-agent 'Dev Team' mode coming soon.",
-      "takeaway": "Tbh Anthropic's playing the long game—betting on partners + massive context = winning enterprise over.",
-      "source": "Anthropic Official",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "tag": "LLM Release",
-      "company": "Anthropic",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Google Gemini 3.1 Drops, Dominates 13 of 16 Major Benchmarks",
-      "summary": "Gemini 3.1 Pro arrived with 1M-token context window, crushing benchmarks on multimodal reasoning. Flash-Lite variant also dropped at just $0.25/M input tokens for cost-conscious builders.",
-      "takeaway": "Literally Google's saying 'we built the best, and it's cheaper than everything.' Frontier performance hitting commodity pricing.",
+      "title": "Google's Gemini 3: The 'actually multimodal' upgrade arrives",
+      "summary": "Google shipped Gemini 3 Pro (March 12) and Gemini 3.1 Flash-Lite (March 3) offering 2.5x faster response times at just $0.25/M input tokens. Flash-Lite hits 86.9% on GPQA Diamond (graduate-level reasoning). Introduces Deep Think reasoning mode for research and engineering challenges.",
+      "takeaway": "Tbh the pricing here is wild—frontier-level performance at basically commodity rates. Deep Think mode lets you dial reasoning depth per request instead of fixed models.",
       "source": "Google DeepMind Blog",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
-      "tag": "LLM Release",
+      "tag": "model-release",
       "company": "Google",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "Meta MTIA Chip Strategy: 4 New Generations by End of 2027",
-      "summary": "Meta announced MTIA 300, 400, 450, 500 chips rolling out through 2027 to cut AI costs & reduce Nvidia reliance. Part of the massive AI infrastructure pivot away from metaverse.",
-      "takeaway": "Meta's betting billions on custom silicon to power agentic AI at scale. This is the infrastructure arms race heating up.",
-      "source": "Meta Newsroom",
-      "url": "https://about.fb.com/news/",
-      "tag": "Hardware",
+      "title": "Anthropic's DOD Lawsuit & Partner Network: The million-dollar bet",
+      "summary": "Anthropic sued the Pentagon (March 9) over supply-chain risk designation after refusing to allow mass surveillance and autonomous weapons use. Simultaneously announced $100M Claude Partner Network for enterprise adoption, with certification programs and co-investment for integrators.",
+      "takeaway": "This is the ethics-vs-money moment everyone's been waiting for. Anthropic's drawing hard lines on use cases while betting $100M that enterprises will pick them anyway. 30+ OpenAI/Google employees publicly backed them in court.",
+      "source": "TechCrunch & NBC News",
+      "url": "https://www.nbcnews.com/tech/tech-news/anthropic-sues-trump-administration-ai-dispute-pentagon-rcna262444",
+      "tag": "business",
+      "company": "Anthropic",
+      "readTime": 6,
+      "paywalled": false
+    },
+    {
+      "title": "Meta Acquires Moltbook, Bets $135B on AI Infrastructure",
+      "summary": "Meta snapped up Moltbook (AI agent social network) for its Superintelligence Labs (March 10), bringing creators of agentic frameworks in-house. Simultaneously planning $135B capex in 2026—nearly double last year—to bankroll data centers, custom silicon, and GPU clusters for the AI arms race.",
+      "takeaway": "Meta's literally betting the farm on AI agents. Cutting 16k jobs (20% of workforce) to fund infrastructure. The metaverse is dead; AI automation is the new play.",
+      "source": "Axios & Meta Newsroom",
+      "url": "https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network",
+      "tag": "acquisition",
       "company": "Meta",
-      "readTime": 3,
+      "readTime": 5,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "OpenAI Raises $110B, Hits $730B Valuation—IPO Coming 2026?",
-      "why": "Insane funding round signals AI war is real. Watch for public markets reaction to frontier model pricing power.",
-      "url": "https://theaitrack.com/ai-news-march-2026-in-depth-and-concise/",
-      "tag": "Funding"
+      "title": "Anthropic Institute Launch: Societal Impact Research Arm",
+      "why": "Anthropic launched a new research institute (March 11) focused on how AI reshapes jobs, economy, and society. Jack Clark leading as Head of Public Benefit. Worth watching bc this signals the biggest AI labs are finally doing the 'what about jobs' work mainstream media's been asking.",
+      "url": "https://www.eweek.com/news/anthropic-institute-launch-march-2026/",
+      "tag": "research"
     },
     {
-      "title": "Papers with Code Shutdown (2025) Leaves Benchmark Infrastructure Gap",
-      "why": "Meta killed Papers with Code last year; now Hugging Face is filling the void but missing SOTA leaderboards. Critical for staying updated on actual model performance.",
-      "url": "https://www.codesota.com/papers-with-code",
-      "tag": "Research"
+      "title": "Princeton's OpenClaw-RL: Making AI Agents Learn from Real Interactions",
+      "why": "Researchers dropped a framework turning live chat/terminal/GUI signals into training data. Just a few dozen interactions = noticeable improvements. This solves the 'agents throw away feedback' problem and lowers the barrier for custom agents fr.",
+      "url": "https://the-decoder.com/",
+      "tag": "research"
     }
   ]
 }

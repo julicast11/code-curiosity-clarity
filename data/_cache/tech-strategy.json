@@ -1,67 +1,71 @@
 {
-  "headline": "The AI Reckoning Begins: Companies Face the 'Last Mile' Problem as Scaling Shifts from Hype to Hard Work",
+  "headline": "Companies Moving From AI Pilots to Production Mode; Agentic AI Scaling Becomes Real Business Challenge",
   "stories": [
     {
-      "title": "The 'Last Mile' Problem Is Slowing AI Transformation",
-      "summary": "Most companies have pilots and tools access but literally can't move beyond that—the real obstacle isn't tech quality but actually changing how work gets done.",
-      "takeaway": "Companies are hitting a wall: pilots everywhere but real business value requires redesigning entire workflows, not just plugging AI into old processes.",
+      "title": "The Last Mile Problem: Why Most AI Transformations Aren't Scaling Yet",
+      "summary": "Harvard Business Review explores how companies are spinning hundreds of pilots but hitting a critical wall when trying to move AI from experimentation to actual business operations. The gap between proof-of-concept and real production deployment is where most initiatives stall.",
+      "takeaway": "Scaling AI ain't about better models—it's lowkey a people & process problem. Companies underestimate how hard it is to actually change how work happens vs just automating what already exists.",
       "source": "Harvard Business Review",
       "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
       "tag": "Transformation",
-      "company": "Enterprise organizations",
+      "company": "Enterprise-Wide",
       "shift": "long-term",
-      "strategyTake": "Workflow redesign beats tool buying. The 80/20 rule matters: only 20% is technology, other 80% is people & process rethinking.",
+      "strategyTake": "Moving from pilots to production requires rethinking operations, not just adding AI tools on top of broken processes.",
+      "readTime": 6,
       "paywalled": true
     },
     {
-      "title": "AI M&A Enters Industrial Phase as Companies Hunt for Data & Computing Assets",
-      "summary": "Hyperscalers are consolidating chip design, data centers, and AI talent through strategic M&A, echoing early internet era playbooks.",
-      "takeaway": "This isn't just competition—it's companies building full-stack ecosystems. The winners will be those with control over data, models, AND computing efficiency.",
-      "source": "McKinsey Digital",
-      "url": "https://www.mckinsey.com/capabilities/m-and-a/our-insights/technology-m-and-a-ai-enters-its-industrial-phase",
-      "tag": "M&A",
-      "company": "Tech giants & hyperscalers",
-      "shift": "long-term",
-      "strategyTake": "Strategic M&A is the new playbook—focus on infrastructure readiness & differentiated computing efficiency, not flashy AI startups.",
+      "title": "Microsoft's Copilot Monetization Shift: Building Recurring Revenue from AI Agents",
+      "summary": "Microsoft reached 15 million paid Copilot seats in Q2, with adoption tripling at enterprises using 35k+ seats. The company is pivoting from infrastructure play to selling AI software directly, leveraging its Office distribution.",
+      "takeaway": "Microsoft fr fr getting way smarter about making AI actually print money. They're embedding agents directly into tools people already use daily instead of asking teams to adopt new platforms.",
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/16/prediction-this-artificial-intelligence-ai-stock-w/",
+      "tag": "Monetization",
+      "company": "Microsoft",
+      "shift": "short-term",
+      "strategyTake": "Distribution + embedded AI > standalone AI products. Microsoft's unfair advantage is they control the tools knowledge workers live in.",
+      "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "How AI Is Reshaping White-Collar Work (and It's Not What You Think)",
-      "summary": "New research shows AI isn't cutting jobs uniformly but fundamentally recalibrating skill needs—only the work is changing, not necessarily the headcount.",
-      "takeaway": "Employees worked faster, took on broader tasks, and extended work hours—AI intensified work rather than reducing it, flipping the automation narrative.",
+      "title": "Why AI Adoption Stalls: The Human Anxiety Factor Nobody Talks About",
+      "summary": "New research from HBR reveals companies report widespread AI usage but disappointing returns because employees' anxiety about relevance—not technical execution—kills adoption. The real barrier is cultural, not code.",
+      "takeaway": "Tbh, companies keep blaming tech when the real problem is people scared AI will make them irrelevant. Building trust matters way more than rolling out better models.",
       "source": "Harvard Business Review",
-      "url": "https://hbr.org/2026/03/research-how-ai-is-changing-the-labor-market",
-      "tag": "Workforce",
-      "company": "Knowledge workers across sectors",
+      "url": "https://hbr.org/2026/02/why-ai-adoption-stalls-according-to-industry-data",
+      "tag": "Adoption",
+      "company": "Enterprise-Wide",
       "shift": "long-term",
-      "strategyTake": "The real shift: people who orchestrate AI agents, verify high-stakes outputs, and set strategic goals will define the new white-collar tier.",
+      "strategyTake": "AI success requires addressing employee anxiety head-on through communication, reskilling, and clear career pathways—not just technical deployment.",
+      "readTime": 7,
       "paywalled": true
     },
     {
-      "title": "Agents Aren't Ready for Prime Time (Yet), But Leaders Need to Prep Anyway",
-      "summary": "MIT Sloan's latest findings show agentic AI still has hallucinations and security issues, but companies should start building infrastructure now for 5-year deployment window.",
-      "takeaway": "Lowkey: agents are hyped but not ready. Smart move is treating 2026 as the 'level-set' year—maximize current AI while building for the agent future.",
-      "source": "MIT Sloan Management Review",
-      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/action-items-ai-decision-makers-2026",
-      "tag": "Technology",
-      "company": "Enterprise decision-makers",
+      "title": "40% of Agentic AI Projects Will Get Canceled—Here's Why Banks Are at Risk",
+      "summary": "Gartner research shows over 40% of agentic AI initiatives will be canceled by 2027, with financial institutions being hit hardest. The culprit: hype-driven experimentation without real business value and severe talent gaps in AI governance & cloud-native skills.",
+      "takeaway": "Agentic AI lowkey looks cooler in slides than it works in practice. Banks especially are about to realize most of their million-dollar pilots solve nothing because they lack the governance framework to scale them safely.",
+      "source": "Strategio",
+      "url": "https://strategio.tech/the-2026-financial-tech-shift-how-financial-institutions-are-rebuilding-tech-capabilities-during-ai-modernizationn/",
+      "tag": "Risk",
+      "company": "Financial Services Industry",
       "shift": "long-term",
-      "strategyTake": "Don't oversell agentic AI internally. Focus on workflow redesign & enterprise-scale use cases first, then layer in agents when maturity hits.",
+      "strategyTake": "Agentic AI investments without governance, risk frameworks, and reskilled teams become expensive failures. The winners will have built these foundational capabilities first.",
+      "readTime": 8,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Why AI Adoption Stalls According to Industry Data",
-      "why": "Pulls back the curtain on the real reason pilots never scale—it's not tech, it's employee anxiety about relevance & org readiness",
-      "url": "https://hbr.org/2026/02/why-ai-adoption-stalls-according-to-industry-data",
-      "tag": "Change Management"
+      "title": "Strategy Tempo Must Change: How AI Is Forcing Companies to Ditch Annual Planning Cycles",
+      "why": "Nigel Vaz (Publicis Sapient CEO) on HBR breaks down why traditional annual strategy cycles are already dead in an AI-driven world. This is the strategic rethink most execs haven't grappled with yet.",
+      "url": "https://hbr.org/podcast/2026/03/strategy-summit-2026-why-ai-transformation-needs-a-human-touch",
+      "tag": "Strategy"
     },
     {
-      "title": "Supply Chain Planning 2026: Why AI Alone Isn't Enough",
-      "why": "BCG breaks down how leaders actually separate from laggards—it's not better models, it's how humans apply capabilities & evaluate tradeoffs",
-      "url": "https://www.bcg.com/publications/2026/supply-chain-planning-why-ai-alone-isnt-enough",
-      "tag": "Operations"
+      "title": "Why Chief Innovation Officers Are Now Non-Negotiable: The New Org Structure for AI Success",
+      "why": "MIT Sloan reveals why traditional CIOs + CTOs aren't enough anymore. Organizations need dedicated Chief Innovation & Transformation Officers to manage the human-org side of AI, not just the tech side.",
+      "url": "https://sloanreview.mit.edu/article/why-ai-demands-a-new-breed-of-leaders/",
+      "tag": "Leadership"
     }
   ]
 }

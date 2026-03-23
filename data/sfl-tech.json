@@ -1,63 +1,63 @@
 {
-  "headline": "South Florida's tech scene is heating up with quantum investments, women in innovation moments & eVTOL launches taking flight—lowkey it's the best week to be tracking Miami startups fr",
+  "headline": "South Florida Tech Week: MDC's AI Hub Opens, Dark Watch Raises $3.5M, EducUp Hits Profitability",
   "stories": [
     {
-      "title": "Florida Gets Its First Quantum Computing Investment & Tech Hub Expansion",
-      "summary": "Palm Beach State College nabbed $4.9M from the state for quantum tech workforce development—it's fr the biggest single funding grab showing how serious Florida is about leading the next computing revolution. Meanwhile, Israel Tech Week Miami is accepting applications through March 15 for startups to pitch globally.",
-      "takeaway": "Quantum infrastructure + talent pipeline = Florida's playing for keeps in next-gen computing",
+      "title": "MDC Opens 7,000 Sq Ft AI Innovation Hub in Miami",
+      "summary": "Miami Dade College unveiled its third AI Innovation Hub at Kendall Campus with specialized labs for cognitive apps, robotics, cybersecurity & metaverse tech. The college has already trained 4,000+ students in AI through partnerships w/ Intel, Google, Microsoft & IBM.",
+      "takeaway": "Miami's getting serious abt AI workforce development—MDC's expanding from one hub to a whole ecosystem w/ real industry partnerships built in. Lowkey positioning South Florida as an AI talent pipeline.",
       "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-a-local-college-wins-5m-in-quantum-funding-plus-news-from-elektron-energy-endeavor-miami-trubar-avenue-z-exowatt-emerge-new-world-angels-tech-jobs-amp/",
-      "tag": "quantum computing",
-      "sector": "deeptech",
+      "url": "https://refreshmiami.com/news/mdc-opens-ai-innovation-hub-on-its-kendall-campus-for-hands-on-learning-and-collaboration/",
+      "tag": "AI Education",
+      "sector": "EdTech",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "South Florida Tech Hub Women in Innovation Panel Drops Major Leadership Insights",
-      "summary": "Highkey inspiring conversation happened March 5 at South Florida Tech Hub Pulse 2026 where women leaders shared how they built orgs, earned influence & scaled teams. Meggie Soliman moderated discussions on navigating risk & strategic partnerships.",
-      "takeaway": "Women are literally reshaping the South Florida innovation landscape & sharing the playbook",
-      "source": "DSS/South Florida Tech Hub",
-      "url": "https://www.dssinc.com/fedhealth-forward/meggie-soliman-moderated-women-in-innovation-panel-at-south-florida-tech-hub-pulse-2026",
-      "tag": "women in tech",
-      "sector": "ecosystem",
-      "readTime": 3,
-      "paywalled": false
-    },
-    {
-      "title": "Miami's eVTOL Revolution Gets Federal Green Light—Air Taxis Are Real Now",
-      "summary": "Florida's in the White House's eVTOL Integration Pilot Program with Archer Aviation + Wisk Aero both locking in Miami for electric air taxi service. We're talking infrastructure at Hard Rock Stadium & Magic City Innovation District—this isn't sci-fi anymore.",
-      "takeaway": "South Florida's positioning itself as the capital of urban air mobility, like tomorrow's infrastructure is launching today",
+      "title": "Dark Watch Closes Oversubscribed $3.5M Seed Round for Hospitality Security",
+      "summary": "Stuart-based startup Dark Watch secured $3.5M to scale its AI-powered threat intelligence platform that detects high-risk individuals before hotel check-in. Round led by Eagle Venture Fund w/ Blu Ventures & His Kingdom Resources in tow.",
+      "takeaway": "Fr, this is lowkey genius—embedding real-time threat detection into existing booking/payment systems instead of adding new layers. Hotels get safety without disrupting guest experience.",
       "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/florida-approaches-the-launch-pad-for-piloting-evtol-innovation/",
-      "tag": "aviation tech",
-      "sector": "mobility",
+      "url": "https://refreshmiami.com/news/8-things-to-know-in-miamitech-dark-watch-raises-3-5m-plus-news-from-propy-flow-powerus-glade-brook-capital-partners-first-in-job-opportunities-more/",
+      "tag": "Hospitality Tech",
+      "sector": "Cybersecurity",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "MDC Launches $1M Startup Internship Program to Plug Miami's Talent Gap",
-      "summary": "Miami Dade College + Blackstone LaunchPad just kicked off paid internships at local startups with $1M backing—students get real experience + professional development workshops before they even graduate. Lowkey genius way to build workforce pipeline.",
-      "takeaway": "Miami's finally connecting students directly to startup jobs while building next generation of founders",
-      "source": "MDC News",
-      "url": "https://news.mdc.edu/mdc-launches-miami-startup-ecosystem-internship-program-with-1-million-in-funding-to-expand-career-readiness-for-students/",
-      "tag": "workforce development",
-      "sector": "education",
-      "readTime": 3,
+      "title": "EducUp Hits Profitability, Scales Licensing Education to 30+ States",
+      "summary": "Miami edtech company EducUp crossed profitability while expanding professional licensing education from Florida across Texas, California & beyond. Now serves thousands of insurance agents, adjusters & service reps through required continuing ed programs.",
+      "takeaway": "Tbh, there's fr money in boring stuff—boring regulated industry, boring licensing reqs, but EducUp found a path to profitable growth by solving a real compliance pain point for professionals.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/educup-crosses-into-profitability-as-it-scales-licensing-education-across-the-u-s/",
+      "tag": "Professional Development",
+      "sector": "EdTech",
+      "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "Sivotec Uses Genetics + AI to Diagnose Rare Diseases in Seconds",
+      "summary": "Boca Raton startup Sivotec is cutting rare disease diagnosis time from days to 10 seconds by combining genetic databases w/ AI. Has run 162k+ tests across 40 countries & works w/ Johns Hopkins & NIH databases to keep improving accuracy.",
+      "takeaway": "This is literally transforming pediatric diagnostics—machine learning gets smarter w/ every case. Sivotec's already sitting on data from 11k autism cases to find patterns no one's noticed before.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/boca-startup-sivotec-combines-genetics-and-ai-to-help-clinicians-diagnose-diseases/",
+      "tag": "Healthcare AI",
+      "sector": "Biotech",
+      "readTime": 5,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "NationGraph Expands Miami Presence with $18M Series A in Gov Tech",
-      "why": "Canadian AI startup securing government procurement contracts just added Miami to their SF & Toronto offices—shows capital flowing to South Florida for serious B2B tech plays",
-      "url": "https://techstartups.com/2026/03/03/top-startup-and-tech-funding-news-march-3-2025/",
-      "tag": "govtech funding"
+      "title": "How Miami Became a Launchpad for Cross-Border Payment Startups",
+      "why": "Miami's geographic advantage + Latin America proximity = fintech gold. Perfect setup for founders rethinking how payments move across borders. Could be the next wave of unicorns.",
+      "url": "https://refreshmiami.com/news/how-miami-became-a-launchpad-for-cross-border-payments-startups/",
+      "tag": "Fintech"
     },
     {
-      "title": "USF Engineering Wins Semiconductor Workforce Award—Florida's Chip Strategy Heating Up",
-      "why": "Major recognition fr Florida Semiconductor Institute for USF's microelectronics training program signals state's doubling down on semiconductor talent pipeline & research—directly impacts South Florida's deeptech ecosystem",
-      "url": "https://www.usf.edu/engineering/news/2026/florida-semiconductor-institute-recognizes-usf-engineering.aspx",
-      "tag": "semiconductors"
+      "title": "Propy Acquires Boss Law Title Division for Multi-Million Dollar Deal",
+      "why": "Miami real estate AI platform just acquired a title company—vertical integration fr. Shows how AI isn't just disrupting—it's consolidating whole supply chains. Worth watching how this scales.",
+      "url": "https://refreshmiami.com/news/8-things-to-know-in-miamitech-dark-watch-raises-3-5m-plus-news-from-propy-flow-powerus-glade-brook-capital-partners-first-in-job-opportunities-more/",
+      "tag": "PropTech"
     }
   ]
 }
