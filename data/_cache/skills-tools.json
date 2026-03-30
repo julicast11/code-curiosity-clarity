@@ -1,52 +1,52 @@
 {
-  "headline": "Master Prompt Engineering, Flash Fill Data Like a Pro, and Use Wrike to Run Consulting Projects",
+  "headline": "Strategic Thinking is Lowkey the Most Important Consulting Skill Right Now—Here's What You Need to Know",
   "stories": [
     {
-      "title": "Prompt Engineering Remains the Most In-Demand AI Skill in 2026",
-      "summary": "Prompt engineering—the ability to craft precise instructions for AI systems—is lowkey becoming essential across all industries. Companies are hiring specialists because literally everyone's using AI now, and quality matters.",
-      "takeaway": "Anyone can learn it without coding; it's all about asking the right questions and giving AI clear context to work with.",
-      "source": "Woke Waves Magazine",
-      "url": "https://www.wokewaves.com/posts/what-is-prompt-engineering",
+      "title": "Master Strategic Thinking to Actually Move the Needle in Consulting",
+      "summary": "Strategic thinking—the ability to see big picture problems, anticipate challenges, and develop long-term solutions—is dominating 2026 as the must-have consulting skill. Organizations that invest in developing this competency see measurable improvements in execution, innovation, and resilience, especially with AI disruption happening everywhere.",
+      "takeaway": "Stop focusing on just executing tasks; learn to frame problems strategically and understand how different business functions connect. Practice MECE thinking and scenario planning to separate yourself from other consultants.",
+      "source": "Six Paths Consulting",
+      "url": "https://www.sixpathsconsulting.com/strategic-thinking-training/",
       "tag": "skill",
-      "skill": "Prompt Engineering",
+      "skill": "Strategic Thinking",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Flash Fill: Excel's Hidden Gem That Saves Hours on Data Cleanup",
-      "summary": "Flash Fill is lowkey magic—give Excel two examples of what you want, hit Ctrl+E, and it automatically fills your entire column based on the pattern. No formulas needed, just pure AI-powered automation.",
-      "takeaway": "Perfect for splitting names, formatting phone numbers, extracting emails, or converting dates without writing a single formula.",
-      "source": "Journal of Accountancy",
-      "url": "https://www.journalofaccountancy.com/newsletters/extra-credit/microsoft-excel-flash-fill/",
-      "tag": "Excel tip",
-      "skill": "Excel Data Entry Automation",
+      "title": "Excel's New Formula Completion Feature Literally Writes Your Formulas for You",
+      "summary": "Powered by AI, Excel's new formula completion feature now suggests and autocompletes formulas as soon as you type '=', analyzing your sheet's context to propose accurate formulas. It's rolling out to Microsoft 365 users and lowkey saves hours on syntax errors and common tasks like lookups and counts.",
+      "takeaway": "Type '=' and let Copilot do the heavy lifting—especially powerful when your data has clear headers and labels. Press Tab or Enter to accept suggestions, but always review the formula before finalizing because AI suggestions aren't infallible.",
+      "source": "Microsoft Community Hub",
+      "url": "https://techcommunity.microsoft.com/blog/excelblog/introducing-formula-completion---a-new-way-to-write-formulas-in-excel-using-copi/4452196",
+      "tag": "excel_data",
+      "skill": "Excel Data Analysis",
       "readTime": 5,
-      "paywalled": false
+      "paywalled": true
     },
     {
-      "title": "Wrike: Enterprise-Grade Project Management That Consultants Actually Love",
-      "summary": "Wrike's the go-to for management consultants managing multiple clients and complex projects. It's got customizable workflows, time tracking, real-time dashboards, and honestly, way more integrations than you'd think (400+).",
-      "takeaway": "Tbh it has a learning curve, but once you're set up, it brings total visibility across your entire portfolio and keeps everyone aligned.",
-      "source": "The Digital Project Manager",
-      "url": "https://thedigitalprojectmanager.com/tools/best-project-management-software-for-consultants/",
+      "title": "EY Just Dropped EY.ai PDLC—An AI-Native Software Delivery Platform That's Actually Game-Changing",
+      "summary": "EY unveiled EY.ai PDLC, a new AI-native approach to software delivery that compresses months-long development roadmaps into days. Powered by 8090's Software Factory, it automates manual coding tasks so consultants can focus on strategy—and EY's deploying it to tens of thousands of consultants right now.",
+      "takeaway": "The future of consulting isn't about writing code anymore; it's about leveraging AI tools that handle the heavy lifting so you can focus on high-level strategy and business impact. Start thinking about how your firm can integrate similar AI-native platforms into your workflow.",
+      "source": "EY Newsroom",
+      "url": "https://www.ey.com/en_us/newsroom/2026/03/ernst-young-llp-and-8090-launch-ey-ai-pdlc",
       "tag": "tool",
-      "skill": "Project Management & Resource Planning",
-      "readTime": 8,
+      "skill": "AI Adoption & Implementation",
+      "readTime": 4,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Why Prompt Engineering Might Not Be Your Most Valuable AI Skill Anymore",
-      "why": "As AI evolves, leadership and judgment skills are becoming way more critical than just writing prompts—worth thinking about for your career growth.",
-      "url": "https://bernardmarr.com/why-prompt-engineering-isnt-the-most-valuable-ai-skill-in-2026/",
-      "tag": "AI trends"
+      "title": "OpenAI's Frontier Alliances: Four Consulting Giants Now Selling AI Enterprise Solutions",
+      "why": "OpenAI just partnered with BCG, McKinsey, Accenture, and Capgemini to sell OpenAI Frontier—a no-code platform for building and deploying AI agents. Fr worth watching because it shows how consulting is shifting from advisory-only to bundled tech + strategy delivery.",
+      "url": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
+      "tag": "industry_trends"
     },
     {
-      "title": "AI's Growing Role in Management Consulting Workflows",
-      "why": "Over 70% of top consulting firms are already using AI-powered platforms—this shows the real shift happening in how consultants deliver value to clients.",
-      "url": "https://www.sixpathsconsulting.com/top-management-consulting/",
-      "tag": "consulting trends"
+      "title": "AI Adoption Just Hit 78% of Organizations—And the Biggest Gap is Between Theory and Reality",
+      "why": "Anthropic's new research shows AI can theoretically handle 94% of tasks in computer/math roles, but only 33% are actually deployed in practice. That workflow friction, legal constraints, and org resistance? Those are the biggest consulting opportunities in 2026.",
+      "url": "https://www.staffworx.co.uk/2026/03/06/ai-business-opportunities-2026/",
+      "tag": "market_opportunity"
     }
   ]
 }

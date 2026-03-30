@@ -1,52 +1,52 @@
 {
-  "headline": "Consulting Giants Race to Own the AI Playbook—but the Real Game is Just Starting",
+  "headline": "Big consulting firms are going all-in on AI—and it's reshaping how they deliver value to clients",
   "stories": [
     {
-      "title": "OpenAI's 'Frontier Alliances' Bet the Farm on Consultants for Enterprise AI Sales",
-      "summary": "OpenAI just dropped multi-year partnerships with BCG, McKinsey, and Accenture to push its enterprise tools into customer tech stacks. Basically OpenAI's saying: consultants are how we actually get enterprises to care about AI.",
-      "takeaway": "Consulting firms are becoming AI's distribution network—and they're getting access to cutting-edge tools to make it happen fr",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
-      "tag": "partnerships",
-      "tool": "enterprise-ai",
+      "title": "Accenture Completes Faculty Acquisition, Expands AI Muscle on March 16",
+      "summary": "Accenture closed the deal on UK-based AI firm Faculty on March 16, bringing 400+ AI-native pros into the fold and appointing their CEO as CTO. This move signals Accenture's serious commitment to scaling safe, production-ready AI for enterprise clients.",
+      "takeaway": "Acquisition adds deep technical AI talent; sets up Accenture as a credible partner for orgs moving beyond AI pilots to real operational impact.",
+      "source": "Accenture Newsroom",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-completes-acquisition-of-faculty",
+      "tag": "M&A",
+      "tool": "Acquisition",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "PE Firms Already Replacing $500K McKinsey Reports with $50K AI Agents—and the Results Are... Messy",
-      "summary": "DiligenceSquared raised $5M and convinced mega PE firms managing $2T+ to swap traditional consulting for AI-powered due diligence. Lowkey terrifying because they're stress-testing this on live multi-hundred-million-dollar deals.",
-      "takeaway": "AI consulting is cannibalizing traditional consulting's pricing power—but nobody knows if the AI actually works at scale yet",
-      "source": "UC Strategies",
-      "url": "https://ucstrategies.com/news/pe-firms-replaced-500k-mckinsey-reports-with-50k-ai-on-live-deals/",
-      "tag": "disruption",
-      "tool": "ai-agents",
+      "title": "Accenture Deepens Databricks Partnership on March 17 to Scale AI from Pilot to Production",
+      "summary": "Accenture and Databricks launched a new business group (Accenture Databricks) to help enterprises adopt Databricks as their core data and AI platform. Firms are basically saying: we'll help you move AI from experiments to real revenue-moving systems.",
+      "takeaway": "Partnership targets the \"last mile\" problem—most orgs struggle scaling AI beyond POCs; this combo gives consulting + data infra credibility.",
+      "source": "Accenture Newsroom",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-and-databricks-accelerate-enterprise-adoption-of-ai-applications-and-agents-at-scale",
+      "tag": "Partnership",
+      "tool": "Strategic Alliance",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Deloitte Drops Enterprise AI Navigator—Shifting AI from Cost Center to Revenue Driver",
-      "summary": "Deloitte just launched a platform to help companies move AI from \"expensive experiment\" to \"actually making money.\" Includes AI opportunity scanners and agent creation hubs—basically democratizing what the Big 3 used to gatekeep.",
-      "takeaway": "The consulting playbook is getting productized and the pyramid model is crumbling—jr consultants' jobs just became way more AI-dependent",
-      "source": "Crowdfund Insider",
-      "url": "https://www.crowdfundinsider.com/2026/03/264460-deloitte-introduces-enterprise-ai-solution-to-enable-businesses-to-move-ai-capabilities-from-cost-to-value/",
-      "tag": "strategy",
-      "tool": "enterprise-ai",
-      "readTime": 4,
-      "paywalled": true
+      "title": "West Monroe Lands Forbes AI Consulting Recognition Despite Broader Consulting Consolidation Trend",
+      "summary": "West Monroe got named to Forbes' Best Management Consulting Firms 2026 for AI, fr one of only 37 firms hitting that category. They've embedded AI across literally 100% of their consulting delivery—no cherry-picked projects, it's everywhere.",
+      "takeaway": "Mid-market consulting firm is flexing AI maturity; lowkey signals that boutique/specialized firms can compete with MBB by going hard on AI-native delivery models.",
+      "source": "West Monroe / Forbes",
+      "url": "https://finance.yahoo.com/news/west-monroe-recognized-forbes-one-143000473.html",
+      "tag": "Recognition",
+      "tool": "Rankings",
+      "readTime": 6,
+      "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "How AI Is Reshaping Consulting's Core Economics—And Why Strategy Firms Are Freaking Out",
-      "why": "Tbh this breaks down why McKinsey & co are losing ground to execution-heavy firms like Accenture—and why the entire consulting value proposition is getting flipped upside down",
-      "url": "https://poetsandquantsforundergrads.com/news/how-ai-is-affecting-the-consulting-industry-mckinsey-edition/",
-      "tag": "industry-analysis"
+      "title": "Capgemini: 'Death of Consulting' Narrative is Overblown—Boards Still Trust Humans Over ChatGPT",
+      "why": "Strategy chief makes the case that AI isn't replacing consultants, it's amplifying them. Tbh important pushback on the \"consultants are cooked\" narrative dominating headlines.",
+      "url": "https://fortune.com/2026/03/17/ai-death-of-management-consulting-not-happening-capgemini-fernando-alvarez-says/",
+      "tag": "Industry Analysis"
     },
     {
-      "title": "2026 CEO Outlook: 61% of Leaders Can't Hire AI Talent Fast Enough—Consulting Firms Are About to Profit Massive",
-      "why": "KPMG's latest CEO survey shows the skills gap is widening and consulting is basically the only place companies can turn—this is where the real AI consulting revenue gets made",
-      "url": "https://kpmg.com/us/en/media/news/ceo-outlook-pulse-2026.html",
-      "tag": "market-trends"
+      "title": "PwC & Industry Signal: AI Adoption is Now Non-Negotiable for Consultant Careers",
+      "why": "PwC's explicit warning that non-adopters won't have a future at the firm is hitting different—signals that AI fluency is shifting from competitive advantage to table stakes across the industry.",
+      "url": "https://meyka.com/blog/artificial-intelligence-reshapes-consulting-industry-as-pwc-signals-major-shift-in-strategy-2603/",
+      "tag": "Talent & Culture"
     }
   ]
 }

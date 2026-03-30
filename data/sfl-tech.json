@@ -1,63 +1,63 @@
 {
-  "headline": "South Florida Tech Week: MDC's AI Hub Opens, Dark Watch Raises $3.5M, EducUp Hits Profitability",
+  "headline": "South Florida tech scene heating up—eMed's massive Series A & more major moves this week",
   "stories": [
     {
-      "title": "MDC Opens 7,000 Sq Ft AI Innovation Hub in Miami",
-      "summary": "Miami Dade College unveiled its third AI Innovation Hub at Kendall Campus with specialized labs for cognitive apps, robotics, cybersecurity & metaverse tech. The college has already trained 4,000+ students in AI through partnerships w/ Intel, Google, Microsoft & IBM.",
-      "takeaway": "Miami's getting serious abt AI workforce development—MDC's expanding from one hub to a whole ecosystem w/ real industry partnerships built in. Lowkey positioning South Florida as an AI talent pipeline.",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/mdc-opens-ai-innovation-hub-on-its-kendall-campus-for-hands-on-learning-and-collaboration/",
-      "tag": "AI Education",
-      "sector": "EdTech",
+      "title": "Tom Brady-backed eMed raises $200M Series A, hits $2B valuation",
+      "summary": "Miami telehealth startup eMed just closed a huge $200M Series A led by Aon Consulting with Brady, Linda Yaccarino & biotech investor Jeff Aronin backing it. They're using AI to manage GLP-1 meds coverage & chronic disease stuff for corporate health plans.",
+      "takeaway": "GLP-1 and chronic disease management are lowkey printing money—eMed's bet on agentic AI for employers and insurers is fr validating this entire market",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/03/26/top-startup-and-tech-funding-news-march-26-2025/",
+      "tag": "Funding",
+      "sector": "HealthTech",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "Dark Watch Closes Oversubscribed $3.5M Seed Round for Hospitality Security",
-      "summary": "Stuart-based startup Dark Watch secured $3.5M to scale its AI-powered threat intelligence platform that detects high-risk individuals before hotel check-in. Round led by Eagle Venture Fund w/ Blu Ventures & His Kingdom Resources in tow.",
-      "takeaway": "Fr, this is lowkey genius—embedding real-time threat detection into existing booking/payment systems instead of adding new layers. Hotels get safety without disrupting guest experience.",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/8-things-to-know-in-miamitech-dark-watch-raises-3-5m-plus-news-from-propy-flow-powerus-glade-brook-capital-partners-first-in-job-opportunities-more/",
-      "tag": "Hospitality Tech",
-      "sector": "Cybersecurity",
-      "readTime": 5,
+      "title": "XFX closes $17M Series A for stablecoin forex trading infrastructure",
+      "summary": "Miami-based XFX landed $17M Series A from Castle Island Ventures to speed up real-time forex trades between fiat & stablecoins. They're basically fixing the problem of settlements taking days.",
+      "takeaway": "Crypto infrastructure is getting serious—XFX solved a real pain point in the stablecoin market when banks are slow AF",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/03/26/top-startup-and-tech-funding-news-march-26-2025/",
+      "tag": "Funding",
+      "sector": "Fintech",
+      "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "EducUp Hits Profitability, Scales Licensing Education to 30+ States",
-      "summary": "Miami edtech company EducUp crossed profitability while expanding professional licensing education from Florida across Texas, California & beyond. Now serves thousands of insurance agents, adjusters & service reps through required continuing ed programs.",
-      "takeaway": "Tbh, there's fr money in boring stuff—boring regulated industry, boring licensing reqs, but EducUp found a path to profitable growth by solving a real compliance pain point for professionals.",
+      "title": "IDB opens first US office outside DC in Miami, bet on Latin America deals",
+      "summary": "The Inter-American Development Bank just opened its Miami office focused on private investment & connecting Latin American opportunities with global investors. Major win fr the region's capital hub positioning.",
+      "takeaway": "Miami's officially becoming the HQ for Americas capital—IDB's move signals institutional money is realizing what startups already knew",
       "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/educup-crosses-into-profitability-as-it-scales-licensing-education-across-the-u-s/",
-      "tag": "Professional Development",
-      "sector": "EdTech",
-      "readTime": 4,
+      "url": "https://refreshmiami.com/news/8-things-to-know-in-miamitech-idb-coming-to-miami-plus-news-about-a-new-teen-tech-center-d-wave-emerge-americas-defense-tech-myosin-addigy-more/",
+      "tag": "Business",
+      "sector": "FinTech",
+      "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "Sivotec Uses Genetics + AI to Diagnose Rare Diseases in Seconds",
-      "summary": "Boca Raton startup Sivotec is cutting rare disease diagnosis time from days to 10 seconds by combining genetic databases w/ AI. Has run 162k+ tests across 40 countries & works w/ Johns Hopkins & NIH databases to keep improving accuracy.",
-      "takeaway": "This is literally transforming pediatric diagnostics—machine learning gets smarter w/ every case. Sivotec's already sitting on data from 11k autism cases to find patterns no one's noticed before.",
+      "title": "Boca Raton approves $500K incentive package for D-Wave quantum computing HQ",
+      "summary": "D-Wave, the publicly traded quantum computing company, is setting up HQ in Boca Raton & just got a $500K economic incentive from the city council. Moving quantum tech to SoFla tbh",
+      "takeaway": "South Florida's landing serious deep tech infrastructure—quantum computing in Boca is a vibe that changes the region's startup DNA",
       "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/boca-startup-sivotec-combines-genetics-and-ai-to-help-clinicians-diagnose-diseases/",
-      "tag": "Healthcare AI",
-      "sector": "Biotech",
-      "readTime": 5,
+      "url": "https://refreshmiami.com/news/8-things-to-know-in-miamitech-idb-coming-to-miami-plus-news-about-a-new-teen-tech-center-d-wave-emerge-americas-defense-tech-myosin-addigy-more/",
+      "tag": "Expansion",
+      "sector": "Deep Tech",
+      "readTime": 3,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "How Miami Became a Launchpad for Cross-Border Payment Startups",
-      "why": "Miami's geographic advantage + Latin America proximity = fintech gold. Perfect setup for founders rethinking how payments move across borders. Could be the next wave of unicorns.",
-      "url": "https://refreshmiami.com/news/how-miami-became-a-launchpad-for-cross-border-payments-startups/",
-      "tag": "Fintech"
+      "title": "Palantir HQ move to Miami signals mega-shift in AI company geography",
+      "why": "The $300B AI giant moved from Denver to Miami—literally the largest publicly traded company in South Florida now. Shows the capital gravity is shifting from Silicon Valley to Florida fr",
+      "url": "https://www.foxbusiness.com/technology/ai-giant-palantir-moves-its-headquarters-florida-tech-company-exodus-continues",
+      "tag": "Industry"
     },
     {
-      "title": "Propy Acquires Boss Law Title Division for Multi-Million Dollar Deal",
-      "why": "Miami real estate AI platform just acquired a title company—vertical integration fr. Shows how AI isn't just disrupting—it's consolidating whole supply chains. Worth watching how this scales.",
-      "url": "https://refreshmiami.com/news/8-things-to-know-in-miamitech-dark-watch-raises-3-5m-plus-news-from-propy-flow-powerus-glade-brook-capital-partners-first-in-job-opportunities-more/",
-      "tag": "PropTech"
+      "title": "Big tech's $650B AI spending wave could ripple into South Florida jobs & infrastructure",
+      "why": "Amazon ($200B), Google ($185B), Meta ($135B) spending crazy on AI means demand for talent, engineering, logistics in emerging hubs like South Florida. Lowkey important for the whole ecosystem's next phase",
+      "url": "https://www.islandernews.com/local/business/big-tech-s-650-billion-ai-spending-surge-could-ripple-into-south-florida/article_fda8789f-0d5a-4651-a2ad-8d1e42bb5d10.html",
+      "tag": "Trend"
     }
   ]
 }

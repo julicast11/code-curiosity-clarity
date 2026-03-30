@@ -1,67 +1,67 @@
 {
-  "headline": "PE's New Playbook: Operational Value Creation Takes Center Stage as GPs Race to Boost Returns in 2026",
+  "headline": "PE's 'Buyout Revival' hits warp speed as GPs deploy record $1.1T to reshape sectors",
   "stories": [
     {
-      "title": "Royal Cup Coffee Expansion: Braemont Capital Fuels Consumer Growth Through Operational Scaling",
-      "summary": "Family-owned beverage company Royal Cup received growth capital to expand roasting, distribution, and customer partnerships across hospitality and foodservice. Showcases PE focus on margin expansion in fragmented consumer brands.",
-      "takeaway": "Consumer PE is lowkey shifting from brand acquisition to operational improvement—distribution scale and customer integration are the new value levers, not just cheaper debt.",
-      "source": "PE Hub",
-      "url": "https://www.pehub.com/",
-      "tag": "Platform Buildout",
+      "title": "Walgreens Going Private: Sycamore's $23.7B Healthcare Restructuring Play",
+      "summary": "Sycamore Partners took Walgreens private for $23.7B to strip non-core assets and focus on high-margin healthcare services away from public scrutiny. The deal uses AI-driven operational overhauls to transform retail pharmacy into anchor platform for bolt-on acquisitions.",
+      "takeaway": "Margin expansion through strategic asset pruning and operational modernization—PE's new playbook for legacy retail brands.",
+      "source": "FinancialContent / PitchBook News",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-18-the-great-delisting-why-north-americas-corporate-giants-are-fleeing-to-private-equity",
+      "tag": "Consumer",
       "sector": "Consumer",
-      "lever": "Revenue growth",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Healthcare Tech Consolidation Accelerates: Datavant Portfolio Taps Healthcare Workflow Automation",
-      "summary": "Datavant, Office Ally, Machinify, and other healthcare tech portcos entering PE-driven roll-ups, enabling fragmented admin solutions to scale through platform consolidation. AI-powered workflow automation driving margin expansion.",
-      "takeaway": "Healthcare PE is literally betting everything on tech-enabled operations—consolidating fragmented workflows into one layer unlocks way more value than buying and holding independent assets.",
-      "source": "PE Hub",
-      "url": "https://www.pehub.com/",
-      "tag": "Healthcare Tech Rollup",
-      "sector": "Healthcare",
-      "lever": "Digital transformation",
+      "lever": "Margin expansion",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Manufacturing's Digital Leap: Arcline-Backed American Casting Pursues Supply Chain Precision",
-      "summary": "American Casting Company received PE backing from Arcline for engineered investment castings serving aerospace, defense, and specialty industrial. PE focus on supply chain optimization and precision manufacturing platforms.",
-      "takeaway": "Industrials PE is fr prioritizing operational readiness—clean data, tech infrastructure, and supply chain control towers matter way more than top-line growth anymore.",
-      "source": "PE Hub",
-      "url": "https://middlemarketgrowth.org/pe-weekly-carve-outs-take-private-transactions-into-2026/",
-      "tag": "Supply Chain Optimization",
-      "sector": "Industrials",
-      "lever": "Margin expansion",
-      "readTime": 4,
+      "title": "Electronic Arts $56.6B Take-Private: Silver Lake Bets on AI-Driven Efficiency",
+      "summary": "Silver Lake led consortium takes EA private in largest gaming deal ever, targeting complex cost structure simplification thru proprietary AI. Deal signals mega-sponsors now capable of mega-scale transformations once considered impossible.",
+      "takeaway": "Tech sector seeing 25% of all 2025-26 deal value concentrated in AI-enabled complexity reduction—that's the real edge.",
+      "source": "FinancialContent",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-18-the-trillion-dollar-unlock-how-private-equitys-buyout-revival-is-redrawing-the-north-american-market-map",
+      "tag": "Tech",
+      "sector": "Tech",
+      "lever": "Digital transformation",
+      "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Showpad Revenue Enablement Deal: Vector Capital Bets on AI-Driven Sales Productivity in SaaS M&A",
-      "summary": "Vector Capital acquired Showpad, an AI revenue enablement platform serving marketing and sales teams. Reflects PE shift toward mission-critical software with embedded AI and proven ROI metrics.",
-      "takeaway": "Tech PE is literally obsessed with tools that drive measurable productivity gains—AI is only valuable if it tangibly moves the needle on EBITDA, not just when it's in the pitch deck.",
-      "source": "PE Hub",
-      "url": "https://middlemarketgrowth.org/pe-weekly-manufacturing-software-carve-out-platform/",
-      "tag": "AI-Native SaaS",
-      "sector": "Tech",
+      "title": "Healthcare IT Boom Continues: Record $191B in 2025, PE Floods Medical Education",
+      "summary": "Healthcare PE hit record $191B in deal value last year, w/ IT deals doubling to $32B. Labor shortages now driving PE into medical education platforms to build talent pipelines—prof services spin off nursing schools & residency models.",
+      "takeaway": "Labor shortage = exit opportunity: PE betting big on building training infrastructure to solve the talent crisis.",
+      "source": "Healthcare Dive / Bain Global PE Report",
+      "url": "https://www.healthcaredive.com/news/private-equity-healthcare-dealmaking-2025-IT-bain-company/809351/",
+      "tag": "Healthcare",
+      "sector": "Healthcare",
       "lever": "Revenue growth",
-      "readTime": 3,
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Industrials Consolidation Hits New Gear: Field Services Platforms Attract PE Scale",
+      "summary": "Field services & industrials seeing sustained momentum as PE funds deploy $400M+ debut vehicles targeting lower mid-market consolidation. AI-enabled service platforms gaining valuations premium as acquirers scale predictable, recurring revenue models.",
+      "takeaway": "Boring beats sexy: Field services standardization via AI tooling is lowkey one of the best margin expansion stories right now.",
+      "source": "Cherry Bekaert PE Report",
+      "url": "https://www.cbh.com/insights/reports/private-equity-report-2025-trends-and-2026-outlook/",
+      "tag": "Industrials",
+      "sector": "Industrials",
+      "lever": "Margin expansion",
+      "readTime": 4,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Behavioral Health Platform Consolidation: Beacon's 11+ Add-Ons Strategy in 2025",
-      "why": "Healthcare PE's fastest-growing subsector—behavioral health rollups are dominating M&A with proven margin expansion playbooks. Watch for Q1 2026 exits and new platform launches.",
-      "url": "https://pestakeholder.org/reports/pe-healthcare-deals-2025-in-review/",
-      "tag": "Healthcare Rollups"
+      "title": "GPLed Continuation Vehicles Explode 62% YoY—Exit Crunch Getting Real",
+      "why": "As hold periods extend and IPO window remains tight, GP-led secondaries becoming critical liquidity valve. 1 in 4 GPs now initiating CVs per Bain survey—this reshaping exit playbooks & LP distributions.",
+      "url": "https://www.bain.com/about/media-center/press-releases/2026/private-equity-resurgence-gathers-steam-as-new-era-challenges-firms-to-enhance-value-creationbain--company-global-pe-report/",
+      "tag": "Strategy"
     },
     {
-      "title": "Main Capital Partners Dominates SaaS M&A: 11 Platform Acquisitions in 2025",
-      "why": "Specialist software PE firm continues to nail vertical consolidation—sets template for how mid-market PE firms are winning in tech through disciplined operational playbooks, not just AI narrative.",
-      "url": "https://softwareequity.com/blog/top-software-private-equity-firms",
-      "tag": "SaaS Consolidation"
+      "title": "PE's New Math: Revenue Growth Now Beats Leverage as Return Driver",
+      "why": "Higher rates killed multiple expansion playbook—now GPs chasing double-digit EBITDA growth through operational levers. BCG saying returns now separable (growth, margin, leverage, multiple), forcing GPs to pick specializations.",
+      "url": "https://www.bcg.com/publications/2026/private-equitys-advantage-is-shifting-not-shrinking",
+      "tag": "Macro"
     }
   ]
 }

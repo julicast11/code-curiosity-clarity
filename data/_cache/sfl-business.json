@@ -1,63 +1,63 @@
 {
-  "headline": "South Florida economy cooling but staying strong—tech, tourism, and housing showing mixed signals",
+  "headline": "South Florida's Week of Luxury Peaks & Airport Upgrades",
   "stories": [
     {
-      "title": "Tech Hub Pulse Shows South Florida's Next Chapter: From Capital Attraction to Deployment",
-      "summary": "South Florida just hosted Tech Hub Pulse where hundreds of leaders gathered to discuss the region's shift from attracting capital to actually deploying it through 2026-2030. Speakers predicted a surge in space/defense tech investment and potentially 3-5 IPOs within 60 months as the region positions itself as a serious tech player.",
-      "takeaway": "South Florida's transitioning fr just being a place where money comes to being a place where it actually gets deployed—that's literally the next growth cycle.",
-      "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
-      "tag": "Technology",
-      "sector": "Technology & Innovation",
+      "title": "Luxury Home Sales Hit All-Time Highs Across South Florida",
+      "summary": "Million-dollar home sales in South Florida are absolutely crushing it—$1M+ properties in Miami-Dade and Broward jumped 21% and 14% YoY in Jan, while Palm Beach tops everyone with luxury prices up 67.8% since 2019. Tech billionaires like Larry Page and Mark Zuckerberg are lowkey driving demand by relocating to the region.",
+      "takeaway": "Wealthy buyers from Cali and NYC are flooding South Florida, making luxury real estate fr the hottest market in the country rn.",
+      "source": "Miami Association of Realtors",
+      "url": "https://www.miamirealtors.com/2026/03/16/south-florida-1m-up-home-sales-hit-all-time-highs/",
+      "tag": "Real Estate",
+      "sector": "Real Estate & Development",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Wahlburgers Opens at Sarasota Airport, SRQ Completes Major Concourse Upgrade",
+      "summary": "Wahlburgers (Wahlberg brothers' burger chain) officially opened at Sarasota-Bradenton International Airport on Feb 28 as part of a massive $16M+ food & beverage overhaul in Concourse B. SRQ is already eyeing TSA guest passes to bring in non-travelers.",
+      "takeaway": "SRQ's upgraded concourse brings legit national dining brands to Gulf Coast travelers and could soon let anyone hop into the airport to eat without a ticket.",
+      "source": "Business Observer",
+      "url": "https://www.businessobserverfl.com/news/2026/mar/16/wahlburgers-srq-airport-concourse-b-tsa/",
+      "tag": "Hospitality",
+      "sector": "Travel & Hospitality",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "D-Wave Relocates Quantum Computing HQ to Boca Raton—FAU Buys $20M Quantum Computer",
-      "summary": "The world's leading quantum computing company just moved from California to Boca Raton, and Florida Atlantic University grabbed a $20M quantum computer from them. This is lowkey huge for South Florida's tech credentials and positions the region as a quantum computing hub.",
-      "takeaway": "Quantum computing is officially moving to South Florida—this signals real tech heavyweight interest beyond just crypto and finance bros.",
-      "source": "Sun Sentinel",
-      "url": "https://www.sun-sentinel.com/2026/02/09/south-floridas-economy-shows-staying-power-despite-slower-pace-trade-and-immigration-chaos/",
-      "tag": "Tech & Innovation",
-      "sector": "Technology",
+      "title": "Palm Beach Boat Show Set to Draw 55K+ Visitors, Showcase $1.2B+ in Yachts",
+      "summary": "The 44th annual Palm Beach International Boat Show kicks off March 25-29 with over 600 exhibitors, 1,000+ boats, and a record lineup of superyachts worth $1.2B. The show's expected to generate ~$1.05B in statewide economic impact.",
+      "takeaway": "PBIBS is basically South Florida's biggest flex for luxury tourism, bringing insane foot traffic and yacht sales during prime spring season.",
+      "source": "Palm Beach International Boat Show",
+      "url": "https://www.pbboatshow.com/en/home.html",
+      "tag": "Events & Tourism",
+      "sector": "Hospitality & Tourism",
       "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "Florida's Housing Market Cooling: Prices Stabilizing as Inventory Rises",
-      "summary": "After years of insane price growth, South Florida's real estate market is finally cooling down—inventory is coming back and prices are stabilizing. The Florida Chamber Foundation says this normalization is actually healthy and sets buyers up better for 2026.",
-      "takeaway": "Housing prices aren't exploding anymore, which honestly might be good news for people who actually want to buy instead of just speculate.",
-      "source": "Florida Realtors & Florida Chamber Foundation",
-      "url": "https://www.floridarealtors.org/news-media/news-articles/2026/02/florida-economy-set-outperform-nation-2026",
-      "tag": "Real Estate",
-      "sector": "Real Estate & Housing",
+      "title": "ServiceNow Expanding to Downtown West Palm Beach with 850+ High-Paying Jobs",
+      "summary": "Tech giant ServiceNow just announced it's opening a regional headquarters in downtown West Palm Beach by 2028, bringing over 850 high-paying positions to the area. Part of the broader wave of tech companies relocating to South Florida.",
+      "takeaway": "Another major tech player choosing South Florida tbh shows the region's becoming legitimate competition to Silicon Valley for talent & innovation.",
+      "source": "Miami Realtors",
+      "url": "https://www.miamirealtors.com/2026/03/19/friday-march-20-2026-south-florida-real-estate-market-articles/",
+      "tag": "Tech & Jobs",
+      "sector": "Technology & Corporate Expansion",
       "readTime": 3,
-      "paywalled": false
-    },
-    {
-      "title": "Consumer Confidence Rising in Florida—Buyers Getting More Optimistic",
-      "summary": "Consumer sentiment in Florida just climbed for the third straight month, reflecting stronger financial outlooks that shape major buying decisions. People are fr starting to feel better about their wallets even as the broader economy moderates.",
-      "takeaway": "Despite economic slowdown vibes, people actually feel more confident about their finances—that's the floor holding up tbh.",
-      "source": "Miami Realtors Association",
-      "url": "https://www.miamirealtors.com/2026/03/03/wednesday-march-4-2026-south-florida-real-estate-market-articles/",
-      "tag": "Economy & Sentiment",
-      "sector": "Consumer Confidence",
-      "readTime": 2,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Fort Lauderdale's Economic Impact Growth Reaches 20% Since 2022",
-      "why": "Downtown Fort Lauderdale is quietly becoming a serious economic engine with tech, finance and entertainment—good context for understanding the tri-county power shift.",
-      "url": "https://refreshmiami.com/news/fort-lauderdale-on-the-rise-new-report-shows-how-tech-and-finance-combine-to-fuel-economic-strength/",
-      "tag": "Regional Growth"
+      "title": "Florida Legislature's Special Budget Session Could Reshape Tax Policy",
+      "why": "Florida's legislature adjourned mid-March with budget negotiations still pending, with a special session planned for mid-April. DeSantis is also pushing property tax reforms that could impact real estate values & development.",
+      "url": "https://flabizlaw.org/news/update-from-the-legislation-committee-march-16-2026/",
+      "tag": "Policy"
     },
     {
-      "title": "Tourism Outlook: South Florida Expects 1-3% Growth in 2026 Despite Airport Slowdown",
-      "why": "Visit Lauderdale's new campaign and hotel openings suggest tourism can recover even as airport traffic dipped—worth watching how events like Formula 1 move the needle.",
-      "url": "https://www.sun-sentinel.com/2026/02/09/south-floridas-economy-shows-staying-power-despite-slower-pace-trade-and-immigration-chaos/",
-      "tag": "Tourism & Hospitality"
+      "title": "Fort Lauderdale Downtown Economy Surges 20% Since 2022, Tech Hub Emerging",
+      "why": "Downtown Fort Lauderdale's economic output has grown 20% recently & is becoming a legit tech hub with projects like FAT Village & Napster HQ. Worth watching as the 'Wall Street of the South' narrative solidifies.",
+      "url": "https://refreshmiami.com/news/fort-lauderdale-on-the-rise-new-report-shows-how-tech-and-finance-combine-to-fuel-economic-strength/",
+      "tag": "Tech & Finance"
     }
   ]
 }

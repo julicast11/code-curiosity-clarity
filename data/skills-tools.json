@@ -1,52 +1,52 @@
 {
-  "headline": "Strategic Thinking is Lowkey the Most Important Consulting Skill Right Now—Here's What You Need to Know",
+  "headline": "Mastering the Essentials: Skills, Data Tips & Tools for Consultants",
   "stories": [
     {
-      "title": "Master Strategic Thinking to Actually Move the Needle in Consulting",
-      "summary": "Strategic thinking—the ability to see big picture problems, anticipate challenges, and develop long-term solutions—is dominating 2026 as the must-have consulting skill. Organizations that invest in developing this competency see measurable improvements in execution, innovation, and resilience, especially with AI disruption happening everywhere.",
-      "takeaway": "Stop focusing on just executing tasks; learn to frame problems strategically and understand how different business functions connect. Practice MECE thinking and scenario planning to separate yourself from other consultants.",
-      "source": "Six Paths Consulting",
-      "url": "https://www.sixpathsconsulting.com/strategic-thinking-training/",
+      "title": "Structured thinking is lowkey the most important skill consultants need right now",
+      "summary": "Problem-solving beats everything else in consulting—it's about breaking complex issues into pieces, testing with data, and letting evidence guide you instead of jumping to conclusions.",
+      "takeaway": "Stop guessing and start structuring. Master MECE frameworks and issue trees to solve client problems like a pro.",
+      "source": "Hacking the Case Interview",
+      "url": "https://www.hackingthecaseinterview.com/pages/skills-for-management-consulting",
       "tag": "skill",
-      "skill": "Strategic Thinking",
+      "skill": "Structured Thinking & Problem Solving",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Excel's New Formula Completion Feature Literally Writes Your Formulas for You",
-      "summary": "Powered by AI, Excel's new formula completion feature now suggests and autocompletes formulas as soon as you type '=', analyzing your sheet's context to propose accurate formulas. It's rolling out to Microsoft 365 users and lowkey saves hours on syntax errors and common tasks like lookups and counts.",
-      "takeaway": "Type '=' and let Copilot do the heavy lifting—especially powerful when your data has clear headers and labels. Press Tab or Enter to accept suggestions, but always review the formula before finalizing because AI suggestions aren't infallible.",
-      "source": "Microsoft Community Hub",
-      "url": "https://techcommunity.microsoft.com/blog/excelblog/introducing-formula-completion---a-new-way-to-write-formulas-in-excel-using-copi/4452196",
-      "tag": "excel_data",
-      "skill": "Excel Data Analysis",
-      "readTime": 5,
-      "paywalled": true
+      "title": "ChatGPT for Excel just dropped and it's literally a game-changer for financial modeling",
+      "summary": "Use ChatGPT directly in Excel to build, update, and run scenario analysis in plain language—no more manual formula writing. Teams can describe what they need, and GPT-5.4 handles the heavy lifting.",
+      "takeaway": "Describe your analysis in plain English and let AI write the formulas. Less time on syntax, more time on decisions.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/chatgpt-for-excel/",
+      "tag": "excel",
+      "skill": "AI-Powered Financial Modeling",
+      "readTime": 4,
+      "paywalled": false
     },
     {
-      "title": "EY Just Dropped EY.ai PDLC—An AI-Native Software Delivery Platform That's Actually Game-Changing",
-      "summary": "EY unveiled EY.ai PDLC, a new AI-native approach to software delivery that compresses months-long development roadmaps into days. Powered by 8090's Software Factory, it automates manual coding tasks so consultants can focus on strategy—and EY's deploying it to tens of thousands of consultants right now.",
-      "takeaway": "The future of consulting isn't about writing code anymore; it's about leveraging AI tools that handle the heavy lifting so you can focus on high-level strategy and business impact. Start thinking about how your firm can integrate similar AI-native platforms into your workflow.",
-      "source": "EY Newsroom",
-      "url": "https://www.ey.com/en_us/newsroom/2026/03/ernst-young-llp-and-8090-launch-ey-ai-pdlc",
+      "title": "Productive is the all-in-one tool consultants actually want (time tracking + billing + profitability in one)",
+      "summary": "Tired of juggling project management, time tracking, invoicing, and financials separately? Productive unifies everything—track billable hours, manage resources, monitor profit margins by client, and generate 50+ custom reports.",
+      "takeaway": "Stop context-switching between tools. One platform for projects, time, money, and insights = less chaos, better margins.",
+      "source": "Productive.io",
+      "url": "https://productive.io/blog/best-software-for-consultants/",
       "tag": "tool",
-      "skill": "AI Adoption & Implementation",
-      "readTime": 4,
+      "skill": "Project & Financial Operations",
+      "readTime": 5,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "OpenAI's Frontier Alliances: Four Consulting Giants Now Selling AI Enterprise Solutions",
-      "why": "OpenAI just partnered with BCG, McKinsey, Accenture, and Capgemini to sell OpenAI Frontier—a no-code platform for building and deploying AI agents. Fr worth watching because it shows how consulting is shifting from advisory-only to bundled tech + strategy delivery.",
-      "url": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
-      "tag": "industry_trends"
+      "title": "The 2026 Consulting Skills Blueprint: Everything McKinsey, BCG & Bain Look For",
+      "why": "Get clarity on what top firms actually want—beyond the buzzwords. Includes soft skills, analytical rigor, and how to interview like you've been doing this for years.",
+      "url": "https://www.businessbecause.com/news/mba-jobs/8950/management-consultant-skills",
+      "tag": "career"
     },
     {
-      "title": "AI Adoption Just Hit 78% of Organizations—And the Biggest Gap is Between Theory and Reality",
-      "why": "Anthropic's new research shows AI can theoretically handle 94% of tasks in computer/math roles, but only 33% are actually deployed in practice. That workflow friction, legal constraints, and org resistance? Those are the biggest consulting opportunities in 2026.",
-      "url": "https://www.staffworx.co.uk/2026/03/06/ai-business-opportunities-2026/",
-      "tag": "market_opportunity"
+      "title": "AI Tools for Excel Data Analysis in 2026: Julius AI, Powerdrill & More",
+      "why": "Lowkey the future is AI-powered analysis. This breaks down which tools actually save time vs. hype. Julius AI and Powerdrill Bloom are worth the deep dive.",
+      "url": "https://medium.com/@powerdrillai/top-10-ai-tools-for-excel-data-analysis-in-2026-8edd8eba3a70",
+      "tag": "tools"
     }
   ]
 }
