@@ -1,63 +1,63 @@
 {
-  "headline": "AI goes agentic & IBM seals biggest deal in weeks—Claude hits 1M tokens, regulators vs. innovation, and enterprise adoption hits inflection point",
+  "headline": "AI moves from chatbot to coworker mode—orgs racing to adapt before the paradigm shift hits harder",
   "stories": [
     {
-      "title": "IBM closes $11B Confluent acquisition, doubles down on data streaming for enterprise AI",
-      "summary": "IBM completed its acquisition of Confluent on March 17 for $31/share, bringing real-time data streaming to watsonx and enabling enterprises to feed live, governed data directly into AI models and agentic systems. This is tbh massive for hybrid cloud plays.",
-      "takeaway": "Enterprise AI moves from pilots to production when data actually flows at scale. Incumbents are getting serious about the fundamentals others skip.",
-      "source": "StockTitan",
-      "url": "https://www.stocktitan.net/news/IBM/",
-      "tag": "M&A",
-      "industry": "Enterprise Tech",
-      "readTime": 4,
+      "title": "McKinsey's AI Trust Maturity Survey Shows Gap Between Execution and Strategy",
+      "summary": "Orgs are scaling agentic AI deployment but barely one-third have solid governance. McKinsey found RAI maturity jumped to 2.3 in 2026, but leadership and oversight are lagging behind tech rollout.",
+      "takeaway": "The real bottleneck isn't capability—it's getting the org structure right fast enough to avoid chaos when AI actually starts running core workflows autonomously.",
+      "source": "McKinsey QuantumBlack",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights",
+      "tag": "agentic AI",
+      "industry": "Enterprise",
+      "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Claude 4.6 hits 1M token context—paste entire business plans into one prompt",
-      "summary": "Anthropic quietly shipped Claude Opus 4.6 and Sonnet 4.6 supporting 1M token context (roughly 750k words) at standard pricing. Game changer for consultants, analysts, and anyone doing deep document analysis.",
-      "takeaway": "Context window is becoming the new moat. Being able to reference an entire codebase or financial dataset in a single prompt changes how people actually work with AI.",
-      "source": "SmartAI for Biz",
-      "url": "https://smartaiforbiz.com/ai-news/",
-      "tag": "Model Update",
-      "industry": "AI Infrastructure",
-      "readTime": 3,
+      "title": "OpenAI's Competitive Moat Keeps Shrinking—Here's Why Nobody Has a Plan",
+      "summary": "Benedict Evans breaks down why OpenAI's user base, tech, and stickiness don't add up to durable advantage. The incumbents matched the models, and new experiences will decide winners.",
+      "takeaway": "OpenAI's hunting for strategic positions before market maturity hits, but unlike Google/Apple in their eras, they don't have that *one thing* that truly works and no one else can replicate.",
+      "source": "Benedict Evans",
+      "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
+      "tag": "competition",
+      "industry": "AI",
+      "readTime": 8,
       "paywalled": false
     },
     {
-      "title": "QuantumBlack hits production with agentic workflows—90%+ code accuracy, reshaping enterprise ops",
-      "summary": "McKinsey's AI arm is deploying agentic systems that handle complex end-to-end operations with 90%+ accuracy, from coding architecture to generating production-ready software. They're moving from experimentation to scalable agent factories.",
-      "takeaway": "Agentic AI moves from hype to measurable business impact. The firms shipping this stuff now will own entire workflow categories by year-end.",
-      "source": "🎙️ AI Magazine & Technology Magazine",
-      "url": "https://aimagazine.com/news/quantumblack-a-global-force-in-agentic-ai-transformation",
-      "tag": "Enterprise Adoption",
-      "industry": "Consulting & Services",
+      "title": "AI Absorption Crisis: Capabilities Growing Way Faster Than Organizations Can Deploy",
+      "summary": "Ethan Mollick on the exponential curve—multimodal, video, reasoning are improving stupidly fast, but businesses are stuck in 'rolling disruption' cycles. Each new capability reshape hits before the last one lands.",
+      "takeaway": "Companies need to stop thinking of AI as a one-time transformation and start treating it as continuous waves of change that'll reshape workflows every few months, not years.",
+      "source": "One Useful Thing (Ethan Mollick)",
+      "url": "https://www.shrm.org/topics-tools/flagships/ai-hi/quick-hits-march-23",
+      "tag": "organizational change",
+      "industry": "General",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "McKinsey: adoption challenges aren't technical, they're human—orgs struggle to scale despite having tools",
-      "summary": "McKinsey QuantumBlack (March 11) calls out the real blocker: almost all orgs use AI, but most are stuck in early pilots because they refuse to redesign workflows. The gap between AI natives and legacy orgs is literally widening every quarter now.",
-      "takeaway": "You can have the best models ever. If your org structure and processes stay the same, you get 3% upside and expensive experimentation. Workflow redesign is the actual multiplier.",
-      "source": "McKinsey QuantumBlack",
-      "url": "https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients/generative-ai",
-      "tag": "Strategy",
-      "industry": "Organizational Change",
+      "title": "AI-Powered Advertising Exploding: 63% Growth to $57B in 2026",
+      "summary": "Marketing automation is no longer optional—AI-driven ad platforms now dominate targeting and optimization. Brands trusting algorithms over manual control as performance wins.",
+      "takeaway": "Marketing teams gotta accept that AI optimization is the new baseline. The era of hands-on campaign tweaking is basically dead for anyone at scale.",
+      "source": "HubSpot/MarketingProfs",
+      "url": "https://www.marketingprofs.com/opinions/2026/54448/ai-update-march-20-2026-ai-news-and-views-from-the-past-week",
+      "tag": "marketing",
+      "industry": "Advertising",
       "readTime": 4,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "GPT-5 shipping in April with native multimodal reasoning (text, images, audio, video in one model)",
-      "why": "This is fr the inflection moment everyone's been waiting for. If OpenAI actually nails true multimodal reasoning at GPT-4 pricing, everything changes in content, creative, and knowledge work workflows.",
-      "url": "https://smartaiforbiz.com/ai-news/",
-      "tag": "Model Launch"
+      "title": "EU AI Act Enforcement Hits Full Throttle in 2026—Global Ripples Coming",
+      "why": "Most consequential tech regulation since GDPR just entered enforcement phase. If you're building or deploying AI anywhere, this matters. Everyone's scrambling to comply.",
+      "url": "https://www.insightfulpost.com/what-is-artificial-intelligence-news-2026/",
+      "tag": "regulation"
     },
     {
-      "title": "US AI Accountability Act passes March 2026—now everyone deploying AI in hiring, lending, healthcare needs bias audits",
-      "why": "Lowkey the biggest regulation drop since the EU AI Act. This ends voluntary self-regulation and creates real compliance burden. Watch which companies get audit-ready first and which try to skirt it.",
-      "url": "https://www.insightfulpost.com/what-is-artificial-intelligence-news-2026/",
-      "tag": "Regulation"
+      "title": "a16z's Big Ideas 2026: AI Eating the Real World (Not Just Software)",
+      "why": "Andreessen's saying the next decade belongs to companies building AI-native infrastructure—robotics, energy systems, autonomous sensors. First software ate the world; now software eats factories.",
+      "url": "https://a16z.com/newsletter/big-ideas-2026-part-2/",
+      "tag": "infrastructure"
     }
   ]
 }

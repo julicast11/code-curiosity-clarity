@@ -1,67 +1,67 @@
 {
-  "headline": "PE's 'Buyout Revival' hits warp speed as GPs deploy record $1.1T to reshape sectors",
+  "headline": "PE Momentum Shifts to Operational Excellence as Mega-Deals Drive 2026 Value Creation",
   "stories": [
     {
-      "title": "Walgreens Going Private: Sycamore's $23.7B Healthcare Restructuring Play",
-      "summary": "Sycamore Partners took Walgreens private for $23.7B to strip non-core assets and focus on high-margin healthcare services away from public scrutiny. The deal uses AI-driven operational overhauls to transform retail pharmacy into anchor platform for bolt-on acquisitions.",
-      "takeaway": "Margin expansion through strategic asset pruning and operational modernization—PE's new playbook for legacy retail brands.",
-      "source": "FinancialContent / PitchBook News",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-18-the-great-delisting-why-north-americas-corporate-giants-are-fleeing-to-private-equity",
-      "tag": "Consumer",
-      "sector": "Consumer",
+      "title": "Apollo Acquires Nippon Sheet Glass for $3.7B in Largest Japan PE Deal",
+      "summary": "Apollo Global Management scored big with NSG, marking JP's largest PE buyout and Apollo's biggest market investment. Flipping the script from financial engineering to operational uplift through cost synergies and efficiency gains.",
+      "takeaway": "megadeals are back and PE is hunting for margin expansion through operational discipline in overlooked regions",
+      "source": "Private Equity Wire",
+      "url": "https://www.privateequitywire.co.uk/content_channels/deals/",
+      "tag": "Megadeal",
+      "sector": "Industrial",
       "lever": "Margin expansion",
-      "readTime": 5,
+      "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "Electronic Arts $56.6B Take-Private: Silver Lake Bets on AI-Driven Efficiency",
-      "summary": "Silver Lake led consortium takes EA private in largest gaming deal ever, targeting complex cost structure simplification thru proprietary AI. Deal signals mega-sponsors now capable of mega-scale transformations once considered impossible.",
-      "takeaway": "Tech sector seeing 25% of all 2025-26 deal value concentrated in AI-enabled complexity reduction—that's the real edge.",
-      "source": "FinancialContent",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-18-the-trillion-dollar-unlock-how-private-equitys-buyout-revival-is-redrawing-the-north-american-market-map",
-      "tag": "Tech",
-      "sector": "Tech",
-      "lever": "Digital transformation",
-      "readTime": 6,
-      "paywalled": false
-    },
-    {
-      "title": "Healthcare IT Boom Continues: Record $191B in 2025, PE Floods Medical Education",
-      "summary": "Healthcare PE hit record $191B in deal value last year, w/ IT deals doubling to $32B. Labor shortages now driving PE into medical education platforms to build talent pipelines—prof services spin off nursing schools & residency models.",
-      "takeaway": "Labor shortage = exit opportunity: PE betting big on building training infrastructure to solve the talent crisis.",
-      "source": "Healthcare Dive / Bain Global PE Report",
-      "url": "https://www.healthcaredive.com/news/private-equity-healthcare-dealmaking-2025-IT-bain-company/809351/",
-      "tag": "Healthcare",
-      "sector": "Healthcare",
+      "title": "Clayton, Dubilier & Rice Finances $4.7B Sealed Air Acquisition with Leveraged Debt",
+      "summary": "CD&R secured $4.7bn in syndicated loans to fund its Sealed Air buyout, signaling renewed confidence in structured capital markets. Leverage is back, but only for quality assets with clear EBITDA growth pathways.",
+      "takeaway": "debt markets reopening for disciplined sponsors who can show real operational value creation, not just multiple arbitrage",
+      "source": "Private Equity Wire",
+      "url": "https://www.privateequitywire.co.uk/content_channels/deals/",
+      "tag": "Financing",
+      "sector": "Consumer",
       "lever": "Revenue growth",
-      "readTime": 5,
+      "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "Industrials Consolidation Hits New Gear: Field Services Platforms Attract PE Scale",
-      "summary": "Field services & industrials seeing sustained momentum as PE funds deploy $400M+ debut vehicles targeting lower mid-market consolidation. AI-enabled service platforms gaining valuations premium as acquirers scale predictable, recurring revenue models.",
-      "takeaway": "Boring beats sexy: Field services standardization via AI tooling is lowkey one of the best margin expansion stories right now.",
-      "source": "Cherry Bekaert PE Report",
-      "url": "https://www.cbh.com/insights/reports/private-equity-report-2025-trends-and-2026-outlook/",
-      "tag": "Industrials",
+      "title": "Paratek-Radius Merger Backed by $1.3B Blackstone Funding Package",
+      "summary": "Blackstone's $1.3bn investment in the pharma combo shows PE diving deep into healthcare consolidation. Strategic value creation hinges on R&D synergies and market consolidation rather than cost cuts.",
+      "takeaway": "Healthcare PE is pivoting from operational trimming to revenue synergies and pipeline optimization",
+      "source": "Private Equity Wire",
+      "url": "https://www.privateequitywire.co.uk/content_channels/deals/",
+      "tag": "Healthcare M&A",
+      "sector": "Healthcare",
+      "lever": "Digital transformation",
+      "readTime": 3,
+      "paywalled": false
+    },
+    {
+      "title": "ContiTech Industrial Division Attracts Bidding War from Apollo and Bain Capital",
+      "summary": "Apollo and Bain among finalists for Continental AG's industrial unit, signaling tech-enabled manufacturing is prime PE hunting ground. Winners will deploy AI-driven ops and automation to unlock hidden margin.",
+      "takeaway": "Industrials PE is hunting for digital transformation plays where automation and AI can drive 20%+ margin upside",
+      "source": "Private Equity Wire",
+      "url": "https://www.privateequitywire.co.uk/content_channels/deals/",
+      "tag": "Auction",
       "sector": "Industrials",
       "lever": "Margin expansion",
-      "readTime": 4,
+      "readTime": 3,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "GPLed Continuation Vehicles Explode 62% YoY—Exit Crunch Getting Real",
-      "why": "As hold periods extend and IPO window remains tight, GP-led secondaries becoming critical liquidity valve. 1 in 4 GPs now initiating CVs per Bain survey—this reshaping exit playbooks & LP distributions.",
-      "url": "https://www.bain.com/about/media-center/press-releases/2026/private-equity-resurgence-gathers-steam-as-new-era-challenges-firms-to-enhance-value-creationbain--company-global-pe-report/",
-      "tag": "Strategy"
+      "title": "2026 Global Private Equity Report: 12 is the New 5",
+      "why": "Bain's flagship research frames the value creation playbook for 2026 - faster EBITDA growth now mandatory, old leverage plays dead, execution on Day 1 is make-or-break",
+      "url": "https://www.bain.com/insights/topics/global-private-equity-report/",
+      "tag": "Research"
     },
     {
-      "title": "PE's New Math: Revenue Growth Now Beats Leverage as Return Driver",
-      "why": "Higher rates killed multiple expansion playbook—now GPs chasing double-digit EBITDA growth through operational levers. BCG saying returns now separable (growth, margin, leverage, multiple), forcing GPs to pick specializations.",
-      "url": "https://www.bcg.com/publications/2026/private-equitys-advantage-is-shifting-not-shrinking",
-      "tag": "Macro"
+      "title": "McKinsey Global Private Markets Report 2026: Operational Alpha Now Rules",
+      "why": "McKinsey's deep dive shows LPs ranking value creation strategy third most important after performance and team quality - ops muscle is literally what separates winners from everyone else rn",
+      "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report",
+      "tag": "Research"
     }
   ]
 }

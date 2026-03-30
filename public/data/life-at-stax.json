@@ -1,49 +1,49 @@
 {
-  "headline": "PE's in full momentum heading into spring 2026—here's what's actually moving the needle",
+  "headline": "PE's 2026 Rebound: Better Deals Coming, But Make Your Move Count",
   "stories": [
     {
-      "title": "AI Skills Are Now Table Stakes for PE Analysts",
-      "summary": "PE firms are shifting hiring away from traditional analyst roles toward candidates with data-centric and coding skills. 84% of PE funds expect AI to transform their business, and over half are already hunting for data scientists and digital transformation specialists.",
-      "takeaway": "If you're in consulting considering PE, start building technical chops NOW—coding, data analytics, even basic Python skills. The days of pure modeling being enough are lowkey over.",
-      "source": "The DRAWDºWN",
-      "url": "https://the-drawdown.com/article/new-skills-needed-to-navigate-pe-career",
-      "tag": "career",
+      "title": "Trinity Hunt Closes Berger Consulting Investment as PE Dives Into Services",
+      "summary": "Trinity Hunt Partners just backed Berger Consulting Group in March 2026, launching a whole economic consulting platform. Lowkey shows PE's appetite for professional services and the buy-and-build playbook that's heating up.",
+      "takeaway": "PE is moving into consulting and services with purpose—if you're in this space, firms are actively looking to consolidate and scale.",
+      "source": "Kirkland & Ellis",
+      "url": "https://www.kirkland.com/news/press-release/2026/03/kirkland-represents-trinity-hunt-partners-on-its-investment-in-berger-consulting-group",
+      "tag": "PE/Consulting Industry",
+      "readTime": 3,
+      "paywalled": false
+    },
+    {
+      "title": "Healthcare M&A Set for Breakout Year—AI-Enabled Services Are Hot",
+      "summary": "Healthcare deal value bounced hard in Q4 2025 ($22B), and PE is pivoting hard toward AI-based revenue cycle management, telehealth platforms, and medtech innovation. Medtech carve-outs and take-privates are gonna be massive.",
+      "takeaway": "Healthcare's where the money's flowing in 2026—especially if you can spot AI-enabled efficiency plays that strip costs.",
+      "source": "PwC",
+      "url": "https://www.fiercehealthcare.com/finance/key-trends-will-shape-healthcare-ma-activity-2026-pwc",
+      "tag": "Healthcare Sector",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "Healthcare PE Deals Are About to Explode in 2026",
-      "summary": "After 2025's cautious pause, healthcare M&A is poised for a rebound driven by better-quality assets, improving market conditions, and mega-funds deploying dry powder. Behavioral health, ambulatory surgery centers, and tech-enabled care are the hot spots.",
-      "takeaway": "Healthcare's becoming PE's playground in 2026—especially if you can demonstrate AI integration and operational value creation. The IPO window is cracking open again fr.",
-      "source": "PwC",
-      "url": "https://www.fiercehealthcare.com/finance/key-trends-will-shape-healthcare-ma-activity-2026-pwc",
-      "tag": "healthcare",
+      "title": "Stop Aging Out of PE—Network Like Your Career Depends On It",
+      "summary": "On-cycle recruiting for PE analyst roles starts crazy early (12-18 months before start dates), and consultants have a narrower window than bankers. The key: you gotta have concrete PE experience from your consulting work or you're dead in the water.",
+      "takeaway": "If you're in consulting and want PE, don't wait. Get secondments to PE clients, build your network NOW, and position yourself in the 1-2 year sweet spot before you 'age out.'",
+      "source": "Menlo Coaching",
+      "url": "https://menlocoaching.com/career-coaching/consulting-to-private-equity/",
+      "tag": "Career Tip",
       "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "PE Deal Volume Expected to Keep Rising, but Only for Megafunds",
-      "summary": "2026 is shaping up to be selective—mega-funds are deploying record dry powder into fewer, larger deals, while mid-market PE faces tougher fundraising. The industry is now mature and demanding sharper operational value creation, not just leverage plays.",
-      "takeaway": "PE's recovering but it's a K-shaped game. Mega-funds eating well, mid-market grinding harder. Winners will be obsessed with operational excellence and actual EBITDA growth, not multiple expansion tricks.",
-      "source": "Bain & Company",
-      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
-      "tag": "industry",
-      "readTime": 6,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Bain & Company's 2026 Global Private Equity Report",
-      "why": "Comprehensive breakdown of PE trends, exit strategies, and the shift toward operational value creation. Essential reading if you want to understand what deal leadership actually cares about rn.",
-      "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/",
-      "tag": "industry"
+      "title": "Private Equity Outlook 2026: Dry Powder Deployment & Continuation Vehicles",
+      "why": "Deep dive on how PE firms are actually deploying capital, managing the backlog of unsold companies, and why continuation funds are becoming the new normal. Critical for understanding what deals are actually getting done.",
+      "url": "https://www.withintelligence.com/insights/private-equity-outlook-2026/",
+      "tag": "PE Strategy"
     },
     {
-      "title": "EY's PE Pulse: 2026 Hiring Trends & Specialist Demand",
-      "why": "Direct intel on what PE firms are hiring for—data scientists, digital transformation leads, AI specialists. Tells you exactly what skills to build if you're planning your next move.",
-      "url": "https://www.ey.com/en_us/insights/private-equity/leading-through-change-2026-private-equity-trends",
-      "tag": "career"
+      "title": "2026 Healthcare Investment Themes: Alternative Structures & Creative Deals",
+      "why": "PwC's breakdown of why traditional buyouts are stuck but creative deal structures (carve-outs, minority investments, take-privates) are exploding in healthcare. This is how PE wins when valuations don't cooperate.",
+      "url": "https://www.pwc.com/us/en/industries/health-industries/library/2026-healthcare-investment-themes.html",
+      "tag": "Healthcare & Deal Strategy"
     }
   ]
 }

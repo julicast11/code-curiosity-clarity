@@ -1,31 +1,31 @@
 [
   {
-    "title": "Claude Cowork Projects",
-    "summary": "Anthropic shipped Projects for Claude Cowork on Mar 20—basically turns your agent work from one-off sessions into persistent workspaces tied to folders & recurring tasks. No more losing context between sessions.",
-    "takeaway": "Local AI agent workspace that actually remembers what you're working on",
+    "title": "Claude Code Auto Mode",
+    "summary": "Anthropic dropped auto mode for Claude Code—it'll run actions with fewer manual approvals while safeguards check for destructive behavior. Literally game-changing for devs who are tired of clicking 'approve' a thousand times.",
+    "takeaway": "Claude can now execute tasks without you babysitting every step",
     "source": "AI Tool",
     "url": "https://claude.ai",
-    "tag": "Desktop Agent",
-    "readTime": 4,
-    "_tab": "tools-to-try"
-  },
-  {
-    "title": "Perplexity Health",
-    "summary": "Launched Mar 19 connecting Apple Health, EHRs from 1.7M providers & wearables to give you personalized health answers grounded in your actual data, not generic web results. Rolling out US-only to Pro/Max first.",
-    "takeaway": "Your scattered health data finally makes sense with AI that actually knows your medical history",
-    "source": "AI Tool",
-    "url": "https://perplexity.ai/health",
-    "tag": "Health AI",
-    "readTime": 5,
-    "_tab": "tools-to-try"
-  },
-  {
-    "title": "Windsurf IDE",
-    "summary": "Arena Mode lets you compare models side-by-side while coding, Plan Mode adds smarter task planning, & parallel multi-agent sessions mean you can run 5 projects at once without context bleeding everywhere.",
-    "takeaway": "The agentic code editor that actually feels like working with an AI teammate",
-    "source": "AI Tool",
-    "url": "https://codeium.com/windsurf",
     "tag": "Coding Agent",
+    "readTime": 3,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "Atomic Chat",
+    "summary": "Your own offline chatbot fr—no tracking, no cloud uploads, completely free. Perfect if you're paranoid about privacy or just want AI that actually stays local.",
+    "takeaway": "Private AI that runs 100% on your device, zero data sent anywhere",
+    "source": "AI Tool",
+    "url": "https://github.com/atomic-chat",
+    "tag": "Privacy/Local AI",
+    "readTime": 2,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "Meshy 3D Model Generation",
+    "summary": "Bambu Lab integrated Meshy into MakerWorld—snap a pic, get a STL file ready to print. No CAD skills needed, lowkey magic for makers and designers.",
+    "takeaway": "Turn any photo into a print-ready 3D model in minutes",
+    "source": "AI Tool",
+    "url": "https://makerworld.bambu.com",
+    "tag": "3D/Design",
     "readTime": 3,
     "_tab": "tools-to-try"
   }
