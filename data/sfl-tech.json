@@ -1,63 +1,63 @@
 {
-  "headline": "South Florida tech scene heating up—eMed's massive Series A & more major moves this week",
+  "headline": "South Florida's tech scene is lowkey heating up fr — Palantir's massive Miami move just shifted everything",
   "stories": [
     {
-      "title": "Tom Brady-backed eMed raises $200M Series A, hits $2B valuation",
-      "summary": "Miami telehealth startup eMed just closed a huge $200M Series A led by Aon Consulting with Brady, Linda Yaccarino & biotech investor Jeff Aronin backing it. They're using AI to manage GLP-1 meds coverage & chronic disease stuff for corporate health plans.",
-      "takeaway": "GLP-1 and chronic disease management are lowkey printing money—eMed's bet on agentic AI for employers and insurers is fr validating this entire market",
-      "source": "Tech Startups",
-      "url": "https://techstartups.com/2026/03/26/top-startup-and-tech-funding-news-march-26-2025/",
-      "tag": "Funding",
-      "sector": "HealthTech",
+      "title": "Palantir Moves HQ to Miami, Becomes Largest Public Company in South Florida",
+      "summary": "The $300B AI giant just relocated from Denver to Miami, making it the biggest publicly traded company in South Florida. This is literally a watershed moment for the region's tech credibility.",
+      "takeaway": "Florida's not just a tax haven anymore — it's becoming serious infrastructure for national security and AI.",
+      "source": "Fox Business",
+      "url": "https://www.foxbusiness.com/technology/ai-giant-palantir-moves-its-headquarters-florida-tech-company-exodus-continues",
+      "tag": "headquarters",
+      "sector": "AI & Defense Tech",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "XFX closes $17M Series A for stablecoin forex trading infrastructure",
-      "summary": "Miami-based XFX landed $17M Series A from Castle Island Ventures to speed up real-time forex trades between fiat & stablecoins. They're basically fixing the problem of settlements taking days.",
-      "takeaway": "Crypto infrastructure is getting serious—XFX solved a real pain point in the stablecoin market when banks are slow AF",
-      "source": "Tech Startups",
-      "url": "https://techstartups.com/2026/03/26/top-startup-and-tech-funding-news-march-26-2025/",
-      "tag": "Funding",
+      "title": "OpenFX Raises $94M to Disrupt Global Money Transfers",
+      "summary": "Miami fintech OpenFX just closed a massive funding round on the premise that moving money globally should feel as simple as texting. They're flipping the script on international payments.",
+      "takeaway": "Fintech dominance in Miami is real — this round signals serious investor belief in the ecosystem.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com",
+      "tag": "funding",
       "sector": "Fintech",
       "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "IDB opens first US office outside DC in Miami, bet on Latin America deals",
-      "summary": "The Inter-American Development Bank just opened its Miami office focused on private investment & connecting Latin American opportunities with global investors. Major win fr the region's capital hub positioning.",
-      "takeaway": "Miami's officially becoming the HQ for Americas capital—IDB's move signals institutional money is realizing what startups already knew",
+      "title": "Elektron Energy Sets Up US HQ in Miami Brickell",
+      "summary": "Crypto infrastructure company Elektron Energy is bringing its US headquarters to Miami's Brickell district, signaling the region's growing dominance in Web3 and digital infrastructure.",
+      "takeaway": "Miami's Web3 movement is attracting real infrastructure plays, not just hype.",
       "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/8-things-to-know-in-miamitech-idb-coming-to-miami-plus-news-about-a-new-teen-tech-center-d-wave-emerge-americas-defense-tech-myosin-addigy-more/",
-      "tag": "Business",
-      "sector": "FinTech",
+      "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-a-local-college-wins-5m-in-quantum-funding-plus-news-from-elektron-energy-endeavor-miami-trubar-avenue-z-exowatt-emerge-new-world-angels-tech-jobs-amp/",
+      "tag": "relocation",
+      "sector": "Crypto & Web3",
       "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "Boca Raton approves $500K incentive package for D-Wave quantum computing HQ",
-      "summary": "D-Wave, the publicly traded quantum computing company, is setting up HQ in Boca Raton & just got a $500K economic incentive from the city council. Moving quantum tech to SoFla tbh",
-      "takeaway": "South Florida's landing serious deep tech infrastructure—quantum computing in Boca is a vibe that changes the region's startup DNA",
+      "title": "Studio Solian Teams Up with Google Fiber for Miami Open Tech Night",
+      "summary": "Nikki Cabus's Studio Solian is partnering with Google Fiber to host 'Net Gains: Tech Night' at the Miami Open 2026, blending tennis, networking, and tech. It's about creating spaces where founders actually meet outside their bubbles.",
+      "takeaway": "South Florida's getting creative about cross-industry networking — this is where real innovation happens.",
       "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/8-things-to-know-in-miamitech-idb-coming-to-miami-plus-news-about-a-new-teen-tech-center-d-wave-emerge-americas-defense-tech-myosin-addigy-more/",
-      "tag": "Expansion",
-      "sector": "Deep Tech",
+      "url": "https://refreshmiami.com/news/from-tech-hub-to-the-tennis-court-nikki-cabus-is-rallying-south-floridas-innovation-scene-in-a-new-way/",
+      "tag": "event",
+      "sector": "Community & Networking",
       "readTime": 3,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Palantir HQ move to Miami signals mega-shift in AI company geography",
-      "why": "The $300B AI giant moved from Denver to Miami—literally the largest publicly traded company in South Florida now. Shows the capital gravity is shifting from Silicon Valley to Florida fr",
-      "url": "https://www.foxbusiness.com/technology/ai-giant-palantir-moves-its-headquarters-florida-tech-company-exodus-continues",
-      "tag": "Industry"
+      "title": "Neurolief Raises $6M for At-Home Depression Therapy Rollout",
+      "why": "Healthcare tech is gaining serious momentum in South Florida — this medtech play shows the ecosystem's getting diverse beyond just fintech.",
+      "url": "https://refreshmiami.com",
+      "tag": "healthtech"
     },
     {
-      "title": "Big tech's $650B AI spending wave could ripple into South Florida jobs & infrastructure",
-      "why": "Amazon ($200B), Google ($185B), Meta ($135B) spending crazy on AI means demand for talent, engineering, logistics in emerging hubs like South Florida. Lowkey important for the whole ecosystem's next phase",
-      "url": "https://www.islandernews.com/local/business/big-tech-s-650-billion-ai-spending-surge-could-ripple-into-south-florida/article_fda8789f-0d5a-4651-a2ad-8d1e42bb5d10.html",
-      "tag": "Trend"
+      "title": "AI Engineer Conference Coming to Miami April 20-21",
+      "why": "Major tech events are landing in Miami now — this conference signals the region's becoming a destination for serious tech talent, not just remote workers.",
+      "url": "https://southfloridaitevents.substack.com/p/webinar-and-it-events-for-it-professionals-b01",
+      "tag": "event"
     }
   ]
 }

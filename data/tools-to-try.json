@@ -1,63 +1,63 @@
 {
-  "headline": "🚀 Week of Mar 23-29: Claude Code Goes Auto Mode, Anthropic Leaks Next Model, and the Agent Layer Is Eating Software",
+  "headline": "March was literally the wildest month for AI ever—Claude 4.6 dropped w/ a 1M token window, Anthropic leaked its next model, and now we're all wondering if agents just became too real.",
   "picks": [
     {
-      "name": "Claude Code Auto Mode",
-      "tagline": "Claude can now execute tasks without you babysitting every step",
-      "summary": "Anthropic dropped auto mode for Claude Code—it'll run actions with fewer manual approvals while safeguards check for destructive behavior. Literally game-changing for devs who are tired of clicking 'approve' a thousand times.",
-      "tryIt": "claude.ai",
-      "url": "https://claude.ai",
-      "tag": "Coding Agent",
+      "name": "Perplexity Computer",
+      "tagline": "AI agent orchestrator that codes, researches, and manages tasks across apps",
+      "summary": "Originally an internal Slack tool, it performed $776M in labor-equivalent work for subscribers. Agents can coordinate Claude Code and GPT Codex to handle multi-step workflows automatically.",
+      "tryIt": "Available in Slack Marketplace",
+      "url": "https://www.slackmktplace.com",
+      "tag": "AI Agents",
       "vibe": "freemium",
-      "bestFor": "Developers wanting autonomous code execution",
+      "bestFor": "Teams running complex workflows who need agents to coordinate work across tools",
       "readTime": 3
     },
     {
-      "name": "Atomic Chat",
-      "tagline": "Private AI that runs 100% on your device, zero data sent anywhere",
-      "summary": "Your own offline chatbot fr—no tracking, no cloud uploads, completely free. Perfect if you're paranoid about privacy or just want AI that actually stays local.",
-      "tryIt": "github.com/atomic-chat",
-      "url": "https://github.com/atomic-chat",
-      "tag": "Privacy/Local AI",
-      "vibe": "free",
-      "bestFor": "Privacy-conscious users and offline workflows",
+      "name": "Claude 4.6 Opus",
+      "tagline": "First Opus-class model w/ 1M token context window and 128K output",
+      "summary": "Lowkey the technical leader now with 1M context in beta. Agent Teams for parallel task coordination, adaptive thinking controls. 59% of devs prefer Sonnet 4.6 over the last version.",
+      "tryIt": "Try now via Claude API and claude.ai",
+      "url": "https://claude.ai",
+      "tag": "Language Models",
+      "vibe": "freemium",
+      "bestFor": "Developers handling massive codebases and complex multi-step reasoning tasks",
+      "readTime": 4
+    },
+    {
+      "name": "Pika Video Chat Skill",
+      "tagline": "Real-time video & voice for AI agents powered by PikaStream1.0 model",
+      "summary": "Any AI agent can now integrate live video chat—agents get a face and remember personality across convos. Marks the shift from text-only toward actual embodied AI interactions.",
+      "tryIt": "Available for compatible AI agents in beta",
+      "url": "https://pika.art",
+      "tag": "Video Generation",
+      "vibe": "freemium",
+      "bestFor": "Teams building customer-facing agents that need human-like real-time communication",
       "readTime": 2
     },
     {
-      "name": "Meshy 3D Model Generation",
-      "tagline": "Turn any photo into a print-ready 3D model in minutes",
-      "summary": "Bambu Lab integrated Meshy into MakerWorld—snap a pic, get a STL file ready to print. No CAD skills needed, lowkey magic for makers and designers.",
-      "tryIt": "makerworld.bambu.com",
-      "url": "https://makerworld.bambu.com",
-      "tag": "3D/Design",
-      "vibe": "freemium",
-      "bestFor": "3D printing enthusiasts and product designers",
-      "readTime": 3
-    },
-    {
-      "name": "Beehiiv MCP Integration",
-      "tagline": "Manage your newsletter through Claude and other AI agents",
-      "summary": "Newsletter creators can now use AI agents to analyze subscriber lists, manage outreach, and more via MCP. Basically your newsletter on autopilot with smarter agents doing the heavy lifting.",
-      "tryIt": "beehiiv.com",
-      "url": "https://beehiiv.com",
-      "tag": "Newsletter/Automation",
-      "vibe": "freemium",
-      "bestFor": "Newsletter creators and content operators",
-      "readTime": 3
+      "name": "Anthropic Compliance API",
+      "tagline": "Audit logs API for enterprises, launched March 30",
+      "summary": "Admins get programmatic access to org-wide activity tracking. Built for regulated industries needing to log everything except model inference. Consolidates admin + resource activity in one feed.",
+      "tryIt": "Available for Claude Enterprise now",
+      "url": "https://console.anthropic.com",
+      "tag": "Enterprise Tools",
+      "vibe": "paid",
+      "bestFor": "Finance, healthcare, legal orgs that need strict compliance audit trails",
+      "readTime": 2
     }
   ],
   "watchNext": [
     {
-      "title": "Anthropic's Leaked Model (Mythos/Capybara)",
-      "why": "Accidentally exposed details on an unreleased model above Opus with insanely better reasoning and coding scores. The hype is real and everyone's losing it.",
-      "url": "https://www.theneuron.ai/ai-news-digests/-around-the-horn-digest-everything-that-happened-in-ai-this-weekend-march-28-29-2026/",
-      "tag": "Model Release"
+      "title": "Claude Code crossed 8% of worldwide GitHub commits",
+      "why": "Fr this is insane—coding agents just became mainstream infrastructure. If your team isn't using Claude Code yet, you're literally leaving productivity on the table.",
+      "url": "https://theneuronaai.com",
+      "tag": "🎙️ The Neuron"
     },
     {
-      "title": "Gemini 3.1 Flash-Lite Generating Websites in Real Time",
-      "why": "Google dropped a lightweight model that builds entire websites dynamically on the fly. No pre-built pages, just pure generation. Lowkey the vibe coding future we've been waiting for.",
-      "url": "https://futuretools.io/news",
-      "tag": "Web Generation"
+      "title": "OpenAI killed Sora app (6 months, $1B Disney deal gone)",
+      "why": "Tbh the lesson here is brutal—even massive companies can't sustain AI tools that don't hit product-market fit. Worth reading why it failed so fast.",
+      "url": "https://bensbites.com",
+      "tag": "Ben's Bites"
     }
   ]
 }

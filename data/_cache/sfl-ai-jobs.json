@@ -1,64 +1,63 @@
 {
-  "headline": "AI's reshaping South Florida's job market — entry-level roles are taking a hit while skilled tech positions boom",
+  "headline": "South Florida AI job market heating up with hundreds of openings and new initiatives reshaping how companies hire tech talent",
   "stories": [
     {
-      "title": "Stanford economists reveal AI job reality: Entry-level coding down 20%, call centers down 15%",
-      "summary": "Stanford's top economists just shared actual data (not projections) showing AI is already hitting specific sectors hard. Entry-level software dev jobs for workers 22-26 dropped 20%, and call center hiring fell 15%, but new AI-adjacent roles are growing.",
-      "takeaway": "If you're in an AI-exposed field, you gotta adapt or risk getting left behind. The winners are those actively using AI to learn new skills, not just automating old ones.",
-      "source": "4 Corner Resources",
-      "url": "https://www.4cornerresources.com/job-market-news/ai-job-market-impact-2026/",
-      "tag": "AI Impact",
-      "sector": "Technology",
-      "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "Tech Hub Pulse: South Florida positioning for massive AI and space tech investment surge",
-      "summary": "Hundreds of founders and investors gathered in Broward to discuss South Florida's tech future. Experts predict 3-5 major IPOs in 60 months and a huge investment wave in space/defense tech, with quantum computing already landing in Boca Raton.",
-      "takeaway": "South Florida is lowkey becoming a real tech hub, not just a crypto meme city. If you're in tech here, infrastructure growth and talent demand could be massive opportunities.",
+      "title": "MDC Opens AI Innovation Hub in Kendall for Hands-On Learning",
+      "summary": "Miami Dade College launched an AI Innovation Hub on March 16 to provide students and professionals direct access to cutting-edge AI tools and industry collaboration. Lowkey game-changing for folks trying to upskill in South Florida.",
+      "takeaway": "Local education is catching up to industry demand—legit opportunity to get trained without leaving Miami.",
       "source": "Refresh Miami",
-      "url": "https://refreshmiami.com/news/tech-hub-pulse-explores-ai-drones-and-the-future-of-south-floridas-tech-economy/",
-      "tag": "Regional Growth",
-      "sector": "Technology",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Tech giants flexing AI budgets: Amazon $200B, Google $185B, Meta $135B — South Florida could benefit indirectly",
-      "summary": "The big three tech companies are dumping hundreds of billions into AI infrastructure. While most spending stays near existing hubs, experts say South Florida could see ripple effects through demand for skilled labor, engineering, construction, and data services.",
-      "takeaway": "The AI gold rush is real and South Florida's emerging tech corridor could catch some overflow. Skilled workers in engineering and data science might see more opportunities.",
-      "source": "Islander News",
-      "url": "https://www.islandernews.com/local/business/big-tech-s-650-billion-ai-spending-surge-could-ripple-into-south-florida/article_fda8789f-0d5a-4651-a2ad-8d1e42bb5d10.html",
-      "tag": "Market Trends",
-      "sector": "Technology",
+      "url": "https://refreshmiami.com/news/8-things-to-know-in-miamitech-why-stephen-ross-is-spearheading-south-florida-tech-growth-initiative-plus-news-about-miami-ai-agent-summit-aestro-ai-flipaclip-fau-job-opportunities-more/",
+      "tag": "education",
+      "sector": "Tech/Education",
       "readTime": 3,
       "paywalled": false
     },
     {
-      "title": "Florida Chamber Foundation: AI transitioning from 'experiment' to 'essential business tool' in 2026",
-      "summary": "Healthcare, tourism, and manufacturing leaders all agreed that AI is fundamentally changing how work gets done across industries. Mayo Clinic expects AI to shift from experimental to operational in 2026, while manufacturers worry about workforce adaptation.",
-      "takeaway": "Tbh, every industry needs to figure out AI integration ASAP. The challenge isn't tech — it's training workers on how to actually use this stuff effectively.",
-      "source": "Business Observer Florida",
-      "url": "https://www.businessobserverfl.com/news/2026/feb/02/the-year-of-ai-florida-industry-experts-talk-emerging-technology-during-annual-jobs-summit/",
-      "tag": "Industry Outlook",
-      "sector": "Multiple Industries",
+      "title": "Google Bringing AI-Powered Tech to Fort Lauderdale Movie Studio Complex",
+      "summary": "Infinite Reality partnered with Google to integrate Gemini AI into a new $163.9M movie studio opening in Fort Lauderdale in 2026. Literally mixing entertainment with cutting-edge tech—positions the city as a next-gen hub.",
+      "takeaway": "Major infrastructure play that'll create jobs across entertainment, VFX, and AI engineering roles.",
+      "source": "City of Fort Lauderdale",
+      "url": "https://www.fortlauderdale.gov/Home/Components/News/News/7370/",
+      "tag": "infrastructure",
+      "sector": "Entertainment/Tech",
       "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "South Florida Tech Growth Initiative Announced at eMerge Americas",
+      "summary": "Stephen Ross and Florida Council of 100 launched a regional initiative to position Miami-Dade, Broward, and Palm Beach as the global hub for tech investment and entrepreneurship. Bridges international capital with local markets.",
+      "takeaway": "Tbh, this could pull a ton of AI funding and talent to the region—watch for more startup clusters forming.",
+      "source": "Refresh Miami",
+      "url": "https://refreshmiami.com/news/8-things-to-know-in-miamitech-why-stephen-ross-is-spearheading-south-florida-tech-growth-initiative-plus-news-about-miami-ai-agent-summit-aestro-ai-flipaclip-fau-job-opportunities-more/",
+      "tag": "investment",
+      "sector": "Venture/Tech Ecosystem",
+      "readTime": 3,
+      "paywalled": false
+    },
+    {
+      "title": "2,437+ AI Jobs Open Across Florida as Companies Scale Hiring",
+      "summary": "Florida's AI job market hit over 2,400 open positions with top companies like Deloitte, Scribd, and Google actively recruiting in Miami and Fort Lauderdale. Ranges from ML engineers to AI trainers—something for most skill levels.",
+      "takeaway": "Fr fr, if you've got tech chops, South Florida is lowkey the place to be right now.",
+      "source": "Glassdoor",
+      "url": "https://www.glassdoor.com/Job/florida-artificial-intelligence-jobs-SRCH_IL.0,7_IS3318_KO8,31.htm",
+      "tag": "hiring",
+      "sector": "Tech/AI",
+      "readTime": 2,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Routine white-collar jobs down 13%, analytical roles up 20% — Harvard Business School research",
-      "why": "Shows the bigger picture of AI job displacement. If you're doing repetitive work, fr you're at risk. But creative and analytical roles are actually growing.",
-      "url": "https://hbr.org/2026/03/research-how-ai-is-changing-the-labor-market",
-      "tag": "Deep Dive"
+      "title": "Miami AI Agent Summit (April 5, 2026)",
+      "why": "200+ AI engineers, founders, and investors gathering to discuss autonomous agents transforming industries—perfect for networking and understanding where AI careers are heading next.",
+      "url": "https://refreshmiami.com/event/the-americas-innovation-summit-2026-ai-emerging-technologies/",
+      "tag": "event"
     },
     {
-      "title": "450+ open IT and AI jobs in South Florida right now — salary data and requirements",
-      "why": "Lowkey solid resources to see what's actually hiring. Glassdoor, LinkedIn, and Indeed have hundreds of open positions in the region if you're job hunting.",
-      "url": "https://www.glassdoor.com/Job/south-florida-information-technology-jobs-SRCH_IL.0,13_IC1166206_KO14,36.htm",
-      "tag": "Job Hunt"
+      "title": "AI Engineering Conference Miami (April 20-21, 2026)",
+      "why": "500+ AI engineers, CTOs, and VPs meeting at Hyatt Regency Miami for Frontier Tech Week—literally the biggest AI engineering gathering coming to South Florida.",
+      "url": "https://www.ai.engineer/miami",
+      "tag": "conference"
     }
-  ],
-  "_fromCache": true
+  ]
 }

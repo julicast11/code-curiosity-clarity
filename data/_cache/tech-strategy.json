@@ -1,71 +1,71 @@
 {
-  "headline": "Companies Are Ditching Experiments & Going All-In on AI—But Most Still Can't Nail the Execution",
+  "headline": "From Agentic Everywhere to Enterprise-Grade Proof: What the Week Really Revealed About AI Strategy in 2026",
   "stories": [
     {
-      "title": "JPMorgan Chase Reclassifies AI From R&D to 'Core Infrastructure' Spending",
-      "summary": "JPMorgan just made a massive strategic move, reframing its AI investments as foundational infrastructure rather than experimental projects. The bank's doubling down on internal productivity, cybersecurity hardening, and retail personalization.",
-      "takeaway": "This shift signals that AI is transitioning from 'nice-to-have' projects to the literal backbone of enterprise operations—and JPM isn't waiting around.",
+      "title": "McKinsey: AI's Real Test is No Longer Technical—It's Organizational",
+      "summary": "McKinsey's March 2026 research shows companies moving beyond pilots into scaled agentic AI deployment, but only about 30% have leadership alignment and governance frameworks in place. The bottleneck isn't the models—it's how teams, processes, and decision-making need to fundamentally change.",
+      "takeaway": "Orgs obsessed with the latest models are missing it. Winners are redesigning workflows, not just deploying tools. People > technology.",
       "source": "McKinsey Digital",
-      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-      "tag": "Infrastructure Investment",
-      "company": "JPMorgan Chase",
+      "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/are-your-people-ready-for-ai-at-scale",
+      "tag": "organizational-change",
+      "company": "Multiple (McKinsey study)",
       "shift": "long-term",
-      "strategyTake": "Moving AI from experimental R&D to core operational capability signals permanent business model restructuring, not temporary optimization.",
-      "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "Block Cuts 4,000 Jobs (40% of Workforce) Explicitly Blaming AI Automation",
-      "summary": "Block (Square/Cash App's parent) just pulled back the curtain and told the truth: they're replacing humans with AI systems at scale. This is the biggest single AI-driven layoff in corporate history, and CEO Jack Dorsey was brutally candid about it.",
-      "takeaway": "This marks a watershed moment—companies are finally admitting publicly that AI isn't just optimizing work, it's straight-up replacing roles. The displacement is happening faster than reskilling timelines.",
-      "source": "Financial Times",
-      "url": "https://tech-insider.org/tech-layoffs-2026-ai-workforce-impact/",
-      "tag": "Workforce Transformation",
-      "company": "Block Inc.",
-      "shift": "long-term",
-      "strategyTake": "Companies are moving from 'AI augments workers' narrative to actively replacing human roles with autonomous systems—and being transparent about it.",
-      "readTime": 7,
-      "paywalled": false
-    },
-    {
-      "title": "OpenAI Plans to Nearly Double Workforce to 8,000 by End of 2026",
-      "summary": "While other tech companies are laying off, OpenAI is aggressively hiring—nearly doubling from 4,500 to 8,000 employees. They're betting big on scaling commercial products and enterprise solutions before the competition catches up.",
-      "takeaway": "OpenAI's expansion spree signals confidence in monetization pathways but also reveals the immense operational challenges of scaling frontier AI research and deployment simultaneously.",
-      "source": "Financial Times",
-      "url": "https://creati.ai/ai-news/2026-03-22/openai-double-workforce-8000-employees-end-2026/",
-      "tag": "Talent & Scaling",
-      "company": "OpenAI",
-      "shift": "long-term",
-      "strategyTake": "Aggressive headcount expansion reflects confidence in near-term revenue inflection points and long-term competitive positioning—but cultural integration at scale is a massive execution risk.",
+      "strategyTake": "HR & ops leaders need to lead this, not just IT. AI success = culture redesign first.",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "McKinsey: 88% of Orgs Use AI, But Only 6% Are Actually Winning (And Making Real Profit)",
-      "summary": "McKinsey's new data is lowkey brutal: nearly everyone's deploying AI, but most are still stuck in pilot hell. Only 6% of companies qualify as 'high performers' where AI drives 5%+ EBIT impact—the rest are seeing marginal efficiency gains at best.",
-      "takeaway": "The gap between AI adoption and actual value creation is widening. It's not a tech problem anymore—it's an org design & execution problem. Companies need to reimagine workflows, not just automate existing ones.",
-      "source": "McKinsey Digital",
-      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
-      "tag": "Transformation Strategy",
-      "company": "Multiple (McKinsey Study)",
+      "title": "Harvard Business Review: The 'Last Mile' Problem Is Killing Enterprise AI",
+      "summary": "HBR research from March 2026 pinpoints why most companies can't scale AI past pilots: proliferation of pilots (causing pilot fatigue), process debt, tribal knowledge loss, and agentic governance gaps. The technical capability is fine—it's operational design that's broken.",
+      "takeaway": "Companies have great AI, horrible processes. They're retrofitting AI into broken workflows instead of redesigning from scratch. That's the actual bottleneck, fr.",
+      "source": "Harvard Business Review",
+      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
+      "tag": "process-redesign",
+      "company": "Multiple (HBR study)",
       "shift": "long-term",
-      "strategyTake": "The 'AI adoption' metric is becoming meaningless. Real competitive advantage goes to companies redesigning workflows end-to-end, not those automating broken processes.",
-      "readTime": 8,
+      "strategyTake": "Stop piloting. Start redesigning. Clean-sheet process design, not incremental tweaks.",
+      "readTime": 7,
+      "paywalled": true
+    },
+    {
+      "title": "Stratechery: Agentic AI Is Real, And Investors Now Know It",
+      "summary": "Ben Thompson's late-March analysis argues the AI bubble concerns are overstated—agentic AI deployment is showing genuine ROI signals that models alone couldn't. Companies aren't chasing hype; they're scaling labor replacement with measurable economic returns. Meta's $135B CapEx pivot and Oracle's infrastructure bets suggest real conviction.",
+      "takeaway": "Agents aren't theory anymore—they're delivering actual productivity gains that justify the spending. The market's shifting from \"is this real?\" to \"how much should we spend?\"",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/agents-over-bubbles/",
+      "tag": "enterprise-deployment",
+      "company": "Meta, Oracle, Anthropic, Microsoft",
+      "shift": "long-term",
+      "strategyTake": "Enterprise is the real game. Consumer AI is harder to monetize; B2B agents driving ROI are where the money flows.",
+      "readTime": 9,
+      "paywalled": false
+    },
+    {
+      "title": "MIT Sloan: New Leadership Roles Are Emerging to Bridge AI's Org Gap",
+      "summary": "MIT Sloan research identifies that most AI initiatives fail due to leadership structure, not algorithms. Forward-thinking orgs are creating Chief Innovation & Transformation Officer roles (separate from Chief AI Officer) to manage the human side—culture, reskilling, work redesign. Only about 30% of firms have this figured out yet.",
+      "takeaway": "The real unlock is treating AI like an org redesign problem, not a tech problem. New C-suite roles reflect this shift in thinking.",
+      "source": "MIT Sloan Management Review",
+      "url": "https://sloanreview.mit.edu/article/why-ai-demands-a-new-breed-of-leaders/",
+      "tag": "leadership",
+      "company": "Multiple (MIT SMR study)",
+      "shift": "long-term",
+      "strategyTake": "Your Chief AI Officer alone will fail. You need someone owning the cultural & organizational transformation piece. That's the missing link.",
+      "readTime": 5,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "The 'Last Mile' Problem: Why Most AI Transformations Are Stalling Out",
-      "why": "Harvard Business Review just published an eye-opening breakdown of why companies with hundreds of pilots still can't scale—and it's not the models or the data. It's the gap between technical implementation and actual organizational change.",
-      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
-      "tag": "Execution Risk"
+      "title": "BCG Henderson Institute: AI Sovereignty Is an Illusion—Resilience Is Real",
+      "why": "BCG just flipped the narrative on AI strategy for governments & enterprises. Lowkey brutal takedown of \"sovereign AI\" efforts (Australia's LLM, Germany's chips, India's GPU cluster). Real insight: resilience and scale matter way more than independence. This reframes how big companies should think about vendor lock-in.",
+      "url": "https://www.bcg.com/publications/2026/ai-sovereignty-is-an-illusion-resilience-is-real",
+      "tag": "geopolitics-strategy"
     },
     {
-      "title": "AI Doesn't Reduce Work—It Intensifies It",
-      "why": "New research from UC Berkeley shows the dirty secret nobody wants to admit: AI tools don't actually lighten workloads. They create more complexity, higher expectations, and burnout. Essential read if you care about the human side of AI adoption.",
-      "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
-      "tag": "Culture & People"
+      "title": "Financial Times: Future of AI Summit Coverage (March 2026)",
+      "why": "FT's reporting on enterprise transformation stories from execs actually shipping AI at scale. Not just hype—real case studies on how financial services, professional services, and tech firms are moving from pilots to production. Gives you the \"what winning looks like\" template.",
+      "url": "https://www.reply.com/en/newsroom/events/financial-times-future-of-ai-summit",
+      "tag": "case-studies"
     }
   ]
 }

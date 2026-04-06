@@ -1,49 +1,49 @@
 {
-  "headline": "PE's 2026 Rebound: Better Deals Coming, But Make Your Move Count",
+  "headline": "PE & Healthcare Deals Heating Up While Operating Partners Become the MVPs",
   "stories": [
     {
-      "title": "Trinity Hunt Closes Berger Consulting Investment as PE Dives Into Services",
-      "summary": "Trinity Hunt Partners just backed Berger Consulting Group in March 2026, launching a whole economic consulting platform. Lowkey shows PE's appetite for professional services and the buy-and-build playbook that's heating up.",
-      "takeaway": "PE is moving into consulting and services with purpose—if you're in this space, firms are actively looking to consolidate and scale.",
-      "source": "Kirkland & Ellis",
-      "url": "https://www.kirkland.com/news/press-release/2026/03/kirkland-represents-trinity-hunt-partners-on-its-investment-in-berger-consulting-group",
-      "tag": "PE/Consulting Industry",
-      "readTime": 3,
-      "paywalled": false
-    },
-    {
-      "title": "Healthcare M&A Set for Breakout Year—AI-Enabled Services Are Hot",
-      "summary": "Healthcare deal value bounced hard in Q4 2025 ($22B), and PE is pivoting hard toward AI-based revenue cycle management, telehealth platforms, and medtech innovation. Medtech carve-outs and take-privates are gonna be massive.",
-      "takeaway": "Healthcare's where the money's flowing in 2026—especially if you can spot AI-enabled efficiency plays that strip costs.",
-      "source": "PwC",
-      "url": "https://www.fiercehealthcare.com/finance/key-trends-will-shape-healthcare-ma-activity-2026-pwc",
-      "tag": "Healthcare Sector",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Stop Aging Out of PE—Network Like Your Career Depends On It",
-      "summary": "On-cycle recruiting for PE analyst roles starts crazy early (12-18 months before start dates), and consultants have a narrower window than bankers. The key: you gotta have concrete PE experience from your consulting work or you're dead in the water.",
-      "takeaway": "If you're in consulting and want PE, don't wait. Get secondments to PE clients, build your network NOW, and position yourself in the 1-2 year sweet spot before you 'age out.'",
-      "source": "Menlo Coaching",
-      "url": "https://menlocoaching.com/career-coaching/consulting-to-private-equity/",
-      "tag": "Career Tip",
+      "title": "CPA Firms Are The PE Playground in 2026",
+      "summary": "Almost half of the top 30 US CPA firms now have PE backing, fr. Blackstone's $2B Citrin Cooperman deal just proved PE can actually exit these platforms—game changer for the whole sector.",
+      "takeaway": "PE is aggressively consolidating professional services; if you're covering this space, know the playbook around roll-ups and tech-enabled M&A.",
+      "source": "Cherry Bekaert PE Report",
+      "url": "https://www.cbh.com/insights/reports/private-equity-report-2025-trends-and-2026-outlook/",
+      "tag": "PE Industry News",
       "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Healthcare M&A Bouncing Back Harder—Tech-Enabled Assets Are the Prize",
+      "summary": "Health services dealmaking is rebounding with mega-funds flexing and mid-market PE finally getting competitive again. AI-driven platforms, behavioral health, and carve-outs are lowkey where the best multiples are.",
+      "takeaway": "Buyers are paying premiums for assets with digital infrastructure & measurable clinical upside—diligence on tech capabilities is now table stakes.",
+      "source": "PwC Health Services Outlook",
+      "url": "https://www.pwc.com/us/en/industries/health-industries/library/health-services-deals-outlook.html",
+      "tag": "Sector Deep Dive",
+      "readTime": 6,
+      "paywalled": false
+    },
+    {
+      "title": "To Get Ahead in Consulting, Build Your Operating Partner Credentials Now",
+      "summary": "PE firms are hunting for operating partners with AI, digital transformation, and supply chain expertise—not just analysts doing models. The shift from analysis to execution is real and compensation is following.",
+      "takeaway": "If you want to move fast in PE consulting, start building deep operational expertise in one sector now. That's the differentiator in 2026.",
+      "source": "BDO Private Equity Predictions",
+      "url": "https://www.bdo.com/insights/industries/private-equity/2026-private-equity-predictions",
+      "tag": "Career Tips",
+      "readTime": 4,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Private Equity Outlook 2026: Dry Powder Deployment & Continuation Vehicles",
-      "why": "Deep dive on how PE firms are actually deploying capital, managing the backlog of unsold companies, and why continuation funds are becoming the new normal. Critical for understanding what deals are actually getting done.",
-      "url": "https://www.withintelligence.com/insights/private-equity-outlook-2026/",
+      "title": "Carve-Out Strategy Evolution: From Price to Performance in 2026",
+      "why": "Carve-outs are becoming THE deal strategy for PE—understanding IT separation, tech stacks, and value creation beyond the purchase price is essential for any analyst.",
+      "url": "https://www.fticonsulting.com/insights/articles/four-predictions-private-equity-2026",
       "tag": "PE Strategy"
     },
     {
-      "title": "2026 Healthcare Investment Themes: Alternative Structures & Creative Deals",
-      "why": "PwC's breakdown of why traditional buyouts are stuck but creative deal structures (carve-outs, minority investments, take-privates) are exploding in healthcare. This is how PE wins when valuations don't cooperate.",
-      "url": "https://www.pwc.com/us/en/industries/health-industries/library/2026-healthcare-investment-themes.html",
-      "tag": "Healthcare & Deal Strategy"
+      "title": "How AI Adoption is Actually Creating PE Premiums (Not Just Hype)",
+      "why": "AI went from differentiator to table stakes—see how leading PE firms are embedding it into diligence, portfolio operations, and exit planning.",
+      "url": "https://www.cohnreznick.com/insights/pe-outlook-2026-trends-strategies",
+      "tag": "AI in PE"
     }
   ]
 }

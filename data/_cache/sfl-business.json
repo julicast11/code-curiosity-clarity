@@ -1,63 +1,63 @@
 {
-  "headline": "South Florida's Week of Luxury Peaks & Airport Upgrades",
+  "headline": "South Florida's Economy Shifting Gears: Hiring Slows, Real Estate Balances, & Big Money Bets Continue",
   "stories": [
     {
-      "title": "Luxury Home Sales Hit All-Time Highs Across South Florida",
-      "summary": "Million-dollar home sales in South Florida are absolutely crushing it—$1M+ properties in Miami-Dade and Broward jumped 21% and 14% YoY in Jan, while Palm Beach tops everyone with luxury prices up 67.8% since 2019. Tech billionaires like Larry Page and Mark Zuckerberg are lowkey driving demand by relocating to the region.",
-      "takeaway": "Wealthy buyers from Cali and NYC are flooding South Florida, making luxury real estate fr the hottest market in the country rn.",
-      "source": "Miami Association of Realtors",
-      "url": "https://www.miamirealtors.com/2026/03/16/south-florida-1m-up-home-sales-hit-all-time-highs/",
-      "tag": "Real Estate",
-      "sector": "Real Estate & Development",
-      "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "Wahlburgers Opens at Sarasota Airport, SRQ Completes Major Concourse Upgrade",
-      "summary": "Wahlburgers (Wahlberg brothers' burger chain) officially opened at Sarasota-Bradenton International Airport on Feb 28 as part of a massive $16M+ food & beverage overhaul in Concourse B. SRQ is already eyeing TSA guest passes to bring in non-travelers.",
-      "takeaway": "SRQ's upgraded concourse brings legit national dining brands to Gulf Coast travelers and could soon let anyone hop into the airport to eat without a ticket.",
+      "title": "Real American Beer Navigates Founder Legacy Challenge",
+      "summary": "Regional craft beer company grappling w/ how to evolve beyond its iconic founder without losing its loyal fanbase. Classic founder-era biz problem.",
+      "takeaway": "succession planning lowkey hits different when your brand IS the founder tbh",
       "source": "Business Observer",
-      "url": "https://www.businessobserverfl.com/news/2026/mar/16/wahlburgers-srq-airport-concourse-b-tsa/",
+      "url": "https://www.businessobserverfl.com/",
+      "tag": "Business",
+      "sector": "Consumer Goods",
+      "readTime": 3,
+      "paywalled": false
+    },
+    {
+      "title": "Broward Commits $2M to Sponsor FIFA World Cup 2026",
+      "summary": "Broward County Commission voted 8-0 to drop up to $2M on sponsoring the World Cup, even though zero games are actually in Broward (they're all in Miami-Dade). Wild move.",
+      "takeaway": "sometimes you gotta invest in the vibe even if the games aren't technically in your county fr fr",
+      "source": "Florida Trend",
+      "url": "https://www.floridatrend.com/news/2026/03/27/fridays-afternoon-update/",
+      "tag": "Sports & Events",
+      "sector": "Tourism & Events",
+      "readTime": 2,
+      "paywalled": false
+    },
+    {
+      "title": "Stephen Ross Lands Record $772M Construction Loan for West Palm Beach",
+      "summary": "Billionaire's Related Corp secured Florida's largest-ever construction loan to build two massive office towers (nearly 1M sq ft) in downtown West Palm. That's literally insane scale.",
+      "takeaway": "when you're stephen ross, banks literally line up w/ half-billion dollar checks like it's nothing",
+      "source": "Florida Trend",
+      "url": "https://www.floridatrend.com/news/2026/03/27/fridays-afternoon-update/",
+      "tag": "Real Estate",
+      "sector": "Commercial Real Estate",
+      "readTime": 2,
+      "paywalled": false
+    },
+    {
+      "title": "Fort Lauderdale Hotel Expansion & Omni Grand Opening Signal Tourism Recovery",
+      "summary": "The Omni Fort Lauderdale just opened w/ 800+ rooms, giving the convention corridor a major infrastructure upgrade. Hotels ramping up capacity to catch the visitor surge.",
+      "takeaway": "tourism's bouncing back & hotels are lowkey racing to expand their game before the rush hits harder",
+      "source": "S. Florida Business & Wealth",
+      "url": "https://sfbwmag.com/broward-business-pulse/",
       "tag": "Hospitality",
-      "sector": "Travel & Hospitality",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Palm Beach Boat Show Set to Draw 55K+ Visitors, Showcase $1.2B+ in Yachts",
-      "summary": "The 44th annual Palm Beach International Boat Show kicks off March 25-29 with over 600 exhibitors, 1,000+ boats, and a record lineup of superyachts worth $1.2B. The show's expected to generate ~$1.05B in statewide economic impact.",
-      "takeaway": "PBIBS is basically South Florida's biggest flex for luxury tourism, bringing insane foot traffic and yacht sales during prime spring season.",
-      "source": "Palm Beach International Boat Show",
-      "url": "https://www.pbboatshow.com/en/home.html",
-      "tag": "Events & Tourism",
-      "sector": "Hospitality & Tourism",
-      "readTime": 3,
-      "paywalled": false
-    },
-    {
-      "title": "ServiceNow Expanding to Downtown West Palm Beach with 850+ High-Paying Jobs",
-      "summary": "Tech giant ServiceNow just announced it's opening a regional headquarters in downtown West Palm Beach by 2028, bringing over 850 high-paying positions to the area. Part of the broader wave of tech companies relocating to South Florida.",
-      "takeaway": "Another major tech player choosing South Florida tbh shows the region's becoming legitimate competition to Silicon Valley for talent & innovation.",
-      "source": "Miami Realtors",
-      "url": "https://www.miamirealtors.com/2026/03/19/friday-march-20-2026-south-florida-real-estate-market-articles/",
-      "tag": "Tech & Jobs",
-      "sector": "Technology & Corporate Expansion",
-      "readTime": 3,
+      "sector": "Tourism & Hospitality",
+      "readTime": 2,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Florida Legislature's Special Budget Session Could Reshape Tax Policy",
-      "why": "Florida's legislature adjourned mid-March with budget negotiations still pending, with a special session planned for mid-April. DeSantis is also pushing property tax reforms that could impact real estate values & development.",
-      "url": "https://flabizlaw.org/news/update-from-the-legislation-committee-march-16-2026/",
-      "tag": "Policy"
+      "title": "Miami Freedom Park Getting Its Own Development District",
+      "why": "Major infrastructure project financing its own operations—signs of serious momentum in downtown revitalization. Worth tracking long-term.",
+      "url": "https://www.miamitodaynews.com/",
+      "tag": "Development"
     },
     {
-      "title": "Fort Lauderdale Downtown Economy Surges 20% Since 2022, Tech Hub Emerging",
-      "why": "Downtown Fort Lauderdale's economic output has grown 20% recently & is becoming a legit tech hub with projects like FAT Village & Napster HQ. Worth watching as the 'Wall Street of the South' narrative solidifies.",
-      "url": "https://refreshmiami.com/news/fort-lauderdale-on-the-rise-new-report-shows-how-tech-and-finance-combine-to-fuel-economic-strength/",
-      "tag": "Tech & Finance"
+      "title": "South Florida Small Biz Confidence Rising Despite Hiring Slowdown",
+      "why": "Entrepreneurs are optimistic about 2026 but hesitant to hire—mixed signals matter for the whole regional economy, especially for jobs outlook.",
+      "url": "https://www.floridatrend.com/",
+      "tag": "Economic Outlook"
     }
   ]
 }

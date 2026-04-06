@@ -1,6 +1,9 @@
 {
-  "success": true,
-  "failedTabs": [],
+  "success": false,
+  "failedTabs": [
+    "models-releases",
+    "sfl-business"
+  ],
   "totalTabs": 12,
-  "generatedAt": "2026-03-30T10:57:43.186Z"
+  "generatedAt": "2026-04-06T10:09:20.708Z"
 }

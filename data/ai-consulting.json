@@ -1,52 +1,52 @@
 {
-  "headline": "Big consulting firms are getting real about AI deployment—this week showed consultants actually have to deliver, not just talk about it",
+  "headline": "Consulting Firms Double Down on AI Agents—But Real Value Delivery Stays Murky",
   "stories": [
     {
-      "title": "McKinsey makes candidates use AI Lilli in recruitment—now consultants gotta prove they can work WITH machines",
-      "summary": "McKinsey added an 'AI interview' stage where grads collaborate with Lilli during final rounds. They're literally testing if people can think alongside AI, not just write about it.",
-      "takeaway": "Competence with AI is officially table stakes at MBB—if you can't work with AI, you're not getting hired. McKinsey's 20,000 AI agents to 40,000 humans ratio shows this is fr the future of consulting.",
-      "source": "Crescendo.ai",
-      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-      "tag": "recruiting",
-      "tool": "Lilli",
+      "title": "Accenture & Databricks Partner to Scale AI Agents Enterprise-Wide",
+      "summary": "Accenture just launched the Accenture Databricks Business Group mid-March to help enterprises move AI from lab to production. They're bundling Databricks' latest tools—Lakebase, Genie, and Agent Bricks—to solve the data fragmentation problem holding back AI at scale.",
+      "takeaway": "Lowkey a flex that Accenture's solving the unglamorous infrastructure problem everyone avoids talking about. This is how consulting firms actually justify their fees in 2026.",
+      "source": "Accenture Newsroom",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-and-databricks-accelerate-enterprise-adoption-of-ai-applications-and-agents-at-scale",
+      "tag": "Accenture",
+      "tool": "AI Agents, Data Platforms",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "BCG drops AI logistics survey—shows how far adoption has come (and how far it still needs to go)",
-      "summary": "BCG published research on AI in logistics, revealing implementation progress from providers and shippers. Their survey lowkey shows the gap between talking about AI and actually using it in real operations.",
-      "takeaway": "Consulting firms are moving past hype into auditing actual deployment. When BCG publishes surveys, enterprises watch—this signals where consulting dollars are actually flowing.",
-      "source": "Boston Consulting Group",
-      "url": "https://www.bcg.com/publications",
-      "tag": "industry-research",
-      "tool": "survey-research",
-      "readTime": 6,
+      "title": "Deloitte Scraps Traditional Job Titles as AI Reshapes the Consulting Pyramid",
+      "summary": "Deloitte's dropping the old consulting tier system—no more 'junior analyst' or 'senior manager.' They're rebuilding roles around actual skills needed when AI does the grunt work, moving away from the decades-old pyramid model that's literally broken now.",
+      "takeaway": "Tbh this is wild—basically admitting the whole entry-level consultant grind is obsolete. Other Big 4 firms are probably sweating watching this play out.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/01/22/deloitte-job-title-change-ai-reshapes-big-4-accounting-consulting-firms/",
+      "tag": "Deloitte",
+      "tool": "Organizational Restructuring",
+      "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Accenture-Mistral deal expands 'sovereign AI' consulting play—giving Europe an alternative to US models",
-      "summary": "Accenture signed a multi-year deal with Mistral to co-develop enterprise AI solutions. They're training thousands of employees on Mistral's platform and selling it to clients who want data control.",
-      "takeaway": "Tbh this is bigger than a partnership—it's consultants betting that companies want AI they can control. With Accenture's global reach + Mistral's tech, they're positioning for the next consulting wave where compliance and sovereignty matter.",
-      "source": "Risk Info AI",
-      "url": "https://www.riskinfo.ai/post/ai-insights-key-global-developments-in-march-2026",
-      "tag": "partnerships",
-      "tool": "Mistral AI",
-      "readTime": 5,
+      "title": "Accenture's AI Mandate: Use Gen AI or No Promotion—Here's Why",
+      "summary": "Accenture literally tied promotions to AI tool adoption, forcing 11K-person workforce to embrace gen AI or stall out career-wise. It's aggressive, but signals where the market's headed—AI fluency is now table stakes, not optional.",
+      "takeaway": "Fr this is the consulting industry saying 'adapt or get left behind.' Risky move for retention, but clients demanding real gen AI chops made it inevitable.",
+      "source": "Futurum Group",
+      "url": "https://futurumgroup.com/insights/ai-first-mandate/",
+      "tag": "Accenture",
+      "tool": "Organizational Culture",
+      "readTime": 6,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "OpenAI's Frontier Alliances with McKinsey, BCG, Accenture, Capgemini—consultants are now the distribution arm for enterprise AI",
-      "why": "This deal from February shows the real playbook: consultants help enterprises adopt OpenAI tech at scale. With Frontier AI agents launching, watch how these partnerships reshape consulting delivery models this quarter.",
-      "url": "https://www.cnbc.com/2026/02/23/open-ai-consulting-accenture-boston-capgemini-mckinsey-frontier.html",
-      "tag": "partnerships"
+      "title": "McKinsey Insight 2026 Program Goes In-Person in Chicago (April 30-May 2)",
+      "why": "McKinsey's first fully in-person advanced degree program in years—signals they're doubling down on talent pipelines despite AI automation. Worth watching how they position consulting careers to PhDs/MDs when AI is literally doing junior work.",
+      "url": "https://www.hackingthecaseinterview.com/pages/mckinsey-insight",
+      "tag": "McKinsey"
     },
     {
-      "title": "Big consulting firms spending $10B+ on AI but still operating the old pyramid—the real transformation hasn't happened yet",
-      "why": "This analysis from Future of Consulting lays out the contradiction: firms spent billions but haven't restructured how they bill or staff. Understanding this gap is lowkey the best framework for seeing what actually changes next.",
-      "url": "https://futureofconsulting.ai/ai-leadership/2026-consultings-ai-revolution-update/",
-      "tag": "analysis"
+      "title": "OpenAI & Anthropic Multi-Year Consulting Deals: The Battle for Agent Deployment",
+      "why": "OpenAI just signed with McKinsey, BCG, Accenture—Anthropic with Accenture & Deloitte. This is literally the AI model war playing out through consulting firms. Whoever controls consulting deployment wins enterprise market capture.",
+      "url": "https://natesnewsletter.substack.com/p/youre-about-to-spend-millions-on",
+      "tag": "Industry Trends"
     }
   ]
 }

@@ -1,63 +1,63 @@
 {
-  "headline": "Week of Mar 16-22: Claude's dominance, GPT updates, & Google's scientific AI push shaking up the industry fr",
+  "headline": "Model Avalanche: 12+ AI Releases in One Week, Anthropic Hits Capacity Limits, and Claude Goes Rogue",
   "stories": [
     {
-      "title": "Anthropic Drops Claude Channels - Discord & Telegram Integration for Code",
-      "summary": "Anthropic shipped Claude Code Channels on Mar 20, letting developers message Claude via Discord/Telegram for persistent, asynchronous coding work. Honestly a game-changer for remote dev workflows.",
-      "takeaway": "Lowkey killed OpenClaw overnight. No more need for dedicated hardware—just your phone & Claude running in the background.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels",
-      "tag": "agentic-ai",
-      "company": "Anthropic",
+      "title": "OpenAI Kills Sora, Launches GPT-5.4 with Wild 1M Token Context",
+      "summary": "OpenAI's shutting down Sora mid-April citing unsustainable compute costs, but fr the real move is GPT-5.4—1.05M token context, 33% fewer hallucinations vs 5.2, new Tool Search feature that's actually clever for agents.",
+      "takeaway": "The era of image generation as a product is over; reasoning + agents are where the money is. Tool Search cuts costs on complex workflows by dynamically fetching tool defs instead of dumping them all in the prompt.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/news/",
+      "tag": "Model Release",
+      "company": "OpenAI",
       "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "OpenAI Rolls Out GPT-5.4 Mini & Interactive Learning in ChatGPT",
-      "summary": "OpenAI released GPT-5.4 mini on Mar 16 with cheaper reasoning fallback for paid users, plus 70+ interactive math/science modules. Speed & affordability flexing hard.",
-      "takeaway": "Reasoning is now accessible to free users via mini model. Plus interactive formulas let students actually experiment instead of just reading theory.",
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/introducing-gpt-5-2/",
-      "tag": "reasoning-models",
-      "company": "OpenAI",
+      "title": "Anthropic's Claude Hits Capacity Wall, Leaks New Model \"Mythos\" Above Opus",
+      "summary": "Claude paid subs just hit record numbers but Anthropic's infrastructure is crying uncle—peak hour limits tightened Mar 26 during 8am-2pm ET. Plus draft blog posts leaked showing a new tier called Mythos/Capybara with \"dramatically higher\" benchmark scores.",
+      "takeaway": "Anthropic's success is becoming its own bottleneck. New model teased will likely be ultra-expensive given the naming pattern. Meanwhile Claude Code is lowkey eating everyone's lunch—300% usage growth since Claude 4 launch.",
+      "source": "The Neuron + Anthropic Status",
+      "url": "https://www.theneuron.ai/ai-news-digests/",
+      "tag": "Infrastructure",
+      "company": "Anthropic",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Google DeepMind Launches AI Co-Scientist & AlphaEvolve for National Labs",
-      "summary": "DeepMind expanded its accelerated access program on Mar 16 with AI co-scientist for biomedical research & AlphaEvolve for algorithm design. Already proving drug candidates & predicting resistance mechanisms.",
-      "takeaway": "AI is literally compressing years of research into weeks. This isn't hype—it's actually working in real labs right now.",
-      "source": "BNL Newsroom",
-      "url": "https://www.bnl.gov/newsroom/news.php?a=222774",
-      "tag": "scientific-ai",
-      "company": "Google DeepMind",
+      "title": "MCP Hits 97M Installs as Every AI Lab Standardizes on Agent Protocol",
+      "summary": "Model Context Protocol crossed 97M installs in March, went from niche Anthropic thing to de facto standard in like 16 months. OpenAI, Google, xAI, Mistral all shipping MCP tooling. Over 4K published servers now covering every SaaS + enterprise system.",
+      "takeaway": "Agent infrastructure is solidifying. Anyone building agents needs to understand MCP or you're gonna be irrelevant fast. This isn't hype—it's boring infrastructure that actually works.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/anthropic-march-2026-roundup/",
+      "tag": "Infrastructure",
+      "company": "Anthropic",
       "readTime": 4,
       "paywalled": false
     },
     {
-      "title": "Meta Prepping Mango & Avocado Models for H1 2026 Launch",
-      "summary": "Meta's internally developing Mango (multimodal image/video) & Avocado (better coding LLM) targeting first-half 2026 release via Meta Superintelligence Labs. Trying to catch up fr.",
-      "takeaway": "Meta knows it's behind & is betting big on world models & coding. If these land, could actually be competitive again. But that's still a big if.",
-      "source": "MLQ.ai",
-      "url": "https://mlq.ai/news/meta-readies-nextgeneration-mango-and-avocado-ai-models-for-2026-launch/",
-      "tag": "frontier-models",
-      "company": "Meta",
-      "readTime": 5,
+      "title": "12 Models Dropped in One Week—GPT-5.4, Gemini 3.1 Ultra, Qwen 3.5 Small, All Fighting for Mindshare",
+      "summary": "March 10-16 was absolutely unhinged—12 meaningfully different models across text, code, image, audio from OpenAI, Google, Anthropic, xAI, Mistral. Qwen 3.5 9B hitting 81.7% on GPQA Diamond (vs GPT-OSS 120B's 71.5%). Literally the gap between proprietary and open is months now, not years.",
+      "takeaway": "Incremental updates are done. It's all about specialized models now—one for reasoning, one for efficiency, one for coding. Selection paralysis is real; devs freezing upgrades for 2 weeks to wait for benchmarks.",
+      "source": "Build Fast With AI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-models-march-2026-releases",
+      "tag": "Model Release",
+      "company": "Multi-company",
+      "readTime": 8,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Codex Security: OpenAI's Cybersecurity Agent Now in Research Preview",
-      "why": "Scored 55.6% on SWE-Bench Pro (software engineering benchmarks). This is the first model that can actually find real vulnerabilities across entire codebases.",
-      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
-      "tag": "security-ai"
+      "title": "Xiaomi's Stealth MiMo-V2-Pro Model Gets Exposed After Tricking Community with 'Hunter Alpha' Beta",
+      "why": "Lowkey the wildest story—Xiaomi ran a secret trillion-token model through OpenRouter for weeks pretending it was DeepSeek. Community thought they had V4 early. Wild flex on how fragmented the market is.",
+      "url": "https://www.devflokers.com/blog/new-ai-model-releases-open-source-projects-march-18-19-2026",
+      "tag": "Drama"
     },
     {
-      "title": "Project Genie Now Live: Google's World Model You Can Actually Use",
-      "why": "Rolling out to AI Ultra subscribers—generate & explore interactive 3D worlds with text prompts. This is the \"world model\" everyone's been theorizing about, now in production.",
-      "url": "https://www.techbuzz.ai/articles/google-deepmind-unleashes-project-genie-to-ai-ultra-subscribers",
-      "tag": "world-models"
+      "title": "Google's Gemini API Agent Skill Jumps Success Rate from 28% to 96.6% on Coding Tasks",
+      "why": "Super tactical—Google built a skill that feeds agents up-to-date SDK info so they don't hallucinate outdated APIs. Simple idea, massive impact. This is how you actually make agents work.",
+      "url": "https://the-decoder.com",
+      "tag": "Technique"
     }
   ]
 }

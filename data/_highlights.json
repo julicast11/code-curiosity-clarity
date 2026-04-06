@@ -1,32 +1,32 @@
 [
   {
-    "title": "Claude Code Auto Mode",
-    "summary": "Anthropic dropped auto mode for Claude Code—it'll run actions with fewer manual approvals while safeguards check for destructive behavior. Literally game-changing for devs who are tired of clicking 'approve' a thousand times.",
-    "takeaway": "Claude can now execute tasks without you babysitting every step",
+    "title": "Perplexity Computer",
+    "summary": "Originally an internal Slack tool, it performed $776M in labor-equivalent work for subscribers. Agents can coordinate Claude Code and GPT Codex to handle multi-step workflows automatically.",
+    "takeaway": "AI agent orchestrator that codes, researches, and manages tasks across apps",
+    "source": "AI Tool",
+    "url": "https://www.slackmktplace.com",
+    "tag": "AI Agents",
+    "readTime": 3,
+    "_tab": "tools-to-try"
+  },
+  {
+    "title": "Claude 4.6 Opus",
+    "summary": "Lowkey the technical leader now with 1M context in beta. Agent Teams for parallel task coordination, adaptive thinking controls. 59% of devs prefer Sonnet 4.6 over the last version.",
+    "takeaway": "First Opus-class model w/ 1M token context window and 128K output",
     "source": "AI Tool",
     "url": "https://claude.ai",
-    "tag": "Coding Agent",
-    "readTime": 3,
+    "tag": "Language Models",
+    "readTime": 4,
     "_tab": "tools-to-try"
   },
   {
-    "title": "Atomic Chat",
-    "summary": "Your own offline chatbot fr—no tracking, no cloud uploads, completely free. Perfect if you're paranoid about privacy or just want AI that actually stays local.",
-    "takeaway": "Private AI that runs 100% on your device, zero data sent anywhere",
+    "title": "Pika Video Chat Skill",
+    "summary": "Any AI agent can now integrate live video chat—agents get a face and remember personality across convos. Marks the shift from text-only toward actual embodied AI interactions.",
+    "takeaway": "Real-time video & voice for AI agents powered by PikaStream1.0 model",
     "source": "AI Tool",
-    "url": "https://github.com/atomic-chat",
-    "tag": "Privacy/Local AI",
+    "url": "https://pika.art",
+    "tag": "Video Generation",
     "readTime": 2,
-    "_tab": "tools-to-try"
-  },
-  {
-    "title": "Meshy 3D Model Generation",
-    "summary": "Bambu Lab integrated Meshy into MakerWorld—snap a pic, get a STL file ready to print. No CAD skills needed, lowkey magic for makers and designers.",
-    "takeaway": "Turn any photo into a print-ready 3D model in minutes",
-    "source": "AI Tool",
-    "url": "https://makerworld.bambu.com",
-    "tag": "3D/Design",
-    "readTime": 3,
     "_tab": "tools-to-try"
   }
 ]
