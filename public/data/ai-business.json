@@ -1,63 +1,63 @@
 {
-  "headline": "AI moves from chatbot to coworker mode—orgs racing to adapt before the paradigm shift hits harder",
+  "headline": "AI Goes From Pilot to Production—Agentic Systems Are the New Battleground",
   "stories": [
     {
-      "title": "McKinsey's AI Trust Maturity Survey Shows Gap Between Execution and Strategy",
-      "summary": "Orgs are scaling agentic AI deployment but barely one-third have solid governance. McKinsey found RAI maturity jumped to 2.3 in 2026, but leadership and oversight are lagging behind tech rollout.",
-      "takeaway": "The real bottleneck isn't capability—it's getting the org structure right fast enough to avoid chaos when AI actually starts running core workflows autonomously.",
+      "title": "Agentic AI Is Reshaping How Brands Interact With Consumers",
+      "summary": "Brands gotta adapt to AI agents handling product research & purchases—tbh moving from chat copilots to full AI-to-AI interactions is lowkey changing retail forever. Three modes emerging: brand agents, personalized third-party agents, or AI negotiating with other AI on your behalf.",
+      "takeaway": "Companies leaning into proprietary customer data + experimentation will win the agentic commerce race. It's not just buying software—it's ongoing prompt optimization across whole AI ecosystems.",
+      "source": "Harvard Business Review",
+      "url": "https://hbr.org/2026/03/preparing-your-brand-for-agentic-ai",
+      "tag": "#AgenticAI #Commerce",
+      "industry": "Retail & E-Commerce",
+      "readTime": 5,
+      "paywalled": true
+    },
+    {
+      "title": "AI Adoption Challenges Are Actually About People, Not Tech",
+      "summary": "McKinsey found orgs struggling to scale gen AI—but fr, it's not technical problems. It's experiential ones. People gotta actually want to use these tools, which means designing for human behavior, not just capability.",
+      "takeaway": "The real competitive edge comes from making AI tools people embrace, not forcing adoption. Workflow redesign + human trust > model quality.",
       "source": "McKinsey QuantumBlack",
       "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights",
-      "tag": "agentic AI",
-      "industry": "Enterprise",
+      "tag": "#AIAdoption #Enterprise",
+      "industry": "Enterprise Software",
+      "readTime": 4,
+      "paywalled": false
+    },
+    {
+      "title": "Enterprises Moving to Multi-Agent Orchestration—Not Just Single Copilots",
+      "summary": "a16z just dropped that 2026 is the year AI stops being isolated tools and starts coordinating like actual teams. Agents managing complex workflows together means you need new 'systems of coordination' on top of legacy systems of record.",
+      "takeaway": "The real disruption: traditional CRM/ITSM systems lose primacy as autonomous execution layer takes over. Infrastructure + governance > raw capability.",
+      "source": "a16z",
+      "url": "https://a16z.com/newsletter/big-ideas-2026-part-2/",
+      "tag": "#MultiAgent #Infrastructure",
+      "industry": "Enterprise Infrastructure",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "OpenAI's Competitive Moat Keeps Shrinking—Here's Why Nobody Has a Plan",
-      "summary": "Benedict Evans breaks down why OpenAI's user base, tech, and stickiness don't add up to durable advantage. The incumbents matched the models, and new experiences will decide winners.",
-      "takeaway": "OpenAI's hunting for strategic positions before market maturity hits, but unlike Google/Apple in their eras, they don't have that *one thing* that truly works and no one else can replicate.",
-      "source": "Benedict Evans",
-      "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
-      "tag": "competition",
-      "industry": "AI",
-      "readTime": 8,
-      "paywalled": false
-    },
-    {
-      "title": "AI Absorption Crisis: Capabilities Growing Way Faster Than Organizations Can Deploy",
-      "summary": "Ethan Mollick on the exponential curve—multimodal, video, reasoning are improving stupidly fast, but businesses are stuck in 'rolling disruption' cycles. Each new capability reshape hits before the last one lands.",
-      "takeaway": "Companies need to stop thinking of AI as a one-time transformation and start treating it as continuous waves of change that'll reshape workflows every few months, not years.",
-      "source": "One Useful Thing (Ethan Mollick)",
-      "url": "https://www.shrm.org/topics-tools/flagships/ai-hi/quick-hits-march-23",
-      "tag": "organizational change",
-      "industry": "General",
-      "readTime": 5,
-      "paywalled": false
-    },
-    {
-      "title": "AI-Powered Advertising Exploding: 63% Growth to $57B in 2026",
-      "summary": "Marketing automation is no longer optional—AI-driven ad platforms now dominate targeting and optimization. Brands trusting algorithms over manual control as performance wins.",
-      "takeaway": "Marketing teams gotta accept that AI optimization is the new baseline. The era of hands-on campaign tweaking is basically dead for anyone at scale.",
-      "source": "HubSpot/MarketingProfs",
-      "url": "https://www.marketingprofs.com/opinions/2026/54448/ai-update-march-20-2026-ai-news-and-views-from-the-past-week",
-      "tag": "marketing",
-      "industry": "Advertising",
+      "title": "Voice AI Agents Will Dominate Customer Service in 2026",
+      "summary": "CB Insights says multimodal ground is where the customer service AI land grab happens—voice is the proving ground bc it's unforgiving (latency matters, handoffs suck). Agents nailing voice + seamless text/image/doc extension will win.",
+      "takeaway": "Customer service is #1 AI agent adoption area. Companies like PolyAI proving it's not about audio modality—it's barge-in handling, silence detection, and turn-taking built into architecture from day one.",
+      "source": "CB Insights",
+      "url": "https://www.cbinsights.com/research/ai-agent-predictions-2026/",
+      "tag": "#VoiceAI #MultiModal",
+      "industry": "Customer Service",
       "readTime": 4,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "EU AI Act Enforcement Hits Full Throttle in 2026—Global Ripples Coming",
-      "why": "Most consequential tech regulation since GDPR just entered enforcement phase. If you're building or deploying AI anywhere, this matters. Everyone's scrambling to comply.",
-      "url": "https://www.insightfulpost.com/what-is-artificial-intelligence-news-2026/",
-      "tag": "regulation"
+      "title": "AI Brain Fry Is Real—And Companies Need to Address It",
+      "why": "Programmers describing 'buzzing' feelings & mental fog from coordinating swarms of AI agents. Steve Yegge's Gas Town shows the productivity paradox: faster execution lowkey creates more cognitive load. Enterprise leaders sleeping on the human cost angle.",
+      "url": "https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry",
+      "tag": "#WorkplacePsych"
     },
     {
-      "title": "a16z's Big Ideas 2026: AI Eating the Real World (Not Just Software)",
-      "why": "Andreessen's saying the next decade belongs to companies building AI-native infrastructure—robotics, energy systems, autonomous sensors. First software ate the world; now software eats factories.",
-      "url": "https://a16z.com/newsletter/big-ideas-2026-part-2/",
-      "tag": "infrastructure"
+      "title": "Generative Coding Is Becoming Enterprise Standard—With Real Security Risks",
+      "why": "MIT's 10 Breakthrough Technologies list included generative coding fr. Microsoft writes 30% of code with AI, Google writes 25%+. But Veracode found 45% of AI outputs hide known vulnerabilities. Security reviews aren't optional—they're table stakes.",
+      "url": "https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology/",
+      "tag": "#DevSecOps"
     }
   ]
 }

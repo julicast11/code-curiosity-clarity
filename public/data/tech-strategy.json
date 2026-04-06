@@ -1,71 +1,71 @@
 {
-  "headline": "From Agentic Everywhere to Enterprise-Grade Proof: What the Week Really Revealed About AI Strategy in 2026",
+  "headline": "Agentic AI Gone Mainstream: Companies Shift From Pilots to Production, Agents Beat Chatbots, Microsoft Bundles AI to Save Seat-Based Revenue",
   "stories": [
     {
-      "title": "McKinsey: AI's Real Test is No Longer Technical—It's Organizational",
-      "summary": "McKinsey's March 2026 research shows companies moving beyond pilots into scaled agentic AI deployment, but only about 30% have leadership alignment and governance frameworks in place. The bottleneck isn't the models—it's how teams, processes, and decision-making need to fundamentally change.",
-      "takeaway": "Orgs obsessed with the latest models are missing it. Winners are redesigning workflows, not just deploying tools. People > technology.",
-      "source": "McKinsey Digital",
-      "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/are-your-people-ready-for-ai-at-scale",
-      "tag": "organizational-change",
-      "company": "Multiple (McKinsey study)",
+      "title": "Agentic AI Is the Real Inflection Point—Not Bubbles",
+      "summary": "Stratechery's Ben Thompson argues we're not in an AI bubble at all; agents have moved from theory to actual functional systems reshaping how companies operate. Microsoft's gambit shows agents threaten traditional software business models.",
+      "takeaway": "Agents aren't copilots—they replace human labor and you can't unsee that once you've seen it work.",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/agents-over-bubbles/",
+      "tag": "enterprise-transformation",
+      "company": "Microsoft, Nvidia",
       "shift": "long-term",
-      "strategyTake": "HR & ops leaders need to lead this, not just IT. AI success = culture redesign first.",
+      "strategyTake": "Companies moving from managing people to orchestrating human-agent teams; old playbooks don't work anymore.",
+      "readTime": 8,
+      "paywalled": false
+    },
+    {
+      "title": "McKinsey: Only 1/3 of Companies Actually Scaling AI—High Performers Redesign Workflows, Not Just Buy Models",
+      "summary": "88% of orgs use AI somewhere, but just one-third are scaling it. The gap? Winners redesign how work happens (organization first, tech second), while others stay stuck in pilot purgatory.",
+      "takeaway": "AI success is behavioral, not technical—org design and top-down commitment beat model quality.",
+      "source": "McKinsey Digital",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/mckinsey-global-tech-agenda-2026",
+      "tag": "organizational-readiness",
+      "company": "DBS Bank",
+      "shift": "long-term",
+      "strategyTake": "Top performers commit 20%+ of digital budgets to AI and couple it with aggressive workforce restructuring, not isolated pilots.",
+      "readTime": 7,
+      "paywalled": false
+    },
+    {
+      "title": "Oracle + Nvidia's GTC Moment: Inference Economics Just Flipped—The Real AI Race Is Compute Optimization, Not Model Training",
+      "summary": "Nvidia announced 35x inference speedups and a $1T+ demand forecast (double from 6 months ago) for production agents, not training runs. Oracle slashing 20–30K jobs to fund AI infrastructure signals the entire industry is repricing what matters.",
+      "takeaway": "The era of 'let's train a model' is over—winners are optimizing inference workloads for 24/7 agent swarms.",
+      "source": "Serious Insights",
+      "url": "https://www.seriousinsights.net/state-of-ai-2026-march-update/",
+      "tag": "infrastructure-shift",
+      "company": "Nvidia, Oracle",
+      "shift": "long-term",
+      "strategyTake": "Enterprise deployment costs are about running agents constantly, not one-time training; margin pressure on SaaS is structural.",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "Harvard Business Review: The 'Last Mile' Problem Is Killing Enterprise AI",
-      "summary": "HBR research from March 2026 pinpoints why most companies can't scale AI past pilots: proliferation of pilots (causing pilot fatigue), process debt, tribal knowledge loss, and agentic governance gaps. The technical capability is fine—it's operational design that's broken.",
-      "takeaway": "Companies have great AI, horrible processes. They're retrofitting AI into broken workflows instead of redesigning from scratch. That's the actual bottleneck, fr.",
-      "source": "Harvard Business Review",
-      "url": "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
-      "tag": "process-redesign",
-      "company": "Multiple (HBR study)",
-      "shift": "long-term",
-      "strategyTake": "Stop piloting. Start redesigning. Clean-sheet process design, not incremental tweaks.",
-      "readTime": 7,
-      "paywalled": true
-    },
-    {
-      "title": "Stratechery: Agentic AI Is Real, And Investors Now Know It",
-      "summary": "Ben Thompson's late-March analysis argues the AI bubble concerns are overstated—agentic AI deployment is showing genuine ROI signals that models alone couldn't. Companies aren't chasing hype; they're scaling labor replacement with measurable economic returns. Meta's $135B CapEx pivot and Oracle's infrastructure bets suggest real conviction.",
-      "takeaway": "Agents aren't theory anymore—they're delivering actual productivity gains that justify the spending. The market's shifting from \"is this real?\" to \"how much should we spend?\"",
-      "source": "Stratechery",
-      "url": "https://stratechery.com/2026/agents-over-bubbles/",
-      "tag": "enterprise-deployment",
-      "company": "Meta, Oracle, Anthropic, Microsoft",
-      "shift": "long-term",
-      "strategyTake": "Enterprise is the real game. Consumer AI is harder to monetize; B2B agents driving ROI are where the money flows.",
-      "readTime": 9,
-      "paywalled": false
-    },
-    {
-      "title": "MIT Sloan: New Leadership Roles Are Emerging to Bridge AI's Org Gap",
-      "summary": "MIT Sloan research identifies that most AI initiatives fail due to leadership structure, not algorithms. Forward-thinking orgs are creating Chief Innovation & Transformation Officer roles (separate from Chief AI Officer) to manage the human side—culture, reskilling, work redesign. Only about 30% of firms have this figured out yet.",
-      "takeaway": "The real unlock is treating AI like an org redesign problem, not a tech problem. New C-suite roles reflect this shift in thinking.",
-      "source": "MIT Sloan Management Review",
-      "url": "https://sloanreview.mit.edu/article/why-ai-demands-a-new-breed-of-leaders/",
-      "tag": "leadership",
-      "company": "Multiple (MIT SMR study)",
-      "shift": "long-term",
-      "strategyTake": "Your Chief AI Officer alone will fail. You need someone owning the cultural & organizational transformation piece. That's the missing link.",
+      "title": "OpenAI Killed Sora, Microsoft Raised E7 Prices 2x: Why Compute Allocation Is the New Kingmaker",
+      "summary": "OpenAI quietly shut down Sora public API (too expensive per-minute), while Microsoft bundled AI into a $99/month E7 tier (vs. $20/month E5) to offset seat-based erosion. Both moves show the winners are those who control the narrative around what AI is worth.",
+      "takeaway": "Flashy consumer AI features disappear fast when they compete for GPU; business model innovation beats feature innovation rn.",
+      "source": "Tech Startups + Stratechery",
+      "url": "https://techstartups.com/2026/03/30/top-tech-news-today-march-30-2026/",
+      "tag": "business-model-shift",
+      "company": "OpenAI, Microsoft",
+      "shift": "short-term",
+      "strategyTake": "Every product line now fights for compute first, users second; margin math is breaking legacy SaaS pricing.",
       "readTime": 5,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "BCG Henderson Institute: AI Sovereignty Is an Illusion—Resilience Is Real",
-      "why": "BCG just flipped the narrative on AI strategy for governments & enterprises. Lowkey brutal takedown of \"sovereign AI\" efforts (Australia's LLM, Germany's chips, India's GPU cluster). Real insight: resilience and scale matter way more than independence. This reframes how big companies should think about vendor lock-in.",
-      "url": "https://www.bcg.com/publications/2026/ai-sovereignty-is-an-illusion-resilience-is-real",
-      "tag": "geopolitics-strategy"
+      "title": "BCG Henderson Institute: AI Will Reshape More Jobs Than It Replaces—But Skills Gap Is Brutal",
+      "why": "Only 5% of jobs are 'amplified' by AI; the rest reshape entirely. Software engineers + lawyers in advisory are the only safe zones. Orgs that don't reskill fast lose competitiveness, fast.",
+      "url": "https://www.bcg.com/publications/2026/ai-will-reshape-more-jobs-than-it-replaces",
+      "tag": "workforce"
     },
     {
-      "title": "Financial Times: Future of AI Summit Coverage (March 2026)",
-      "why": "FT's reporting on enterprise transformation stories from execs actually shipping AI at scale. Not just hype—real case studies on how financial services, professional services, and tech firms are moving from pilots to production. Gives you the \"what winning looks like\" template.",
-      "url": "https://www.reply.com/en/newsroom/events/financial-times-future-of-ai-summit",
-      "tag": "case-studies"
+      "title": "Harvard Business Review: AI Doesn't Reduce Work—It Intensifies It (aka 'productivity paradox')",
+      "why": "Berkeley research shows AI adoption actually *increases* workload thru verification, validation, and facilitation overhead. Knowing this changes how you staff and structure teams.",
+      "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+      "tag": "operations"
     }
   ]
 }
