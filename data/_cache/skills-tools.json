@@ -1,52 +1,52 @@
 {
-  "headline": "Mastering the Essentials: Skills, Data Tips & Tools for Consultants",
+  "headline": "This Week's Essential Skills, Tools & Data Tips for Management Consultants",
   "stories": [
     {
-      "title": "Structured thinking is lowkey the most important skill consultants need right now",
-      "summary": "Problem-solving beats everything else in consulting—it's about breaking complex issues into pieces, testing with data, and letting evidence guide you instead of jumping to conclusions.",
-      "takeaway": "Stop guessing and start structuring. Master MECE frameworks and issue trees to solve client problems like a pro.",
-      "source": "Hacking the Case Interview",
-      "url": "https://www.hackingthecaseinterview.com/pages/skills-for-management-consulting",
-      "tag": "skill",
-      "skill": "Structured Thinking & Problem Solving",
+      "title": "Master Emotional Intelligence (EQ) to Stand Out in 2026",
+      "summary": "EQ is lowkey becoming as important as Excel skills for management consultants—helps you connect with clients, manage teams, and navigate tough conversations without the awkward tension.",
+      "takeaway": "Start practicing active listening and emotional awareness. It's literally the soft skill that sets top-tier consultants apart from the rest in client meetings.",
+      "source": "Jobaaj Learnings",
+      "url": "https://www.jobaajlearnings.com/blog/key-skills-every-consultant-should-master-in-2026",
+      "tag": "Skill Development",
+      "skill": "Emotional Intelligence",
       "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "ChatGPT for Excel just dropped and it's literally a game-changer for financial modeling",
-      "summary": "Use ChatGPT directly in Excel to build, update, and run scenario analysis in plain language—no more manual formula writing. Teams can describe what they need, and GPT-5.4 handles the heavy lifting.",
-      "takeaway": "Describe your analysis in plain English and let AI write the formulas. Less time on syntax, more time on decisions.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/chatgpt-for-excel/",
-      "tag": "excel",
-      "skill": "AI-Powered Financial Modeling",
-      "readTime": 4,
+      "title": "Power Query Data Validation: Speed Up Your Analysis 10x",
+      "summary": "Forget manual data cleaning—Power Query's built-in transformations let you extract dates, text, and structured data without writing formulas. Game changer for consultants drowning in datasets.",
+      "takeaway": "Use Data Validation with Excel Tables to create dynamic drop-down lists. Saves massive amounts of time on data entry cleanup so you can actually focus on insights.",
+      "source": "Badass Consultants",
+      "url": "https://badassconsultants.com/2018/10/07/how-to-crush-it-with-excel-practical-guide-for-management-consultants/",
+      "tag": "Excel Tip",
+      "skill": "Data Management",
+      "readTime": 5,
       "paywalled": false
     },
     {
-      "title": "Productive is the all-in-one tool consultants actually want (time tracking + billing + profitability in one)",
-      "summary": "Tired of juggling project management, time tracking, invoicing, and financials separately? Productive unifies everything—track billable hours, manage resources, monitor profit margins by client, and generate 50+ custom reports.",
-      "takeaway": "Stop context-switching between tools. One platform for projects, time, money, and insights = less chaos, better margins.",
-      "source": "Productive.io",
-      "url": "https://productive.io/blog/best-software-for-consultants/",
-      "tag": "tool",
-      "skill": "Project & Financial Operations",
-      "readTime": 5,
+      "title": "Forecast: AI-Powered Resource Management for Consulting Teams",
+      "summary": "Forecast uses machine learning to predict project timelines, allocate resources smartly, and spot delivery risks before they blow up. Honestly, it's like having a built-in project manager bot.",
+      "takeaway": "If your firm's managing complex portfolios, Forecast gives real insight into utilization and risk that spreadsheets literally can't. Automates staffing decisions so teams aren't overloaded.",
+      "source": "Auxi.ai",
+      "url": "https://www.auxi.ai/blog/ai-tools-for-consultants",
+      "tag": "Project Management",
+      "skill": "Resource Planning",
+      "readTime": 4,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "The 2026 Consulting Skills Blueprint: Everything McKinsey, BCG & Bain Look For",
-      "why": "Get clarity on what top firms actually want—beyond the buzzwords. Includes soft skills, analytical rigor, and how to interview like you've been doing this for years.",
-      "url": "https://www.businessbecause.com/news/mba-jobs/8950/management-consultant-skills",
-      "tag": "career"
+      "title": "ChatGPT as a Consulting Research Assistant",
+      "why": "ChatGPT is lowkey transforming how consultants structure workplans, summarize complex data, and accelerate problem-solving. Paired with domain expertise, it's fr a game-changer for faster research cycles.",
+      "url": "https://www.auxi.ai/blog/ai-tools-for-consultants",
+      "tag": "AI Tools"
     },
     {
-      "title": "AI Tools for Excel Data Analysis in 2026: Julius AI, Powerdrill & More",
-      "why": "Lowkey the future is AI-powered analysis. This breaks down which tools actually save time vs. hype. Julius AI and Powerdrill Bloom are worth the deep dive.",
-      "url": "https://medium.com/@powerdrillai/top-10-ai-tools-for-excel-data-analysis-in-2026-8edd8eba3a70",
-      "tag": "tools"
+      "title": "Strategic Thinking: Building 3-Year Growth Roadmaps",
+      "why": "Tbh, strategy frameworks like OGSM actually matter when you're aligning client strengths with market opportunities. Learning to facilitate workshops and filter low-impact initiatives will legit set you apart.",
+      "url": "https://www.upgrad.com/blog/management-consultant-skills/",
+      "tag": "Strategy Skills"
     }
   ]
 }

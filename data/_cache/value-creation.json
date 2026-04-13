@@ -1,67 +1,67 @@
 {
-  "headline": "PE Momentum Shifts to Operational Excellence as Mega-Deals Drive 2026 Value Creation",
+  "headline": "PE Firms Pivot to Operational Excellence Over Financial Engineering—2026 Set for Disciplined Growth & Tech-Driven Value Creation",
   "stories": [
     {
-      "title": "Apollo Acquires Nippon Sheet Glass for $3.7B in Largest Japan PE Deal",
-      "summary": "Apollo Global Management scored big with NSG, marking JP's largest PE buyout and Apollo's biggest market investment. Flipping the script from financial engineering to operational uplift through cost synergies and efficiency gains.",
-      "takeaway": "megadeals are back and PE is hunting for margin expansion through operational discipline in overlooked regions",
-      "source": "Private Equity Wire",
-      "url": "https://www.privateequitywire.co.uk/content_channels/deals/",
-      "tag": "Megadeal",
-      "sector": "Industrial",
-      "lever": "Margin expansion",
-      "readTime": 3,
-      "paywalled": false
-    },
-    {
-      "title": "Clayton, Dubilier & Rice Finances $4.7B Sealed Air Acquisition with Leveraged Debt",
-      "summary": "CD&R secured $4.7bn in syndicated loans to fund its Sealed Air buyout, signaling renewed confidence in structured capital markets. Leverage is back, but only for quality assets with clear EBITDA growth pathways.",
-      "takeaway": "debt markets reopening for disciplined sponsors who can show real operational value creation, not just multiple arbitrage",
-      "source": "Private Equity Wire",
-      "url": "https://www.privateequitywire.co.uk/content_channels/deals/",
-      "tag": "Financing",
-      "sector": "Consumer",
-      "lever": "Revenue growth",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Paratek-Radius Merger Backed by $1.3B Blackstone Funding Package",
-      "summary": "Blackstone's $1.3bn investment in the pharma combo shows PE diving deep into healthcare consolidation. Strategic value creation hinges on R&D synergies and market consolidation rather than cost cuts.",
-      "takeaway": "Healthcare PE is pivoting from operational trimming to revenue synergies and pipeline optimization",
-      "source": "Private Equity Wire",
-      "url": "https://www.privateequitywire.co.uk/content_channels/deals/",
-      "tag": "Healthcare M&A",
+      "title": "Healthcare PE Hits Record Highs, But AI Integration Becomes Key Differentiator",
+      "summary": "Healthcare PE deal value soared to record $191B in 2025 with 445 buyouts, fr lowkey the momentum is all about embedding AI into revenue cycle management and telehealth platforms. Mega-funds are consolidating physician groups into tech-enabled platforms focused on predictable cash flows.",
+      "takeaway": "Winners in 2026 healthcare PE will be sponsors who can blend AI-driven operational improvements with fragmented physician practice consolidation—think platform builds around behavioral health, home health, and value-based care models.",
+      "source": "Bain Global Healthcare Private Equity Report 2026 + PwC Health Services 2026 Outlook",
+      "url": "https://www.bain.com/insights/topics/global-healthcare-private-equity-report/",
+      "tag": "Healthcare PE Records",
       "sector": "Healthcare",
       "lever": "Digital transformation",
-      "readTime": 3,
+      "readTime": 6,
       "paywalled": false
     },
     {
-      "title": "ContiTech Industrial Division Attracts Bidding War from Apollo and Bain Capital",
-      "summary": "Apollo and Bain among finalists for Continental AG's industrial unit, signaling tech-enabled manufacturing is prime PE hunting ground. Winners will deploy AI-driven ops and automation to unlock hidden margin.",
-      "takeaway": "Industrials PE is hunting for digital transformation plays where automation and AI can drive 20%+ margin upside",
-      "source": "Private Equity Wire",
-      "url": "https://www.privateequitywire.co.uk/content_channels/deals/",
-      "tag": "Auction",
+      "title": "Industrial Sector Gets PE Love as AI Infrastructure & Defense Spending Accelerate",
+      "summary": "Industrials PE activity is rebounding hard, driven by AI-related data center buildouts, defense spending, and critical resource realignments. SPX Flow's acquisition by ITT for $4.8B and KKR's sale of Novaria Group to Arcline for $2.2B showcase platforms built for strategic scale, not just financial engineering.",
+      "takeaway": "Industrial PE plays in 2026 will reward sponsors who can identify niche, mission-critical suppliers positioned to benefit from AI infrastructure expansion and geopolitical supply chain reconfiguration.",
+      "source": "Cherry Bekaert 2026 PE Report + BCG M&A Outlook 2026",
+      "url": "https://www.cbh.com/insights/reports/private-equity-report-2025-trends-and-2026-outlook/",
+      "tag": "Industrials M&A Surge",
       "sector": "Industrials",
+      "lever": "Revenue growth",
+      "readTime": 5,
+      "paywalled": false
+    },
+    {
+      "title": "Tech PE Exits Surge While Mega-Funds Consolidate Cybersecurity & HealthTech",
+      "summary": "Tech was lowkey the only sector keeping liquidity flowing in 2025, with exit value proving tech assets are the market's most liquid currency tbh. Cybersecurity consolidations accelerated (identity, auth, governance platforms), while healthtech saw platform rollups around AI-powered clinical workflows.",
+      "takeaway": "2026 tech PE strategy = doubling down on software with clear margin expansion levers (cybersecurity, healthtech, process automation) while avoiding crowded infrastructure plays unless you can prove proprietary AI differentiation.",
+      "source": "Cherry Bekaert 2026 PE Report + EY/PitchBook 2026 Trends",
+      "url": "https://www.withintelligence.com/insights/private-equity-outlook-2026/",
+      "tag": "Tech Exits Rebound",
+      "sector": "Technology",
+      "lever": "Digital transformation",
+      "readTime": 7,
+      "paywalled": false
+    },
+    {
+      "title": "CPG PE Retreats to Niche/Premium Plays as Food Deals Require M&A Synergies CPG Sponsors Can't Match",
+      "summary": "Food M&A picked up in 2025 (Ferrero's $3.1B WK Kellogg deal led the charge) but PE is staying selective, focusing on niche and 'better for you' brands where they can drive margin expansion. Strategic buyers dominate large CPG because they unlock supply chain synergies PE lacks.",
+      "takeaway": "Consumer PE in 2026 = consolidating fragmented premium/specialty food brands & DTC beauty around supply chain efficiency and digital-first DTC channels. Skip the commodity plays unless you've got operational magic around cost structure.",
+      "source": "McKinsey 2026 M&A Trends: CPG Portfolio Realignment",
+      "url": "https://www.mckinsey.com/capabilities/m-and-a/our-insights/consumer-packaged-goods-reigniting-growth-via-portfolio-realignment",
+      "tag": "CPG Consolidation",
+      "sector": "Consumer",
       "lever": "Margin expansion",
-      "readTime": 3,
+      "readTime": 5,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "2026 Global Private Equity Report: 12 is the New 5",
-      "why": "Bain's flagship research frames the value creation playbook for 2026 - faster EBITDA growth now mandatory, old leverage plays dead, execution on Day 1 is make-or-break",
-      "url": "https://www.bain.com/insights/topics/global-private-equity-report/",
-      "tag": "Research"
+      "title": "McKinsey Global Private Markets Report 2026: 'Alpha Must Be Made, Not Assumed'",
+      "why": "Literally the defining narrative—PE's era of easy returns from multiple expansion is dead. This deep dive shows sponsors how to compete in a mature market through disciplined ops, AI integration, and longer hold periods. Essential reading for understanding value creation playbooks going forward.",
+      "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report",
+      "tag": "PE Playbook Shift"
     },
     {
-      "title": "McKinsey Global Private Markets Report 2026: Operational Alpha Now Rules",
-      "why": "McKinsey's deep dive shows LPs ranking value creation strategy third most important after performance and team quality - ops muscle is literally what separates winners from everyone else rn",
-      "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report",
-      "tag": "Research"
+      "title": "PitchBook 2026 US PE Outlook: Platform LBOs & Leadership as Value Lever",
+      "why": "FR this is lowkey the best data on how PE is actually deploying capital right now. Platform deals are roaring back (25%+ of deal flow), which means execution and M&A integration talent is the new scarcity. Sponsors hunting for CFOs, CHROs, and COOs who can scale multi-asset complexity.",
+      "url": "https://huntscanlon.com/pitchbooks-2026-pe-outlook-puts-talent-at-the-center-of-value-creation/",
+      "tag": "Platform Economics"
     }
   ]
 }

@@ -1,63 +1,63 @@
 {
-  "headline": "Cursor's Automations Reign Supreme: Self-Hosted Cloud Agents Go Live, Claude Code Auto Mode Drops, Copilot Speed Runs 50% Faster",
+  "headline": "Cursor 3 drops multi-agent chaos, Claude Code source leaks 512k lines, Copilot unlocks new tools",
   "stories": [
     {
-      "title": "Cursor Self-Hosted Cloud Agents Now Live",
-      "summary": "Cursor dropped self-hosted cloud agents on Mar 25 so teams can keep all code execution within their own infrastructure—literally zero exposure. Agents get the same capabilities (isolated VMs, full dev environments, multi-model harnesses) but run locally.",
-      "takeaway": "Enterprise devs can now vibe code w/o leaving their network. Biggest security flex of the week.",
-      "source": "Cursor Changelog",
-      "url": "https://cursor.com/changelog",
-      "tag": "cursor",
-      "type": "feature-drop",
-      "readTime": 3,
+      "title": "Cursor 3 turns developers into AI managers with parallel agents",
+      "summary": "Cursor dropped Cursor 3 on April 2 with an Agents Window that lets you spin up multiple AI agents working simultaneously across local and cloud environments. You're basically managing a team now, not writing code yourself tbh.",
+      "takeaway": "The shift from 'autocomplete assistant' to 'full task executor' is complete—Cursor's betting everything on letting you delegate entire features to agents while you oversee.",
+      "source": "Cursor Blog",
+      "url": "https://www.buildfastwithai.com/blogs/cursor-3-vs-antigravity-ai-ide-2026",
+      "tag": "cursor-agents",
+      "type": "release",
+      "readTime": 8,
       "paywalled": false
     },
     {
-      "title": "Copilot Coding Agent Now 50% Faster, Jira Integration Gets Model Picker",
-      "summary": "GitHub optimized startup times for Copilot agents (Mar 19) + shipped Jira integration enhancements w/ model selection & Confluence context access. Also deprecated Gemini 3 Pro across all Copilot surfaces.",
-      "takeaway": "Copilot's getting snappier. Model choice in Jira is lowkey the move for teams that live in Atlassian.",
-      "source": "GitHub Blog",
-      "url": "https://github.blog/ai-and-ml/github-copilot/",
-      "tag": "copilot",
-      "type": "feature-drop",
-      "readTime": 4,
-      "paywalled": false
-    },
-    {
-      "title": "Claude Code Auto Mode in Research Preview: Let AI Decide What's Safe",
-      "summary": "Anthropic released Claude Code auto mode (Mar 24) so the AI picks which actions are safe w/o asking permission first. It's gated by safety layers checking for prompt injection & unexpected behavior. Still in research preview.",
-      "takeaway": "Hot take: this is either the future of vibe coding or a 3am idea that'll haunt them. Safety details still fuzzy.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/",
+      "title": "Claude Code source leak exposed 512k lines of agent architecture",
+      "summary": "Anthropic accidentally shipped a source map in a npm package on March 31 that exposed the entire Claude Code codebase—512k lines, 40 built-in tools, memory systems, orchestration logic. Whoops. The leak showed how Claude Code actually works internally, and lowkey it was pretty sophisticated engineering.",
+      "takeaway": "The real story wasn't the data breach (there wasn't one) but what the code revealed: fork-join parallelism via KV cache, multi-layer memory design, and a literal Tamagotchi pet feature (/buddy) planned for April 1st.",
+      "source": "🎙️ Latent Space",
+      "url": "https://www.latent.space/p/ainews-the-claude-code-source-leak",
       "tag": "claude-code",
-      "type": "feature-drop",
-      "readTime": 5,
+      "type": "incident",
+      "readTime": 12,
       "paywalled": false
     },
     {
-      "title": "The Pragmatic Engineer Survey: 95% of Devs Use AI Weekly, Claude Code Dominates",
-      "summary": "Survey of 906 engineers (Mar 7) shows 55% now regularly use AI agents (up from basically zero 18 months ago), Cursor growing 35% YoY, and Claude Code went from zero to most-used tool in 8 months. Opus/Sonnet models crush all others combined.",
-      "takeaway": "Claude Code's ascent is genuinely wild. Not surprising tho—terminal-native beats IDE lock-in every time for experienced devs.",
-      "source": "🎙️ The Pragmatic Engineer",
-      "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
-      "tag": "industry-analysis",
-      "type": "survey",
-      "readTime": 7,
+      "title": "Copilot SDK goes public with agentic runtime you can embed anywhere",
+      "summary": "GitHub released the Copilot SDK in public preview, letting you embed their production-tested agent runtime directly into your apps. No more building your own orchestration layer—you get tool invocation, streaming, file ops out of the box.",
+      "takeaway": "GitHub's making Copilot a platform move, not just a product. Developers can now extend and customize agentic capabilities without rebuilding the entire agent stack from scratch.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/",
+      "tag": "copilot",
+      "type": "release",
+      "readTime": 6,
+      "paywalled": false
+    },
+    {
+      "title": "Claude Code adds /powerup lessons and stronger policy controls for teams",
+      "summary": "Claude Code shipped interactive /powerup lessons showing features with animated demos, plus stricter managed settings for team admins and faster file editing. The Bedrock setup wizard finally makes 3rd-party setup less painful.",
+      "takeaway": "Anthropic's tightening the onboarding and compliance story—easier for enterprises to control Claude Code behavior while improving accessibility for individual users with guided tutorials.",
+      "source": "Anthropic News",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "tag": "claude-code",
+      "type": "release",
+      "readTime": 5,
       "paywalled": false
     }
   ],
   "watchNext": [
     {
-      "title": "Simon Willison on Agentic Engineering: Architecture Over Vibes",
-      "why": "Drops real insight on why AI agents need better libraries/patterns, not just more tokens. His Pragmatic Summit fireside chat (Mar 14) reframes how senior devs should think about agent-assisted work.",
-      "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/",
+      "title": "Simon Willison's take on 'vibing' vs coding—the philosophical shift",
+      "why": "He literally reframed agentic development as 'vibing now, not coding' and explains why this changes how developers think about their craft. Worth understanding the mindset shift happening.",
+      "url": "https://simonwillison.net/2026/Apr/3/cognitive-cost/",
       "tag": "vibe-coding"
     },
     {
-      "title": "Anthropic Data Leak Reveals Claude Mythos: Next Tier AI Model Coming",
-      "why": "Oops moment (Mar 26): Anthropic accidentally exposed drafts of Claude Mythos (bigger than Opus, cheaper than current tier structure) + Capybara tier. Dual-use security concerns being taken seriously.",
-      "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/",
-      "tag": "claude-code"
+      "title": "Replit Agent 4 went parallel—task queues, simultaneous execution, design-code fusion",
+      "why": "Replit's agent can now run multiple tasks in parallel with full visibility before merging. Also unified design and code environments so you can iterate on UI without breaking the app.",
+      "url": "https://blog.replit.com/introducing-agent-4-built-for-creativity",
+      "tag": "replit-agent"
     }
   ]
 }
