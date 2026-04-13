@@ -1,9 +1,19 @@
 {
   "success": false,
   "failedTabs": [
+    "tools-to-try",
+    "ai-business",
     "models-releases",
+    "vibe-coding",
+    "skills-tools",
+    "life-at-stax",
+    "ai-consulting",
+    "tech-strategy",
+    "value-creation",
+    "sfl-tech",
+    "sfl-ai-jobs",
     "sfl-business"
   ],
   "totalTabs": 12,
-  "generatedAt": "2026-04-06T10:09:20.708Z"
+  "generatedAt": "2026-04-13T08:05:05.737Z"
 }
